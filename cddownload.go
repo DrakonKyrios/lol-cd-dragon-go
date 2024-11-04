@@ -14,29 +14,30 @@ import (
 func main() {
 	names := championlist.GetChampions()
 
-	out, err := os.Create("champions.json")
+	out, err := os.Create("champions/_champions.json")
 	if err != nil {
 		panic(err)
 	}
 
 	defer out.Close()
-
-	for _, n := range names {
+	championFull := make(map[string]json.RawMessage)	
+	for _, n := range names {		
 		formattedName := strings.ToLower((n.Name))
 		fileName := fmt.Sprintf("https://raw.communitydragon.org/14.21/game/data/characters/%v/%v.bin.json", formattedName, formattedName)
-		data := downloadFile(formattedName, fmt.Sprintf("champions/%v.json", formattedName), fileName)
+		data := downloadFile(formattedName, fmt.Sprintf("champions/%v.json", n.Name), fileName)
+		
+	
+		championFull[formattedName] = data
 
-		keyValue := make(map[string]json.RawMessage)
-
-		s, _ := json.MarshalIndent(keyValue, "", "/t")
-
-		o, _ := out.Write(s)
-		_ = o
-
-		fmt.Println("This is my first program in Go")
-
+		fmt.Println(fmt.Sprintf("%#v has been added", n.Name))
+		
 		time.Sleep(4 * time.Second)
 	}
+
+	s, _ := json.MarshalIndent(championFull, "", "\t")
+
+	o, _ := out.Write(s)
+	_ = o
 }
 
 type Abilities struct {
