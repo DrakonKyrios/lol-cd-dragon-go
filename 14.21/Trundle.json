@@ -1,0 +1,650 @@
+{
+	"Characters/Trundle/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleBasicAttack": {
+		"mScriptName": "TrundleBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleBasicAttack2": {
+		"mScriptName": "TrundleBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleBasicAttack3": {
+		"mScriptName": "TrundleBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleCircleAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleCircleAbility/TrundleCircle": {
+		"mScriptName": "TrundleCircle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				24.0,
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0
+			],
+			"mana": [
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Trundle/Spells/TrundleCircleAbility/TrundleCircleSlow": {
+		"mScriptName": "TrundleCircleSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleCritAttack": {
+		"mScriptName": "TrundleCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleDiseaseOverseerAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleDiseaseOverseerAbility/TrundleDiseaseOverseer": {
+		"mScriptName": "TrundleDiseaseOverseer",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"RegenPercent": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.017999999225139618,
+							"mEndValue": 0.054999999701976776,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundlePainAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundlePainAbility/TrundlePain": {
+		"mScriptName": "TrundlePain",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PercentHPDamage",
+					"mValues": [
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.45000001788139343
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ArmorMRShred",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DurationOfDrainForTooltip",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NumberOfTicks",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShredDuration",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentOfDamageAndShredUpfront",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ActualDurationOfDrainBuff",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ScaleModelAmount",
+					"mValues": [
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentHPDamageAPRatio",
+					"mValues": [
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalPercentHPDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "PercentHPDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "PercentHPDamageAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Trundle/Spells/TrundlePainAbility/TrundlePainBuff": {
+		"mScriptName": "TrundlePainBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundlePainAbility/TrundlePainHeal": {
+		"mScriptName": "TrundlePainHeal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundlePainAbility/TrundlePainHealBig": {
+		"mScriptName": "TrundlePainHealBig",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundlePainAbility/TrundlePainShred": {
+		"mScriptName": "TrundlePainShred",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleTrollSmashAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleTrollSmashAbility/TrundleQ": {
+		"mScriptName": "TrundleQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleTrollSmashAbility/TrundleQDebuff": {
+		"mScriptName": "TrundleQDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/TrundleTrollSmashAbility/TrundleTrollSmash": {
+		"mScriptName": "TrundleTrollSmash",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TooltipQADRatio",
+					"mValues": [
+						0.05000000074505806,
+						0.15000000596046448,
+						0.25,
+						0.3499999940395355,
+						0.44999998807907104,
+						0.550000011920929,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusRange",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADScaling",
+					"mValues": [
+						1.0499999523162842,
+						1.149999976158142,
+						1.25,
+						1.350000023841858,
+						1.4500000476837158,
+						1.5499999523162842,
+						1.649999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusDamage",
+					"mValues": [
+						-10.0,
+						10.0,
+						30.0,
+						50.0,
+						70.0,
+						90.0,
+						110.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusAD",
+					"mValues": [
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SappedAD",
+					"mValues": [
+						-7.5,
+						-10.0,
+						-12.5,
+						-15.0,
+						-17.5,
+						-20.0,
+						-22.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SapDebuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PrepDuration",
+					"mValues": [
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BonusDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "ADScaling",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				3.5,
+				3.5,
+				3.5,
+				3.5,
+				3.5,
+				3.5,
+				3.5
+			],
+			"mana": [
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0
+			]
+		}
+	},
+	"Characters/Trundle/Spells/trundledesecrateAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/trundledesecrateAbility/TrundleDesecrateBuffs": {
+		"mScriptName": "TrundleDesecrateBuffs",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Trundle/Spells/trundledesecrateAbility/trundledesecrate": {
+		"mScriptName": "trundledesecrate",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	}
+}

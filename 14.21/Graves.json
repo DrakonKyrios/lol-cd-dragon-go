@@ -1,0 +1,975 @@
+{
+	"Characters/Graves/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesAutoAttackRecoil": {
+		"mScriptName": "GravesAutoAttackRecoil",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.26669999957084656,
+			"cooldownTime": [
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesAutoAttackRecoilCastEDummy": {
+		"mScriptName": "GravesAutoAttackRecoilCastEDummy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesBasicAttack": {
+		"mScriptName": "GravesBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesBasicAttackAmmo1": {
+		"mScriptName": "GravesBasicAttackAmmo1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesBasicAttackAmmo2": {
+		"mScriptName": "GravesBasicAttackAmmo2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesBasicAttackClone": {
+		"mScriptName": "GravesBasicAttackClone",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesBasicAttackSpread": {
+		"mScriptName": "GravesBasicAttackSpread",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesChargeShotAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesChargeShotAbility/GravesChargeShot": {
+		"mScriptName": "GravesChargeShot",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						125.0,
+						275.0,
+						425.0,
+						575.0,
+						725.0,
+						875.0,
+						1025.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RFalloffDamage",
+					"mValues": [
+						80.0,
+						200.0,
+						320.0,
+						440.0,
+						560.0,
+						680.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RKnockbackDistance",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"FalloffDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "RFalloffDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.2000000476837158,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				80.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Graves/Spells/GravesChargeShotAbility/GravesChargeShotFxMissile": {
+		"mScriptName": "GravesChargeShotFxMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesChargeShotAbility/GravesChargeShotFxMissile2": {
+		"mScriptName": "GravesChargeShotFxMissile2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesChargeShotAbility/GravesChargeShotShot": {
+		"mScriptName": "GravesChargeShotShot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesChargeShotAbility/GravesChargeShotXplode": {
+		"mScriptName": "GravesChargeShotXplode",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesClusterShotAttack": {
+		"mScriptName": "GravesClusterShotAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesClusterShotRicochet": {
+		"mScriptName": "GravesClusterShotRicochet",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesClusterShotSoundMissile": {
+		"mScriptName": "GravesClusterShotSoundMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesCritAttack": {
+		"mScriptName": "GravesCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesMoveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesMoveAbility/GravesEGrit": {
+		"mScriptName": "GravesEGrit",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesMoveAbility/GravesMove": {
+		"mScriptName": "GravesMove",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Graves/Spells/GravesPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesPassiveAbility/GravesPassive": {
+		"mScriptName": "GravesPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CritDamageRatio",
+					"mValues": [
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StructureDamageReduction",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"SingleBulletDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mValues": [
+									0.0,
+									0.7000017762184143,
+									0.7112977504730225,
+									0.7233880162239075,
+									0.7362725138664246,
+									0.7499512434005737,
+									0.7644242644309998,
+									0.7796915173530579,
+									0.795753002166748,
+									0.8126087784767151,
+									0.8302587270736694,
+									0.8487030267715454,
+									0.8679414987564087,
+									0.8879742622375488,
+									0.908801257610321,
+									0.9304224848747253,
+									0.9528380036354065,
+									0.9760477542877197,
+									1.000051736831665,
+									1.0248500108718872,
+									1.0504424571990967,
+									1.076829195022583,
+									1.1040102243423462,
+									1.1319855451583862,
+									1.1607550382614136,
+									1.1903187036514282,
+									1.2206767797470093,
+									1.2518290281295776,
+									1.2837754487991333,
+									1.3165162801742554,
+									1.3500512838363647
+								],
+								"__type": "ByCharLevelFormulaCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MultiBulletDamage": {
+					"mMultiplier": {
+						"mNumber": 0.3330000042915344,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "SingleBulletDamage",
+					"__type": "GameCalculationModified"
+				},
+				"CritDamageMult": {
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mDataValue": "CritDamageRatio",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"mSubparts": [
+									{
+										"mNumber": -1.0,
+										"__type": "NumberCalculationPart"
+									},
+									{
+										"mStat": 8,
+										"mCoefficient": 1.0,
+										"__type": "StatByCoefficientCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesPassiveAbility/GravesPassiveShotAttack": {
+		"mScriptName": "GravesPassiveShotAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQChargeUp": {
+		"mScriptName": "GravesQChargeUp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				27.0,
+				24.0,
+				21.0,
+				18.0,
+				15.0,
+				12.0,
+				12.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQChargeUp2": {
+		"mScriptName": "GravesQChargeUp2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				50.0,
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQChargeUpDummy": {
+		"mScriptName": "GravesQChargeUpDummy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQChargeUpSelfSlow": {
+		"mScriptName": "GravesQChargeUpSelfSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQLineMis": {
+		"mScriptName": "GravesQLineMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQLineSpell": {
+		"mScriptName": "GravesQLineSpell",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						45.0,
+						65.0,
+						85.0,
+						105.0,
+						125.0,
+						145.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDetonationDamage",
+					"mValues": [
+						50.0,
+						85.0,
+						120.0,
+						155.0,
+						190.0,
+						225.0,
+						260.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "bADDetonationRatio",
+					"mValues": [
+						0.10000000149011612,
+						0.4000000059604645,
+						0.699999988079071,
+						1.0,
+						1.2999999523162842,
+						1.600000023841858,
+						1.899999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TerrainCollisionDelay",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDetonationDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDetonationDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "bADDetonationRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				11.25,
+				9.5,
+				7.75,
+				6.0,
+				6.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQPress1": {
+		"mScriptName": "GravesQPress1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				50.0,
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQPress2": {
+		"mScriptName": "GravesQPress2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				19.0,
+				18.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQReturn": {
+		"mScriptName": "GravesQReturn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQZoneMis": {
+		"mScriptName": "GravesQZoneMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesQLineSpellAbility/GravesQZoneSpell": {
+		"mScriptName": "GravesQZoneSpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Graves/Spells/GravesSkin35_GearManager": {
+		"mScriptName": "GravesSkin35_GearManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesSmokeGrenadeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesSmokeGrenadeAbility/GravesSmokeCloud": {
+		"mScriptName": "GravesSmokeCloud",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Graves/Spells/GravesSmokeGrenadeAbility/GravesSmokeGrenade": {
+		"mScriptName": "GravesSmokeGrenade",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"ImpactDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				26.0,
+				26.0,
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				18.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				95.0
+			]
+		}
+	},
+	"Characters/Graves/Spells/GravesSmokeGrenadeAbility/GravesSmokeGrenadeBoom": {
+		"mScriptName": "GravesSmokeGrenadeBoom",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

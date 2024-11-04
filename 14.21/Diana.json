@@ -1,0 +1,854 @@
+{
+	"Characters/Diana/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaBasicAttack": {
+		"mScriptName": "DianaBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaBasicAttack2": {
+		"mScriptName": "DianaBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaBasicAttack3": {
+		"mScriptName": "DianaBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaEnemyBehind": {
+		"mScriptName": "DianaEnemyBehind",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaOrbsAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaOrbsAbility/DianaOrbs": {
+		"mScriptName": "DianaOrbs",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShieldBase",
+					"mValues": [
+						30.0,
+						45.0,
+						60.0,
+						75.0,
+						90.0,
+						105.0,
+						120.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OrbDamage",
+					"mValues": [
+						6.0,
+						18.0,
+						30.0,
+						42.0,
+						54.0,
+						66.0,
+						78.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldAPRatio",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OrbAPRatio",
+					"mValues": [
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldBHPRatio",
+					"mValues": [
+						0.09000000357627869,
+						0.09000000357627869,
+						0.09000000357627869,
+						0.09000000357627869,
+						0.09000000357627869,
+						0.09000000357627869,
+						0.09000000357627869
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ShieldValue": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "ShieldAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mStatFormula": 2,
+							"mDataValue": "ShieldBHPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "OrbDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "OrbAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalMaxDamage": {
+					"mMultiplier": {
+						"mNumber": 3.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				15.0,
+				15.0,
+				13.5,
+				12.0,
+				10.5,
+				9.0,
+				7.5
+			],
+			"mana": [
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Diana/Spells/DianaOrbsAbility/DianaOrbsMissile": {
+		"mScriptName": "DianaOrbsMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaOrbsAbility/DianaShield": {
+		"mScriptName": "DianaShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Diana/Spells/DianaPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaPassiveAbility/DianaAttackSpeed": {
+		"mScriptName": "DianaAttackSpeed",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaPassiveAbility/DianaPassive": {
+		"mScriptName": "DianaPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeedValue",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackCount",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterMod",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"CleaveDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 20.0,
+							"mInitialBonusPerLevel": 5.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mBonusPerLevelAtAndAfter": 10.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 12,
+									"mBonusPerLevelAtAndAfter": 15.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 17,
+									"mBonusPerLevelAtAndAfter": 25.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusAS": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.15000000596046448,
+							"mEndValue": 0.3499999940395355,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"EmpoweredAS": {
+					"mMultiplier": {
+						"mNumber": 3.0,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "BonusAS",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				32.0,
+				28.0,
+				24.0,
+				20.0,
+				16.0,
+				12.0,
+				12.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveDeathRecap": {
+		"mScriptName": "DianaPassiveDeathRecap",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaPassiveAbility/DianaPassiveMarker": {
+		"mScriptName": "DianaPassiveMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaQAbility/DianaMoonlight": {
+		"mScriptName": "DianaMoonlight",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaQAbility/DianaQ": {
+		"mScriptName": "DianaQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MoonlightDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						60.0,
+						95.0,
+						130.0,
+						165.0,
+						200.0,
+						235.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Diana/Spells/DianaQAbility/DianaQInnerMissile": {
+		"mScriptName": "DianaQInnerMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaQAbility/DianaQOuterMissile": {
+		"mScriptName": "DianaQOuterMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaRAbility/DianaR": {
+		"mScriptName": "DianaR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						100.0,
+						200.0,
+						300.0,
+						400.0,
+						500.0,
+						600.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Delay",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPotency",
+					"mValues": [
+						-0.30000001192092896,
+						-0.4000000059604645,
+						-0.5,
+						-0.6000000238418579,
+						-0.699999988079071,
+						-0.800000011920929,
+						-0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowTooltip",
+					"mValues": [
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MultihitAmp",
+					"mValues": [
+						10.0,
+						35.0,
+						60.0,
+						85.0,
+						110.0,
+						135.0,
+						160.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RExplosionDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RMultiHitAmplification": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MultiHitAmp",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.15000000596046448,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamage": {
+					"mMultiplier": {
+						"mNumber": 5.0,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "RMultiHitAmplification",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				90.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Diana/Spells/DianaRAbility/DianaVortex": {
+		"mScriptName": "DianaVortex",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaSkin47Manager": {
+		"mScriptName": "DianaSkin47Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaTeleportAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Diana/Spells/DianaTeleportAbility/DianaTeleport": {
+		"mScriptName": "DianaTeleport",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						50.0,
+						70.0,
+						90.0,
+						110.0,
+						130.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDResetTime",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				10.0
+			],
+			"mana": [
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				60.0
+			]
+		}
+	}
+}

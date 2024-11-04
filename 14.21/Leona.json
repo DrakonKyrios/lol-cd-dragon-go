@@ -1,0 +1,697 @@
+{
+	"Characters/Leona/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaBasicAttack": {
+		"mScriptName": "LeonaBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaBasicAttack2": {
+		"mScriptName": "LeonaBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaBasicAttack3": {
+		"mScriptName": "LeonaBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaBasicAttack4": {
+		"mScriptName": "LeonaBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaCritAttack": {
+		"mScriptName": "LeonaCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaProjectIdleParticles": {
+		"mScriptName": "LeonaProjectIdleParticles",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaShieldOfDaybreakAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaShieldOfDaybreakAbility/LeonaShieldOfDaybreak": {
+		"mScriptName": "LeonaShieldOfDaybreak",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 2,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0
+			],
+			"mana": [
+				35.0,
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Leona/Spells/LeonaShieldOfDaybreakAbility/LeonaShieldOfDaybreakAttack": {
+		"mScriptName": "LeonaShieldOfDaybreakAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSkin34Manager": {
+		"mScriptName": "LeonaSkin34Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSkinEclipseManager": {
+		"mScriptName": "LeonaSkinEclipseManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSkinEclipseUltForm": {
+		"mScriptName": "LeonaSkinEclipseUltForm",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSolarBarrierAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSolarBarrierAbility/LeonaSolarBarrier": {
+		"mScriptName": "LeonaSolarBarrier",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FlatDamageReduction",
+					"mValues": [
+						4.0,
+						8.0,
+						12.0,
+						16.0,
+						20.0,
+						24.0,
+						28.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatDamageReductionMax",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BonusArmorTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 4,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 1,
+							"mStatFormula": 2,
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusMRTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 4,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 5,
+							"mStatFormula": 2,
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamageTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Leona/Spells/LeonaSolarBarrierAbility/LeonaSolarBarrierAttackBuff": {
+		"mScriptName": "LeonaSolarBarrierAttackBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSolarFlareAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSolarFlareAbility/LeonaSolarFlare": {
+		"mScriptName": "LeonaSolarFlare",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "OnHitBaseDamage",
+					"mValues": [
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitStacks",
+					"mValues": [
+						2.0,
+						3.0,
+						4.0,
+						5.0,
+						6.0,
+						7.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackRangeIncrease",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitAPRatio",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionBaseDamage",
+					"mValues": [
+						75.0,
+						150.0,
+						225.0,
+						300.0,
+						375.0,
+						450.0,
+						525.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionAPRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CCDuration",
+					"mValues": [
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{f4c90e5c}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "OnHitBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "OnHitAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ExplosionCalculatedDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "ExplosionBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "ExplosionAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				75.0,
+				60.0,
+				90.0,
+				90.0,
+				150.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Leona/Spells/LeonaSunlightPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSunlightPassiveAbility/LeonaSunlight": {
+		"mScriptName": "LeonaSunlight",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaSunlightPassiveAbility/LeonaSunlightPassive": {
+		"mScriptName": "LeonaSunlightPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MarkDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mValues": [
+								25.0,
+								32.0,
+								39.0,
+								46.0,
+								53.0,
+								60.0,
+								67.0,
+								74.0,
+								81.0,
+								88.0,
+								95.0,
+								102.0,
+								109.0,
+								116.0,
+								123.0,
+								130.0,
+								137.0,
+								144.0,
+								151.0,
+								158.0,
+								165.0,
+								172.0,
+								179.0,
+								186.0,
+								193.0,
+								200.0,
+								207.0,
+								214.0,
+								221.0,
+								228.0,
+								235.0
+							],
+							"__type": "ByCharLevelFormulaCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaZenithBladeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaZenithBladeAbility/LeonaZenithBlade": {
+		"mScriptName": "LeonaZenithBlade",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				13.0,
+				12.0,
+				10.5,
+				9.0,
+				7.5,
+				6.0,
+				6.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Leona/Spells/LeonaZenithBladeAbility/LeonaZenithBladeMissile": {
+		"mScriptName": "LeonaZenithBladeMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leona/Spells/LeonaZenithBladeAbility/LeonaZenithBladeRoot": {
+		"mScriptName": "LeonaZenithBladeRoot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

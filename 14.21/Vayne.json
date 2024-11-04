@@ -1,0 +1,719 @@
+{
+	"Characters/Vayne/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/Skin25VayneAttackAnimationCycle": {
+		"mScriptName": "Skin25VayneAttackAnimationCycle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneAttackAnimationCycle": {
+		"mScriptName": "VayneAttackAnimationCycle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneBasicAttack": {
+		"mScriptName": "VayneBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneBasicAttack2": {
+		"mScriptName": "VayneBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneBasicAttack3": {
+		"mScriptName": "VayneBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneBasicAttack4": {
+		"mScriptName": "VayneBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneCondemnAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneCondemnAbility/VayneCondemn": {
+		"mScriptName": "VayneCondemn",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						15.0,
+						50.0,
+						85.0,
+						120.0,
+						155.0,
+						190.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDamage",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackDistance",
+					"mValues": [
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpoweredDamageTT": {
+					"mMultiplier": {
+						"mDataValue": "StunDamage",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			]
+		}
+	},
+	"Characters/Vayne/Spells/VayneCritAttack": {
+		"mScriptName": "VayneCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneInquisitionAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneInquisitionAbility/VayneInquisition": {
+		"mScriptName": "VayneInquisition",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BonusAttackDamage",
+					"mValues": [
+						10.0,
+						25.0,
+						40.0,
+						55.0,
+						70.0,
+						85.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDuration",
+					"mValues": [
+						6.0,
+						8.0,
+						10.0,
+						12.0,
+						14.0,
+						16.0,
+						18.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TumbleStealthDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MovementSpeed",
+					"mValues": [
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DurationToAdd",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamagedMarkerDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TumbleCDReduction",
+					"mValues": [
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				85.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Vayne/Spells/VayneInquisitionStealth": {
+		"mScriptName": "VayneInquisitionStealth",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VaynePassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VaynePassiveAbility/VaynePassive": {
+		"mScriptName": "VaynePassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MovementSpeed",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Range",
+					"mValues": [
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneProjectMask": {
+		"mScriptName": "VayneProjectMask",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneRunCycleManager": {
+		"mScriptName": "VayneRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneSilverBolts": {
+		"mScriptName": "VayneSilverBolts",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneSilverDebuff": {
+		"mScriptName": "VayneSilverDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneSilveredBoltsAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneSilveredBoltsAbility/VayneSilveredBolts": {
+		"mScriptName": "VayneSilveredBolts",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxHealthRatio",
+					"mValues": [
+						0.05000000074505806,
+						0.05999999865889549,
+						0.07000000029802322,
+						0.07999999821186066,
+						0.09000000357627869,
+						0.10000000149011612,
+						0.10999999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageFloor",
+					"mValues": [
+						35.0,
+						50.0,
+						65.0,
+						80.0,
+						95.0,
+						110.0,
+						125.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageMaxVsMonsters",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DebuffDuration",
+					"mValues": [
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MaxHealthRatio",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneSilveredDebuff": {
+		"mScriptName": "VayneSilveredDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Vayne/Spells/VayneTumbleAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneTumbleAbility/VayneTumble": {
+		"mScriptName": "VayneTumble",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TotalADRatio",
+					"mValues": [
+						0.6499999761581421,
+						0.75,
+						0.8500000238418579,
+						0.949999988079071,
+						1.0499999523162842,
+						1.149999976158142,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CanBonusDamageCrit",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ADRatioBonus": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mDataValue": "TotalADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0,
+				2.0,
+				2.0
+			],
+			"mana": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			]
+		}
+	},
+	"Characters/Vayne/Spells/VayneTumbleUltAttack": {
+		"mScriptName": "VayneTumbleUltAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vayne/Spells/VayneUltAttack": {
+		"mScriptName": "VayneUltAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

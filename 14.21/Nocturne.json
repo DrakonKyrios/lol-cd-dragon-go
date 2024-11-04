@@ -1,0 +1,597 @@
+{
+	"Characters/Nocturne/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneBasicAttack": {
+		"mScriptName": "NocturneBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneBasicAttack2": {
+		"mScriptName": "NocturneBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneCritAttack": {
+		"mScriptName": "NocturneCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneDuskbringerAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneDuskbringerAbility/NocturneDuskbringer": {
+		"mScriptName": "NocturneDuskbringer",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 2,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.8500000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneDuskbringerAbility/NocturneDuskbringerTrail": {
+		"mScriptName": "NocturneDuskbringerTrail",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneDuskbringerAbility/NocturneQSpellPassive": {
+		"mScriptName": "NocturneQSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturnePAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturnePAbility/NocturneP": {
+		"mScriptName": "NocturneP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "AACDR",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AAChampMonsterCDR",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Cooldown",
+					"mValues": [
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Radius",
+					"mValues": [
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageMinionMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealMinionMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageNoCrit": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 1.2000000476837158,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalHealing": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 13.0,
+							"mEndValue": 30.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamageCrit": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 1.100000023841858,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturnePAbility/NocturneUmbraBlades": {
+		"mScriptName": "NocturneUmbraBlades",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturnePAbility/NocturneUmbraBladesAttack": {
+		"mScriptName": "NocturneUmbraBladesAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneParanoiaAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneParanoiaAbility/NocturneParanoia": {
+		"mScriptName": "NocturneParanoia",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ParanoiaDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrackDistance",
+					"mValues": [
+						3500.0,
+						3500.0,
+						4250.0,
+						5000.0,
+						5750.0,
+						6500.0,
+						7250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						150.0,
+						150.0,
+						275.0,
+						400.0,
+						525.0,
+						650.0,
+						775.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1800.0,
+						1800.0,
+						1800.0,
+						1800.0,
+						1800.0,
+						1800.0,
+						1800.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.2000000476837158,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				140.0,
+				140.0,
+				115.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneParanoiaAbility/NocturneParanoia2": {
+		"mScriptName": "NocturneParanoia2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				150.0,
+				150.0,
+				125.0,
+				100.0,
+				75.0,
+				75.0,
+				75.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneParanoiaAbility/NocturneParanoiaTarget": {
+		"mScriptName": "NocturneParanoiaTarget",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneShroudofDarknessAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneShroudofDarknessAbility/NocturneShroudofDarkness": {
+		"mScriptName": "NocturneShroudofDarkness",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneShroudofDarknessAbility/NocturneShroudofDarknessShield": {
+		"mScriptName": "NocturneShroudofDarknessShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneShroudofDarknessAbility/NocturneWSpellPassive": {
+		"mScriptName": "NocturneWSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneUnspeakableHorrorAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneUnspeakableHorrorAbility/NocturneEHaste": {
+		"mScriptName": "NocturneEHaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneUnspeakableHorrorAbility/NocturneESpellPassive": {
+		"mScriptName": "NocturneESpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nocturne/Spells/NocturneUnspeakableHorrorAbility/NocturneUnspeakableHorror": {
+		"mScriptName": "NocturneUnspeakableHorror",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TooltipFearMS",
+					"mValues": [
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				11.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Nocturne/Spells/RekSaiNocturneParanoia": {
+		"mScriptName": "RekSaiNocturneParanoia",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

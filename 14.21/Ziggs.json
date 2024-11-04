@@ -1,0 +1,812 @@
+{
+	"Characters/Ziggs/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsBasicAttack": {
+		"mScriptName": "ZiggsBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsBasicAttack2": {
+		"mScriptName": "ZiggsBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsCritAttack": {
+		"mScriptName": "ZiggsCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsEAbility/ZiggsE": {
+		"mScriptName": "ZiggsE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatioPerMine",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Slow",
+					"mValues": [
+						-0.0,
+						-0.10000000149011612,
+						-0.20000000298023224,
+						-0.30000001192092896,
+						-0.4000000059604645,
+						-0.5,
+						-0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioPerMine",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ReducedDamage": {
+					"mMultiplier": {
+						"mEffectIndex": 5,
+						"__type": "EffectValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0
+			],
+			"mana": [
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0
+			]
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsEAbility/ZiggsE2": {
+		"mScriptName": "ZiggsE2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsEAbility/ZiggsE3": {
+		"mScriptName": "ZiggsE3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsEAbility/ZiggsEMine": {
+		"mScriptName": "ZiggsEMine",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				2.0,
+				2.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsEAbility/ZiggsESlow": {
+		"mScriptName": "ZiggsESlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsPassiveBuffAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsPassiveBuffAbility/ZiggsPassiveAttack": {
+		"mScriptName": "ZiggsPassiveAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsPassiveBuffAbility/ZiggsPassiveBuff": {
+		"mScriptName": "ZiggsPassiveBuff",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StructureDamageRatio",
+					"mValues": [
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 20.0,
+							"mInitialBonusPerLevel": 4.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mBonusPerLevelAtAndAfter": 8.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mBonusPerLevelAtAndAfter": 12.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SpellCdr": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 4.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": 1.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 1.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"StructureDamage": {
+					"mMultiplier": {
+						"mDataValue": "StructureDamageRatio",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsQAbility/ZiggsQ": {
+		"mScriptName": "ZiggsQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						35.0,
+						85.0,
+						135.0,
+						185.0,
+						235.0,
+						285.0,
+						335.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxRange",
+					"mValues": [
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxRangeFirstBounce",
+					"mValues": [
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxRangeSecondBounce",
+					"mValues": [
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				4.5,
+				4.0,
+				4.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsRAbility/ZiggsR": {
+		"mScriptName": "ZiggsR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						150.0,
+						300.0,
+						450.0,
+						600.0,
+						750.0,
+						900.0,
+						1050.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UnempoweredBaseDamageTOOLTIPONLY",
+					"mValues": [
+						100.0,
+						200.0,
+						300.0,
+						400.0,
+						500.0,
+						600.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UnempoweredAPRatioTOOLTIPONLY",
+					"mValues": [
+						0.7300000190734863,
+						0.7300000190734863,
+						0.7300000190734863,
+						0.7300000190734863,
+						0.7300000190734863,
+						0.7300000190734863,
+						0.7300000190734863
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EmpoweredDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BlastDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "UnempoweredBaseDamageTOOLTIPONLY",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "UnempoweredAPRatioTOOLTIPONLY",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				95.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsWAbility/ZiggsW": {
+		"mScriptName": "ZiggsW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						35.0,
+						70.0,
+						105.0,
+						140.0,
+						175.0,
+						210.0,
+						245.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BombDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TurretDestroyPercent",
+					"mValues": [
+						0.22499999403953552,
+						0.25,
+						0.2750000059604645,
+						0.30000001192092896,
+						0.32499998807907104,
+						0.3499999940395355,
+						0.375
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackSpeed",
+					"mValues": [
+						600.0,
+						600.0,
+						600.0,
+						600.0,
+						600.0,
+						600.0,
+						600.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackGravity",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackDistance",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionRadius",
+					"mValues": [
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackDistanceAlly",
+					"mValues": [
+						775.0,
+						775.0,
+						775.0,
+						775.0,
+						775.0,
+						775.0,
+						775.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PerceptionBubbleRadius",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PerceptionBubbleDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CherryBonusHaste",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				20.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Ziggs/Spells/ZiggsWAbility/ZiggsWToggle": {
+		"mScriptName": "ZiggsWToggle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				20.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				12.0
+			],
+			"mana": null
+		}
+	}
+}

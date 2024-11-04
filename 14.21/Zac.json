@@ -1,0 +1,906 @@
+{
+	"Characters/Zac/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacBasicAttack": {
+		"mScriptName": "ZacBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacBasicAttack2": {
+		"mScriptName": "ZacBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacCritAttack": {
+		"mScriptName": "ZacCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacEAbility/ZacE": {
+		"mScriptName": "ZacE",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"MaxStun": {
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mEffectIndex": 5,
+								"__type": "EffectValueCalculationPart"
+							},
+							"mPart2": {
+								"mNumber": 2.0,
+								"__type": "NumberCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"HealthCostTooltip": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mEffectIndex": 2,
+								"__type": "EffectValueCalculationPart"
+							},
+							"mPart2": {
+								"mPart1": {
+									"mStat": 11,
+									"mCoefficient": 1.0,
+									"__type": "StatByCoefficientCalculationPart"
+								},
+								"mPart2": {
+									"mStat": 12,
+									"mCoefficient": 1.0,
+									"__type": "StatByCoefficientCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				25.0,
+				22.0,
+				19.0,
+				16.0,
+				13.0,
+				10.0,
+				10.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacEHitStun": {
+		"mScriptName": "ZacEHitStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacETimingMissile": {
+		"mScriptName": "ZacETimingMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				11.0,
+				11.0,
+				11.0,
+				11.0,
+				11.0,
+				11.0,
+				11.0
+			],
+			"mana": [
+				60.0,
+				75.0,
+				90.0,
+				105.0,
+				120.0,
+				135.0
+			]
+		}
+	},
+	"Characters/Zac/Spells/ZacGooMove": {
+		"mScriptName": "ZacGooMove",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacPassiveChunkDropAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacPassiveChunkDropAbility/ZacPassiveChunkDrop": {
+		"mScriptName": "ZacPassiveChunkDrop",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ReviveCooldown",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"HealPercent": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.03999999910593033,
+							"mEndValue": 0.07999999821186066,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"ReviveBlobletDuration": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 8.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": -1.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 10,
+									"mAdditionalBonusAtThisLevel": -1.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": -1.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 17,
+									"mAdditionalBonusAtThisLevel": -1.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalHeal": {
+					"mMultiplier": {
+						"mStat": 11,
+						"mCoefficient": 1.0,
+						"__type": "StatByCoefficientCalculationPart"
+					},
+					"mModifiedGameCalculation": "HealPercent",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				300.0,
+				300.0,
+				300.0,
+				300.0,
+				300.0,
+				300.0,
+				300.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacPassiveSpawnChunk": {
+		"mScriptName": "ZacPassiveSpawnChunk",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacQAbility/ZacQ": {
+		"mScriptName": "ZacQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"DamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mCoefficient": 0.03999999910593033,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 3.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mExpandedTooltipCalculationDisplay": 7,
+					"mModifiedGameCalculation": "DamageTooltip",
+					"__type": "GameCalculationModified"
+				},
+				"HealthCostTooltip": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mEffectIndex": 2,
+								"__type": "EffectValueCalculationPart"
+							},
+							"mPart2": {
+								"mPart1": {
+									"mStat": 11,
+									"mCoefficient": 1.0,
+									"__type": "StatByCoefficientCalculationPart"
+								},
+								"mPart2": {
+									"mStat": 12,
+									"mCoefficient": 1.0,
+									"__type": "StatByCoefficientCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.33000001311302185,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				12.5,
+				11.0,
+				9.5,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRAbility/ZacR": {
+		"mScriptName": "ZacR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Bounces",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TimeBetweenBounces",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamageBounce",
+					"mValues": [
+						70.0,
+						140.0,
+						210.0,
+						280.0,
+						350.0,
+						420.0,
+						490.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageReductionBounce",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackDistance",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackRange",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BeginningMS",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EndingMS",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BounceAPRatioTooltip",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamagePerBounce": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageBounce",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "BounceAPRatioTooltip",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DamagePerSubsequentBounce": {
+					"mMultiplier": {
+						"mDataValue": "DamageReductionBounce",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "DamagePerBounce",
+					"__type": "GameCalculationModified"
+				},
+				"DurationTooltip": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mDataValue": "TimeBetweenBounces",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"mSubparts": [
+									{
+										"mDataValue": "Bounces",
+										"__type": "NamedDataValueCalculationPart"
+									},
+									{
+										"mNumber": -1.0,
+										"__type": "NumberCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamageTooltip": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageBounce",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "BounceAPRatioTooltip",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mPart1": {
+								"mSubparts": [
+									{
+										"mPart1": {
+											"mDataValue": "BaseDamageBounce",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										"mPart2": {
+											"mDataValue": "DamageReductionBounce",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										"__type": "ProductOfSubPartsCalculationPart"
+									},
+									{
+										"mPart1": {
+											"mDataValue": "BounceAPRatioTooltip",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										"mPart2": {
+											"mDataValue": "DamageReductionBounce",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										"__type": "ProductOfSubPartsCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"mPart2": {
+								"mSubparts": [
+									{
+										"mDataValue": "Bounces",
+										"__type": "NamedDataValueCalculationPart"
+									},
+									{
+										"mNumber": -1.0,
+										"__type": "NumberCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.30000001192092896,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				105.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRKnockup": {
+		"mScriptName": "ZacRKnockup",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRPickup": {
+		"mScriptName": "ZacRPickup",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRebirth": {
+		"mScriptName": "ZacRebirth",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRebirthActive": {
+		"mScriptName": "ZacRebirthActive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRebirthBlob": {
+		"mScriptName": "ZacRebirthBlob",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRebirthCooldown": {
+		"mScriptName": "ZacRebirthCooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacRebirthReady": {
+		"mScriptName": "ZacRebirthReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacSizeScale": {
+		"mScriptName": "ZacSizeScale",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacWAbility/ZacW": {
+		"mScriptName": "ZacW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatioToPercentDamage",
+					"mValues": [
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseMaxHealthDamage",
+					"mValues": [
+						0.029999999329447746,
+						0.03999999910593033,
+						0.05000000074505806,
+						0.05999999865889549,
+						0.07000000029802322,
+						0.07999999821186066,
+						0.09000000357627869
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealthPercentTooltip",
+					"mValues": [
+						3.0,
+						4.0,
+						5.0,
+						6.0,
+						7.0,
+						8.0,
+						9.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DisplayPercentDamage": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "HealthPercentTooltip",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioToPercentDamage",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"TooltipHealthCost": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mEffectIndex": 2,
+								"__type": "EffectValueCalculationPart"
+							},
+							"mPart2": {
+								"mPart1": {
+									"mStat": 11,
+									"mCoefficient": 1.0,
+									"__type": "StatByCoefficientCalculationPart"
+								},
+								"mPart2": {
+									"mStat": 12,
+									"mCoefficient": 1.0,
+									"__type": "StatByCoefficientCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zac/Spells/ZacWCDRMath": {
+		"mScriptName": "ZacWCDRMath",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

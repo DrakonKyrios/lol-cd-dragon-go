@@ -1,0 +1,890 @@
+{
+	"Characters/Vex/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexEAbility/VexE": {
+		"mScriptName": "VexE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						50.0,
+						70.0,
+						90.0,
+						110.0,
+						130.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StartingRadius",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RadiusGrowthRate",
+					"mValues": [
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929,
+						0.6000000238418579,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxRadius",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GloomCDChampTooltip",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GloomCDNonChampTooltip",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0
+			],
+			"mana": [
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				110.0
+			]
+		}
+	},
+	"Characters/Vex/Spells/VexPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexPAbility/VexP": {
+		"mScriptName": "VexP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "GloomDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDoomCD",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashListenerRange",
+					"mValues": [
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashLockoutTime",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GloomCDChamp",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GloomCDNonChamp",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FearSlowPercentMax",
+					"mValues": [
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FearedMinionSpeed",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EFearedMinionSpeed",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FearSlowPercentMin",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RangeOfMaxFearSlow",
+					"mValues": [
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RangeOfMinFearSlow",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"GloomProcCalc": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 40.0,
+							"mEndValue": 150.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.25,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"FearDuration": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.75,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 9,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mPrecision": -1,
+					"__type": "GameCalculation"
+				},
+				"{c21c264c}": {
+					"mFormulaParts": [
+						{
+							"mNumber": 25000.0,
+							"__type": "NumberCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DoomCD": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 25.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": -3.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": -3.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": -3.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"GloomMinionMod": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.4000000059604645,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.05000000074505806,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 9,
+									"mAdditionalBonusAtThisLevel": 0.05000000074505806,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 0.05000000074505806,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 0.05000000074505806,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexPCooldown": {
+		"mScriptName": "VexPCooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexPDoom": {
+		"mScriptName": "VexPDoom",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexPFear": {
+		"mScriptName": "VexPFear",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexPGloom": {
+		"mScriptName": "VexPGloom",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexQAbility/VexQ": {
+		"mScriptName": "VexQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						70.0,
+						115.0,
+						160.0,
+						205.0,
+						250.0,
+						295.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{7b4a4737}": {
+					"mMultiplier": {
+						"mNumber": 1.100000023841858,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				4.0
+			],
+			"mana": [
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Vex/Spells/VexRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexRAbility/VexR": {
+		"mScriptName": "VexR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						75.0,
+						125.0,
+						175.0,
+						225.0,
+						275.0,
+						325.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RecastDamage",
+					"mValues": [
+						50.0,
+						150.0,
+						250.0,
+						350.0,
+						450.0,
+						550.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "R2Duration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TakedownWindow",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ResetWindow",
+					"mValues": [
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RecastDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RecastDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				140.0,
+				140.0,
+				120.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Vex/Spells/VexRAbility/VexR2": {
+		"mScriptName": "VexR2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vex/Spells/VexWAbility/VexW": {
+		"mScriptName": "VexW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShieldAmount",
+					"mValues": [
+						25.0,
+						50.0,
+						75.0,
+						100.0,
+						125.0,
+						150.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						80.0,
+						120.0,
+						160.0,
+						200.0,
+						240.0,
+						280.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AOERadius",
+					"mValues": [
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusAOERadiusVsDashes",
+					"mValues": [
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ShieldCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldAmount",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.75,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"WDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0
+			],
+			"mana": [
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0
+			]
+		}
+	}
+}

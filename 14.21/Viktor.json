@@ -1,0 +1,1124 @@
+{
+	"Characters/Viktor/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorBasicAttack": {
+		"mScriptName": "ViktorBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorBasicAttack2": {
+		"mScriptName": "ViktorBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorChaosStormAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorChaosStormAbility/ViktorChaosStorm": {
+		"mScriptName": "ViktorChaosStorm",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "InitialBurstBaseDamage",
+					"mValues": [
+						100.0,
+						100.0,
+						175.0,
+						250.0,
+						325.0,
+						400.0,
+						475.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SubsequentBurstBaseDamage",
+					"mValues": [
+						25.0,
+						65.0,
+						105.0,
+						145.0,
+						185.0,
+						225.0,
+						265.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StormDuration",
+					"mValues": [
+						6.5,
+						6.5,
+						6.5,
+						6.5,
+						6.5,
+						6.5,
+						6.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TickCadence",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxTicks",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxStormSpeed",
+					"mValues": [
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinStormSpeed",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinDistance",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDistance",
+					"mValues": [
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AugmentBoost",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"InitialBurstDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "InitialBurstBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SubsequentBurstDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SubsequentBurstBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				120.0,
+				100.0,
+				80.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Viktor/Spells/ViktorChaosStormAbility/ViktorChaosStormGuide": {
+		"mScriptName": "ViktorChaosStormGuide",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorChaosStormTimer": {
+		"mScriptName": "ViktorChaosStormTimer",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorCritAttack": {
+		"mScriptName": "ViktorCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorDeathRayAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorDeathRayAbility/ViktorDeathRay": {
+		"mScriptName": "ViktorDeathRay",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamageLaser",
+					"mValues": [
+						30.0,
+						70.0,
+						110.0,
+						150.0,
+						190.0,
+						230.0,
+						270.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamageAftershock",
+					"mValues": [
+						-10.0,
+						20.0,
+						50.0,
+						80.0,
+						110.0,
+						140.0,
+						170.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Delay",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LaserAPRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AftershockAPRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AftershockMinionMulti",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"LaserDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageLaser",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "LaserAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"AftershockDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageAftershock",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "AftershockAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{86b88e5d}": {
+					"mMultiplier": {
+						"mDataValue": "AftershockMinionMulti",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageAftershock",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "AftershockAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				110.0
+			]
+		}
+	},
+	"Characters/Viktor/Spells/ViktorDeathRayMissile": {
+		"mScriptName": "ViktorDeathRayMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorDeathRayMissile2": {
+		"mScriptName": "ViktorDeathRayMissile2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorEAug": {
+		"mScriptName": "ViktorEAug",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorEAugMissile": {
+		"mScriptName": "ViktorEAugMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorEAugParticle": {
+		"mScriptName": "ViktorEAugParticle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorGravitonFieldAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorGravitonFieldAbility/ViktorGravitonField": {
+		"mScriptName": "ViktorGravitonField",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlowPotency",
+					"mValues": [
+						-30.0,
+						-30.0,
+						-33.0,
+						-37.0,
+						-40.0,
+						-45.0,
+						-48.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FieldDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StackCadence",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StacksForStun",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AugmentSlow",
+					"mValues": [
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				18.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				13.0
+			],
+			"mana": [
+				65.0,
+				65.0,
+				65.0,
+				65.0,
+				65.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Viktor/Spells/ViktorGravitonSlow": {
+		"mScriptName": "ViktorGravitonSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorGravitonStun": {
+		"mScriptName": "ViktorGravitonStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorPassiveAbility/ViktorPassive": {
+		"mScriptName": "ViktorPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MinionStacks",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CannonStacks",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChampionStacks",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EvolutionStackBreakpoint",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"APGained": {
+					"mFormulaParts": [
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorPassiveCount": {
+		"mScriptName": "ViktorPassiveCount",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorPowerTransferAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorPowerTransferAbility/ViktorPowerTransfer": {
+		"mScriptName": "ViktorPowerTransfer",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MissileDamage",
+					"mValues": [
+						45.0,
+						60.0,
+						75.0,
+						90.0,
+						105.0,
+						120.0,
+						135.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AABonusDamage",
+					"mValues": [
+						-5.0,
+						20.0,
+						45.0,
+						70.0,
+						95.0,
+						120.0,
+						145.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissileAPRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HitAPRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldManaRatio",
+					"mValues": [
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldAPRatio",
+					"mValues": [
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AugmentShieldBonus",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AugmentMoveSpeedBonus",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TurretDamageMod",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalMissileDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MissileDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "MissileAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ShieldValue": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{9aabddee}": {
+					"mMultiplier": {
+						"mDataValue": "AugmentShieldBonus",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mModifiedGameCalculation": "ShieldLevelScaling",
+					"__type": "GameCalculationModified"
+				},
+				"AttackTotalDMG": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "AABonusDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "HitAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{147c7de9}": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ShieldLevelScaling": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 27.0,
+							"mEndValue": 105.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mDataValue": "ShieldAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalAugmentedShieldValue": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mStartValue": 43.0,
+							"mEndValue": 168.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.28999999165534973,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				5.0
+			],
+			"mana": [
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Viktor/Spells/ViktorPowerTransferReturn": {
+		"mScriptName": "ViktorPowerTransferReturn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorQAug": {
+		"mScriptName": "ViktorQAug",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorQBuff": {
+		"mScriptName": "ViktorQBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorQEAug": {
+		"mScriptName": "ViktorQEAug",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorQWAug": {
+		"mScriptName": "ViktorQWAug",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorQWEAug": {
+		"mScriptName": "ViktorQWEAug",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorShield": {
+		"mScriptName": "ViktorShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorStaffIdleVFXBuff": {
+		"mScriptName": "ViktorStaffIdleVFXBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorWAug": {
+		"mScriptName": "ViktorWAug",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Viktor/Spells/ViktorWEAug": {
+		"mScriptName": "ViktorWEAug",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,658 @@
+{
+	"Characters/Darius/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusAxeGrabConeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusAxeGrabConeAbility/DariusAxeGrabArmorPen": {
+		"mScriptName": "DariusAxeGrabArmorPen",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusAxeGrabConeAbility/DariusAxeGrabCone": {
+		"mScriptName": "DariusAxeGrabCone",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				24.0,
+				24.0,
+				21.5,
+				19.0,
+				16.5,
+				14.0,
+				14.0
+			],
+			"mana": [
+				70.0,
+				60.0,
+				50.0,
+				40.0,
+				30.0,
+				20.0
+			]
+		}
+	},
+	"Characters/Darius/Spells/DariusAxeGrabConeAbility/DariusESlow": {
+		"mScriptName": "DariusESlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusBasicAttack": {
+		"mScriptName": "DariusBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3666999936103821,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusBasicAttack2": {
+		"mScriptName": "DariusBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.30000001192092896,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusCleaveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusCleaveAbility/DariusCleave": {
+		"mScriptName": "DariusCleave",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MissingHealthHeal",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalADRatio",
+					"mValues": [
+						90.0,
+						100.0,
+						110.0,
+						120.0,
+						130.0,
+						140.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BladeDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 2,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mPart1": {
+									"mEffectIndex": 1,
+									"__type": "EffectValueCalculationPart"
+								},
+								"mPart2": {
+									"mNumber": 0.009999999776482582,
+									"__type": "NumberCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"HandleDamage": {
+					"mMultiplier": {
+						"mNumber": 0.3499999940395355,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "BladeDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.23440000414848328,
+			"cooldownTime": [
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				5.0
+			],
+			"mana": [
+				25.0,
+				30.0,
+				35.0,
+				40.0,
+				45.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Darius/Spells/DariusCleaveAbility/DariusCleaveCloseTarget": {
+		"mScriptName": "DariusCleaveCloseTarget",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusCritAttack": {
+		"mScriptName": "DariusCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.30000001192092896,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusExecuteAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusExecuteAbility/DariusExecute": {
+		"mScriptName": "DariusExecute",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						0.0,
+						125.0,
+						250.0,
+						375.0,
+						500.0,
+						625.0,
+						750.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RDamagePercentPerHemoStack",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RRecastDuration",
+					"mValues": [
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.75,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaximumDamage": {
+					"mMultiplier": {
+						"mNumber": 2.0,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "Damage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.3666999936103821,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Darius/Spells/DariusExecuteAbility/DariusExecuteMulticast": {
+		"mScriptName": "DariusExecuteMulticast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusHemoMarkerAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusHemoMarkerAbility/DariusHemo": {
+		"mScriptName": "DariusHemo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				4.0
+			],
+			"mana": [
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Darius/Spells/DariusHemoMarkerAbility/DariusHemoInternal": {
+		"mScriptName": "DariusHemoInternal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				8.5,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Darius/Spells/DariusHemoMarkerAbility/DariusHemoMarker": {
+		"mScriptName": "DariusHemoMarker",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MonsterMod",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondsPerTick",
+					"mValues": [
+						1.2599999904632568,
+						1.2599999904632568,
+						1.2599999904632568,
+						1.2599999904632568,
+						1.2599999904632568,
+						1.2599999904632568,
+						1.2599999904632568
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxStacks",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BleedDamagePerStack": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 13.0,
+							"mEndValue": 30.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"NoxianMightBonusAD": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 30.0,
+							"mInitialBonusPerLevel": 5.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 11,
+									"mBonusPerLevelAtAndAfter": 10.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 14,
+									"mBonusPerLevelAtAndAfter": 25.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusHemoMarkerAbility/DariusHemoMax": {
+		"mScriptName": "DariusHemoMax",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusHemoMarkerAbility/DariusHemoVisual": {
+		"mScriptName": "DariusHemoVisual",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				8.5,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Darius/Spells/DariusNoxianTacticsONHAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusNoxianTacticsONHAbility/DariusNoxianTacticsActive": {
+		"mScriptName": "DariusNoxianTacticsActive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusNoxianTacticsONHAbility/DariusNoxianTacticsONH": {
+		"mScriptName": "DariusNoxianTacticsONH",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"EmpoweredAttackDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mEffectIndex": 4,
+								"__type": "EffectValueCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.3666999936103821,
+			"cooldownTime": [
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Darius/Spells/DariusNoxianTacticsONHAbility/DariusNoxianTacticsONHAttack": {
+		"mScriptName": "DariusNoxianTacticsONHAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Darius/Spells/DariusNoxianTacticsONHAbility/DariusNoxianTacticsSlow": {
+		"mScriptName": "DariusNoxianTacticsSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				11.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Darius/Spells/DariusNoxianTacticsONHAbility/DariusSlow": {
+		"mScriptName": "DariusSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,765 @@
+{
+	"Characters/Olaf/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafAxeThrowCastAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafAxeThrowCastAbility/OlafAxeThrow": {
+		"mScriptName": "OlafAxeThrow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafAxeThrowCastAbility/OlafAxeThrowCast": {
+		"mScriptName": "OlafAxeThrowCast",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MinimumRange",
+					"mValues": [
+						425.0,
+						425.0,
+						425.0,
+						425.0,
+						425.0,
+						425.0,
+						425.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShredAmount",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DebuffDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumCooldown",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						10.0,
+						60.0,
+						110.0,
+						160.0,
+						210.0,
+						260.0,
+						310.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterDamage",
+					"mValues": [
+						-5.0,
+						10.0,
+						25.0,
+						40.0,
+						55.0,
+						70.0,
+						85.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TooltipCDRefund": {
+					"mMultiplier": {
+						"__type": "CooldownMultiplierCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "MinimumCooldown",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Olaf/Spells/OlafAxeThrowCastAbility/OlafAxeThrowDamage": {
+		"mScriptName": "OlafAxeThrowDamage",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Olaf/Spells/OlafBasicAttack": {
+		"mScriptName": "OlafBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafBasicAttack2": {
+		"mScriptName": "OlafBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafBasicAttack3": {
+		"mScriptName": "OlafBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafBerzerkerRageAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafBerzerkerRageAbility/OlafBerzerkerRage": {
+		"mScriptName": "OlafBerzerkerRage",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "AttackSpeedPerMissingHPPerc",
+					"mValues": [
+						0.008999999612569809,
+						0.008999999612569809,
+						0.008999999612569809,
+						0.008999999612569809,
+						0.008999999612569809,
+						0.008999999612569809,
+						0.008999999612569809
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxStatsThreshold",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"MaxAttackSpeed": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.5,
+							"mEndValue": 1.0,
+							"mScaleByStatProgressionMultiplier": true,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"MaxLifeSteal": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.07999999821186066,
+							"mEndValue": 0.25,
+							"mScaleByStatProgressionMultiplier": true,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafCritAttack": {
+		"mScriptName": "OlafCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafCritAttack2": {
+		"mScriptName": "OlafCritAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafFrenziedStrikesAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafFrenziedStrikesAbility/OlafFrenziedStrikes": {
+		"mScriptName": "OlafFrenziedStrikes",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Attackspeed",
+					"mValues": [
+						0.30000001192092896,
+						0.4000000059604645,
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929,
+						0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldPercMissingHP",
+					"mValues": [
+						0.17499999701976776,
+						0.17499999701976776,
+						0.17499999701976776,
+						0.17499999701976776,
+						0.17499999701976776,
+						0.17499999701976776,
+						0.17499999701976776
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseShield",
+					"mValues": [
+						-20.0,
+						10.0,
+						40.0,
+						70.0,
+						100.0,
+						130.0,
+						160.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThresholdForMax",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ShieldCalc": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mExpandedTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseShield",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 13,
+							"mSubpart": {
+								"mStat": 11,
+								"mDataValue": "ShieldPercMissingHP",
+								"__type": "StatByNamedDataValueCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxShieldCalc": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"StaticTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseShield",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mSubpart": {
+								"mPart1": {
+									"mDataValue": "ShieldPercMissingHP",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								"mPart2": {
+									"mSubparts": [
+										{
+											"mNumber": 1.0,
+											"__type": "NumberCalculationPart"
+										},
+										{
+											"mPart1": {
+												"mNumber": -1.0,
+												"__type": "NumberCalculationPart"
+											},
+											"mPart2": {
+												"mDataValue": "ThresholdForMax",
+												"__type": "NamedDataValueCalculationPart"
+											},
+											"__type": "ProductOfSubPartsCalculationPart"
+										}
+									],
+									"__type": "SumOfSubPartsCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Olaf/Spells/OlafRagnarokAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafRagnarokAbility/OlafRagnarok": {
+		"mScriptName": "OlafRagnarok",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Resists",
+					"mValues": [
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatAD",
+					"mValues": [
+						0.0,
+						10.0,
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentTotalADAmp",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HasteDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Haste",
+					"mValues": [
+						-0.05000000074505806,
+						0.20000000298023224,
+						0.44999998807907104,
+						0.699999988079071,
+						0.949999988079071,
+						1.2000000476837158,
+						1.4500000476837158
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DurationExtension",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"AD": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "FlatAD",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "PercentTotalADAmp",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				90.0,
+				80.0,
+				160.0,
+				160.0,
+				100.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Olaf/Spells/OlafRagnarokAbility/OlafRagnarokPassiveBuff": {
+		"mScriptName": "OlafRagnarokPassiveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Olaf/Spells/OlafRecklessStrikeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Olaf/Spells/OlafRecklessStrikeAbility/OlafRecklessStrike": {
+		"mScriptName": "OlafRecklessStrike",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0
+			],
+			"mana": null
+		}
+	}
+}

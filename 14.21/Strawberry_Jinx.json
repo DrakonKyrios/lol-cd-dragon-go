@@ -1,0 +1,434 @@
+{
+	"Characters/Strawberry_Jinx/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Spells/Strawberry_JinxEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Spells/Strawberry_JinxEAbility/Strawberry_JinxE": {
+		"mScriptName": "Strawberry_JinxE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RocketAoERadius",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RocketAoEIncrease",
+					"mValues": [
+						0.15000000596046448,
+						0.30000001192092896,
+						0.44999998807907104,
+						0.6000000238418579,
+						0.75,
+						0.8999999761581421,
+						1.0499999523162842
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritDamage",
+					"mValues": [
+						0.0,
+						0.10000000149011612,
+						0.20000000298023224,
+						0.30000001192092896,
+						0.4000000059604645,
+						0.5,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RocketCount",
+					"mValues": [
+						9.0,
+						9.0,
+						9.0,
+						9.0,
+						9.0,
+						9.0,
+						9.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RocketDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 55.0,
+							"mInitialBonusPerLevel": 6.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Spells/Strawberry_JinxPassiveMarkerAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Spells/Strawberry_JinxPassiveMarkerAbility/Strawberry_JinxPassiveMarker": {
+		"mScriptName": "Strawberry_JinxPassiveMarker",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ASBuff",
+					"mValues": [
+						1.5,
+						1.899999976158142,
+						2.299999952316284,
+						2.700000047683716,
+						3.0999999046325684,
+						3.5,
+						3.9000000953674316
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSBuff",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSDecayRate",
+					"mValues": [
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AHBuff",
+					"mValues": [
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionsToProcEvolve",
+					"mValues": [
+						70.0,
+						70.0,
+						70.0,
+						70.0,
+						70.0,
+						70.0,
+						70.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Spells/Strawberry_JinxQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Spells/Strawberry_JinxQAbility/Strawberry_JinxAutoAttack": {
+		"mScriptName": "Strawberry_JinxAutoAttack",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						60.0,
+						60.0,
+						80.0,
+						100.0,
+						120.0,
+						140.0,
+						140.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxLevel",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinigunBulletCount",
+					"mValues": [
+						3.0,
+						3.0,
+						4.0,
+						5.0,
+						6.0,
+						7.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ProjectileMultiplier",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FallOffDamagePercent",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{567e914d}": {
+					"mMultiplier": {
+						"mDataValue": "ProjectileMultiplier",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 0,
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 7,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mDataValue": "MinigunBulletCount",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				2.5,
+				2.5,
+				2.5,
+				2.5,
+				2.5,
+				2.5,
+				1.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Spells/Strawberry_JinxRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Jinx/Spells/Strawberry_JinxRAbility/Strawberry_JinxR": {
+		"mScriptName": "Strawberry_JinxR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PercentDamage",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEDamageMult",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionSize",
+					"mValues": [
+						500.0,
+						600.0,
+						700.0,
+						800.0,
+						900.0,
+						1000.0,
+						1100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageMulti",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 500.0,
+							"mInitialBonusPerLevel": 50.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamage": {
+					"mMultiplier": {
+						"mDataValue": "DamageMulti",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mSpellCalculationKey": "Damage",
+							"__type": "{f3cbe7b2}"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			],
+			"mana": null
+		}
+	}
+}

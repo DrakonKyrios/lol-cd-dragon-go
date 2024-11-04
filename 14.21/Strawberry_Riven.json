@@ -1,0 +1,404 @@
+{
+	"Characters/Strawberry_Riven/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Spells/Strawberry_RivenFeintAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Spells/Strawberry_RivenFeintAbility/Strawberry_RivenFeint": {
+		"mScriptName": "Strawberry_RivenFeint",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 150.0,
+							"mInitialBonusPerLevel": 15.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalStunDuration": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 9,
+							"mDataValue": "StunDuration",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusMS": {
+					"mFormulaParts": [
+						{
+							"mStat": 6,
+							"mCoefficient": 1.100000023841858,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Spells/Strawberry_RivenFengShuiEngineAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Spells/Strawberry_RivenFengShuiEngineAbility/Strawberry_RivenFengShuiEngine": {
+		"mScriptName": "Strawberry_RivenFengShuiEngine",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Duration",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSBuff",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 100.0,
+							"mInitialBonusPerLevel": 10.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BuffDuration": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 9,
+							"mDataValue": "Duration",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Spells/Strawberry_RivenMartyrAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Spells/Strawberry_RivenMartyrAbility/Strawberry_RivenMartyr": {
+		"mScriptName": "Strawberry_RivenMartyr",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DamageAmp",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinAmpRange",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxAmpRange",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldPerc",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{93f23f0d}": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 5,
+							"mDataValue": "MinAmpRange",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{07b8b63f}": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 5,
+							"mDataValue": "MaxAmpRange",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalShieldDuration": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 9,
+							"mDataValue": "ShieldDuration",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ShieldCap": {
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mCoefficient": 0.019999999552965164,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.26669999957084656,
+			"cooldownTime": [
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Spells/Strawberry_RivenTriCleaveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Riven/Spells/Strawberry_RivenTriCleaveAbility/Strawberry_RivenTriCleave": {
+		"mScriptName": "Strawberry_RivenTriCleave",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxLevel",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Damage",
+					"mValues": [
+						20.0,
+						65.0,
+						110.0,
+						155.0,
+						200.0,
+						245.0,
+						290.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CCDuration",
+					"mValues": [
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveMS",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.10000000149011612,
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{66145a1f}": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 9,
+							"mDataValue": "CCDuration",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

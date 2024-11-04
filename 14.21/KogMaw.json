@@ -1,0 +1,785 @@
+{
+	"Characters/KogMaw/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawBasicAttack": {
+		"mScriptName": "KogMawBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawBasicAttack2": {
+		"mScriptName": "KogMawBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawBioArcaneBarrageAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawBioArcaneBarrageAbility/KogMawBioArcaneBarrage": {
+		"mScriptName": "KogMawBioArcaneBarrage",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxHealthDamage",
+					"mValues": [
+						2.25,
+						3.0,
+						3.75,
+						4.5,
+						5.25,
+						6.0,
+						6.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalHealthDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mDataValue": "MaxHealthDamage",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"mNumber": 0.009999999776482582,
+								"__type": "NumberCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						},
+						{
+							"mCoefficient": 9.999999747378752e-5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 2,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				17.0,
+				17.0,
+				17.0,
+				17.0,
+				17.0,
+				17.0,
+				17.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawBioArcaneBarrageAbility/KogMawBioArcaneBarrageAttack": {
+		"mScriptName": "KogMawBioArcaneBarrageAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawCritAttack": {
+		"mScriptName": "KogMawCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawIcathianSurpriseReadyAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawIcathianSurpriseReadyAbility/KogMawIcathianDisplay": {
+		"mScriptName": "KogMawIcathianDisplay",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TooltipPassiveMS",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TooltipPassiveDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PassiveDamage": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 140.0,
+							"mEndValue": 650.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawIcathianSurpriseReadyAbility/KogMawIcathianSurprise": {
+		"mScriptName": "KogMawIcathianSurprise",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TooltipPassiveMS",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TooltipPassiveDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PassiveDamage": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 125.0,
+							"mEndValue": 550.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawIcathianSurpriseReadyAbility/KogMawIcathianSurpriseReady": {
+		"mScriptName": "KogMawIcathianSurpriseReady",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TooltipPassiveMS",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TooltipPassiveDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PassiveDamage": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 140.0,
+							"mEndValue": 650.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawIcathianSurpriseReadyAbility/KogMawIcathianSurpriseSound": {
+		"mScriptName": "KogMawIcathianSurpriseSound",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawLivingArtilleryAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawLivingArtilleryAbility/KogMawLivingArtillery": {
+		"mScriptName": "KogMawLivingArtillery",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						60.0,
+						100.0,
+						140.0,
+						180.0,
+						220.0,
+						260.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ManaCostDuration",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Range",
+					"mValues": [
+						105.0,
+						130.0,
+						155.0,
+						180.0,
+						205.0,
+						230.0,
+						255.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseCost",
+					"mValues": [
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ManaCostCap",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VisionDebuffDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FinalDamageMult",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxExtraCost",
+					"mValues": [
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VisionRadius",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MidDamageMult",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TooltipMissingHealthDamageAmp",
+					"mValues": [
+						0.833329975605011,
+						0.833329975605011,
+						0.833329975605011,
+						0.833329975605011,
+						0.833329975605011,
+						0.833329975605011,
+						0.833329975605011
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BaseDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.75,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MidDamageCalc": {
+					"mMultiplier": {
+						"mDataValue": "MidDamageMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "BaseDamageCalc",
+					"__type": "GameCalculationModified"
+				},
+				"MaxDamageCalc": {
+					"mMultiplier": {
+						"mDataValue": "FinalDamageMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "BaseDamageCalc",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				2.0,
+				2.0,
+				1.5,
+				1.0,
+				2.0,
+				2.0,
+				2.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawLivingArtilleryAbility/KogMawLivingArtillerySight": {
+		"mScriptName": "KogMawLivingArtillerySight",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawQAbility/KogMawCausticSpittle": {
+		"mScriptName": "KogMawCausticSpittle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawQAbility/KogMawCausticSpittleCharged": {
+		"mScriptName": "KogMawCausticSpittleCharged",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawQAbility/KogMawQ": {
+		"mScriptName": "KogMawQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShredAmount",
+					"mValues": [
+						21.0,
+						23.0,
+						25.0,
+						27.0,
+						29.0,
+						31.0,
+						33.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawQAbility/KogMawQMis": {
+		"mScriptName": "KogMawQMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawVoidOozeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawVoidOozeAbility/KogMawVoidOoze": {
+		"mScriptName": "KogMawVoidOoze",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						35.0,
+						40.0,
+						45.0,
+						50.0,
+						55.0,
+						60.0,
+						65.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				40.0,
+				55.0,
+				70.0,
+				85.0,
+				100.0,
+				110.0
+			]
+		}
+	},
+	"Characters/KogMaw/Spells/KogMawVoidOozeAbility/KogMawVoidOozeMissile": {
+		"mScriptName": "KogMawVoidOozeMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

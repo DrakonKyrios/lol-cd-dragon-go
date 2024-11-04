@@ -1,0 +1,953 @@
+{
+	"Characters/Fizz/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzBasicAttack": {
+		"mScriptName": "FizzBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzBasicAttack2": {
+		"mScriptName": "FizzBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzCritAttack": {
+		"mScriptName": "FizzCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzEAbility/FizzE": {
+		"mScriptName": "FizzE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						80.0,
+						130.0,
+						180.0,
+						230.0,
+						280.0,
+						330.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SmallAoESize",
+					"mValues": [
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LargeAoESize",
+					"mValues": [
+						375.0,
+						375.0,
+						375.0,
+						375.0,
+						375.0,
+						375.0,
+						375.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929,
+						0.6000000238418579,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.8999999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				14.0,
+				12.0,
+				10.0,
+				8.0,
+				6.0
+			],
+			"mana": [
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				95.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Fizz/Spells/FizzEAbility/FizzEBuffer": {
+		"mScriptName": "FizzEBuffer",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzEAbility/FizzEIcon": {
+		"mScriptName": "FizzEIcon",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzEAbility/FizzEOne": {
+		"mScriptName": "FizzEOne",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzEAbility/FizzETwo": {
+		"mScriptName": "FizzETwo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				14.5,
+				13.0,
+				11.5,
+				10.0,
+				10.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzPassiveAbility/FizzPassive": {
+		"mScriptName": "FizzPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DamageReduction",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageReductionMax",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageReductionCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DamageReduction",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.009999999776482582,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Fizz/Spells/FizzQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzQAbility/FizzQ": {
+		"mScriptName": "FizzQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"QDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.5,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Fizz/Spells/FizzRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzRAbility/FizzR": {
+		"mScriptName": "FizzR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SmallDamage",
+					"mValues": [
+						50.0,
+						150.0,
+						250.0,
+						350.0,
+						450.0,
+						550.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MidDamage",
+					"mValues": [
+						125.0,
+						225.0,
+						325.0,
+						425.0,
+						525.0,
+						625.0,
+						725.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BigDamage",
+					"mValues": [
+						200.0,
+						300.0,
+						400.0,
+						500.0,
+						600.0,
+						700.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SmallFishSize",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MidFishSize",
+					"mValues": [
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0,
+						325.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BigFishSize",
+					"mValues": [
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissileWidthTiers",
+					"mValues": [
+						40.0,
+						80.0,
+						120.0,
+						160.0,
+						200.0,
+						240.0,
+						280.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDistance",
+					"mValues": [
+						1300.0,
+						1300.0,
+						1300.0,
+						1300.0,
+						1300.0,
+						1300.0,
+						1300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DetonationTime",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"SmallSharkDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SmallDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{262c3c02}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MidDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BigSharkDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BigDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.2000000476837158,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				85.0,
+				70.0,
+				70.0,
+				70.0,
+				40.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Fizz/Spells/FizzRAbility/FizzRCling": {
+		"mScriptName": "FizzRCling",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzRAbility/FizzRHop": {
+		"mScriptName": "FizzRHop",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzRAbility/FizzRMissile": {
+		"mScriptName": "FizzRMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility/FizzOnHitBuff": {
+		"mScriptName": "FizzOnHitBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility/FizzW": {
+		"mScriptName": "FizzW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DoTBaseDamage",
+					"mValues": [
+						10.0,
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ActiveBaseDamage",
+					"mValues": [
+						30.0,
+						50.0,
+						70.0,
+						90.0,
+						110.0,
+						130.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitBuffBaseDamage",
+					"mValues": [
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DoTTicksPerSecond",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ActiveDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitBuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnKillManaRefund",
+					"mValues": [
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnKillNewCooldown",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveDoTDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TurretMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DoTDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DoTBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ActiveDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ActiveBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"OnHitBuffDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "OnHitBuffBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.3499999940395355,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				4.5
+			],
+			"mana": [
+				30.0,
+				40.0,
+				50.0,
+				60.0,
+				70.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility/FizzWActive": {
+		"mScriptName": "FizzWActive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility/FizzWAttack": {
+		"mScriptName": "FizzWAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility/FizzWBasicAttack": {
+		"mScriptName": "FizzWBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility/FizzWDOT": {
+		"mScriptName": "FizzWDOT",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility/FizzWDebuff": {
+		"mScriptName": "FizzWDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fizz/Spells/FizzWAbility/FizzWPassive": {
+		"mScriptName": "FizzWPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

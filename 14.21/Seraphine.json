@@ -1,0 +1,1084 @@
+{
+	"Characters/Seraphine/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineBasicAttack": {
+		"mScriptName": "SeraphineBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineBasicAttack2": {
+		"mScriptName": "SeraphineBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineCritAttack": {
+		"mScriptName": "SeraphineCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineEAbility/SeraphineE": {
+		"mScriptName": "SeraphineE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						70.0,
+						100.0,
+						130.0,
+						160.0,
+						190.0,
+						220.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowValue",
+					"mValues": [
+						99.0,
+						99.0,
+						99.0,
+						99.0,
+						99.0,
+						99.0,
+						99.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.0,
+						1.100000023841858,
+						1.2000000476837158,
+						1.2999999523162842,
+						1.399999976158142,
+						1.5,
+						1.600000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionDamageMod",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"FinalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				11.0,
+				11.0,
+				10.5,
+				10.0,
+				9.5,
+				9.0,
+				9.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveAbility/SeraphinePassive": {
+		"mScriptName": "SeraphinePassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "EchoCastDelay",
+					"mValues": [
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AutoAPRatio",
+					"mValues": [
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxNotes",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AllyNoteDamagePercent",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NoteDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusAARange",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DelayBetweenNoteCasts",
+					"mValues": [
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224,
+						0.07500000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NoteRadius",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DelayBetweenNoteCastsDecayRate",
+					"mValues": [
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionDamageMultiplier",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NoteAPRatio",
+					"mValues": [
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"AutoDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStartValue": 4.0,
+							"mEndValue": 25.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mDataValue": "NoteAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveAttack": {
+		"mScriptName": "SeraphinePassiveAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveEcho": {
+		"mScriptName": "SeraphinePassiveEcho",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveEchoStage1": {
+		"mScriptName": "SeraphinePassiveEchoStage1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveEchoStage2": {
+		"mScriptName": "SeraphinePassiveEchoStage2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveNotes": {
+		"mScriptName": "SeraphinePassiveNotes",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveNotesAARange": {
+		"mScriptName": "SeraphinePassiveNotesAARange",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveNotesBuff": {
+		"mScriptName": "SeraphinePassiveNotesBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveNotesMissileOrbitingAlly": {
+		"mScriptName": "SeraphinePassiveNotesMissileOrbitingAlly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveNotesMissileTarget1": {
+		"mScriptName": "SeraphinePassiveNotesMissileTarget1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveNotesMissileTarget2": {
+		"mScriptName": "SeraphinePassiveNotesMissileTarget2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphinePassiveNotesMissileToAlly": {
+		"mScriptName": "SeraphinePassiveNotesMissileToAlly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineQAbility/SeraphineQ": {
+		"mScriptName": "SeraphineQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						35.0,
+						60.0,
+						85.0,
+						110.0,
+						135.0,
+						160.0,
+						185.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExecuteThreshold",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageAmp",
+					"mValues": [
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ExplosionDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalEmpoweredDamage": {
+					"mMultiplier": {
+						"mNumber": 1.600000023841858,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "ExplosionDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				6.0
+			],
+			"mana": [
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineRAbility/SeraphineR": {
+		"mScriptName": "SeraphineR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RChannelDuration",
+					"mValues": [
+						1.0,
+						1.25,
+						1.5,
+						1.75,
+						2.0,
+						2.25,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "R1BaseDamage",
+					"mValues": [
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0,
+						350.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "R1APRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RRange",
+					"mValues": [
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMinSlow",
+					"mValues": [
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMaxSlow",
+					"mValues": [
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"R1TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "R1BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "R1APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				160.0,
+				160.0,
+				140.0,
+				120.0,
+				120.0,
+				120.0,
+				120.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineRPostCast": {
+		"mScriptName": "SeraphineRPostCast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineSkin01MusicManager": {
+		"mScriptName": "SeraphineSkin01MusicManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineSkin02MusicManager": {
+		"mScriptName": "SeraphineSkin02MusicManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineSkin03MusicManager": {
+		"mScriptName": "SeraphineSkin03MusicManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineW2HealMissile": {
+		"mScriptName": "SeraphineW2HealMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineW2Warning": {
+		"mScriptName": "SeraphineW2Warning",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineWAbility/SeraphineW": {
+		"mScriptName": "SeraphineW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldStrength",
+					"mValues": [
+						40.0,
+						60.0,
+						80.0,
+						100.0,
+						120.0,
+						140.0,
+						160.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldAPRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WMSBonus",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WMSBonusAPRatio",
+					"mValues": [
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503,
+						0.00019999999494757503
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HasteValueForAllies",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WMissingHPBase",
+					"mValues": [
+						2.5,
+						3.0,
+						3.5,
+						4.0,
+						4.5,
+						5.0,
+						5.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WMissingHPPer100AP",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WHealSplitDelay",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldAmpForSeraphine",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalShieldStrength": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldStrength",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "ShieldAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"WMSBonusTotal": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "WMSBonus",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "WMSBonusAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"WMissingHPHeal": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "WMissingHPBase",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"HasteValueAllies": {
+					"mMultiplier": {
+						"mDataValue": "HasteValueForAllies",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "WMSBonusTotal",
+					"__type": "GameCalculationModified"
+				},
+				"ShieldValueSeraphine": {
+					"mMultiplier": {
+						"mDataValue": "ShieldAmpForSeraphine",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "TotalShieldStrength",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				90.0
+			]
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineWCast": {
+		"mScriptName": "SeraphineWCast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineWCastEcho": {
+		"mScriptName": "SeraphineWCastEcho",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			]
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineWHaste": {
+		"mScriptName": "SeraphineWHaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Seraphine/Spells/SeraphineWShield": {
+		"mScriptName": "SeraphineWShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

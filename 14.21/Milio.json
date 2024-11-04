@@ -1,0 +1,681 @@
+{
+	"Characters/Milio/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/CharacterRecords/SLIME": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/CharacterRecords/URF": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioBasicAttack": {
+		"mScriptName": "MilioBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioBasicAttack2": {
+		"mScriptName": "MilioBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioCritAttack": {
+		"mScriptName": "MilioCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioEAbility/MilioE": {
+		"mScriptName": "MilioE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MoveSpeedAmount",
+					"mValues": [
+						0.10000000149011612,
+						0.11999999731779099,
+						0.14000000059604645,
+						0.1599999964237213,
+						0.18000000715255737,
+						0.20000000298023224,
+						0.2199999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldBase",
+					"mValues": [
+						15.0,
+						45.0,
+						75.0,
+						105.0,
+						135.0,
+						165.0,
+						195.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DecayDelay",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ShieldCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"mana": [
+				50.0,
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Milio/Spells/MilioPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioQAbility/MilioQ": {
+		"mScriptName": "MilioQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929,
+						0.6000000238418579,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FallDamage",
+					"mValues": [
+						20.0,
+						80.0,
+						140.0,
+						200.0,
+						260.0,
+						320.0,
+						380.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FallTime",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FallRadius",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackDistance",
+					"mValues": [
+						140.0,
+						140.0,
+						140.0,
+						140.0,
+						140.0,
+						140.0,
+						140.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackMinionDistance",
+					"mValues": [
+						340.0,
+						340.0,
+						340.0,
+						340.0,
+						340.0,
+						340.0,
+						340.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ImpactAdjustment",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExtraVisionDuration",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionFallRadius",
+					"mValues": [
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionFallTime",
+					"mValues": [
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RefundRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "FallDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.2000000476837158,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SlowAmountPercent": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SlowAmount",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.0005000000237487257,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": null,
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Milio/Spells/MilioRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioRAbility/MilioR": {
+		"mScriptName": "MilioR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "HealBase",
+					"mValues": [
+						50.0,
+						150.0,
+						250.0,
+						350.0,
+						450.0,
+						550.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TenacityDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TenacityAmount",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealFXDelay",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"HealCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "HealBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.7129999995231628,
+			"cooldownTime": [
+				160.0,
+				160.0,
+				145.0,
+				130.0,
+				70.0,
+				40.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Milio/Spells/MilioWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Milio/Spells/MilioWAbility/MilioW": {
+		"mScriptName": "MilioW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ZoneDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Radius",
+					"mValues": [
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RangePctIncrease",
+					"mValues": [
+						0.07500000298023224,
+						0.10000000149011612,
+						0.125,
+						0.15000000596046448,
+						0.17499999701976776,
+						0.20000000298023224,
+						0.22499999403953552
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealFrequencySeconds",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalHealingOverTime",
+					"mValues": [
+						50.0,
+						70.0,
+						90.0,
+						110.0,
+						130.0,
+						150.0,
+						170.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealAPRatio",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RangePercent": {
+					"mExpandedTooltipCalculationDisplay": 5,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "RangePctIncrease",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"HealingOverTime": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "TotalHealingOverTime",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "HealAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				29.0,
+				29.0,
+				27.0,
+				25.0,
+				23.0,
+				21.0,
+				19.0
+			],
+			"mana": [
+				90.0,
+				100.0,
+				110.0,
+				120.0,
+				130.0,
+				140.0
+			]
+		}
+	},
+	"Characters/Milio/Spells/MilioWAbility/MilioWRetarget": {
+		"mScriptName": "MilioWRetarget",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"mana": null
+		}
+	}
+}

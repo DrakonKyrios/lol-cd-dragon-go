@@ -1,0 +1,1052 @@
+{
+	"Characters/Thresh/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshBasicAttack": {
+		"mScriptName": "ThreshBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshBasicAttack1M": {
+		"mScriptName": "ThreshBasicAttack1M",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshBasicAttack1S": {
+		"mScriptName": "ThreshBasicAttack1S",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshBasicAttack2M": {
+		"mScriptName": "ThreshBasicAttack2M",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshBasicAttack2S": {
+		"mScriptName": "ThreshBasicAttack2S",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility/ThreshE": {
+		"mScriptName": "ThreshE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PassiveADRatioTT",
+					"mValues": [
+						0.5,
+						0.800000011920929,
+						1.100000023841858,
+						1.399999976158142,
+						1.7000000476837158,
+						2.0,
+						2.299999952316284
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveADRatio",
+					"mValues": [
+						50.0,
+						80.0,
+						110.0,
+						140.0,
+						170.0,
+						200.0,
+						230.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PAttackDamageMin": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mBuffName": "{5fbfbf13}",
+							"mIconKey": "%i:threshScalingIcon%",
+							"mCoefficient": 1.5,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PAttackDamageMax": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mBuffName": "{5fbfbf13}",
+							"mIconKey": "%i:threshScalingIcon%",
+							"mCoefficient": 1.5,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "PassiveADRatioTT",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				12.25,
+				11.5,
+				10.75,
+				10.0,
+				9.25
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility/ThreshEMissile1": {
+		"mScriptName": "ThreshEMissile1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive": {
+		"mScriptName": "ThreshEPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive1": {
+		"mScriptName": "ThreshEPassive1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive2": {
+		"mScriptName": "ThreshEPassive2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive3": {
+		"mScriptName": "ThreshEPassive3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility/ThreshEPassive4": {
+		"mScriptName": "ThreshEPassive4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshEAbility/ThreshEStun": {
+		"mScriptName": "ThreshEStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshIdleLanternVFX": {
+		"mScriptName": "ThreshIdleLanternVFX",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshIdleLanternVFXFull": {
+		"mScriptName": "ThreshIdleLanternVFXFull",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshPassiveSoulsAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSouls": {
+		"mScriptName": "ThreshPassiveSouls",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StatValuePerSoul",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SoulsToGainOnPickUp",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"CurrentSoulBonus": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mBuffName": "{5fbfbf13}",
+							"mIconKey": "%i:threshScalingIcon%",
+							"mDataValue": "StatValuePerSoul",
+							"__type": "BuffCounterByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshPassiveSoulsAbility/ThreshPassiveSoulsGain": {
+		"mScriptName": "ThreshPassiveSoulsGain",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshPassiveSoulsVlad": {
+		"mScriptName": "ThreshPassiveSoulsVlad",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshQAbility/ThreshQ": {
+		"mScriptName": "ThreshQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						50.0,
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TauntLength",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HitBonusCooldown",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				19.0,
+				19.0,
+				16.5,
+				14.0,
+				11.5,
+				9.0,
+				9.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshQAbility/ThreshQInternal": {
+		"mScriptName": "ThreshQInternal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshQAbility/ThreshQLeap": {
+		"mScriptName": "ThreshQLeap",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshQAbility/ThreshQMissile": {
+		"mScriptName": "ThreshQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshQAbility/ThreshQPullMissile": {
+		"mScriptName": "ThreshQPullMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshQAbility/ThreshQSelfRoot": {
+		"mScriptName": "ThreshQSelfRoot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.2418999969959259,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0,
+				130.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshRPentaAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshRPentaAbility/ThreshRPenta": {
+		"mScriptName": "ThreshRPenta",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ThreshRCageRadius",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThreshRWallThickness",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThreshRWallLength",
+					"mValues": [
+						470.2279968261719,
+						470.2279968261719,
+						470.2279968261719,
+						470.2279968261719,
+						470.2279968261719,
+						470.2279968261719,
+						470.2279968261719
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.44999998807907104,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshRTrigger1": {
+		"mScriptName": "ThreshRTrigger1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshRTrigger2": {
+		"mScriptName": "ThreshRTrigger2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshRTrigger3": {
+		"mScriptName": "ThreshRTrigger3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshRTrigger4": {
+		"mScriptName": "ThreshRTrigger4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshRTrigger5": {
+		"mScriptName": "ThreshRTrigger5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshRunCycleManager": {
+		"mScriptName": "ThreshRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshWAbility/ThreshW": {
+		"mScriptName": "ThreshW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShieldPerSoul",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LanternDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseShieldValue",
+					"mValues": [
+						30.0,
+						50.0,
+						70.0,
+						90.0,
+						110.0,
+						130.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalShield": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseShieldValue",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mBuffName": "{5fbfbf13}",
+							"mIconKey": "%i:threshScalingIcon%",
+							"mDataValue": "ShieldPerSoul",
+							"__type": "BuffCounterByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				21.0,
+				21.0,
+				20.0,
+				19.0,
+				18.0,
+				17.0,
+				16.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternIn": {
+		"mScriptName": "ThreshWLanternIn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternOut": {
+		"mScriptName": "ThreshWLanternOut",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternReturn": {
+		"mScriptName": "ThreshWLanternReturn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshWAbility/ThreshWLanternVisibility": {
+		"mScriptName": "ThreshWLanternVisibility",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Thresh/Spells/ThreshWAbility/ThreshWShield": {
+		"mScriptName": "ThreshWShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": [
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0
+			]
+		}
+	}
+}

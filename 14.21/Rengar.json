@@ -1,0 +1,1389 @@
+{
+	"Characters/Rengar/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/Rengar9StackBuff": {
+		"mScriptName": "Rengar9StackBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarBasicAttack": {
+		"mScriptName": "RengarBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarBasicAttack2": {
+		"mScriptName": "RengarBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarBasicAttack3": {
+		"mScriptName": "RengarBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarBushSpeedBonus": {
+		"mScriptName": "RengarBushSpeedBonus",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarCritAttack": {
+		"mScriptName": "RengarCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarEAbility/RengarE": {
+		"mScriptName": "RengarE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RevealDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalEmpoweredDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 50.0,
+							"mInitialBonusPerLevel": 15.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarEAbility/RengarEMis": {
+		"mScriptName": "RengarEMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarEEmpAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarEEmpAbility/RengarEEmp": {
+		"mScriptName": "RengarEEmp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.4000000059604645,
+				0.4000000059604645,
+				0.4000000059604645,
+				0.4000000059604645,
+				0.4000000059604645,
+				0.4000000059604645,
+				0.4000000059604645
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarEEmpAbility/RengarEEmpMis": {
+		"mScriptName": "RengarEEmpMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarEFinalMAX": {
+		"mScriptName": "RengarEFinalMAX",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarFerocityManagerInCombat": {
+		"mScriptName": "RengarFerocityManagerInCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarInCombat": {
+		"mScriptName": "RengarInCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarNewPassive": {
+		"mScriptName": "RengarNewPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarNewPassiveBuffDash": {
+		"mScriptName": "RengarNewPassiveBuffDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarOutOfCombat": {
+		"mScriptName": "RengarOutOfCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveAbility/RengarPassive": {
+		"mScriptName": "RengarPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxFerocity",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InCombatTimer",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InCombatTimerVisual",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EmpoweredMSDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RengarPassiveRangeIncrease",
+					"mValues": [
+						620.0,
+						620.0,
+						620.0,
+						620.0,
+						620.0,
+						620.0,
+						620.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LeapFerocityGeneration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EmpoweredMS": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.30000001192092896,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 19,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 25,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBonetoothBuff": {
+		"mScriptName": "RengarPassiveBonetoothBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBonetoothBuff1": {
+		"mScriptName": "RengarPassiveBonetoothBuff1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBonetoothBuff2": {
+		"mScriptName": "RengarPassiveBonetoothBuff2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBonetoothBuff3": {
+		"mScriptName": "RengarPassiveBonetoothBuff3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBonetoothBuff4": {
+		"mScriptName": "RengarPassiveBonetoothBuff4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBonetoothBuff5": {
+		"mScriptName": "RengarPassiveBonetoothBuff5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBonetoothBuffKhazix": {
+		"mScriptName": "RengarPassiveBonetoothBuffKhazix",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBonetoothManager": {
+		"mScriptName": "RengarPassiveBonetoothManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBuff": {
+		"mScriptName": "RengarPassiveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBuffDash": {
+		"mScriptName": "RengarPassiveBuffDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveBuffDashAADummy": {
+		"mScriptName": "RengarPassiveBuffDashAADummy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveEmpowered": {
+		"mScriptName": "RengarPassiveEmpowered",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarPassiveEmpoweredMS": {
+		"mScriptName": "RengarPassiveEmpoweredMS",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQ2": {
+		"mScriptName": "RengarQ2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQ2Emp": {
+		"mScriptName": "RengarQ2Emp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQ2Sound": {
+		"mScriptName": "RengarQ2Sound",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQAbility/RengarQ": {
+		"mScriptName": "RengarQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseADRatio",
+					"mValues": [
+						-0.03750000149011612,
+						0.0,
+						0.03750000149011612,
+						0.07500000298023224,
+						0.11249999701976776,
+						0.15000000596046448,
+						0.1875
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritRatio",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EmpoweredADRatio",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritScalingRatio",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalEmpoweredADRatio",
+					"mValues": [
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalADRatio",
+					"mValues": [
+						0.9624999761581421,
+						1.0,
+						1.037500023841858,
+						1.0750000476837158,
+						1.1124999523162842,
+						1.149999976158142,
+						1.1875
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TowerMod",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "QCritDamageScalar",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EmpoweredQdamageTT": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 30.0,
+							"mInitialBonusPerLevel": 15.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 9,
+									"mBonusPerLevelAtAndAfter": 10.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "TotalEmpoweredADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpoweredQAS": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 50.0,
+							"mInitialBonusPerLevel": 3.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalDamageTT": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "TotalADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{c285d829}": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 30.0,
+							"mInitialBonusPerLevel": 15.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 9,
+									"mBonusPerLevelAtAndAfter": 10.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "EmpoweredADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{e29bb654}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "BaseADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"CritDamageScalar": {
+					"mFormulaParts": [
+						{
+							"mStat": 8,
+							"mDataValue": "CritScalingRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQAbility/RengarQAttack": {
+		"mScriptName": "RengarQAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQAbility/RengarQEmp": {
+		"mScriptName": "RengarQEmp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQAbility/RengarQEmpASBuff": {
+		"mScriptName": "RengarQEmpASBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQAbility/RengarQEmpAttack": {
+		"mScriptName": "RengarQEmpAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQEmpowered": {
+		"mScriptName": "RengarQEmpowered",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.20000000298023224,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarQSound": {
+		"mScriptName": "RengarQSound",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarRAbility/RengarR": {
+		"mScriptName": "RengarR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StealthDuration",
+					"mValues": [
+						8.0,
+						12.0,
+						16.0,
+						20.0,
+						24.0,
+						28.0,
+						32.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EnemyDetectionRange",
+					"mValues": [
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SelfVisionRange",
+					"mValues": [
+						2000.0,
+						2500.0,
+						3000.0,
+						3500.0,
+						4000.0,
+						4500.0,
+						5000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SelfRevealRange",
+					"mValues": [
+						750.0,
+						750.0,
+						750.0,
+						750.0,
+						750.0,
+						750.0,
+						750.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StealthMS",
+					"mValues": [
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FadeTime",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ArmorShred",
+					"mValues": [
+						6.0,
+						12.0,
+						18.0,
+						24.0,
+						30.0,
+						36.0,
+						42.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ArmorShredDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LeapRange",
+					"mValues": [
+						725.0,
+						725.0,
+						725.0,
+						725.0,
+						725.0,
+						725.0,
+						725.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BonusDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				110.0,
+				110.0,
+				100.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarRBuff": {
+		"mScriptName": "RengarRBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarRLeap": {
+		"mScriptName": "RengarRLeap",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				130.0,
+				130.0,
+				100.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarRShred": {
+		"mScriptName": "RengarRShred",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarRSpeed": {
+		"mScriptName": "RengarRSpeed",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				175.0,
+				140.0,
+				105.0,
+				70.0,
+				11.0,
+				11.0,
+				11.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarWAbility/RengarW": {
+		"mScriptName": "RengarW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						20.0,
+						50.0,
+						80.0,
+						110.0,
+						140.0,
+						170.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamagePercentageHealed",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EmpoweredAPRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BonusMonsterDamage": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 65.0,
+							"mEndValue": 130.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamageEmpowered": {
+					"mFormulaParts": [
+						{
+							"mValues": [
+								0.0,
+								50.0,
+								60.0,
+								70.0,
+								80.0,
+								90.0,
+								100.0,
+								110.0,
+								120.0,
+								130.0,
+								140.0,
+								150.0,
+								160.0,
+								170.0,
+								180.0,
+								190.0,
+								200.0,
+								210.0,
+								220.0,
+								230.0,
+								240.0,
+								250.0,
+								260.0,
+								270.0,
+								280.0,
+								290.0,
+								300.0,
+								310.0,
+								320.0,
+								330.0,
+								340.0
+							],
+							"__type": "ByCharLevelFormulaCalculationPart"
+						},
+						{
+							"mDataValue": "EmpoweredAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rengar/Spells/RengarWAbility/RengarWEmp": {
+		"mScriptName": "RengarWEmp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"mana": null
+		}
+	}
+}

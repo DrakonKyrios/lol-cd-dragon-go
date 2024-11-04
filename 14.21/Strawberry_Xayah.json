@@ -1,0 +1,563 @@
+{
+	"Characters/Strawberry_Xayah/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Spells/Strawberry_XayahEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Spells/Strawberry_XayahEAbility/Strawberry_XayahE": {
+		"mScriptName": "Strawberry_XayahE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FeatherFalloff",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FeatherThreshold",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RootDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritRatio",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FeatherReturnDelay",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BaseDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 60.0,
+							"mInitialBonusPerLevel": 6.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Spells/Strawberry_XayahPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Spells/Strawberry_XayahPassiveAbility/Strawberry_XayahPassive": {
+		"mScriptName": "Strawberry_XayahPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CastsToProc",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritChance",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AbilityHaste",
+					"mValues": [
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatExpDamage",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamagePerHit": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 5.0,
+							"mInitialBonusPerLevel": 1.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ExpMissileDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "FlatExpDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mLevel1Value": 1.0,
+							"mInitialBonusPerLevel": 2.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"GoldMissileDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "FlatExpDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "FlatExpDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mLevel1Value": 2.0,
+							"mInitialBonusPerLevel": 4.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Spells/Strawberry_XayahQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Spells/Strawberry_XayahQAbility/Strawberry_XayahAuto": {
+		"mScriptName": "Strawberry_XayahAuto",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						55.0,
+						70.0,
+						85.0,
+						100.0,
+						115.0,
+						130.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEDamagePercent",
+					"mValues": [
+						0.4000000059604645,
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929,
+						0.8999999761581421,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissileCount",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FeatherDurationFlat",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						10.0,
+						10.0,
+						12.0,
+						12.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FeatherSpacingMin",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FeatherSpacingMax",
+					"mValues": [
+						65.0,
+						65.0,
+						65.0,
+						65.0,
+						65.0,
+						65.0,
+						65.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxLevel",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EvolveRakanShield",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EvolveShieldDurationFlat",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{11d2d758}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "FeatherDurationFlat",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"UseNewStats": true,
+							"statType": 9,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{11fbb589}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "EvolveShieldDurationFlat",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"UseNewStats": true,
+							"statType": 9,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{27b5f82c}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MissileCount",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"UseNewStats": true,
+							"statType": 7,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				3.0,
+				2.5,
+				2.25,
+				2.25,
+				2.0,
+				2.0,
+				2.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Spells/Strawberry_XayahRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Xayah/Spells/Strawberry_XayahRAbility/Strawberry_XayahR": {
+		"mScriptName": "Strawberry_XayahR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RAttackDelay",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RUntargetable",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMoveSpeedPercent",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseFeatherCount",
+					"mValues": [
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 250.0,
+							"mInitialBonusPerLevel": 25.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{05e6d82f}": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 7,
+							"mCoefficient": 3.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mDataValue": "BaseFeatherCount",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": null
+		}
+	}
+}

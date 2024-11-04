@@ -1,0 +1,682 @@
+{
+	"Characters/Orianna/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaDetonateCommandAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaDetonateCommandAbility/OrianaDetonateCommand": {
+		"mScriptName": "OrianaDetonateCommand",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						100.0,
+						250.0,
+						400.0,
+						550.0,
+						700.0,
+						850.0,
+						1000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoERadius",
+					"mValues": [
+						415.0,
+						415.0,
+						415.0,
+						415.0,
+						415.0,
+						415.0,
+						415.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.949999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				110.0,
+				110.0,
+				95.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Orianna/Spells/OrianaDetonateCommandAbility/OrianaStun": {
+		"mScriptName": "OrianaStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaDissonanceCommandAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaDissonanceCommandAbility/OrianaDissonanceAlly": {
+		"mScriptName": "OrianaDissonanceAlly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaDissonanceCommandAbility/OrianaDissonanceCommand": {
+		"mScriptName": "OrianaDissonanceCommand",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HasteAmount",
+					"mValues": [
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FieldDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAndHasteDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						20.0,
+						70.0,
+						120.0,
+						170.0,
+						220.0,
+						270.0,
+						320.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Orianna/Spells/OrianaDissonanceCommandAbility/OrianaDissonanceEnemy": {
+		"mScriptName": "OrianaDissonanceEnemy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaGhost": {
+		"mScriptName": "OrianaGhost",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaGhostSelf": {
+		"mScriptName": "OrianaGhostSelf",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaIzunaCommandAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaIzunaCommandAbility/OrianaIzuna": {
+		"mScriptName": "OrianaIzuna",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaIzunaCommandAbility/OrianaIzunaCommand": {
+		"mScriptName": "OrianaIzunaCommand",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.550000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MinimumDamageTooltip": {
+					"mMultiplier": {
+						"mPart1": {
+							"mNumber": 0.009999999776482582,
+							"__type": "NumberCalculationPart"
+						},
+						"mPart2": {
+							"mEffectIndex": 3,
+							"__type": "EffectValueCalculationPart"
+						},
+						"__type": "ProductOfSubPartsCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "TotalDamageTooltip",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.75,
+				6.0,
+				5.25,
+				4.5,
+				3.75,
+				3.0,
+				3.0
+			],
+			"mana": [
+				30.0,
+				35.0,
+				40.0,
+				45.0,
+				50.0,
+				55.0
+			]
+		}
+	},
+	"Characters/Orianna/Spells/OrianaRedactCommandAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaRedactCommandAbility/OrianaRedact": {
+		"mScriptName": "OrianaRedact",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaRedactCommandAbility/OrianaRedactCommand": {
+		"mScriptName": "OrianaRedactCommand",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 3,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalShieldTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Orianna/Spells/OrianaRedactCommandAbility/OrianaRedactShield": {
+		"mScriptName": "OrianaRedactShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OrianaReturn": {
+		"mScriptName": "OrianaReturn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OriannaBasicAttack": {
+		"mScriptName": "OriannaBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.26660001277923584,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OriannaBasicAttack2": {
+		"mScriptName": "OriannaBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.26660001277923584,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OriannaBasicAttack3": {
+		"mScriptName": "OriannaBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.26660001277923584,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OriannaCritAttack": {
+		"mScriptName": "OriannaCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.26660001277923584,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OriannaPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OriannaPAbility/OriannaP": {
+		"mScriptName": "OriannaP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StackMult",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StackCount",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StackDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStartValue": 10.0,
+							"mEndValue": 50.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"StackDamage": {
+					"mMultiplier": {
+						"mDataValue": "StackMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"StackDamageMax": {
+					"mMultiplier": {
+						"mPart1": {
+							"mDataValue": "StackMult",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						"mPart2": {
+							"mNumber": 2.0,
+							"__type": "NumberCalculationPart"
+						},
+						"__type": "ProductOfSubPartsCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OriannaPAbility/OriannaPSelf": {
+		"mScriptName": "OriannaPSelf",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Orianna/Spells/OriannaPAbility/OriannaPStack": {
+		"mScriptName": "OriannaPStack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

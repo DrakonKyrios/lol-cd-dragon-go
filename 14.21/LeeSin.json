@@ -1,0 +1,693 @@
+{
+	"Characters/LeeSin/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinBasicAttack": {
+		"mScriptName": "LeeSinBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinBasicAttack2": {
+		"mScriptName": "LeeSinBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinBasicAttack3": {
+		"mScriptName": "LeeSinBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinBasicAttack4": {
+		"mScriptName": "LeeSinBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinCritAttack": {
+		"mScriptName": "LeeSinCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinEOneAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinEOneAbility/LeeSinEOne": {
+		"mScriptName": "LeeSinEOne",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						5.0,
+						20.0,
+						35.0,
+						50.0,
+						65.0,
+						80.0,
+						95.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "E1Damage",
+					"mValues": [
+						10.0,
+						35.0,
+						60.0,
+						85.0,
+						110.0,
+						135.0,
+						160.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ReactivateTime",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"InitialDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "E1Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinPassiveAbility/LeeSinPassive": {
+		"mScriptName": "LeeSinPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PassiveAS",
+					"mValues": [
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FirstHitEnergyMult",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EnergyReturn": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 10.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TTFirstHitEnergy": {
+					"mMultiplier": {
+						"mDataValue": "FirstHitEnergyMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "EnergyReturn",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinQOneAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinQOneAbility/LeeSinQOne": {
+		"mScriptName": "LeeSinQOne",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Q1BaseDamage",
+					"mValues": [
+						55.0,
+						55.0,
+						80.0,
+						105.0,
+						130.0,
+						155.0,
+						155.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Q2BaseDamage",
+					"mValues": [
+						55.0,
+						55.0,
+						80.0,
+						105.0,
+						130.0,
+						155.0,
+						155.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Q2ADRatio",
+					"mValues": [
+						1.149999976158142,
+						1.149999976158142,
+						1.149999976158142,
+						1.149999976158142,
+						1.149999976158142,
+						1.149999976158142,
+						1.149999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Q2MaxMissingHealthMod",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ReactivateTime",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CherryBonusHaste",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1350.0,
+						1350.0,
+						1350.0,
+						1350.0,
+						1350.0,
+						1350.0,
+						1350.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"InitialDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "Q1BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.149999976158142,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RecastDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "Q2BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "Q2ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpoweredDamage": {
+					"mMultiplier": {
+						"mNumber": 2.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "RecastDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinRAbility/LeeSinR": {
+		"mScriptName": "LeeSinR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-50.0,
+						175.0,
+						400.0,
+						625.0,
+						850.0,
+						1075.0,
+						1300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentHPCarryThrough",
+					"mValues": [
+						12.0,
+						12.0,
+						15.0,
+						18.0,
+						21.0,
+						24.0,
+						27.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KickDistance",
+					"mValues": [
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 2.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				110.0,
+				110.0,
+				85.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinWOneAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/LeeSin/Spells/LeeSinWOneAbility/LeeSinWOne": {
+		"mScriptName": "LeeSinWOne",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "LifestealAndSpellVamp",
+					"mValues": [
+						6.0,
+						10.0,
+						14.0,
+						18.0,
+						22.0,
+						26.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldValue",
+					"mValues": [
+						25.0,
+						70.0,
+						115.0,
+						160.0,
+						205.0,
+						250.0,
+						295.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1350.0,
+						1350.0,
+						1350.0,
+						1350.0,
+						1350.0,
+						1350.0,
+						1350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "W1ReactivateTime",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "W1CooldownRecovered",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LifestealAndSpellVampTime",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ShieldAmount": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldValue",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	}
+}

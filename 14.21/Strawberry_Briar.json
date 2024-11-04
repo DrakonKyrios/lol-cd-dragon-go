@@ -1,0 +1,736 @@
+{
+	"Characters/Strawberry_Briar/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Spells/Strawberry_BriarEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Spells/Strawberry_BriarEAbility/Strawberry_BriarW": {
+		"mScriptName": "Strawberry_BriarW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TauntRange",
+					"mValues": [
+						10000.0,
+						10000.0,
+						10000.0,
+						10000.0,
+						10000.0,
+						10000.0,
+						10000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinDashDistance",
+					"mValues": [
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDashDistance",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxRangeOverWalls",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BerserkDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BerserkAS",
+					"mValues": [
+						0.4000000059604645,
+						0.5400000214576721,
+						0.6800000071525574,
+						0.8199999928474426,
+						0.9599999785423279,
+						1.100000023841858,
+						1.2400000095367432
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BerserkMS",
+					"mValues": [
+						0.15000000596046448,
+						0.23999999463558197,
+						0.33000001311302185,
+						0.41999998688697815,
+						0.5099999904632568,
+						0.6000000238418579,
+						0.6899999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackBonusDamage",
+					"mValues": [
+						-10.0,
+						5.0,
+						20.0,
+						35.0,
+						50.0,
+						65.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackPercentMissingHealth",
+					"mValues": [
+						9.0,
+						9.0,
+						9.0,
+						9.0,
+						9.0,
+						9.0,
+						9.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackHealPercent",
+					"mValues": [
+						0.20000000298023224,
+						0.24000000953674316,
+						0.2800000011920929,
+						0.3199999928474426,
+						0.36000001430511475,
+						0.4000000059604645,
+						0.4399999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxMonsterDamage",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEAttackRadius",
+					"mValues": [
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEAttackDamagePercent",
+					"mValues": [
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929,
+						0.8999999761581421,
+						1.0,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterAndMinionPercentMod",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OmnivampPercent",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DRPercent",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalAttackBonusDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "AttackBonusDamage",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalAoEDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mDataValue": "AoEAttackDamagePercent",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalAttackPercentMissingHealth": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "AttackPercentMissingHealth",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.02500000037252903,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"AttackMaxHPHeal": {
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mCoefficient": 0.05000000074505806,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Spells/Strawberry_BriarPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Spells/Strawberry_BriarPAbility/Strawberry_BriarP": {
+		"mScriptName": "Strawberry_BriarP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TotalMovespeedPercentIncrease",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalDamageInc",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Spells/Strawberry_BriarQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Spells/Strawberry_BriarQAbility/Strawberry_BriarQ": {
+		"mScriptName": "Strawberry_BriarQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						25.0,
+						55.0,
+						85.0,
+						115.0,
+						145.0,
+						145.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShredDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedDuration",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedDamage",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxLevel",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseRange",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BriarAoEBooster",
+					"mValues": [
+						-0.10000000149011612,
+						0.0,
+						0.10000000149011612,
+						0.20000000298023224,
+						0.30000001192092896,
+						0.4000000059604645,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mCoefficient": 0.05000000074505806,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{ac3c3868}": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 5,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mDataValue": "BriarAoEBooster",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{927c48a5}": {
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mSpellCalculationKey": "{ac3c3868}",
+								"__type": "{f3cbe7b2}"
+							},
+							"mPart2": {
+								"mDataValue": "BaseRange",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				2.0,
+				2.0,
+				1.899999976158142,
+				1.7999999523162842,
+				1.7000000476837158,
+				1.600000023841858,
+				1.600000023841858
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Spells/Strawberry_BriarRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Briar/Spells/Strawberry_BriarRAbility/Strawberry_BriarR": {
+		"mScriptName": "Strawberry_BriarR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						50.0,
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HuntDuration",
+					"mValues": [
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FearDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FleeSlowPercent",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoERadius",
+					"mValues": [
+						575.0,
+						575.0,
+						575.0,
+						575.0,
+						575.0,
+						575.0,
+						575.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinDashSpeed",
+					"mValues": [
+						2500.0,
+						2500.0,
+						2500.0,
+						2500.0,
+						2500.0,
+						2500.0,
+						2500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDashSpeed",
+					"mValues": [
+						5000.0,
+						5000.0,
+						5000.0,
+						5000.0,
+						5000.0,
+						5000.0,
+						5000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "IdealDashTime",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LifestealPercent",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ResistADRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExtraMoveSpeedPercent",
+					"mValues": [
+						0.0,
+						0.10000000149011612,
+						0.20000000298023224,
+						0.30000001192092896,
+						0.4000000059604645,
+						0.5,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageBonusADRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 150.0,
+							"mInitialBonusPerLevel": 10.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalResists": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mDataValue": "ResistADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				120.0,
+				120.0,
+				120.0,
+				120.0,
+				120.0
+			],
+			"mana": null
+		}
+	}
+}

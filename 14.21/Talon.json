@@ -1,0 +1,907 @@
+{
+	"Characters/Talon/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonBasicAttack": {
+		"mScriptName": "TalonBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonBasicAttack2": {
+		"mScriptName": "TalonBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonCritAttack": {
+		"mScriptName": "TalonCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonEAbility/TalonE": {
+		"mScriptName": "TalonE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "WallCD",
+					"mValues": [
+						185.0,
+						160.0,
+						135.0,
+						110.0,
+						85.0,
+						60.0,
+						35.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonEAbility/TalonE2": {
+		"mScriptName": "TalonE2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonEAbility/TalonEHop": {
+		"mScriptName": "TalonEHop",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonPassiveAbility/TalonPassive": {
+		"mScriptName": "TalonPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MonsterMod",
+					"mValues": [
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StackDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusADRatio",
+					"mValues": [
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BleedDamage": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 80.0,
+							"mEndValue": 280.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonPassiveAbility/TalonPassiveAttack": {
+		"mScriptName": "TalonPassiveAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonPassiveAbility/TalonPassiveBleed": {
+		"mScriptName": "TalonPassiveBleed",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonPassiveAbility/TalonPassiveBuff": {
+		"mScriptName": "TalonPassiveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonPassiveAbility/TalonPassiveCooldown": {
+		"mScriptName": "TalonPassiveCooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonPassiveAbility/TalonPassiveStack": {
+		"mScriptName": "TalonPassiveStack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonQAbility/TalonQ": {
+		"mScriptName": "TalonQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						45.0,
+						65.0,
+						85.0,
+						105.0,
+						125.0,
+						145.0,
+						165.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusADRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EnhancedDamageMod",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CooldownRefund",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalHealing": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 9.0,
+							"mEndValue": 55.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"LeapDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"CriticalDamage": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mDataValue": "EnhancedDamageMod",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							{
+								"mStat": 8,
+								"mStatFormula": 2,
+								"mCoefficient": 1.0,
+								"__type": "StatByCoefficientCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "LeapDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				6.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Talon/Spells/TalonQAbility/TalonQAttack": {
+		"mScriptName": "TalonQAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Talon/Spells/TalonQAbility/TalonQDashAttack": {
+		"mScriptName": "TalonQDashAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Talon/Spells/TalonRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonRAbility/TalonR": {
+		"mScriptName": "TalonR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						45.0,
+						90.0,
+						135.0,
+						180.0,
+						225.0,
+						270.0,
+						315.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeed",
+					"mValues": [
+						0.25,
+						0.4000000059604645,
+						0.550000011920929,
+						0.699999988079071,
+						0.8500000238418579,
+						1.0,
+						1.149999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				80.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Talon/Spells/TalonRAbility/TalonRHaste": {
+		"mScriptName": "TalonRHaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonRAbility/TalonRMisOne": {
+		"mScriptName": "TalonRMisOne",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonRAbility/TalonRMisTwo": {
+		"mScriptName": "TalonRMisTwo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonRAbility/TalonRStealth": {
+		"mScriptName": "TalonRStealth",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonRAbility/TalonRToggle": {
+		"mScriptName": "TalonRToggle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonRakeMissileTwoDead": {
+		"mScriptName": "TalonRakeMissileTwoDead",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonShadowAssaultMisOneHalf": {
+		"mScriptName": "TalonShadowAssaultMisOneHalf",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonWAbility/TalonW": {
+		"mScriptName": "TalonW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "InitialBaseDamage",
+					"mValues": [
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ReturnBaseDamage",
+					"mValues": [
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0,
+						210.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MovespeedSlow",
+					"mValues": [
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929,
+						0.6000000238418579,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ReturnDelay",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterDamageMod",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalInitialDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "InitialBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalReturnDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ReturnBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.8999999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				8.5,
+				8.0,
+				7.5,
+				7.0,
+				7.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Talon/Spells/TalonWAbility/TalonWMissileOne": {
+		"mScriptName": "TalonWMissileOne",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Talon/Spells/TalonWAbility/TalonWMissileTwo": {
+		"mScriptName": "TalonWMissileTwo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

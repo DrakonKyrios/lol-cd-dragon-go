@@ -1,0 +1,603 @@
+{
+	"Characters/Tryndamere/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/Blood_Lust": {
+		"mScriptName": "Blood_Lust",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereBasicAttack": {
+		"mScriptName": "TryndamereBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereBasicAttack2": {
+		"mScriptName": "TryndamereBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereCritAttack": {
+		"mScriptName": "TryndamereCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereEAbility/TryndamereE": {
+		"mScriptName": "TryndamereE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						45.0,
+						75.0,
+						105.0,
+						135.0,
+						165.0,
+						195.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NonChampCDRefund",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChampCDRefund",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NonChampFuryGain",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChampFuryGain",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageAoE",
+					"mValues": [
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.2999999523162842,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamerePassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamerePassiveAbility/TryndamerePassive": {
+		"mScriptName": "TryndamerePassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CherryFuryModifier",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PassiveCritConversionTooltip": {
+					"mFormulaParts": [
+						{
+							"mNumber": 0.5,
+							"__type": "NumberCalculationPart"
+						}
+					],
+					"mPrecision": 2,
+					"__type": "GameCalculation"
+				},
+				"{dc63b617}": {
+					"mMultiplier": {
+						"mNumber": 0.10000000149011612,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.05000000074505806,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereQAbility/TryndamereQ": {
+		"mScriptName": "TryndamereQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseHealing",
+					"mValues": [
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusHealPerFury",
+					"mValues": [
+						0.05000000074505806,
+						0.5,
+						0.949999988079071,
+						1.399999976158142,
+						1.850000023841858,
+						2.299999952316284,
+						2.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatioPerFury",
+					"mValues": [
+						0.012000000104308128,
+						0.012000000104308128,
+						0.012000000104308128,
+						0.012000000104308128,
+						0.012000000104308128,
+						0.012000000104308128,
+						0.012000000104308128
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatAD",
+					"mValues": [
+						0.0,
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADPerOnePercentMissingHP",
+					"mValues": [
+						0.05000000074505806,
+						0.15000000596046448,
+						0.25,
+						0.3499999940395355,
+						0.44999998807907104,
+						0.550000011920929,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BaseHeal": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseHealing",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"HealPerFury": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BonusHealPerFury",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioPerFury",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereW": {
+		"mScriptName": "TryndamereW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ADReduction",
+					"mValues": [
+						-5.0,
+						-20.0,
+						-35.0,
+						-50.0,
+						-65.0,
+						-80.0,
+						-95.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPotency",
+					"mValues": [
+						-0.22499999403953552,
+						-0.30000001192092896,
+						-0.375,
+						-0.44999998807907104,
+						-0.5249999761581421,
+						-0.6000000238418579,
+						-0.675000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ReductionDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereWAttackDown": {
+		"mScriptName": "TryndamereWAttackDown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/TryndamereWAbility/TryndamereWSlow": {
+		"mScriptName": "TryndamereWSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/UndyingRageAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/UndyingRageAbility/UndyingRage": {
+		"mScriptName": "UndyingRage",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TryndRFuryGain",
+					"mValues": [
+						50.0,
+						50.0,
+						75.0,
+						100.0,
+						125.0,
+						150.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TryndRMinHealth",
+					"mValues": [
+						30.0,
+						30.0,
+						50.0,
+						70.0,
+						90.0,
+						110.0,
+						130.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TryndRDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/UndyingRageAbility/Undying_Rage": {
+		"mScriptName": "Undying_Rage",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Tryndamere/Spells/slash": {
+		"mScriptName": "slash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	}
+}

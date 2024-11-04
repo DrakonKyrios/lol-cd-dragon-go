@@ -1,0 +1,645 @@
+{
+	"Characters/Sejuani/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniBasicAttack": {
+		"mScriptName": "SejuaniBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniCritAttack": {
+		"mScriptName": "SejuaniCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniEAbility/SejuaniE": {
+		"mScriptName": "SejuaniE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PerChampionCD",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 3,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				1.5,
+				1.5,
+				1.5,
+				1.5,
+				1.5,
+				1.5,
+				1.5
+			],
+			"mana": [
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0
+			]
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniPassiveAbility/SejuaniPassive": {
+		"mScriptName": "SejuaniPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FrostArmorDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EpicMonsterCap",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusArmorRatio",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusMRRatio",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusArmorBase",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusMRBase",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentHPDamageBase",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PercentHPDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "PercentHPDamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalArmorTooltip": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BonusArmorBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 1,
+							"mStatFormula": 2,
+							"mDataValue": "BonusArmorRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalMRTooltip": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BonusMRBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 5,
+							"mStatFormula": 2,
+							"mDataValue": "BonusMRRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"FrostArmorOOC": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 12.0,
+							"mEndValue": 6.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniPassiveCD": {
+		"mScriptName": "SejuaniPassiveCD",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniPassiveDefense": {
+		"mScriptName": "SejuaniPassiveDefense",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniQAbility/SejuaniQ": {
+		"mScriptName": "SejuaniQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						90.0,
+						140.0,
+						190.0,
+						240.0,
+						290.0,
+						340.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				19.0,
+				19.0,
+				17.5,
+				16.0,
+				14.5,
+				13.0,
+				12.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				95.0
+			]
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniRAbility/SejuaniR": {
+		"mScriptName": "SejuaniR",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 7,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MinorDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				130.0,
+				110.0,
+				90.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniWAbility/SejuaniW": {
+		"mScriptName": "SejuaniW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamageOne",
+					"mValues": [
+						-5.0,
+						5.0,
+						15.0,
+						25.0,
+						35.0,
+						45.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamageTwo",
+					"mValues": [
+						-15.0,
+						5.0,
+						25.0,
+						45.0,
+						65.0,
+						85.0,
+						105.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatioOne",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatioTwo",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HPRatioOne",
+					"mValues": [
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HPRatioTwo",
+					"mValues": [
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"FirstHitDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageOne",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioOne",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mDataValue": "HPRatioOne",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SecondHitDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageTwo",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioTwo",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mDataValue": "HPRatioTwo",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				5.0
+			],
+			"mana": [
+				65.0,
+				65.0,
+				65.0,
+				65.0,
+				65.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Sejuani/Spells/SejuaniWDummy": {
+		"mScriptName": "SejuaniWDummy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

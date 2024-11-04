@@ -1,0 +1,547 @@
+{
+	"Characters/Morgana/CAC/Morgana_Conversation_Base": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaBasicAttack": {
+		"mScriptName": "MorganaBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaBasicAttack2": {
+		"mScriptName": "MorganaBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaCritAttack": {
+		"mScriptName": "MorganaCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaEAbility/MorganaE": {
+		"mScriptName": "MorganaE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShieldStrength",
+					"mValues": [
+						25.0,
+						80.0,
+						135.0,
+						190.0,
+						245.0,
+						300.0,
+						355.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalShieldStrength": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldStrength",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				26.0,
+				26.0,
+				23.5,
+				21.0,
+				18.5,
+				16.0,
+				16.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Morgana/Spells/MorganaPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaPassiveAbility/MorganaPassive": {
+		"mScriptName": "MorganaPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "HealPercent",
+					"mValues": [
+						18.0,
+						18.0,
+						18.0,
+						18.0,
+						18.0,
+						18.0,
+						18.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaQAbility/MorganaQ": {
+		"mScriptName": "MorganaQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						25.0,
+						80.0,
+						135.0,
+						190.0,
+						245.0,
+						300.0,
+						355.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RootDuration",
+					"mValues": [
+						1.75,
+						2.0,
+						2.25,
+						2.5,
+						2.75,
+						3.0,
+						3.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.8999999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": null,
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Morgana/Spells/MorganaRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaRAbility/MorganaR": {
+		"mScriptName": "MorganaR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						100.0,
+						175.0,
+						250.0,
+						325.0,
+						400.0,
+						475.0,
+						550.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChainDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						1.25,
+						1.5,
+						1.75,
+						2.0,
+						2.25,
+						2.5,
+						2.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HastePercent",
+					"mValues": [
+						-15.0,
+						10.0,
+						35.0,
+						60.0,
+						85.0,
+						110.0,
+						135.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				120.0,
+				110.0,
+				100.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Morgana/Spells/MorganaRAbility/MorganaRDebuff": {
+		"mScriptName": "MorganaRDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaRAbility/MorganaRVFXMis": {
+		"mScriptName": "MorganaRVFXMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Morgana/Spells/MorganaWAbility/MorganaW": {
+		"mScriptName": "MorganaW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						1.0,
+						12.0,
+						23.0,
+						34.0,
+						45.0,
+						56.0,
+						67.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TickRate",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissingHealthAmpPercent",
+					"mValues": [
+						1.7000000476837158,
+						1.7000000476837158,
+						1.7000000476837158,
+						1.7000000476837158,
+						1.7000000476837158,
+						1.7000000476837158,
+						1.7000000476837158
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDRefundPercent",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterMod",
+					"mValues": [
+						170.0,
+						170.0,
+						170.0,
+						170.0,
+						170.0,
+						170.0,
+						170.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalMinDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.17000000178813934,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				70.0,
+				85.0,
+				100.0,
+				115.0,
+				130.0,
+				145.0
+			]
+		}
+	}
+}

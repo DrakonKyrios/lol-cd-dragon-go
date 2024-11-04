@@ -1,0 +1,570 @@
+{
+	"Characters/Singed/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/FlingAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/FlingAbility/Fling": {
+		"mScriptName": "Fling",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"BaseDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.5,
+				9.0,
+				8.5,
+				8.0,
+				8.0
+			],
+			"mana": [
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0
+			]
+		}
+	},
+	"Characters/Singed/Spells/InsanityPotionAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/InsanityPotionAbility/InsanityPotion": {
+		"mScriptName": "InsanityPotion",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StatAmount",
+					"mValues": [
+						-5.0,
+						30.0,
+						65.0,
+						100.0,
+						135.0,
+						170.0,
+						205.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrievousAmount",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrievousDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Singed/Spells/MegaAdhesiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/MegaAdhesiveAbility/MegaAdhesive": {
+		"mScriptName": "MegaAdhesive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						45.0,
+						50.0,
+						55.0,
+						60.0,
+						65.0,
+						70.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WRadius",
+					"mValues": [
+						265.0,
+						265.0,
+						265.0,
+						265.0,
+						265.0,
+						265.0,
+						265.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DelayExecute",
+					"mValues": [
+						0.375,
+						0.375,
+						0.375,
+						0.375,
+						0.375,
+						0.375,
+						0.375
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				17.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				13.0
+			],
+			"mana": [
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Singed/Spells/PoisonTrailAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/PoisonTrailAbility/PoisonTrail": {
+		"mScriptName": "PoisonTrail",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamagePerSecond",
+					"mValues": [
+						10.0,
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatioPerSecond",
+					"mValues": [
+						0.42500001192092896,
+						0.42500001192092896,
+						0.42500001192092896,
+						0.42500001192092896,
+						0.42500001192092896,
+						0.42500001192092896,
+						0.42500001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ToggleCooldown",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CloudDuration",
+					"mValues": [
+						3.25,
+						3.25,
+						3.25,
+						3.25,
+						3.25,
+						3.25,
+						3.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PoisonDuration",
+					"mValues": [
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684,
+						2.0999999046325684
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TicksPerSecond",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamagePerSecond": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamagePerSecond",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioPerSecond",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ApproximateTotalDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 4.25,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "DamagePerSecond",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0
+			]
+		}
+	},
+	"Characters/Singed/Spells/SingedBasicAttack": {
+		"mScriptName": "SingedBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SingedBasicAttack2": {
+		"mScriptName": "SingedBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SingedCritAttack": {
+		"mScriptName": "SingedCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SingedPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SingedPAbility/SingedP": {
+		"mScriptName": "SingedP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MSPercent",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PerTargetCD",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TriggerArea",
+					"mValues": [
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SingedQPassive": {
+		"mScriptName": "SingedQPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SingedStatStonePoisonTracker": {
+		"mScriptName": "SingedStatStonePoisonTracker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SingedWParticleMissile": {
+		"mScriptName": "SingedWParticleMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SlipstreamCooldown": {
+		"mScriptName": "SlipstreamCooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Singed/Spells/SlipstreamMoveSpeedBuff": {
+		"mScriptName": "SlipstreamMoveSpeedBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

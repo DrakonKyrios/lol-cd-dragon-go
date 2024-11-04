@@ -1,0 +1,898 @@
+{
+	"Characters/Vi/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViBasicAttack": {
+		"mScriptName": "ViBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViBasicAttack2": {
+		"mScriptName": "ViBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViBasicAttack3": {
+		"mScriptName": "ViBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViCaitAgitate": {
+		"mScriptName": "ViCaitAgitate",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViCritAttack": {
+		"mScriptName": "ViCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViEAbility/ViE": {
+		"mScriptName": "ViE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": [
+				26.0,
+				32.0,
+				38.0,
+				44.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Vi/Spells/ViEArea": {
+		"mScriptName": "ViEArea",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViEAttack": {
+		"mScriptName": "ViEAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViEFx": {
+		"mScriptName": "ViEFx",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViEPunch": {
+		"mScriptName": "ViEPunch",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViOnTheCase": {
+		"mScriptName": "ViOnTheCase",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViPassiveAbility/ViPassive": {
+		"mScriptName": "ViPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDReductionOn3Hit",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalShield": {
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mCoefficient": 0.11999999731779099,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ShieldCooldown": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 16.0,
+							"mInitialBonusPerLevel": -0.5,
+							"mBreakpoints": [
+								{
+									"mLevel": 10,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 19,
+									"mAdditionalBonusAtThisLevel": -6.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViPassiveBuff": {
+		"mScriptName": "ViPassiveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViPassiveReady": {
+		"mScriptName": "ViPassiveReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViQAbility/ViQ": {
+		"mScriptName": "ViQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "KnockbackDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinDamage",
+					"mValues": [
+						20.0,
+						45.0,
+						70.0,
+						95.0,
+						120.0,
+						145.0,
+						170.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDamageMult",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionDamageMult",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinDashRange",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExtraDashRangeAtMaxCharge",
+					"mValues": [
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashWallCheating",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MinDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamageTooltip": {
+					"mMultiplier": {
+						"mDataValue": "MaxDamageMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				10.5,
+				9.0,
+				7.5,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Vi/Spells/ViQDash": {
+		"mScriptName": "ViQDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViQKnockback": {
+		"mScriptName": "ViQKnockback",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViQLaunch": {
+		"mScriptName": "ViQLaunch",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViQMissile": {
+		"mScriptName": "ViQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.4839000105857849,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViRAbility/ViR": {
+		"mScriptName": "ViR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RBaseSpeed",
+					"mValues": [
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RStunDuration",
+					"mValues": [
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						25.0,
+						150.0,
+						275.0,
+						400.0,
+						525.0,
+						650.0,
+						775.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondaryTargetDamageMultiplier",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondaryTargetKnockbackDistance",
+					"mValues": [
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondaryTargetStunDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondaryTargetKnockbackDuration",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RBonusADRatio",
+					"mValues": [
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "RBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SecondaryTargetDamage": {
+					"mMultiplier": {
+						"mDataValue": "SecondaryTargetDamageMultiplier",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "Damage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				140.0,
+				140.0,
+				115.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": [
+				100.0,
+				125.0,
+				150.0,
+				100.0,
+				100.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Vi/Spells/ViRDunk": {
+		"mScriptName": "ViRDunk",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				11.0,
+				10.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViRHit": {
+		"mScriptName": "ViRHit",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViRKnockback": {
+		"mScriptName": "ViRKnockback",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViRMissile": {
+		"mScriptName": "ViRMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViRTarget": {
+		"mScriptName": "ViRTarget",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViRunCycleManager": {
+		"mScriptName": "ViRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViWAbility/ViW": {
+		"mScriptName": "ViW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ADCoefficient",
+					"mValues": [
+						0.02857000008225441,
+						0.02857000008225441,
+						0.02857000008225441,
+						0.02857000008225441,
+						0.02857000008225441,
+						0.02857000008225441,
+						0.02857000008225441
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADCoefficient",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViWBuff": {
+		"mScriptName": "ViWBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViWMarker": {
+		"mScriptName": "ViWMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vi/Spells/ViWProc": {
+		"mScriptName": "ViWProc",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

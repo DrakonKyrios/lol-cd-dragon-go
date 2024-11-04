@@ -1,0 +1,1127 @@
+{
+	"Characters/Kayn/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynAssReady": {
+		"mScriptName": "KaynAssReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynBasicAttack": {
+		"mScriptName": "KaynBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynBasicAttack2": {
+		"mScriptName": "KaynBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynBasicAttack3": {
+		"mScriptName": "KaynBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynBlinkAttack": {
+		"mScriptName": "KaynBlinkAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynCritAttack": {
+		"mScriptName": "KaynCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynEAbility/KaynE": {
+		"mScriptName": "KaynE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "AssassinCDReduction",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AssMS",
+					"mValues": [
+						70.0,
+						70.0,
+						70.0,
+						70.0,
+						70.0,
+						70.0,
+						70.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalHealing": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 7,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				21.0,
+				21.0,
+				19.0,
+				17.0,
+				15.0,
+				13.0,
+				11.0
+			],
+			"mana": [
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			]
+		}
+	},
+	"Characters/Kayn/Spells/KaynEAttack": {
+		"mScriptName": "KaynEAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPTrail": {
+		"mScriptName": "KaynPTrail",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveAbility/KaynPassive": {
+		"mScriptName": "KaynPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TransformationVariable",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PAmpCooldownAss",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PAmpDurationAss",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PAmpPercentBaseAss",
+					"mValues": [
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PAmpPercentPerLvlAss",
+					"mValues": [
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusHealRatio",
+					"mValues": [
+						4.999999873689376e-5,
+						4.999999873689376e-5,
+						4.999999873689376e-5,
+						4.999999873689376e-5,
+						4.999999873689376e-5,
+						4.999999873689376e-5,
+						4.999999873689376e-5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlayerHealing",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"KaynSlayerHealing": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SlayerHealing",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mStatFormula": 2,
+							"mDataValue": "BonusHealRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"KaynAssBonusDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.15000000596046448,
+							"mEndValue": 0.44999998807907104,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveAbsorbMissileAss": {
+		"mScriptName": "KaynPassiveAbsorbMissileAss",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveAbsorbMissileAssLocation": {
+		"mScriptName": "KaynPassiveAbsorbMissileAssLocation",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveAbsorbMissileSlay": {
+		"mScriptName": "KaynPassiveAbsorbMissileSlay",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveAbsorbMissileSlayLocation": {
+		"mScriptName": "KaynPassiveAbsorbMissileSlayLocation",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveAss": {
+		"mScriptName": "KaynPassiveAss",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PAmpCooldown",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PAmpDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PAmpPercentBase",
+					"mValues": [
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914,
+						13.235300064086914
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PAmpPercentPerLvl",
+					"mValues": [
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082,
+						1.7647099494934082
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveAssMarker": {
+		"mScriptName": "KaynPassiveAssMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynPassiveSlay": {
+		"mScriptName": "KaynPassiveSlay",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynQAbility/KaynQ": {
+		"mScriptName": "KaynQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlayerBaseMaxHPDamage",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlayerMaxHPPer100BAD",
+					"mValues": [
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlayerMaxHPPer100BADTOOLTIPONLY",
+					"mValues": [
+						0.03500000014901161,
+						0.03500000014901161,
+						0.03500000014901161,
+						0.03500000014901161,
+						0.03500000014901161,
+						0.03500000014901161,
+						0.03500000014901161
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.8500000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DarkinPercentDamage": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "SlayerBaseMaxHPDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "SlayerMaxHPPer100BADTOOLTIPONLY",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"DarkinFlatDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 0.6499999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.15000000596046448,
+			"cooldownTime": [
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				4.5
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Kayn/Spells/KaynQBox": {
+		"mScriptName": "KaynQBox",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.15000000596046448,
+			"cooldownTime": [
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Kayn/Spells/KaynRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynRAbility/KaynR": {
+		"mScriptName": "KaynR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						50.0,
+						150.0,
+						250.0,
+						350.0,
+						450.0,
+						550.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumInfestTime",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InfestDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "JumpOutDistance",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlayerMaxHPBaseDamage",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlayerMaxHPDamagerPer100AD",
+					"mValues": [
+						0.0010000000474974513,
+						0.0010000000474974513,
+						0.0010000000474974513,
+						0.0010000000474974513,
+						0.0010000000474974513,
+						0.0010000000474974513,
+						0.0010000000474974513
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlayerHealPercent",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AssassinCastRange",
+					"mValues": [
+						750.0,
+						750.0,
+						750.0,
+						750.0,
+						750.0,
+						750.0,
+						750.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseCastRange",
+					"mValues": [
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AssassinJumpOutDistance",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SlayerDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SlayerMaxHPBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "SlayerMaxHPDamagerPer100AD",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"HealValue": {
+					"mMultiplier": {
+						"mDataValue": "SlayerHealPercent",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "SlayerDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Kayn/Spells/KaynRAbility/KaynRJumpOut": {
+		"mScriptName": "KaynRJumpOut",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynRAssUltReactivate": {
+		"mScriptName": "KaynRAssUltReactivate",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynRBodyMarker": {
+		"mScriptName": "KaynRBodyMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynREnemyMark": {
+		"mScriptName": "KaynREnemyMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynRHost": {
+		"mScriptName": "KaynRHost",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynRRecast": {
+		"mScriptName": "KaynRRecast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				140.0,
+				140.0,
+				110.0,
+				80.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Kayn/Spells/KaynRSpellPassive": {
+		"mScriptName": "KaynRSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynRWraithForm": {
+		"mScriptName": "KaynRWraithForm",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynSlayRMis": {
+		"mScriptName": "KaynSlayRMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynSlayReady": {
+		"mScriptName": "KaynSlayReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynTransforming": {
+		"mScriptName": "KaynTransforming",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynWAbility/KaynAssW": {
+		"mScriptName": "KaynAssW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.6000000238418579,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Kayn/Spells/KaynWAbility/KaynAssWJumpOut": {
+		"mScriptName": "KaynAssWJumpOut",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayn/Spells/KaynWAbility/KaynW": {
+		"mScriptName": "KaynW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.100000023841858,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.550000011920929,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Kayn/Spells/KaynWPassive": {
+		"mScriptName": "KaynWPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,788 @@
+{
+	"Characters/Kennen/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenBasicAttack": {
+		"mScriptName": "KennenBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenBasicAttack2": {
+		"mScriptName": "KennenBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenBringTheLightAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenBringTheLightAbility/KennenBringTheLight": {
+		"mScriptName": "KennenBringTheLight",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "bADRatio",
+					"mValues": [
+						0.699999988079071,
+						0.800000011920929,
+						0.8999999761581421,
+						1.0,
+						1.100000023841858,
+						1.2000000476837158,
+						1.2999999523162842
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseOnHitDamage",
+					"mValues": [
+						25.0,
+						35.0,
+						45.0,
+						55.0,
+						65.0,
+						75.0,
+						85.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamageActive",
+					"mValues": [
+						45.0,
+						70.0,
+						95.0,
+						120.0,
+						145.0,
+						170.0,
+						195.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatioActive",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamagePassive": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseOnHitDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.3499999940395355,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mSubpart": {
+								"mDataValue": "BADRatio",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamageActive": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageActive",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioActive",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				11.25,
+				9.5,
+				7.75,
+				6.0,
+				6.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Kennen/Spells/KennenCritAttack": {
+		"mScriptName": "KennenCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenDoubleStrikeIndicator": {
+		"mScriptName": "KennenDoubleStrikeIndicator",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenDoubleStrikeLive": {
+		"mScriptName": "KennenDoubleStrikeLive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenDoubleStrikeProc": {
+		"mScriptName": "KennenDoubleStrikeProc",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenLightningRushAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenLightningRushAbility/KennenLRCancel": {
+		"mScriptName": "KennenLRCancel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenLightningRushAbility/KennenLightningRush": {
+		"mScriptName": "KennenLightningRush",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "base damage",
+					"mValues": [
+						40.0,
+						80.0,
+						120.0,
+						160.0,
+						200.0,
+						240.0,
+						280.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "energy refund",
+					"mValues": [
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "defenses",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "movement speed",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "duration - as ball",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "attack speed",
+					"mValues": [
+						0.30000001192092896,
+						0.4000000059604645,
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929,
+						0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "duration - after ball",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "damage to minions",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "damage radius",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "linger",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "base damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Kennen/Spells/KennenLightningRushAbility/KennenLightningRushBuff": {
+		"mScriptName": "KennenLightningRushBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenLightningRushAbility/KennenLightningRushDamage": {
+		"mScriptName": "KennenLightningRushDamage",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				210.0,
+				210.0,
+				210.0,
+				210.0,
+				210.0,
+				210.0,
+				210.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Kennen/Spells/KennenMegaProc": {
+		"mScriptName": "KennenMegaProc",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenPassiveAbility/KennenMarkOfStorm": {
+		"mScriptName": "KennenMarkOfStorm",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenPassiveAbility/KennenMoSDiminish": {
+		"mScriptName": "KennenMoSDiminish",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenPassiveAbility/KennenPassive": {
+		"mScriptName": "KennenPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "EnergyRestore",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ReducedStunDuration",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MarkDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DiminishingReturnDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenShurikenHurlMissile1Ability": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenShurikenHurlMissile1Ability/KennenShurikenHurl1": {
+		"mScriptName": "KennenShurikenHurl1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0,
+				3.0
+			],
+			"mana": [
+				65.0,
+				60.0,
+				55.0,
+				50.0,
+				45.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Kennen/Spells/KennenShurikenHurlMissile1Ability/KennenShurikenHurlMissile1": {
+		"mScriptName": "KennenShurikenHurlMissile1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.75,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				9.0,
+				7.0,
+				6.25,
+				5.5,
+				4.75,
+				4.0,
+				4.0
+			],
+			"mana": [
+				60.0,
+				55.0,
+				50.0,
+				45.0,
+				40.0,
+				35.0
+			]
+		}
+	},
+	"Characters/Kennen/Spells/KennenShurikenStormAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kennen/Spells/KennenShurikenStormAbility/KennenShurikenStorm": {
+		"mScriptName": "KennenShurikenStorm",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						5.0,
+						40.0,
+						75.0,
+						110.0,
+						145.0,
+						180.0,
+						215.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.22499999403953552,
+						0.22499999403953552,
+						0.22499999403953552,
+						0.22499999403953552,
+						0.22499999403953552,
+						0.22499999403953552,
+						0.22499999403953552
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageAmp",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KennenRTickRate",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KennenRDefenses",
+					"mValues": [
+						0.0,
+						20.0,
+						40.0,
+						60.0,
+						80.0,
+						100.0,
+						120.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KennenRDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PerTickDamageCalculated": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": null
+		}
+	}
+}

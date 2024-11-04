@@ -1,0 +1,743 @@
+{
+	"Characters/Strawberry_Aurora/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Spells/Strawberry_AuroraEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Spells/Strawberry_AuroraEAbility/Strawberry_AuroraE": {
+		"mScriptName": "Strawberry_AuroraE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "InvisDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashBonusSpeed",
+					"mValues": [
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "JumpDistance",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WallCheatDistance",
+					"mValues": [
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DebuffCircleApplyRadiusFlat",
+					"mValues": [
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatMovespeedMod",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{139ff8fd}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DebuffCircleApplyRadiusFlat",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"UseNewStats": true,
+							"statType": 5,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDuration": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 9,
+							"mDataValue": "InvisDuration",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"PassthroughDmg": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 80.0,
+							"mInitialBonusPerLevel": 10.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Spells/Strawberry_AuroraPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Spells/Strawberry_AuroraPassiveAbility/Strawberry_AuroraPassive": {
+		"mScriptName": "Strawberry_AuroraPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DebuffDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpiritModeDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseHPDamage",
+					"mValues": [
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterMaxDamage",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatSpiritAoERadius",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxSpiritRangeFromAurora",
+					"mValues": [
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedPerStack",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MovespeedDecayRate",
+					"mValues": [
+						0.8700000047683716,
+						0.8700000047683716,
+						0.8700000047683716,
+						0.8700000047683716,
+						0.8700000047683716,
+						0.8700000047683716,
+						0.8700000047683716
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissileLifetime",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LevelsNeededForSpirit",
+					"mValues": [
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ProcDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseHPDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 9.999999747378752e-5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"MoveSpeedCalc": {
+					"mFormulaParts": [
+						{
+							"mBuffName": "{f25ec61b}",
+							"mDataValue": "MoveSpeedPerStack",
+							"__type": "BuffCounterByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"HealCalc": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 10.0,
+							"mEndValue": 35.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{90ede849}": {
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mDataValue": "FlatSpiritAoERadius",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"UseNewStats": true,
+								"statType": 5,
+								"mCoefficient": 1.0,
+								"__type": "StatByCoefficientCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{c4bc89e8}": {
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"UseNewStats": true,
+								"statType": 9,
+								"mCoefficient": 1.0,
+								"__type": "StatByCoefficientCalculationPart"
+							},
+							"mPart2": {
+								"mDataValue": "MissileLifetime",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{4119bcc9}": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 20.0,
+							"mInitialBonusPerLevel": 2.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Spells/Strawberry_AuroraQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Spells/Strawberry_AuroraQAbility/Strawberry_AuroraAuto": {
+		"mScriptName": "Strawberry_AuroraAuto",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						20.0,
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageReduction",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Q2BaseDamage",
+					"mValues": [
+						85.0,
+						110.0,
+						135.0,
+						160.0,
+						185.0,
+						210.0,
+						235.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MarkDuration",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionDamageReduction",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxLevel",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseMissileCount",
+					"mValues": [
+						1.0,
+						1.0,
+						2.0,
+						2.0,
+						3.0,
+						3.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{f7c018c7}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Q2BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{7b29401a}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MarkDuration",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"UseNewStats": true,
+							"statType": 9,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{27b5f82c}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseMissileCount",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"UseNewStats": true,
+							"statType": 7,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Spells/Strawberry_AuroraRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Aurora/Spells/Strawberry_AuroraRAbility/Strawberry_AuroraR": {
+		"mScriptName": "Strawberry_AuroraR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ExitBaseDamage",
+					"mValues": [
+						0.0,
+						50.0,
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AreaDuration",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoESize",
+					"mValues": [
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						1.25,
+						1.5,
+						1.75,
+						2.0,
+						2.25,
+						2.5,
+						2.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatMS",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PenMultiplier",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "JumpMaxDistance",
+					"mValues": [
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "JumpMinDistance",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageCalc": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 150.0,
+							"mInitialBonusPerLevel": 15.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DurationTotal": {
+					"mMultiplier": {
+						"UseNewStats": true,
+						"statType": 9,
+						"mCoefficient": 1.0,
+						"__type": "StatByCoefficientCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "AreaDuration",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"KnockTotalDmg": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 100.0,
+							"mInitialBonusPerLevel": 10.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,1011 @@
+{
+	"Characters/Leblanc/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancBasicAttack": {
+		"mScriptName": "LeblancBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancBasicAttack2": {
+		"mScriptName": "LeblancBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancBasicAttack3": {
+		"mScriptName": "LeblancBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancCritAttack": {
+		"mScriptName": "LeblancCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancEAbility/LeblancE": {
+		"mScriptName": "LeblancE",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"InitialDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DelayedDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 2,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				13.25,
+				12.5,
+				11.75,
+				11.0,
+				11.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancEAbility/LeblancEBeam": {
+		"mScriptName": "LeblancEBeam",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancEAbility/LeblancEMissile": {
+		"mScriptName": "LeblancEMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				10.5,
+				10.0,
+				9.5,
+				9.0,
+				8.5,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancEAbility/LeblancERoot": {
+		"mScriptName": "LeblancERoot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancPAbility/LeblancP": {
+		"mScriptName": "LeblancP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TooltipCooldown",
+					"mValues": [
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancPBuff": {
+		"mScriptName": "LeblancPBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancPCooldown": {
+		"mScriptName": "LeblancPCooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancPMark": {
+		"mScriptName": "LeblancPMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancPMarkProc": {
+		"mScriptName": "LeblancPMarkProc",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancQAbility/LeblancQ": {
+		"mScriptName": "LeblancQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						45.0,
+						70.0,
+						95.0,
+						120.0,
+						145.0,
+						170.0,
+						195.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseMarkDamage",
+					"mValues": [
+						45.0,
+						70.0,
+						95.0,
+						120.0,
+						145.0,
+						170.0,
+						195.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MarkDuration",
+					"mValues": [
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CooldownRefund",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ManaRefund",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MarkDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseMarkDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusMinionDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 10.0,
+							"mInitialBonusPerLevel": 8.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 19,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancQAbility/LeblancQMark": {
+		"mScriptName": "LeblancQMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancQChain": {
+		"mScriptName": "LeblancQChain",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRAbility/LeblancR": {
+		"mScriptName": "LeblancR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RQ1Base",
+					"mValues": [
+						0.0,
+						70.0,
+						140.0,
+						210.0,
+						280.0,
+						350.0,
+						420.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RQ2Base",
+					"mValues": [
+						0.0,
+						140.0,
+						280.0,
+						420.0,
+						560.0,
+						700.0,
+						840.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RWBase",
+					"mValues": [
+						0.0,
+						150.0,
+						300.0,
+						450.0,
+						600.0,
+						750.0,
+						900.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RE1Base",
+					"mValues": [
+						0.0,
+						70.0,
+						140.0,
+						210.0,
+						280.0,
+						350.0,
+						420.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RE2Base",
+					"mValues": [
+						0.0,
+						140.0,
+						280.0,
+						420.0,
+						560.0,
+						700.0,
+						840.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RQMarkDuration",
+					"mValues": [
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RQ1RE1BaseAPRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RQ1Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RQ1Base",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "RQ1RE1BaseAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RQ2Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RQ2Base",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RWDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RWBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.75,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RE1Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RE1Base",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "RQ1RE1BaseAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RE2Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RE2Base",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				50.0,
+				50.0,
+				40.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancREAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancREAbility/LeblancRE": {
+		"mScriptName": "LeblancRE",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				50.0,
+				50.0,
+				40.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancREAbility/LeblancREBeam": {
+		"mScriptName": "LeblancREBeam",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancREAbility/LeblancREMissile": {
+		"mScriptName": "LeblancREMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				10.5,
+				10.0,
+				9.5,
+				9.0,
+				8.5,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancREAbility/LeblancRERoot": {
+		"mScriptName": "LeblancRERoot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancREAbility/LeblancRREMissile": {
+		"mScriptName": "LeblancRREMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				10.5,
+				10.0,
+				9.5,
+				9.0,
+				8.5,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRQAbility/LeblancRQ": {
+		"mScriptName": "LeblancRQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				50.0,
+				50.0,
+				40.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRQAbility/LeblancRQMark": {
+		"mScriptName": "LeblancRQMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRQAbility/LeblancRQMissile": {
+		"mScriptName": "LeblancRQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRRQ": {
+		"mScriptName": "LeblancRRQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRStealth": {
+		"mScriptName": "LeblancRStealth",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRToggle": {
+		"mScriptName": "LeblancRToggle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				54.0,
+				54.0,
+				42.0,
+				30.0,
+				32.0,
+				40.0,
+				40.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRWAbility/LeblancRW": {
+		"mScriptName": "LeblancRW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				50.0,
+				50.0,
+				40.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRWAbility/LeblancRWReturn": {
+		"mScriptName": "LeblancRWReturn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancRWMove": {
+		"mScriptName": "LeblancRWMove",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				48.0,
+				40.0,
+				32.0,
+				24.0,
+				40.0,
+				40.0,
+				40.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancWAbility/LeblancW": {
+		"mScriptName": "LeblancW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "WAPRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "WAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				18.0,
+				15.0,
+				13.75,
+				12.5,
+				11.25,
+				10.0,
+				10.0
+			],
+			"mana": [
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				120.0
+			]
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancWAbility/LeblancWMove": {
+		"mScriptName": "LeblancWMove",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0,
+				130.0
+			]
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancWAbility/LeblancWReturn": {
+		"mScriptName": "LeblancWReturn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Leblanc/Spells/LeblancWReturnSFX": {
+		"mScriptName": "LeblancWReturnSFX",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,1118 @@
+{
+	"Characters/Braum/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/CharacterRecords/SLIME": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/CharacterRecords/URF": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumBasicAttack": {
+		"mScriptName": "BraumBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumBasicAttack2": {
+		"mScriptName": "BraumBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumBasicAttack3": {
+		"mScriptName": "BraumBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumBasicAttackPassiveOverride": {
+		"mScriptName": "BraumBasicAttackPassiveOverride",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumBasicAttackShieldOverride": {
+		"mScriptName": "BraumBasicAttackShieldOverride",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumBasicAttackTower": {
+		"mScriptName": "BraumBasicAttackTower",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumBlockStanceTimerMis1": {
+		"mScriptName": "BraumBlockStanceTimerMis1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumCameraFacingRecallBuff": {
+		"mScriptName": "BraumCameraFacingRecallBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumCritAttack": {
+		"mScriptName": "BraumCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEAbility/BraumE": {
+		"mScriptName": "BraumE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RangedReflect",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				10.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				30.0,
+				35.0,
+				40.0,
+				45.0,
+				50.0,
+				55.0
+			]
+		}
+	},
+	"Characters/Braum/Spells/BraumEAbility/BraumEMSBoost": {
+		"mScriptName": "BraumEMSBoost",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEAbility/BraumEShieldBuff": {
+		"mScriptName": "BraumEShieldBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEDummyVOAshe": {
+		"mScriptName": "BraumEDummyVOAshe",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEDummyVOCaitlyn": {
+		"mScriptName": "BraumEDummyVOCaitlyn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEDummyVODraven": {
+		"mScriptName": "BraumEDummyVODraven",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEDummyVOEzreal": {
+		"mScriptName": "BraumEDummyVOEzreal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEDummyVONami": {
+		"mScriptName": "BraumEDummyVONami",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumEDummyVORiven": {
+		"mScriptName": "BraumEDummyVORiven",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumESpecialVOBuff": {
+		"mScriptName": "BraumESpecialVOBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPassiveAbility/BraumMark": {
+		"mScriptName": "BraumMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPassiveAbility/BraumMarkStunReduction": {
+		"mScriptName": "BraumMarkStunReduction",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPassiveAbility/BraumPassive": {
+		"mScriptName": "BraumPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StackDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StackCap",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mValues": [
+								16.0,
+								26.0,
+								36.0,
+								46.0,
+								56.0,
+								66.0,
+								76.0,
+								86.0,
+								96.0,
+								106.0,
+								116.0,
+								126.0,
+								136.0,
+								146.0,
+								156.0,
+								166.0,
+								176.0,
+								186.0,
+								196.0,
+								206.0,
+								216.0,
+								226.0,
+								236.0,
+								246.0,
+								256.0,
+								266.0,
+								276.0,
+								286.0,
+								296.0,
+								306.0,
+								316.0
+							],
+							"__type": "ByCharLevelFormulaCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"OnHitDamage": {
+					"mMultiplier": {
+						"mNumber": 0.20000000298023224,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"StunCD": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 8.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": -2.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": -2.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"StunDuration": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 1.25,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mPrecision": 2,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPassiveAbility/BraumStunDebuff": {
+		"mScriptName": "BraumStunDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPoroMustacheBuff": {
+		"mScriptName": "BraumPoroMustacheBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPulseLine": {
+		"mScriptName": "BraumPulseLine",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				160.0,
+				140.0,
+				120.0,
+				100.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPulseLineAnimLock": {
+		"mScriptName": "BraumPulseLineAnimLock",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPulseLineKnockup": {
+		"mScriptName": "BraumPulseLineKnockup",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPulseLinePopup": {
+		"mScriptName": "BraumPulseLinePopup",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.625,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPulseLineSlow": {
+		"mScriptName": "BraumPulseLineSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumPulseLineWrapper": {
+		"mScriptName": "BraumPulseLineWrapper",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				160.0,
+				140.0,
+				120.0,
+				100.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Braum/Spells/BraumQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumQAbility/BraumQ": {
+		"mScriptName": "BraumQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mCoefficient": 0.02500000037252903,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				8.5,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				5.5
+			],
+			"mana": [
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Braum/Spells/BraumQAbility/BraumQHit": {
+		"mScriptName": "BraumQHit",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumQAbility/BraumQMissile": {
+		"mScriptName": "BraumQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumQAbility/BraumQSlow": {
+		"mScriptName": "BraumQSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumRWrapperAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumRWrapperAbility/BraumRMissile": {
+		"mScriptName": "BraumRMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				160.0,
+				140.0,
+				120.0,
+				100.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumRWrapperAbility/BraumRWrapper": {
+		"mScriptName": "BraumRWrapper",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						150.0,
+						300.0,
+						450.0,
+						600.0,
+						750.0,
+						900.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupDuration",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FirstKnockupDuration",
+					"mValues": [
+						0.5,
+						1.0,
+						1.5,
+						2.0,
+						2.5,
+						3.0,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedMod",
+					"mValues": [
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowZoneDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDebuffDuration",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinKnockup",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxKnockup",
+					"mValues": [
+						0.5,
+						1.0,
+						1.5,
+						2.0,
+						2.5,
+						3.0,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxKnockupRatio",
+					"mValues": [
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421,
+						0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				9.0,
+				120.0,
+				100.0,
+				80.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Braum/Spells/BraumRunCycleManager": {
+		"mScriptName": "BraumRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumWAbility/BraumW": {
+		"mScriptName": "BraumW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RangedDamageThreshold",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AllyArmorPercent",
+					"mValues": [
+						0.11999999731779099,
+						0.11999999731779099,
+						0.11999999731779099,
+						0.11999999731779099,
+						0.11999999731779099,
+						0.11999999731779099,
+						0.11999999731779099
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BraumArmorPercent",
+					"mValues": [
+						0.36000001430511475,
+						0.36000001430511475,
+						0.36000001430511475,
+						0.36000001430511475,
+						0.36000001430511475,
+						0.36000001430511475,
+						0.36000001430511475
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseResists",
+					"mValues": [
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"GrantedAllyArmor": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseResists",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 1,
+							"mStatFormula": 2,
+							"mDataValue": "AllyArmorPercent",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"GrantedAllyMR": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseResists",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 5,
+							"mStatFormula": 2,
+							"mDataValue": "AllyArmorPercent",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"GrantedBraumArmor": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseResists",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 1,
+							"mStatFormula": 2,
+							"mDataValue": "BraumArmorPercent",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"GrantedBraumMR": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseResists",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 5,
+							"mStatFormula": 2,
+							"mDataValue": "BraumArmorPercent",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Braum/Spells/BraumWAbility/BraumWDummySpell": {
+		"mScriptName": "BraumWDummySpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Braum/Spells/BraumWAbility/BraumWPassiveStatsDoubler": {
+		"mScriptName": "BraumWPassiveStatsDoubler",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

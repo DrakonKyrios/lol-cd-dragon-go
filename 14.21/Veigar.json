@@ -1,0 +1,545 @@
+{
+	"Characters/Veigar/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarBalefulStrikeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarBalefulStrikeAbility/VeigarBalefulStrike": {
+		"mScriptName": "VeigarBalefulStrike",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.44999998807907104,
+						0.5,
+						0.550000011920929,
+						0.6000000238418579,
+						0.6499999761581421,
+						0.699999988079071,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						80.0,
+						120.0,
+						160.0,
+						200.0,
+						240.0,
+						280.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				4.5,
+				4.0,
+				3.5
+			],
+			"mana": [
+				30.0,
+				35.0,
+				40.0,
+				45.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Veigar/Spells/VeigarBalefulStrikeMis": {
+		"mScriptName": "VeigarBalefulStrikeMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarBasicAttack": {
+		"mScriptName": "VeigarBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarBasicAttack2": {
+		"mScriptName": "VeigarBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarCritAttack": {
+		"mScriptName": "VeigarCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarDarkMatterAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarDarkMatterAbility/VeigarDarkMatter": {
+		"mScriptName": "VeigarDarkMatter",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929,
+						0.8999999761581421,
+						1.0,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						85.0,
+						140.0,
+						195.0,
+						250.0,
+						305.0,
+						360.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Veigar/Spells/VeigarDarkMatterCastLockout": {
+		"mScriptName": "VeigarDarkMatterCastLockout",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarEquilibrium": {
+		"mScriptName": "VeigarEquilibrium",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarEventHorizonAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarEventHorizonAbility/VeigarEventHorizon": {
+		"mScriptName": "VeigarEventHorizon",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				20.0,
+				20.0,
+				18.5,
+				17.0,
+				15.5,
+				14.0,
+				14.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				95.0
+			]
+		}
+	},
+	"Characters/Veigar/Spells/VeigarEventHorizonStun": {
+		"mScriptName": "VeigarEventHorizonStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarPassiveAbility/VeigarPassive": {
+		"mScriptName": "VeigarPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "dQKillStacks",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "dAbilityStacks",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "dTakedownStacks",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "dQKillStacksLarge",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PStacksPerDarkMatterCDR",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DarkMatterCDRIncrement",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"APPerStack": {
+					"mFormulaParts": [
+						{
+							"mNumber": 1.0,
+							"__type": "NumberCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarPhenomenalEvilPower": {
+		"mScriptName": "VeigarPhenomenalEvilPower",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Veigar/Spells/VeigarRAbility/VeigarR": {
+		"mScriptName": "VeigarR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6499999761581421,
+						0.699999988079071,
+						0.75,
+						0.800000011920929,
+						0.8500000238418579,
+						0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						100.0,
+						175.0,
+						250.0,
+						325.0,
+						400.0,
+						475.0,
+						550.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxExecuteMult",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"MinDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamage": {
+					"mMultiplier": {
+						"mNumber": 2.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "MinDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				80.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Veigar/Spells/VeigarStun": {
+		"mScriptName": "VeigarStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

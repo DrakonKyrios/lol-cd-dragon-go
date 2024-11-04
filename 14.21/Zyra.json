@@ -1,0 +1,686 @@
+{
+	"Characters/Zyra/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraBasicAttack": {
+		"mScriptName": "ZyraBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraBasicAttack2": {
+		"mScriptName": "ZyraBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraCritAttack": {
+		"mScriptName": "ZyraCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraEAbility/ZyraE": {
+		"mScriptName": "ZyraE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxSlowStacks",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PheromoneDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RootDuration",
+					"mValues": [
+						0.75,
+						1.0,
+						1.25,
+						1.5,
+						1.75,
+						2.0,
+						2.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						60.0,
+						95.0,
+						130.0,
+						165.0,
+						200.0,
+						235.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				95.0
+			]
+		}
+	},
+	"Characters/Zyra/Spells/ZyraEAbility/ZyraEHold": {
+		"mScriptName": "ZyraEHold",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraEAbility/ZyraEPlant": {
+		"mScriptName": "ZyraEPlant",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraEAbility/ZyraEPlantAttack": {
+		"mScriptName": "ZyraEPlantAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraEAbility/ZyraEPlantAttack2": {
+		"mScriptName": "ZyraEPlantAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraHiddenGoodies": {
+		"mScriptName": "ZyraHiddenGoodies",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraPAbility/ZyraP": {
+		"mScriptName": "ZyraP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PlantDuration",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PlantBaseDmg",
+					"mValues": [
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PlantLvlScaling",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"SeedCooldown": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 13.600000381469727,
+							"mEndValue": 9.050000190734863,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"PlantDamage": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 15.0,
+							"mEndValue": 75.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"monstermod": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 50.0,
+							"mEndValue": 100.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{c951f1e1}": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 50.0,
+							"mInitialBonusPerLevel": -1.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Zyra/Spells/ZyraPAbility/ZyraPSeedMis": {
+		"mScriptName": "ZyraPSeedMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraPQueenOfThorns": {
+		"mScriptName": "ZyraPQueenOfThorns",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Zyra/Spells/ZyraPassiveDeathManager": {
+		"mScriptName": "ZyraPassiveDeathManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraPassiveDeathReady": {
+		"mScriptName": "ZyraPassiveDeathReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraPheromone": {
+		"mScriptName": "ZyraPheromone",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraPlantEnrage": {
+		"mScriptName": "ZyraPlantEnrage",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraQAbility/ZyraQ": {
+		"mScriptName": "ZyraQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"InitialDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6499999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				5.0
+			],
+			"mana": [
+				55.0,
+				55.0,
+				55.0,
+				55.0,
+				55.0,
+				55.0
+			]
+		}
+	},
+	"Characters/Zyra/Spells/ZyraQAbility/ZyraQPlant": {
+		"mScriptName": "ZyraQPlant",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraQAbility/ZyraQPlantMissile": {
+		"mScriptName": "ZyraQPlantMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraQAbility/ZyraQPlantMissileOnSpawn": {
+		"mScriptName": "ZyraQPlantMissileOnSpawn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraRAbility/ZyraR": {
+		"mScriptName": "ZyraR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PlantDamageBonus",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 3,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				110.0,
+				110.0,
+				100.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Zyra/Spells/ZyraRAbility/ZyraRKnockUp": {
+		"mScriptName": "ZyraRKnockUp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraRAbility/ZyraRSplash": {
+		"mScriptName": "ZyraRSplash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.2418999969959259,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraWAbility/ZyraSeedTrapVision": {
+		"mScriptName": "ZyraSeedTrapVision",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Zyra/Spells/ZyraWAbility/ZyraW": {
+		"mScriptName": "ZyraW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.24320000410079956,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zyra/Spells/ZyraWAbility/ZyraWSeedMis": {
+		"mScriptName": "ZyraWSeedMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,1170 @@
+{
+	"Characters/Kayle/CAC/Kayle_Converstation_Skin06": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleBasicAttack": {
+		"mScriptName": "KayleBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleBasicAttack2": {
+		"mScriptName": "KayleBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleBasicAttack3": {
+		"mScriptName": "KayleBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleBasicAttack4": {
+		"mScriptName": "KayleBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleEAbility/KayleE": {
+		"mScriptName": "KayleE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Passive Damage",
+					"mValues": [
+						15.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ActiveExecutePercent",
+					"mValues": [
+						7.5,
+						8.0,
+						8.5,
+						9.0,
+						9.5,
+						10.0,
+						10.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxExecuteVsMonsters",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionRadius",
+					"mValues": [
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveAPRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveBonusADRatio",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{266027bf}": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EPassiveTotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Passive Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "PassiveAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "PassiveBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ActiveTotalExecuteDamage": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "ActiveExecutePercent",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.014999999664723873,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleEAbility/KayleEPassive": {
+		"mScriptName": "KayleEPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleEAttack": {
+		"mScriptName": "KayleEAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleEAttackMelee": {
+		"mScriptName": "KayleEAttackMelee",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleEAttackUpgrade": {
+		"mScriptName": "KayleEAttackUpgrade",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleEnrageConeMis": {
+		"mScriptName": "KayleEnrageConeMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleEnrageConeMisUpgrade": {
+		"mScriptName": "KayleEnrageConeMisUpgrade",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KaylePassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KaylePassiveAbility/KayleEnrage": {
+		"mScriptName": "KayleEnrage",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KaylePassiveAbility/KayleEnrageConeMisVFX": {
+		"mScriptName": "KayleEnrageConeMisVFX",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KaylePassiveAbility/KayleEnrageConeMisVFX2": {
+		"mScriptName": "KayleEnrageConeMisVFX2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KaylePassiveAbility/KayleEnrageCounter": {
+		"mScriptName": "KayleEnrageCounter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KaylePassiveAbility/KaylePassive": {
+		"mScriptName": "KaylePassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "LevelForPassiveRank0",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LevelForPassiveRank1",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LevelForPassiveRank2",
+					"mValues": [
+						11.0,
+						11.0,
+						11.0,
+						11.0,
+						11.0,
+						11.0,
+						11.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LevelForPassiveRank3",
+					"mValues": [
+						16.0,
+						16.0,
+						16.0,
+						16.0,
+						16.0,
+						16.0,
+						16.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradedAttackRange",
+					"mValues": [
+						525.0,
+						525.0,
+						525.0,
+						525.0,
+						525.0,
+						525.0,
+						525.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FinalAttackRange",
+					"mValues": [
+						625.0,
+						625.0,
+						625.0,
+						625.0,
+						625.0,
+						625.0,
+						625.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSTowardsEnemy",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSTowardsEnemyRadius",
+					"mValues": [
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EnrageMaxStacks",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EnrageDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EnrageASPerStack",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveWaveAPRatio",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveWaveBonusADRatio",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EnrageTotalASPerStack": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "EnrageASPerStack",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.004999999888241291,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PassiveWaveDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 20.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 12,
+									"mBonusPerLevelAtAndAfter": 3.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mDataValue": "PassiveWaveAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "PassiveWaveBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleQAbility/KayleQ": {
+		"mScriptName": "KayleQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ManaRefundPercent",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CastDelay",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Damage",
+					"mValues": [
+						20.0,
+						60.0,
+						100.0,
+						140.0,
+						180.0,
+						220.0,
+						260.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						20.0,
+						26.0,
+						32.0,
+						38.0,
+						44.0,
+						50.0,
+						56.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShredPercent",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShredDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionLeftRightDist",
+					"mValues": [
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionLeftRightWidth",
+					"mValues": [
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionForwardDist",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionBackwardDist",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionForwardBackWidth",
+					"mValues": [
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionCenterAoERadius",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionForwardOffset",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissileSpawnOffset",
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				90.0
+			]
+		}
+	},
+	"Characters/Kayle/Spells/KayleQAbility/KayleQMis": {
+		"mScriptName": "KayleQMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleQAbility/KayleQMisVFX": {
+		"mScriptName": "KayleQMisVFX",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleQAbility/KayleQShred": {
+		"mScriptName": "KayleQShred",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleRAbility/KayleR": {
+		"mScriptName": "KayleR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						100.0,
+						200.0,
+						300.0,
+						400.0,
+						500.0,
+						600.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InvulnDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoERadius",
+					"mValues": [
+						675.0,
+						675.0,
+						675.0,
+						775.0,
+						775.0,
+						775.0,
+						775.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				160.0,
+				160.0,
+				120.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				50.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Kayle/Spells/KayleWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kayle/Spells/KayleWAbility/KayleW": {
+		"mScriptName": "KayleW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Heal",
+					"mValues": [
+						30.0,
+						55.0,
+						80.0,
+						105.0,
+						130.0,
+						155.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Haste",
+					"mValues": [
+						0.20000000298023224,
+						0.23999999463558197,
+						0.2800000011920929,
+						0.3199999928474426,
+						0.36000001430511475,
+						0.4000000059604645,
+						0.4399999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HasteDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalHeal": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Heal",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.25,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalHaste": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Haste",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.0007999999797903001,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				90.0
+			]
+		}
+	},
+	"Characters/Kayle/Spells/KayleWAbility/KayleWHeal": {
+		"mScriptName": "KayleWHeal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

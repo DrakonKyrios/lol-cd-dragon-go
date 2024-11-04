@@ -1,0 +1,1030 @@
+{
+	"Characters/Kled/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledBasicAttack": {
+		"mScriptName": "KledBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledBasicAttack2": {
+		"mScriptName": "KledBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledBasicAttack3": {
+		"mScriptName": "KledBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledBasicAttack4": {
+		"mScriptName": "KledBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledCritAttack": {
+		"mScriptName": "KledCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledEAbility/KledE": {
+		"mScriptName": "KledE",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.6499999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledEAbility/KledE2": {
+		"mScriptName": "KledE2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledEAbility/KledE2Dash": {
+		"mScriptName": "KledE2Dash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledEAbility/KledEDash": {
+		"mScriptName": "KledEDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledEAbility/KledESpeedBuff": {
+		"mScriptName": "KledESpeedBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledMountReturn": {
+		"mScriptName": "KledMountReturn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledPassiveAbility/KledPassive": {
+		"mScriptName": "KledPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CourageVsChamps",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CourageVsOther",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CourageLastHit",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CourageChampionTakedown",
+					"mValues": [
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MountCooldown",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DismountedMS": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 100.0,
+							"mInitialBonusPerLevel": 5.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SkaarlHealth": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 400.0,
+							"mEndValue": 1550.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SkaarlRemountHealth": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.44999998807907104,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledPassiveAbility/KledPassiveCooldown": {
+		"mScriptName": "KledPassiveCooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledQAbility/KledQ": {
+		"mScriptName": "KledQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "GrievousAmount",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrievousDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						-0.3499999940395355,
+						-0.4000000059604645,
+						-0.44999998807907104,
+						-0.5,
+						-0.550000011920929,
+						-0.6000000238418579,
+						-0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CouragePerPellet",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DismountedBaseDamage",
+					"mValues": [
+						20.0,
+						35.0,
+						50.0,
+						65.0,
+						80.0,
+						95.0,
+						110.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.6499999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalYankDamage": {
+					"mMultiplier": {
+						"mEffectIndex": 4,
+						"__type": "EffectValueCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"DismountedQDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "DismountedBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledQAbility/KledQMark": {
+		"mScriptName": "KledQMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledQAbility/KledQMissile": {
+		"mScriptName": "KledQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledQAbility/KledQSlow": {
+		"mScriptName": "KledQSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRAbility/KledR": {
+		"mScriptName": "KledR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShieldCapBase",
+					"mValues": [
+						200.0,
+						200.0,
+						300.0,
+						400.0,
+						500.0,
+						600.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentHPBase",
+					"mValues": [
+						4.0,
+						4.0,
+						5.0,
+						6.0,
+						7.0,
+						8.0,
+						9.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{31b91b32}": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 3.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{598e3ed3}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "PercentHPBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.03999999910593033,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaximumShield": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 4,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 3.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaximumChargeDamage": {
+					"mMultiplier": {
+						"mNumber": 0.029999999329447746,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "PercentHPBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.03999999910593033,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"MinimumDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "PercentHPBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.03999999910593033,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				140.0,
+				140.0,
+				125.0,
+				110.0,
+				110.0,
+				110.0,
+				110.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRAbility/KledRChargeAllySpeedBuff": {
+		"mScriptName": "KledRChargeAllySpeedBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRAbility/KledRDash": {
+		"mScriptName": "KledRDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				180.0,
+				160.0,
+				140.0,
+				120.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRShield": {
+		"mScriptName": "KledRShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRemountDash": {
+		"mScriptName": "KledRemountDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderBasicAttack": {
+		"mScriptName": "KledRiderBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderBasicAttack2": {
+		"mScriptName": "KledRiderBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderCritAttack": {
+		"mScriptName": "KledRiderCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderQAbility/KledRiderQ": {
+		"mScriptName": "KledRiderQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CouragePerPellet",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MountedBaseDamage",
+					"mValues": [
+						5.0,
+						30.0,
+						55.0,
+						80.0,
+						105.0,
+						130.0,
+						155.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MountedQCalc": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "MountedBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.6499999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderQAbility/KledRiderQMissile": {
+		"mScriptName": "KledRiderQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderWAttack1": {
+		"mScriptName": "KledRiderWAttack1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderWAttack2": {
+		"mScriptName": "KledRiderWAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderWAttack3": {
+		"mScriptName": "KledRiderWAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRiderWAttack4": {
+		"mScriptName": "KledRiderWAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledRunCycleManager": {
+		"mScriptName": "KledRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledWAbility/KledW": {
+		"mScriptName": "KledW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "WCooldown",
+					"mValues": [
+						12.5,
+						11.0,
+						9.5,
+						8.0,
+						6.5,
+						5.0,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PercentDamage": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.05000000074505806,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 2,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.5,
+				11.0,
+				9.5,
+				8.0,
+				6.5,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledWActive": {
+		"mScriptName": "KledWActive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledWAttack1": {
+		"mScriptName": "KledWAttack1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledWAttack2": {
+		"mScriptName": "KledWAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledWAttack3": {
+		"mScriptName": "KledWAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledWAttack4": {
+		"mScriptName": "KledWAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kled/Spells/KledWAttack5": {
+		"mScriptName": "KledWAttack5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

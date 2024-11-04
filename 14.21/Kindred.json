@@ -1,0 +1,1591 @@
+{
+	"Characters/Kindred/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredAutoAttackSatisfaction": {
+		"mScriptName": "KindredAutoAttackSatisfaction",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredBasicAttack": {
+		"mScriptName": "KindredBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredBasicAttack2": {
+		"mScriptName": "KindredBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredBasicAttackBounty1": {
+		"mScriptName": "KindredBasicAttackBounty1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredBasicAttackBounty2": {
+		"mScriptName": "KindredBasicAttackBounty2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredBasicAttackBounty3": {
+		"mScriptName": "KindredBasicAttackBounty3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredBasicAttackOverrideLightbombFinal": {
+		"mScriptName": "KindredBasicAttackOverrideLightbombFinal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredCritAttack": {
+		"mScriptName": "KindredCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredE": {
+		"mScriptName": "KindredE",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredECharge": {
+		"mScriptName": "KindredECharge",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredEFinalAttackBuff": {
+		"mScriptName": "KindredEFinalAttackBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				170.0,
+				150.0,
+				130.0,
+				110.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				150.0,
+				200.0,
+				80.0,
+				80.0,
+				130.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredERefresher": {
+		"mScriptName": "KindredERefresher",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				170.0,
+				150.0,
+				130.0,
+				110.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				150.0,
+				200.0,
+				80.0,
+				80.0,
+				130.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredESlow": {
+		"mScriptName": "KindredESlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				170.0,
+				150.0,
+				130.0,
+				110.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				150.0,
+				200.0,
+				80.0,
+				80.0,
+				130.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredESpellPassive": {
+		"mScriptName": "KindredESpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWolfMissile": {
+		"mScriptName": "KindredEWolfMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWolfMissileWorkaroundBuff": {
+		"mScriptName": "KindredEWolfMissileWorkaroundBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				170.0,
+				150.0,
+				130.0,
+				110.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				150.0,
+				200.0,
+				80.0,
+				80.0,
+				130.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredEWrapperAbility/KindredEWrapper": {
+		"mScriptName": "KindredEWrapper",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MonsterCap",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						50.0,
+						80.0,
+						110.0,
+						140.0,
+						170.0,
+						200.0,
+						230.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StacksToProc",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAPRatio",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BasePercentDamage",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BaseBiteDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PercentBiteDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BasePercentDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mBuffName": "{64290302}",
+							"mIconKey": "%i:kindredPassiveIcon%",
+							"mCoefficient": 0.004999999888241291,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"CritDamage": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mNumber": 1.5,
+								"__type": "NumberCalculationPart"
+							},
+							{
+								"mStat": 8,
+								"mStatFormula": 2,
+								"mCoefficient": 1.0,
+								"__type": "StatByCoefficientCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "PercentBiteDamage",
+					"__type": "GameCalculationModified"
+				},
+				"HealthThreshold": {
+					"mFormulaParts": [
+						{
+							"mNumber": 0.25,
+							"__type": "NumberCalculationPart"
+						},
+						{
+							"mStat": 7,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalSlow": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SlowAmount",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "SlowAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				12.5,
+				11.0,
+				9.5,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredFakeCastTimeBuff": {
+		"mScriptName": "KindredFakeCastTimeBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredLegendPassive": {
+		"mScriptName": "KindredLegendPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker0": {
+		"mScriptName": "KindredHitListActiveTracker0",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker1": {
+		"mScriptName": "KindredHitListActiveTracker1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListActiveTracker2": {
+		"mScriptName": "KindredHitListActiveTracker2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListMonsterActiveTracker": {
+		"mScriptName": "KindredHitListMonsterActiveTracker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker0": {
+		"mScriptName": "KindredHitListSuccessTracker0",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker1": {
+		"mScriptName": "KindredHitListSuccessTracker1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListSuccessTracker2": {
+		"mScriptName": "KindredHitListSuccessTracker2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitListTracker": {
+		"mScriptName": "KindredHitListTracker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredHitTracker": {
+		"mScriptName": "KindredHitTracker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkOfTheKindredStackCounter": {
+		"mScriptName": "KindredMarkOfTheKindredStackCounter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkoftheKindredSpell": {
+		"mScriptName": "KindredMarkoftheKindredSpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMarkoftheKindredTimer": {
+		"mScriptName": "KindredMarkoftheKindredTimer",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredMonsterBountyLockout": {
+		"mScriptName": "KindredMonsterBountyLockout",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredPassiveManagerAbility/KindredPassiveManager": {
+		"mScriptName": "KindredPassiveManager",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseHealAmount",
+					"mValues": [
+						45.0,
+						45.0,
+						45.0,
+						45.0,
+						45.0,
+						45.0,
+						45.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealAmountPerLevel",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QMarkBonus": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mBuffName": "{64290302}",
+							"mIconKey": "%i:kindredPassiveIcon%",
+							"mCoefficient": 0.05000000074505806,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"WMarkBonus": {
+					"mFormulaParts": [
+						{
+							"mBuffName": "{64290302}",
+							"mIconKey": "%i:kindredPassiveIcon%",
+							"mCoefficient": 0.009999999776482582,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"EMarkBonus": {
+					"mFormulaParts": [
+						{
+							"mBuffName": "{64290302}",
+							"mIconKey": "%i:kindredPassiveIcon%",
+							"mCoefficient": 0.004999999888241291,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredQAbility/KindredQ": {
+		"mScriptName": "KindredQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeedScaling",
+					"mValues": [
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseASDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDNewValue",
+					"mValues": [
+						4.5,
+						4.0,
+						3.5,
+						3.0,
+						2.5,
+						2.0,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalQAttackSpeed": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 7,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mBuffName": "{64290302}",
+							"mIconKey": "%i:kindredPassiveIcon%",
+							"mCoefficient": 0.05000000074505806,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.75,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				35.0,
+				35.0,
+				35.0,
+				35.0,
+				35.0,
+				35.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredQAbility/KindredQASBuff": {
+		"mScriptName": "KindredQASBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredQAbility/KindredQMissile": {
+		"mScriptName": "KindredQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredQAbility/KindredQMissileMinor": {
+		"mScriptName": "KindredQMissileMinor",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredQAbility/KindredQSpellPassive": {
+		"mScriptName": "KindredQSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredQAbility/KindredQ_URFWrapper": {
+		"mScriptName": "KindredQ_URFWrapper",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeedScaling",
+					"mValues": [
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseASDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDNewValue",
+					"mValues": [
+						4.5,
+						4.0,
+						3.5,
+						3.0,
+						2.5,
+						2.0,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalQAttackSpeed": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 7,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mBuffName": "{64290302}",
+							"mIconKey": "%i:kindredPassiveIcon%",
+							"mCoefficient": 0.05000000074505806,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.75,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				35.0,
+				35.0,
+				35.0,
+				35.0,
+				35.0,
+				35.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredRAbility/KindredFakeCastTimeSpell": {
+		"mScriptName": "KindredFakeCastTimeSpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredRAbility/KindredR": {
+		"mScriptName": "KindredR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "HealFlat",
+					"mValues": [
+						150.0,
+						225.0,
+						300.0,
+						375.0,
+						450.0,
+						525.0,
+						600.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoERadius",
+					"mValues": [
+						530.0,
+						530.0,
+						530.0,
+						530.0,
+						530.0,
+						530.0,
+						530.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				180.0,
+				180.0,
+				150.0,
+				120.0,
+				120.0,
+				120.0,
+				120.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredRAbility/KindredRNoDeathBuff": {
+		"mScriptName": "KindredRNoDeathBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": [
+				70.0,
+				85.0,
+				100.0,
+				0.0,
+				0.0,
+				15.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredRAbility/KindredRSpellPassive": {
+		"mScriptName": "KindredRSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredRAbility/KindredRWrapper": {
+		"mScriptName": "KindredRWrapper",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				175.0,
+				150.0,
+				125.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredRecallReturnBuff": {
+		"mScriptName": "KindredRecallReturnBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredRunCycleManager": {
+		"mScriptName": "KindredRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredUIInCombatBuff": {
+		"mScriptName": "KindredUIInCombatBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredWAbility/KindredW": {
+		"mScriptName": "KindredW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "LambToWolfAttackSpeedConversionPercent",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RingRange",
+					"mValues": [
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CloneBasePercentDamage",
+					"mValues": [
+						0.014999999664723873,
+						0.014999999664723873,
+						0.014999999664723873,
+						0.014999999664723873,
+						0.014999999664723873,
+						0.014999999664723873,
+						0.014999999664723873
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CloneDamageFlat",
+					"mValues": [
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CloneADRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ClonePercentDamagePerBounty",
+					"mValues": [
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582,
+						0.009999999776482582
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"AttackHeal": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 47.0,
+							"mInitialBonusPerLevel": 2.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BaseWolfDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "CloneDamageFlat",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "CloneADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PercentWolfDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "CloneBasePercentDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mBuffName": "{64290302}",
+							"mIconKey": "%i:kindredPassiveIcon%",
+							"mDataValue": "ClonePercentDamagePerBounty",
+							"__type": "BuffCounterByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				19.0,
+				18.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredWAbility/KindredWChargePassive": {
+		"mScriptName": "KindredWChargePassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredWAbility/KindredWChargePassiveBuff": {
+		"mScriptName": "KindredWChargePassiveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredWAbility/KindredWCloneBuffVisible": {
+		"mScriptName": "KindredWCloneBuffVisible",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredWAbility/KindredWMaim": {
+		"mScriptName": "KindredWMaim",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredWAbility/KindredWPassiveHealMissile": {
+		"mScriptName": "KindredWPassiveHealMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kindred/Spells/KindredWAbility/KindredWSpellPassive": {
+		"mScriptName": "KindredWSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				19.0,
+				18.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Kindred/Spells/KindredWolfBuddyVisual": {
+		"mScriptName": "KindredWolfBuddyVisual",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	}
+}

@@ -1,0 +1,1021 @@
+{
+	"Characters/MissFortune/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/IsPirateHunter": {
+		"mScriptName": "IsPirateHunter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneBasicAttack": {
+		"mScriptName": "MissFortuneBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneBasicAttack2": {
+		"mScriptName": "MissFortuneBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneBulletTimeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneBulletTimeAbility/MissFortuneBulletEMPTY": {
+		"mScriptName": "MissFortuneBulletEMPTY",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				130.0,
+				120.0,
+				110.0,
+				100.0,
+				20.0,
+				18.0,
+				18.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneBulletTimeAbility/MissFortuneBulletSound": {
+		"mScriptName": "MissFortuneBulletSound",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneBulletTimeAbility/MissFortuneBulletTime": {
+		"mScriptName": "MissFortuneBulletTime",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseWaves",
+					"mValues": [
+						12.0,
+						14.0,
+						16.0,
+						18.0,
+						20.0,
+						22.0,
+						24.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseCritDamageMultiplier",
+					"mValues": [
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158,
+						1.2000000476837158
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseChannelDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "tADRatio",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusCritDamageScalar",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PhysicalDamagePerWave": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mDataValue": "tADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"CritMultiplier": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseCritDamageMultiplier",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mPart1": {
+								"mDataValue": "BonusCritDamageScalar",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"mStat": 8,
+								"mStatFormula": 2,
+								"mCoefficient": 1.0,
+								"__type": "StatByCoefficientCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalWaves": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseWaves",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalChannelDuration": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseChannelDuration",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"PhysicalCritPerWave": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mStat": 2,
+								"mDataValue": "tADRatio",
+								"__type": "StatByNamedDataValueCalculationPart"
+							},
+							{
+								"mDataValue": "APRatio",
+								"__type": "StatByNamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "CritMultiplier",
+					"__type": "GameCalculationModified"
+				},
+				"TotalPhysicalDamage": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mStat": 2,
+								"mDataValue": "tADRatio",
+								"__type": "StatByNamedDataValueCalculationPart"
+							},
+							{
+								"mDataValue": "APRatio",
+								"__type": "StatByNamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalWaves",
+					"__type": "GameCalculationModified"
+				},
+				"TotalPhysicalCritDamage": {
+					"mMultiplier": {
+						"mPart1": {
+							"mSubparts": [
+								{
+									"mStat": 2,
+									"mDataValue": "tADRatio",
+									"__type": "StatByNamedDataValueCalculationPart"
+								},
+								{
+									"mDataValue": "APRatio",
+									"__type": "StatByNamedDataValueCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						},
+						"mPart2": {
+							"mSubparts": [
+								{
+									"mDataValue": "BaseCritDamageMultiplier",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								{
+									"mPart1": {
+										"mDataValue": "BonusCritDamageScalar",
+										"__type": "NamedDataValueCalculationPart"
+									},
+									"mPart2": {
+										"mStat": 8,
+										"mStatFormula": 2,
+										"mCoefficient": 1.0,
+										"__type": "StatByCoefficientCalculationPart"
+									},
+									"__type": "ProductOfSubPartsCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						},
+						"__type": "ProductOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalWaves",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.0010000000474974513,
+			"cooldownTime": [
+				130.0,
+				120.0,
+				110.0,
+				100.0,
+				90.0,
+				80.0,
+				70.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneBulletTimeAbility/MissFortuneBullets": {
+		"mScriptName": "MissFortuneBullets",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneCritAttack": {
+		"mScriptName": "MissFortuneCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneGunGoddessGearManager": {
+		"mScriptName": "MissFortuneGunGoddessGearManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortunePassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortunePassiveAbility/MissFortunePassive": {
+		"mScriptName": "MissFortunePassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mLevel1Value": 0.5,
+								"mBreakpoints": [
+									{
+										"mLevel": 4,
+										"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 7,
+										"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 9,
+										"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 11,
+										"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 13,
+										"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 20,
+										"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 25,
+										"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 30,
+										"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+										"__type": "Breakpoint"
+									}
+								],
+								"__type": "ByCharLevelBreakpointsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MinionDamage": {
+					"mMultiplier": {
+						"mNumber": 0.5,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortunePassiveAbility/MissFortunePassiveAttack": {
+		"mScriptName": "MissFortunePassiveAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortunePassiveAbility/MissFortunePassiveAttack2": {
+		"mScriptName": "MissFortunePassiveAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortunePassiveAbility/MissFortunePassiveAttackCrit": {
+		"mScriptName": "MissFortunePassiveAttackCrit",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortunePassiveAbility/MissFortunePassiveStack": {
+		"mScriptName": "MissFortunePassiveStack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneRicochetShotAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneRicochetShotAbility/MissFortuneRShotExtra": {
+		"mScriptName": "MissFortuneRShotExtra",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0,
+				3.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneRicochetShotAbility/MissFortuneRicochetShot": {
+		"mScriptName": "MissFortuneRicochetShot",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 2,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0,
+				3.0
+			],
+			"mana": [
+				43.0,
+				46.0,
+				49.0,
+				52.0,
+				55.0,
+				58.0
+			]
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneRicochetShotAbility/MissFortuneRicochetShotDud": {
+		"mScriptName": "MissFortuneRicochetShotDud",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0,
+				3.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneRunCycleManager": {
+		"mScriptName": "MissFortuneRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneScattershotAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneScattershotAbility/MissFortuneScattershot": {
+		"mScriptName": "MissFortuneScattershot",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamagePerSecond",
+					"mValues": [
+						20.0,
+						35.0,
+						50.0,
+						65.0,
+						80.0,
+						95.0,
+						110.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseSlowAmount",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatioPerSecond",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TicksPerSecond",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CastDelay",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPer100AP",
+					"mValues": [
+						0.0006000000284984708,
+						0.0006000000284984708,
+						0.0006000000284984708,
+						0.0006000000284984708,
+						0.0006000000284984708,
+						0.0006000000284984708,
+						0.0006000000284984708
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamagePerSecond": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamagePerSecond",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioPerSecond",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalSlowAmount": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseSlowAmount",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "SlowPer100AP",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mMultiplier": {
+						"mDataValue": "BaseDuration",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamagePerSecond",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				20.0,
+				18.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneScattershotAbility/MissFortuneScattershotSlow": {
+		"mScriptName": "MissFortuneScattershotSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneViciousStrikesAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneViciousStrikesAbility/MissFortuneStrut": {
+		"mScriptName": "MissFortuneStrut",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneViciousStrikesAbility/MissFortuneStrutManager": {
+		"mScriptName": "MissFortuneStrutManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneViciousStrikesAbility/MissFortuneStrutStacks": {
+		"mScriptName": "MissFortuneStrutStacks",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneViciousStrikesAbility/MissFortuneViciousStrikes": {
+		"mScriptName": "MissFortuneViciousStrikes",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PassiveBaseMS",
+					"mValues": [
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0,
+						50.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveMaxMS",
+					"mValues": [
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0,
+						100.0,
+						110.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LoveTapBaseRefund",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ActiveAS",
+					"mValues": [
+						0.25,
+						0.4000000059604645,
+						0.550000011920929,
+						0.699999988079071,
+						0.8500000238418579,
+						1.0,
+						1.149999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ActiveDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveBaseMSOOC",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveMaxMSExtraOOC",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"LoveTapRefund": {
+					"mMultiplier": {
+						"__type": "CooldownMultiplierCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "LoveTapBaseRefund",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				45.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0
+			]
+		}
+	},
+	"Characters/MissFortune/Spells/MissFortuneViciousStrikesAbility/Miss_Fortune_Strut_Cooldown": {
+		"mScriptName": "Miss_Fortune_Strut_Cooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

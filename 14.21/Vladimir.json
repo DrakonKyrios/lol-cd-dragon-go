@@ -1,0 +1,799 @@
+{
+	"Characters/Vladimir/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirBasicAttack": {
+		"mScriptName": "VladimirBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirBasicAttack2": {
+		"mScriptName": "VladimirBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirBasicAttack3": {
+		"mScriptName": "VladimirBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirBasicAttack4": {
+		"mScriptName": "VladimirBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirBloodBallVFXBuff": {
+		"mScriptName": "VladimirBloodBallVFXBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirBloodGorgedAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirBloodGorgedAbility/VladimirBloodGorged": {
+		"mScriptName": "VladimirBloodGorged",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"ApproximateAPBonusAvoidingRecursion": {
+					"mMultiplier": {
+						"mNumber": 1.059999942779541,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mSubparts": [
+									{
+										"mStat": 11,
+										"mStatFormula": 2,
+										"mCoefficient": 1.0,
+										"__type": "StatByCoefficientCalculationPart"
+									},
+									{
+										"mPart1": {
+											"mEffectIndex": 2,
+											"__type": "EffectValueCalculationPart"
+										},
+										"mPart2": {
+											"mCoefficient": -1.0,
+											"__type": "StatByCoefficientCalculationPart"
+										},
+										"__type": "ProductOfSubPartsCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"mPart2": {
+								"mPart1": {
+									"mNumber": 0.009999999776482582,
+									"__type": "NumberCalculationPart"
+								},
+								"mPart2": {
+									"mNumber": 3.3329999446868896,
+									"__type": "NumberCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ApproximateHPBonusAvoidingRecursion": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mSubparts": [
+									{
+										"mStatFormula": 2,
+										"mCoefficient": 1.0,
+										"__type": "StatByCoefficientCalculationPart"
+									},
+									{
+										"mPart1": {
+											"mPart1": {
+												"mNumber": 0.009999999776482582,
+												"__type": "NumberCalculationPart"
+											},
+											"mPart2": {
+												"mNumber": 3.3329999446868896,
+												"__type": "NumberCalculationPart"
+											},
+											"__type": "ProductOfSubPartsCalculationPart"
+										},
+										"mPart2": {
+											"mStat": 11,
+											"mStatFormula": 2,
+											"mCoefficient": -1.0,
+											"__type": "StatByCoefficientCalculationPart"
+										},
+										"__type": "ProductOfSubPartsCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"mPart2": {
+								"mPart1": {
+									"mNumber": 1.059999942779541,
+									"__type": "NumberCalculationPart"
+								},
+								"mPart2": {
+									"mEffectIndex": 2,
+									"__type": "EffectValueCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirCritAttack": {
+		"mScriptName": "VladimirCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirEAbility/VladimirE": {
+		"mScriptName": "VladimirE",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"MinDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 3,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mCoefficient": 0.014999999664723873,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.3499999940395355,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 10,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mCoefficient": 0.05999999865889549,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ChargeHealthTooltip": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mCoefficient": 0.07999999821186066,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				15.0,
+				13.0,
+				11.0,
+				9.0,
+				7.0,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirHemoplagueAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirHemoplagueAbility/VladimirHemoplague": {
+		"mScriptName": "VladimirHemoplague",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SecondaryHealingTooltip": {
+					"mMultiplier": {
+						"mNumber": 0.4000000059604645,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "Damage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				120.0,
+				120.0,
+				120.0,
+				120.0,
+				120.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirHemoplagueDebuff": {
+		"mScriptName": "VladimirHemoplagueDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirHemoplagueMissile": {
+		"mScriptName": "VladimirHemoplagueMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirQAbility/VladimirQ": {
+		"mScriptName": "VladimirQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "HealAPRatio",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BaseDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BaseHealTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 2,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "HealAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpoweredDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 1.850000023841858,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "BaseDamageTooltip",
+					"__type": "GameCalculationModified"
+				},
+				"EmpoweredHealPercentTooltip": {
+					"mMultiplier": {
+						"mNumber": 1.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "EmpoweredHealPercent",
+					"__type": "GameCalculationModified"
+				},
+				"{097cda4f}": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 30.0,
+							"mEndValue": 200.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpoweredHealTooltip": {
+					"mMultiplier": {
+						"mNumber": 1.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "{097cda4f}",
+					"__type": "GameCalculationModified"
+				},
+				"EmpoweredHealPercent": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mNumber": 5.0,
+							"__type": "NumberCalculationPart"
+						},
+						{
+							"mCoefficient": 0.03999999910593033,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"MovementSpeedOnQ2": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 10.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 10.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 10.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 10.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 21,
+									"mAdditionalBonusAtThisLevel": 10.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 26,
+									"mAdditionalBonusAtThisLevel": 10.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				10.100000381469727,
+				9.0,
+				7.900000095367432,
+				6.800000190734863,
+				5.699999809265137,
+				4.599999904632568,
+				3.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirQBuild": {
+		"mScriptName": "VladimirQBuild",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirQFrenzy": {
+		"mScriptName": "VladimirQFrenzy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirRHealMissile": {
+		"mScriptName": "VladimirRHealMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirSanguinePoolAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirSanguinePoolAbility/VladimirSanguinePool": {
+		"mScriptName": "VladimirSanguinePool",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MinionHealingMod",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						80.0,
+						135.0,
+						190.0,
+						245.0,
+						300.0,
+						355.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealthCost",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusHealthRatio",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedMod",
+					"mValues": [
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645,
+						-0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VampPercent",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HasteBoost",
+					"mValues": [
+						0.375,
+						0.375,
+						0.375,
+						0.375,
+						0.375,
+						0.375,
+						0.375
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HasteDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mStatFormula": 2,
+							"mDataValue": "BonusHealthRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalHeal": {
+					"mMultiplier": {
+						"mDataValue": "VampPercent",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				31.0,
+				28.0,
+				25.0,
+				22.0,
+				19.0,
+				16.0,
+				16.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirSanguinePoolSlow": {
+		"mScriptName": "VladimirSanguinePoolSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirTidesofBlood": {
+		"mScriptName": "VladimirTidesofBlood",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.5,
+				4.5,
+				4.5,
+				4.5,
+				4.5,
+				4.5,
+				4.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirTidesofBloodCost": {
+		"mScriptName": "VladimirTidesofBloodCost",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirTidesofBloodHeal": {
+		"mScriptName": "VladimirTidesofBloodHeal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirTidesofBloodNuke": {
+		"mScriptName": "VladimirTidesofBloodNuke",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Vladimir/Spells/VladimirTransfusionHeal": {
+		"mScriptName": "VladimirTransfusionHeal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

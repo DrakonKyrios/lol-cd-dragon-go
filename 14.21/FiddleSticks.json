@@ -1,0 +1,806 @@
+{
+	"Characters/FiddleSticks/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/FiddleSticks/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/FiddleSticks/Spells/FiddleSticksBasicAttack": {
+		"mScriptName": "FiddleSticksBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/FiddleSticks/Spells/FiddleSticksBasicAttack2": {
+		"mScriptName": "FiddleSticksBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/FiddleSticks/Spells/FiddleSticksBasicAttackMelee": {
+		"mScriptName": "FiddleSticksBasicAttackMelee",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/FiddleSticks/Spells/FiddleSticksBasicAttackMelee2": {
+		"mScriptName": "FiddleSticksBasicAttackMelee2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/FiddleSticks/Spells/FiddleSticksCritAttack": {
+		"mScriptName": "FiddleSticksCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksEAbility/FiddleSticksE": {
+		"mScriptName": "FiddleSticksE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						35.0,
+						70.0,
+						105.0,
+						140.0,
+						175.0,
+						210.0,
+						245.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						-0.25,
+						-0.30000001192092896,
+						-0.3499999940395355,
+						-0.4000000059604645,
+						-0.44999998807907104,
+						-0.5,
+						-0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EmpoweredSlowAmount",
+					"mValues": [
+						-0.44999998807907104,
+						-0.5,
+						-0.550000011920929,
+						-0.6000000238418579,
+						-0.6499999761581421,
+						-0.699999988079071,
+						-0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CastRange",
+					"mValues": [
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SilenceDuration",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.4000000059604645,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0
+			],
+			"mana": [
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksPassiveAbility/FiddleSticksPassive": {
+		"mScriptName": "FiddleSticksPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksPassiveAbility/FiddleSticksPassiveAnimationFreeze": {
+		"mScriptName": "FiddleSticksPassiveAnimationFreeze",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksQAbility/FiddleSticksQ": {
+		"mScriptName": "FiddleSticksQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxHealthDamage",
+					"mValues": [
+						0.03999999910593033,
+						0.05000000074505806,
+						0.05999999865889549,
+						0.07000000029802322,
+						0.07999999821186066,
+						0.09000000357627869,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FearDuration",
+					"mValues": [
+						1.0,
+						1.25,
+						1.5,
+						1.75,
+						2.0,
+						2.25,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumDamage",
+					"mValues": [
+						20.0,
+						40.0,
+						60.0,
+						80.0,
+						100.0,
+						120.0,
+						140.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalPercentHealthDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "MaxHealthDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.00019999999494757503,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalPercentHealthDamageFeared": {
+					"mMultiplier": {
+						"mNumber": 2.0,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "TotalPercentHealthDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				15.0,
+				14.5,
+				14.0,
+				13.5,
+				13.0,
+				12.5
+			],
+			"mana": [
+				65.0,
+				65.0,
+				65.0,
+				65.0,
+				65.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksQAbility/FiddleSticksQMissileFear": {
+		"mScriptName": "FiddleSticksQMissileFear",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksQAbility/FiddleSticksQMissileNoFear": {
+		"mScriptName": "FiddleSticksQMissileNoFear",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksQAbility/FiddleSticksQPassive": {
+		"mScriptName": "FiddleSticksQPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksQAbility/FiddleSticksTerrifyBuff": {
+		"mScriptName": "FiddleSticksTerrifyBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksRAbility/FiddleSticksR": {
+		"mScriptName": "FiddleSticksR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DamagePerSecond",
+					"mValues": [
+						50.0,
+						150.0,
+						250.0,
+						350.0,
+						450.0,
+						550.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChannelTime",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageDone": {
+					"mMultiplier": {
+						"mNumber": 0.25,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "DamagePerSecond",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mMultiplier": {
+						"mDataValue": "Duration",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "{d0d3db7f}",
+					"__type": "GameCalculationModified"
+				},
+				"APRatioFullDuration": {
+					"mMultiplier": {
+						"mDataValue": "Duration",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"APRatioTick": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{d0d3db7f}": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "DamagePerSecond",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				140.0,
+				140.0,
+				110.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksWAbility/FiddleSticksW": {
+		"mScriptName": "FiddleSticksW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DamagePerSecond",
+					"mValues": [
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0,
+						210.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TicksPerSecond",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VampPercentage",
+					"mValues": [
+						17.5,
+						25.0,
+						32.5,
+						40.0,
+						47.5,
+						55.0,
+						62.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DrainDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DrainLeashRange",
+					"mValues": [
+						725.0,
+						725.0,
+						725.0,
+						725.0,
+						725.0,
+						725.0,
+						725.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentMultiplier",
+					"mValues": [
+						0.0949999988079071,
+						0.11999999731779099,
+						0.14499999582767487,
+						0.17000000178813934,
+						0.19499999284744263,
+						0.2199999988079071,
+						0.24500000476837158
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentForTooltip",
+					"mValues": [
+						9.5,
+						12.0,
+						14.5,
+						17.0,
+						19.5,
+						22.0,
+						24.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterDamageMod",
+					"mValues": [
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterHealingMod",
+					"mValues": [
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104,
+						0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionDamageMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionHealingMod",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterMaxDamage",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DrainDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DamagePerSecond",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.3499999940395355,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.5,
+				9.0,
+				8.5,
+				8.0,
+				8.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksWAbility/FiddleSticksWCosmeticMissileBig": {
+		"mScriptName": "FiddleSticksWCosmeticMissileBig",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Fiddlesticks/Spells/FiddleSticksWAbility/FiddleSticksWCosmeticMissileSmall": {
+		"mScriptName": "FiddleSticksWCosmeticMissileSmall",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,703 @@
+{
+	"Characters/Caitlyn/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynBasicAttack": {
+		"mScriptName": "CaitlynBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynCritAttack": {
+		"mScriptName": "CaitlynCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynEAbility/CaitlynE": {
+		"mScriptName": "CaitlynE",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"NetDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				10.0,
+				8.0,
+				6.0
+			],
+			"mana": [
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynEAbility/CaitlynEMissile": {
+		"mScriptName": "CaitlynEMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassive": {
+		"mScriptName": "CaitlynPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CritChanceMultiplier",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TowerCap",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttacksPerHeadshot",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BrushStackBonus",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"HeadShotBonusDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mSubparts": [
+									{
+										"mLevel1Value": 0.6000000238418579,
+										"mBreakpoints": [
+											{
+												"mLevel": 7,
+												"mAdditionalBonusAtThisLevel": 0.30000001192092896,
+												"__type": "Breakpoint"
+											},
+											{
+												"mLevel": 13,
+												"mAdditionalBonusAtThisLevel": 0.30000001192092896,
+												"__type": "Breakpoint"
+											}
+										],
+										"__type": "ByCharLevelBreakpointsCalculationPart"
+									},
+									{
+										"mPart1": {
+											"mStat": 8,
+											"mCoefficient": 1.0,
+											"__type": "StatByCoefficientCalculationPart"
+										},
+										"mPart2": {
+											"mStat": 7,
+											"mCoefficient": 0.8500000238418579,
+											"__type": "StatByCoefficientCalculationPart"
+										},
+										"__type": "ProductOfSubPartsCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"HeadShotMinionBonusDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mSubparts": [
+									{
+										"mNumber": 1.0,
+										"__type": "NumberCalculationPart"
+									},
+									{
+										"mPart1": {
+											"mNumber": -1.0,
+											"__type": "NumberCalculationPart"
+										},
+										"mPart2": {
+											"mLevel1Value": 0.5,
+											"mBreakpoints": [
+												{
+													"mLevel": 7,
+													"mAdditionalBonusAtThisLevel": 0.25,
+													"__type": "Breakpoint"
+												},
+												{
+													"mLevel": 13,
+													"mAdditionalBonusAtThisLevel": 0.25,
+													"__type": "Breakpoint"
+												}
+											],
+											"__type": "ByCharLevelBreakpointsCalculationPart"
+										},
+										"__type": "ProductOfSubPartsCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BrushAttackTotal": {
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mNumber": 1.0,
+									"__type": "NumberCalculationPart"
+								},
+								{
+									"mDataValue": "BrushStackBonus",
+									"__type": "NamedDataValueCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveCount": {
+		"mScriptName": "CaitlynPassiveCount",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveDriver": {
+		"mScriptName": "CaitlynPassiveDriver",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveMissile": {
+		"mScriptName": "CaitlynPassiveMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 1.0,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveRangeCheck": {
+		"mScriptName": "CaitlynPassiveRangeCheck",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynPassiveAbility/CaitlynPassiveRangeMarker": {
+		"mScriptName": "CaitlynPassiveRangeMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynQAbility/CaitlynQ": {
+		"mScriptName": "CaitlynQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						10.0,
+						50.0,
+						90.0,
+						130.0,
+						170.0,
+						210.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondaryMult",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "tADRatio",
+					"mValues": [
+						1.0499999523162842,
+						1.25,
+						1.4500000476837158,
+						1.649999976158142,
+						1.850000023841858,
+						2.049999952316284,
+						2.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"InitialDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mDataValue": "tADRatio",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SecondaryDamage": {
+					"mMultiplier": {
+						"mDataValue": "SecondaryMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "InitialDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynQAbility/CaitlynQ2": {
+		"mScriptName": "CaitlynQ2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynRAbility/CaitlynR": {
+		"mScriptName": "CaitlynR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						100.0,
+						300.0,
+						500.0,
+						700.0,
+						900.0,
+						1100.0,
+						1300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RADRatio",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritChanceAmp",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RTotalDamage": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mNumber": 1.0,
+								"__type": "NumberCalculationPart"
+							},
+							{
+								"mStat": 7,
+								"mDataValue": "CritChanceAmp",
+								"__type": "StatByNamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "RADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynRAbility/CaitlynRMissile": {
+		"mScriptName": "CaitlynRMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynSkin11Manager": {
+		"mScriptName": "CaitlynSkin11Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynSkin22Manager": {
+		"mScriptName": "CaitlynSkin22Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynWAbility/CaitlynW": {
+		"mScriptName": "CaitlynW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"HeadShotBonusDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 2,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mSubpart": {
+								"mPart1": {
+									"mEffectIndex": 7,
+									"__type": "EffectValueCalculationPart"
+								},
+								"mPart2": {
+									"mNumber": 0.009999999776482582,
+									"__type": "NumberCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"mana": [
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0
+			]
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynWAbility/CaitlynWSight": {
+		"mScriptName": "CaitlynWSight",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Caitlyn/Spells/CaitlynWAbility/CaitlynWSnare": {
+		"mScriptName": "CaitlynWSnare",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

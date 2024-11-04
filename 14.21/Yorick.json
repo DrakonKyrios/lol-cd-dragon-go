@@ -1,0 +1,910 @@
+{
+	"Characters/Yorick/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickBasicAttack": {
+		"mScriptName": "YorickBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickBasicAttack2": {
+		"mScriptName": "YorickBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickCritAttack": {
+		"mScriptName": "YorickCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickEAbility/YorickE": {
+		"mScriptName": "YorickE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "GhoulBonusDamage",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GhoulBonusCount",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"MinimumDamageBonus": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Yorick/Spells/YorickEAbility/YorickEFrenzy": {
+		"mScriptName": "YorickEFrenzy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickEAbility/YorickEMark": {
+		"mScriptName": "YorickEMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickEAbility/YorickEMissile": {
+		"mScriptName": "YorickEMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickPassiveAbility/YorickPassive": {
+		"mScriptName": "YorickPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "YorickPassiveGhoulMax",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "YorickPassiveGhoulAOEReduction",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "YorickGhoulDamageReductionVsTowers",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "YorickGhoulLeashRange",
+					"mValues": [
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "YorickGhoulSpawnDelay",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "YorickGhoulMonsterReduction",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CherryGhoulHPMod",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GhoulADRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"YorickPassiveGhoulHealth": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 110.0,
+							"mInitialBonusPerLevel": 6.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"YorickPassiveGhoulDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 4.0,
+							"mInitialBonusPerLevel": 1.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 8,
+									"mBonusPerLevelAtAndAfter": 5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 14,
+									"mBonusPerLevelAtAndAfter": 10.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "GhoulADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{1d553841}": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 12.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": -6.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": -4.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"UnitsToGrave": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 12.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": -6.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": -4.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickPassiveAbility/YorickPassiveAICFH": {
+		"mScriptName": "YorickPassiveAICFH",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickPassiveAbility/YorickPassiveAICombat": {
+		"mScriptName": "YorickPassiveAICombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickPassiveAbility/YorickPassiveDeathCounter": {
+		"mScriptName": "YorickPassiveDeathCounter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickPassiveAbility/YorickPassiveDeathReady": {
+		"mScriptName": "YorickPassiveDeathReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickQAbility/YorickQ": {
+		"mScriptName": "YorickQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CherryGhoulPassiveSpawnRate",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						5.0,
+						30.0,
+						55.0,
+						80.0,
+						105.0,
+						130.0,
+						155.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissingHealthRatio",
+					"mValues": [
+						3.0,
+						4.0,
+						5.0,
+						6.0,
+						7.0,
+						8.0,
+						9.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealReduction",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QHeal": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 10.0,
+							"mInitialBonusPerLevel": 2.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mBonusPerLevelAtAndAfter": 3.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mBonusPerLevelAtAndAfter": 5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				7.75,
+				7.0,
+				6.25,
+				5.5,
+				4.75,
+				4.0,
+				3.25
+			],
+			"mana": [
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0
+			]
+		}
+	},
+	"Characters/Yorick/Spells/YorickQAbility/YorickQ2": {
+		"mScriptName": "YorickQ2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickQAbility/YorickQAttack": {
+		"mScriptName": "YorickQAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickQAbility/YorickQBuff": {
+		"mScriptName": "YorickQBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickRAbility/YorickR": {
+		"mScriptName": "YorickR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RGhoulNumbers",
+					"mValues": [
+						1.0,
+						2.0,
+						3.0,
+						4.0,
+						5.0,
+						6.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RBigGhoulBonusAD",
+					"mValues": [
+						0.0,
+						0.0,
+						10.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMarkDamagePercent",
+					"mValues": [
+						1.5,
+						2.0,
+						2.5,
+						3.0,
+						3.5,
+						4.0,
+						4.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMarkMaxDamage",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RRadius",
+					"mValues": [
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RSummonDelay",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RControlTime",
+					"mValues": [
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CherryMaidenHealthMod",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"YorickBigGhoulHealth": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 400.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mBonusPerLevelAtAndAfter": 25.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mBonusPerLevelAtAndAfter": 125.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mBonusPerLevelAtAndAfter": 175.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"YorickBigGhoulDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBigGhoulBonusAD",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"YorickMaidenResists": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 30.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mBonusPerLevelAtAndAfter": 5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				160.0,
+				160.0,
+				130.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Yorick/Spells/YorickRAbility/YorickR2": {
+		"mScriptName": "YorickR2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickRBigGhoul": {
+		"mScriptName": "YorickRBigGhoul",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickRMark": {
+		"mScriptName": "YorickRMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickRSpellPassive": {
+		"mScriptName": "YorickRSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yorick/Spells/YorickWAbility/YorickW": {
+		"mScriptName": "YorickW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	}
+}

@@ -1,0 +1,819 @@
+{
+	"Characters/Malphite/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/LandslideAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/LandslideAbility/Landslide": {
+		"mScriptName": "Landslide",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						70.0,
+						110.0,
+						150.0,
+						190.0,
+						230.0,
+						270.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ASReduction",
+					"mValues": [
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0,
+						50.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 1,
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.2418999969959259,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Malphite/Spells/LandslideAbility/LandslideDebuff": {
+		"mScriptName": "LandslideDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/MalphiteBasicAttack": {
+		"mScriptName": "MalphiteBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/MalphiteBasicAttack2": {
+		"mScriptName": "MalphiteBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/MalphiteCritAttack": {
+		"mScriptName": "MalphiteCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/MalphiteDamageBuff": {
+		"mScriptName": "MalphiteDamageBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/MalphiteShieldAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/MalphiteShieldAbility/MalphiteArmorSizeScale": {
+		"mScriptName": "MalphiteArmorSizeScale",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/MalphiteShieldAbility/MalphiteShield": {
+		"mScriptName": "MalphiteShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"PassiveCooldown": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 8.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": -1.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": -1.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalShield": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/MalphiteShieldAbility/Malphite_Shield_Cooldown": {
+		"mScriptName": "Malphite_Shield_Cooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/ObduracyAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/ObduracyAbility/MalphiteCleave": {
+		"mScriptName": "MalphiteCleave",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Malphite/Spells/ObduracyAbility/MalphiteObduracyEffect": {
+		"mScriptName": "MalphiteObduracyEffect",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/ObduracyAbility/MalphiteThunderclap": {
+		"mScriptName": "MalphiteThunderclap",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0,
+				16.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Malphite/Spells/ObduracyAbility/Obduracy": {
+		"mScriptName": "Obduracy",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ThunderclapBuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThunderclapBaseDamage",
+					"mValues": [
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThunderclapSlowDamage",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThunderclapSplashAP",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThunderclapSplashArmor",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThunderclapBaseDamageAPRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThunderclapBaseDamageArmorRatio",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThunderclapSplashDamage",
+					"mValues": [
+						5.0,
+						15.0,
+						25.0,
+						35.0,
+						45.0,
+						55.0,
+						65.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusArmorPassive",
+					"mValues": [
+						0.05000000074505806,
+						0.10000000149011612,
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusArmorPassiveMultiplier",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThunderClapSplashRange",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalBonusDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "ThunderclapBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "ThunderclapBaseDamageAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 1,
+							"mDataValue": "ThunderclapBaseDamageArmorRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{185669f9}": {
+					"mMultiplier": {
+						"mDataValue": "ThunderclapSlowDamage",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 0,
+					"mModifiedGameCalculation": "TotalBonusDamage",
+					"__type": "GameCalculationModified"
+				},
+				"ThunderclapSplash": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "ThunderclapSplashDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "ThunderclapSplashAP",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 1,
+							"mDataValue": "ThunderclapSplashArmor",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{71941255}": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mDataValue": "BonusArmorPassive",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"mDataValue": "BonusArmorPassiveMultiplier",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.5,
+				9.0,
+				8.5,
+				8.0,
+				8.0
+			],
+			"mana": [
+				30.0,
+				35.0,
+				40.0,
+				45.0,
+				50.0,
+				55.0
+			]
+		}
+	},
+	"Characters/Malphite/Spells/ObduracyAbility/ObduracyAttack": {
+		"mScriptName": "ObduracyAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/SeismicShardAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/SeismicShardAbility/SeismicShard": {
+		"mScriptName": "SeismicShard",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SpeedSteal",
+					"mValues": [
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						20.0,
+						70.0,
+						120.0,
+						170.0,
+						220.0,
+						270.0,
+						320.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QDamageCalc": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				95.0
+			]
+		}
+	},
+	"Characters/Malphite/Spells/SeismicShardAbility/SeismicShardBuff": {
+		"mScriptName": "SeismicShardBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/SeismicShardAbility/SeismicShardReturn": {
+		"mScriptName": "SeismicShardReturn",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SpeedSteal",
+					"mValues": [
+						75.0,
+						90.0,
+						105.0,
+						120.0,
+						135.0,
+						150.0,
+						165.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/UFSlashAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Malphite/Spells/UFSlashAbility/UFSlash": {
+		"mScriptName": "UFSlash",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						100.0,
+						200.0,
+						300.0,
+						400.0,
+						500.0,
+						600.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.8999999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				130.0,
+				130.0,
+				105.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Malphite/Spells/UFSlashAbility/UnstoppableForceStun": {
+		"mScriptName": "UnstoppableForceStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	}
+}

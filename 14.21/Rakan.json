@@ -1,0 +1,686 @@
+{
+	"Characters/Rakan/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanBasicAttack": {
+		"mScriptName": "RakanBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanBasicAttack2": {
+		"mScriptName": "RakanBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanBasicAttackShort": {
+		"mScriptName": "RakanBasicAttackShort",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanBasicAttackShort2": {
+		"mScriptName": "RakanBasicAttackShort2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanCritAttack": {
+		"mScriptName": "RakanCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanEAbility/RakanE": {
+		"mScriptName": "RakanE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseShield",
+					"mValues": [
+						25.0,
+						50.0,
+						75.0,
+						100.0,
+						125.0,
+						150.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalShield": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseShield",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Rakan/Spells/RakanEAbility/RakanECast": {
+		"mScriptName": "RakanECast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanEAbility/RakanECastXaya": {
+		"mScriptName": "RakanECastXaya",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanEAbility/RakanERecast": {
+		"mScriptName": "RakanERecast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanEAbility/RakanEShield": {
+		"mScriptName": "RakanEShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0,
+				13.0
+			],
+			"mana": [
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0
+			]
+		}
+	},
+	"Characters/Rakan/Spells/RakanPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanPassiveAbility/RakanPassive": {
+		"mScriptName": "RakanPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalShield": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 30.0,
+							"mEndValue": 225.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.949999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ShieldCooldown": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 40.0,
+							"mInitialBonusPerLevel": -1.5,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanPassiveAbility/RakanPassiveReady": {
+		"mScriptName": "RakanPassiveReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanPassiveAbility/RakanPassiveShield": {
+		"mScriptName": "RakanPassiveShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanQAbility/RakanQ": {
+		"mScriptName": "RakanQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						70.0,
+						115.0,
+						160.0,
+						205.0,
+						250.0,
+						295.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealDelay",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseCDActual",
+					"mValues": [
+						12.0,
+						11.0,
+						10.0,
+						9.0,
+						8.0,
+						7.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalHeal": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 40.0,
+							"mEndValue": 210.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.550000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{b88e1204}": {
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mDataValue": "BaseCDActual",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"__type": "CooldownMultiplierCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				11.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0
+			],
+			"mana": [
+				45.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0
+			]
+		}
+	},
+	"Characters/Rakan/Spells/RakanQAbility/RakanQMark": {
+		"mScriptName": "RakanQMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanQAbility/RakanQMis": {
+		"mScriptName": "RakanQMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanQAbility/RakanQReturnMis": {
+		"mScriptName": "RakanQReturnMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanRAbility/RakanR": {
+		"mScriptName": "RakanR",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				130.0,
+				130.0,
+				110.0,
+				90.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Rakan/Spells/RakanRAbility/RakanRDebuff": {
+		"mScriptName": "RakanRDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanRunCycleManager": {
+		"mScriptName": "RakanRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanWAbility/RakanW": {
+		"mScriptName": "RakanW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BasicBootsSpeedBonus",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CompletedBootsSpeedBonus",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDashSpeed",
+					"mValues": [
+						1700.0,
+						1700.0,
+						1700.0,
+						1700.0,
+						1700.0,
+						1700.0,
+						1700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						20.0,
+						70.0,
+						120.0,
+						170.0,
+						220.0,
+						270.0,
+						320.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				14.5,
+				13.0,
+				11.5,
+				10.0,
+				10.0
+			],
+			"mana": [
+				50.0,
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Rakan/Spells/RakanWAbility/RakanWCast": {
+		"mScriptName": "RakanWCast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Rakan/Spells/RakanWAbility/RakanWCharm": {
+		"mScriptName": "RakanWCharm",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

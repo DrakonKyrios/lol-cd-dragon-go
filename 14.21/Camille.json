@@ -1,0 +1,1212 @@
+{
+	"Characters/Camille/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleAttackAnimationCycle": {
+		"mScriptName": "CamilleAttackAnimationCycle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleBasicAttack": {
+		"mScriptName": "CamilleBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleBasicAttack2": {
+		"mScriptName": "CamilleBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleBasicAttack3": {
+		"mScriptName": "CamilleBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleBasicAttack4": {
+		"mScriptName": "CamilleBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleCritAttack": {
+		"mScriptName": "CamilleCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleE": {
+		"mScriptName": "CamilleE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "EMinionMonsterGhostDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ASBuff",
+					"mValues": [
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929,
+						0.6000000238418579,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0,
+						210.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1050.0,
+						1050.0,
+						1050.0,
+						1050.0,
+						1050.0,
+						1050.0,
+						1050.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ASDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WallHangDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "E2LongDashRange",
+					"mValues": [
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "E2ShortDashRange",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ECollisionRange",
+					"mValues": [
+						130.0,
+						130.0,
+						130.0,
+						130.0,
+						130.0,
+						130.0,
+						130.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BADRatio",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleEAttackSpeed": {
+		"mScriptName": "CamilleEAttackSpeed",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleEDash1": {
+		"mScriptName": "CamilleEDash1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleEDash2": {
+		"mScriptName": "CamilleEDash2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				17.5,
+				16.0,
+				14.5,
+				13.0,
+				11.5,
+				10.0,
+				10.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleEKnockback2": {
+		"mScriptName": "CamilleEKnockback2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleELeftMissile": {
+		"mScriptName": "CamilleELeftMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				15.5,
+				14.0,
+				12.5,
+				11.0,
+				9.5,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleEMissile": {
+		"mScriptName": "CamilleEMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				15.5,
+				14.0,
+				12.5,
+				11.0,
+				9.5,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleEOnWall": {
+		"mScriptName": "CamilleEOnWall",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleERightMissile": {
+		"mScriptName": "CamilleERightMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				15.5,
+				14.0,
+				12.5,
+				11.0,
+				9.5,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEAbility/CamilleEStun": {
+		"mScriptName": "CamilleEStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleEnemyScouter": {
+		"mScriptName": "CamilleEnemyScouter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamillePassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamillePassiveAbility/CamillePassive": {
+		"mScriptName": "CamillePassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxHPCoefficient",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PassiveCooldown": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 18.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": -4.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": -4.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 19,
+									"mAdditionalBonusAtThisLevel": -4.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ShieldAmount": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mDataValue": "MaxHPCoefficient",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamillePassiveAbility/CamillePassiveCooldown": {
+		"mScriptName": "CamillePassiveCooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamillePassiveAbility/CamillePassiveReady": {
+		"mScriptName": "CamillePassiveReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamillePassiveAbility/CamillePassiveShieldMagic": {
+		"mScriptName": "CamillePassiveShieldMagic",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamillePassiveAbility/CamillePassiveShieldPhysical": {
+		"mScriptName": "CamillePassiveShieldPhysical",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleQAbility/CamilleQ": {
+		"mScriptName": "CamilleQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "QRampUpTime",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusAARange",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TADRatio",
+					"mValues": [
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSBonus",
+					"mValues": [
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "QEmpoweredAmp",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Q2Duration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "QTotalRecastTime",
+					"mValues": [
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageConversionPercentage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.4000000059604645,
+							"mInitialBonusPerLevel": 0.03999999910593033,
+							"mBreakpoints": [
+								{
+									"mLevel": 17,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"BonusDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mDataValue": "tADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpoweredBonusDamage": {
+					"mMultiplier": {
+						"mDataValue": "QEmpoweredAmp",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "BonusDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				5.0
+			],
+			"mana": [
+				25.0,
+				25.0,
+				25.0,
+				25.0,
+				25.0,
+				25.0
+			]
+		}
+	},
+	"Characters/Camille/Spells/CamilleQAbility/CamilleQ2": {
+		"mScriptName": "CamilleQ2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				9.75,
+				9.0,
+				8.25,
+				7.5,
+				6.75,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleQAbility/CamilleQAttack": {
+		"mScriptName": "CamilleQAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleQAbility/CamilleQAttackEmpowered": {
+		"mScriptName": "CamilleQAttackEmpowered",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleQAbility/CamilleQPrimingComplete": {
+		"mScriptName": "CamilleQPrimingComplete",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleQAbility/CamilleQPrimingStart": {
+		"mScriptName": "CamilleQPrimingStart",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleQAbility/CamilleQSpeed": {
+		"mScriptName": "CamilleQSpeed",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleRAbility/CamilleR": {
+		"mScriptName": "CamilleR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RPercentCurrentHPDamage",
+					"mValues": [
+						2.0,
+						4.0,
+						6.0,
+						8.0,
+						10.0,
+						12.0,
+						14.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ROnHitDamage",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RDuration",
+					"mValues": [
+						1.75,
+						2.5,
+						3.25,
+						4.0,
+						4.75,
+						5.5,
+						6.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RCircleRadius",
+					"mValues": [
+						425.0,
+						425.0,
+						425.0,
+						425.0,
+						425.0,
+						425.0,
+						425.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				140.0,
+				140.0,
+				115.0,
+				90.0,
+				0.0,
+				0.0,
+				70.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Camille/Spells/CamilleRAbility/CamilleRRange": {
+		"mScriptName": "CamilleRRange",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleRAbility/CamilleRTether": {
+		"mScriptName": "CamilleRTether",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				110.0,
+				100.0,
+				90.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Camille/Spells/CamilleVOManager": {
+		"mScriptName": "CamilleVOManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleWAbility/CamilleW": {
+		"mScriptName": "CamilleW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						50.0,
+						75.0,
+						100.0,
+						125.0,
+						150.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BADRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChargeDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercentage",
+					"mValues": [
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OuterConeMaxHPDamage",
+					"mValues": [
+						0.054999999701976776,
+						0.05999999865889549,
+						0.06499999761581421,
+						0.07000000029802322,
+						0.07500000298023224,
+						0.07999999821186066,
+						0.08500000089406967
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRequiredFor1PercentDamage",
+					"mValues": [
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRequiredTooltipOnly",
+					"mValues": [
+						0.0002500000118743628,
+						0.0002500000118743628,
+						0.0002500000118743628,
+						0.0002500000118743628,
+						0.0002500000118743628,
+						0.0002500000118743628,
+						0.0002500000118743628
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterDamageReduction",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OuterConeHealingRatio",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BlastLength",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ConeAngle",
+					"mValues": [
+						35.0,
+						35.0,
+						35.0,
+						35.0,
+						35.0,
+						35.0,
+						35.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"OuterEdgeTooltip": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "OuterConeMaxHPDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRequiredTooltipOnly",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"BaseDamageTotal": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MonsterHealthDamageCap": {
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mNumber": 300.0,
+							"__type": "NumberCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				17.0,
+				17.0,
+				15.5,
+				14.0,
+				12.5,
+				11.0,
+				11.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Camille/Spells/CamilleWAbility/CamilleWConeSlashCharge": {
+		"mScriptName": "CamilleWConeSlashCharge",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Camille/Spells/CamilleWAbility/CamilleWConeSlashSlow": {
+		"mScriptName": "CamilleWConeSlashSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,999 @@
+{
+	"Characters/Garen/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenBasicAttack": {
+		"mScriptName": "GarenBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenBasicAttack2": {
+		"mScriptName": "GarenBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenBasicAttack3": {
+		"mScriptName": "GarenBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenCritAttack": {
+		"mScriptName": "GarenCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenEAbility/GarenE": {
+		"mScriptName": "GarenE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "NumTicks",
+					"mValues": [
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ASPerTick",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamagePerTick",
+					"mValues": [
+						0.0,
+						4.0,
+						8.0,
+						12.0,
+						16.0,
+						20.0,
+						24.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatioPerTick",
+					"mValues": [
+						0.3499999940395355,
+						0.36000001430511475,
+						0.3700000047683716,
+						0.3799999952316284,
+						0.38999998569488525,
+						0.4000000059604645,
+						0.4099999964237213
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShredDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StacksToShred",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShredAmount",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NearestEnemyBonus",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitModifier",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritBaseMult",
+					"mValues": [
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterMod",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamagePerTick",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mInitialBonusPerLevel": 0.800000011920929,
+							"mBreakpoints": [
+								{
+									"mLevel": 10,
+									"mBonusPerLevelAtAndAfter": 0.20000000298023224,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "ADRatioPerTick",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{85042ef6}": {
+					"mMultiplier": {
+						"mDataValue": "NearestEnemyBonus",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"TotalDamageNearest": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mNumber": 1.0,
+								"__type": "NumberCalculationPart"
+							},
+							{
+								"mDataValue": "NearestEnemyBonus",
+								"__type": "NamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"TotalDamageCrit": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mDataValue": "CritBaseMult",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							{
+								"mStat": 8,
+								"mStatFormula": 2,
+								"mCoefficient": 1.0,
+								"__type": "StatByCoefficientCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"TotalDamageNearestCrit": {
+					"mMultiplier": {
+						"mPart1": {
+							"mSubparts": [
+								{
+									"mNumber": 1.0,
+									"__type": "NumberCalculationPart"
+								},
+								{
+									"mDataValue": "NearestEnemyBonus",
+									"__type": "NamedDataValueCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						},
+						"mPart2": {
+							"mSubparts": [
+								{
+									"mDataValue": "CritBaseMult",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								{
+									"mStat": 8,
+									"mStatFormula": 2,
+									"mCoefficient": 1.0,
+									"__type": "StatByCoefficientCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						},
+						"__type": "ProductOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"NumberOfStrikes": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "NumTicks",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{733c613a}": {
+					"mMultiplier": {
+						"mPart1": {
+							"mDataValue": "NearestEnemyBonus",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						"mPart2": {
+							"mSubparts": [
+								{
+									"mDataValue": "CritBaseMult",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								{
+									"mStat": 8,
+									"mStatFormula": 2,
+									"mCoefficient": 1.0,
+									"__type": "StatByCoefficientCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						},
+						"__type": "ProductOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenEAbility/GarenECancel": {
+		"mScriptName": "GarenECancel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenEAbility/GarenEShred": {
+		"mScriptName": "GarenEShred",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenEAbility/GarenEStackBuff": {
+		"mScriptName": "GarenEStackBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenPassiveAbility/GarenPassive": {
+		"mScriptName": "GarenPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DamageTimer",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RegenCalc": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 1.5,
+							"mInitialBonusPerLevel": 0.20000000298023224,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mBonusPerLevelAtAndAfter": 0.800000011920929,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 14,
+									"mBonusPerLevelAtAndAfter": 0.4000000059604645,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenPassiveAbility/GarenPassiveCooldown": {
+		"mScriptName": "GarenPassiveCooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenPassiveAbility/GarenPassiveHeal": {
+		"mScriptName": "GarenPassiveHeal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenQAbility/GarenQ": {
+		"mScriptName": "GarenQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SilenceDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MovementSpeedDuration",
+					"mValues": [
+						0.3499999940395355,
+						1.0,
+						1.649999976158142,
+						2.299999952316284,
+						2.950000047683716,
+						3.5999999046325684,
+						4.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MovementSpeedAmount",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackWindow",
+					"mValues": [
+						4.5,
+						4.5,
+						4.5,
+						4.5,
+						4.5,
+						4.5,
+						4.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "tADRatio",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "tADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenQAbility/GarenQAttack": {
+		"mScriptName": "GarenQAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenQAbility/GarenQBuff": {
+		"mScriptName": "GarenQBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenQAbility/GarenQHaste": {
+		"mScriptName": "GarenQHaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenRAbility/GarenR": {
+		"mScriptName": "GarenR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						150.0,
+						300.0,
+						450.0,
+						600.0,
+						750.0,
+						900.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExecuteDamage",
+					"mValues": [
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RevealDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				120.0,
+				120.0,
+				120.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenRunCycleManager": {
+		"mScriptName": "GarenRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenWAbility/GarenW": {
+		"mScriptName": "GarenW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BuffCounterPerKill",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ResistGainOnKill",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ResistMax",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DRPercent",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DRDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpfrontDR",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpfrontTenacity",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpfrontDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpfrontShieldHealthRatio",
+					"mValues": [
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737,
+						0.18000000715255737
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentBonus",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldBase",
+					"mValues": [
+						45.0,
+						65.0,
+						85.0,
+						105.0,
+						125.0,
+						145.0,
+						165.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalShield": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mStatFormula": 2,
+							"mDataValue": "UpfrontShieldHealthRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PercentArmor": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mStat": 1,
+							"mStatFormula": 2,
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PercentMR": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mStat": 5,
+							"mStatFormula": 2,
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				25.0,
+				23.0,
+				21.0,
+				19.0,
+				17.0,
+				15.0,
+				13.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Garen/Spells/GarenWAbility/GarenWPassive": {
+		"mScriptName": "GarenWPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

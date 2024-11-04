@@ -1,0 +1,998 @@
+{
+	"Characters/TwistedFate/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/BlueCardAttack": {
+		"mScriptName": "BlueCardAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/BlueCardPreAttack": {
+		"mScriptName": "BlueCardPreAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/CardmasterStackAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/CardmasterStackAbility/CardmasterStack": {
+		"mScriptName": "CardmasterStack",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "AttackSpeedBonus",
+					"mValues": [
+						0.0,
+						10.0,
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Damage",
+					"mValues": [
+						40.0,
+						65.0,
+						90.0,
+						115.0,
+						140.0,
+						165.0,
+						190.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusADRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TowerEffectiveness",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BonusDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/DestinyAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/DestinyAbility/Destiny": {
+		"mScriptName": "Destiny",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RecastDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						8.0,
+						10.0,
+						12.0,
+						14.0,
+						16.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				180.0,
+				150.0,
+				120.0,
+				10.0,
+				10.0,
+				10.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				115.0,
+				130.0,
+				0.0
+			]
+		}
+	},
+	"Characters/TwistedFate/Spells/DestinyAbility/Gate": {
+		"mScriptName": "Gate",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/DestinySpellPassive": {
+		"mScriptName": "DestinySpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/GoldCardAttack": {
+		"mScriptName": "GoldCardAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/GoldCardPreAttack": {
+		"mScriptName": "GoldCardPreAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/PickACardAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/PickACardAbility/BlueCardLock": {
+		"mScriptName": "BlueCardLock",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/PickACardAbility/GoldCardLock": {
+		"mScriptName": "GoldCardLock",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/PickACardAbility/PickACard": {
+		"mScriptName": "PickACard",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BlueBase",
+					"mValues": [
+						20.0,
+						40.0,
+						60.0,
+						80.0,
+						100.0,
+						120.0,
+						140.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RedBase",
+					"mValues": [
+						15.0,
+						30.0,
+						45.0,
+						60.0,
+						75.0,
+						90.0,
+						105.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GoldBase",
+					"mValues": [
+						7.5,
+						15.0,
+						22.5,
+						30.0,
+						37.5,
+						45.0,
+						52.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BlueCritMultiplier",
+					"mValues": [
+						0.574999988079071,
+						0.574999988079071,
+						0.574999988079071,
+						0.574999988079071,
+						0.574999988079071,
+						0.574999988079071,
+						0.574999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RedCritMultiplier",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GoldCritMultiplier",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ttBlueAP",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ttRedAP",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ttGoldAP",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ttAD",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BlueDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mExpandedTooltipCalculationDisplay": 0,
+					"StaticTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BlueBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 7,
+							"mSubpart": {
+								"mPart1": {
+									"mDataValue": "BlueCritMultiplier",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								"mPart2": {
+									"mSubparts": [
+										{
+											"mDataValue": "BlueBase",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										{
+											"mStat": 2,
+											"mCoefficient": 1.0,
+											"__type": "StatByCoefficientCalculationPart"
+										},
+										{
+											"mCoefficient": 1.0,
+											"__type": "StatByCoefficientCalculationPart"
+										}
+									],
+									"__type": "SumOfSubPartsCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RedDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mExpandedTooltipCalculationDisplay": 0,
+					"StaticTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "RedBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 7,
+							"mSubpart": {
+								"mPart1": {
+									"mDataValue": "RedCritMultiplier",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								"mPart2": {
+									"mSubparts": [
+										{
+											"mDataValue": "RedBase",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										{
+											"mStat": 2,
+											"mCoefficient": 1.0,
+											"__type": "StatByCoefficientCalculationPart"
+										},
+										{
+											"mCoefficient": 0.699999988079071,
+											"__type": "StatByCoefficientCalculationPart"
+										}
+									],
+									"__type": "SumOfSubPartsCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"GoldDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mExpandedTooltipCalculationDisplay": 0,
+					"StaticTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "GoldBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 7,
+							"mSubpart": {
+								"mPart1": {
+									"mDataValue": "GoldCritMultiplier",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								"mPart2": {
+									"mSubparts": [
+										{
+											"mDataValue": "GoldBase",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										{
+											"mStat": 2,
+											"mCoefficient": 1.0,
+											"__type": "StatByCoefficientCalculationPart"
+										},
+										{
+											"mCoefficient": 0.5,
+											"__type": "StatByCoefficientCalculationPart"
+										}
+									],
+									"__type": "SumOfSubPartsCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ttBlueDamage": {
+					"mMultiplier": {
+						"mNumber": 1.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"StaticTooltipCalculationDisplay": 5,
+					"mModifiedGameCalculation": "BlueDamage",
+					"__type": "GameCalculationModified"
+				},
+				"ttRedDamage": {
+					"mMultiplier": {
+						"mNumber": 1.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"StaticTooltipCalculationDisplay": 5,
+					"mModifiedGameCalculation": "RedDamage",
+					"__type": "GameCalculationModified"
+				},
+				"ttGoldDamage": {
+					"mMultiplier": {
+						"mNumber": 1.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"StaticTooltipCalculationDisplay": 5,
+					"mModifiedGameCalculation": "GoldDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/TwistedFate/Spells/PickACardAbility/RedCardLock": {
+		"mScriptName": "RedCardLock",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/RedCardAttack": {
+		"mScriptName": "RedCardAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/RedCardPreAttack": {
+		"mScriptName": "RedCardPreAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0,
+				-100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/SealFateMissile": {
+		"mScriptName": "SealFateMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/SecondSightAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/SecondSightAbility/SecondSight": {
+		"mScriptName": "SecondSight",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "GoldRatioMinCherry",
+					"mValues": [
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GoldRatioMaxCherry",
+					"mValues": [
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GameModeInteger",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/TwistedFateBasicAttack": {
+		"mScriptName": "TwistedFateBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/TwistedFateBasicAttack2": {
+		"mScriptName": "TwistedFateBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/TwistedFateBasicAttack3": {
+		"mScriptName": "TwistedFateBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/TwistedFateBasicAttack4": {
+		"mScriptName": "TwistedFateBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/TwistedFateClassicDestiny": {
+		"mScriptName": "TwistedFateClassicDestiny",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/TwistedFateCritAttack": {
+		"mScriptName": "TwistedFateCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/WildCardsAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/TwistedFate/Spells/WildCardsAbility/WildCards": {
+		"mScriptName": "WildCards",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						15.0,
+						60.0,
+						105.0,
+						150.0,
+						195.0,
+						240.0,
+						285.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.8500000238418579,
+						0.8500000238418579,
+						0.8500000238418579,
+						0.8500000238418579,
+						0.8500000238418579,
+						0.8500000238418579,
+						0.8500000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusADRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				5.75,
+				5.5,
+				5.25,
+				5.0,
+				5.0
+			],
+			"mana": [
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0
+			]
+		}
+	}
+}

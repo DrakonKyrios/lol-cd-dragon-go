@@ -1,0 +1,1023 @@
+{
+	"Characters/Jinx/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/ItemHurricaneJinxAttack": {
+		"mScriptName": "ItemHurricaneJinxAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxBasicAttack": {
+		"mScriptName": "JinxBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxBasicAttack2": {
+		"mScriptName": "JinxBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxBasicAttack3": {
+		"mScriptName": "JinxBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxBasicAttack4": {
+		"mScriptName": "JinxBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxBasicAttack5": {
+		"mScriptName": "JinxBasicAttack5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxBasicAttack6": {
+		"mScriptName": "JinxBasicAttack6",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCaitAgitate": {
+		"mScriptName": "JinxCaitAgitate",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCatchMe": {
+		"mScriptName": "JinxCatchMe",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCatchMeEnemy": {
+		"mScriptName": "JinxCatchMeEnemy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCritAttack": {
+		"mScriptName": "JinxCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCritAttack2": {
+		"mScriptName": "JinxCritAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCritAttack3": {
+		"mScriptName": "JinxCritAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCritAttack4": {
+		"mScriptName": "JinxCritAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCritAttack5": {
+		"mScriptName": "JinxCritAttack5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxCritAttack6": {
+		"mScriptName": "JinxCritAttack6",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxEAbility/JinxE": {
+		"mScriptName": "JinxE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						20.0,
+						70.0,
+						120.0,
+						170.0,
+						220.0,
+						270.0,
+						320.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RootDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrenadeDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrenadeArmTime",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				27.5,
+				24.0,
+				20.5,
+				17.0,
+				13.5,
+				10.0,
+				10.0
+			],
+			"mana": [
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			]
+		}
+	},
+	"Characters/Jinx/Spells/JinxEAbility/JinxEFireBurn": {
+		"mScriptName": "JinxEFireBurn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxEAbility/JinxEHit": {
+		"mScriptName": "JinxEHit",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxEAbility/JinxEMine": {
+		"mScriptName": "JinxEMine",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxEAbility/JinxEMineSight": {
+		"mScriptName": "JinxEMineSight",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxEAbility/JinxEMineSnare": {
+		"mScriptName": "JinxEMineSnare",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxPassiveMarkerAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxPassiveMarkerAbility/JinxPassiveKill": {
+		"mScriptName": "JinxPassiveKill",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxPassiveMarkerAbility/JinxPassiveKillAttackSpeed": {
+		"mScriptName": "JinxPassiveKillAttackSpeed",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxPassiveMarkerAbility/JinxPassiveMarker": {
+		"mScriptName": "JinxPassiveMarker",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ASBuff",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSBuff",
+					"mValues": [
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSDecayRate",
+					"mValues": [
+						0.875,
+						0.875,
+						0.875,
+						0.875,
+						0.875,
+						0.875,
+						0.875
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AssistMarkerDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxQAbility/JinxQ": {
+		"mScriptName": "JinxQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RocketAoERadius",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RocketBonusRange",
+					"mValues": [
+						50.0,
+						80.0,
+						110.0,
+						140.0,
+						170.0,
+						200.0,
+						230.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinigunAttackSpeedMax",
+					"mValues": [
+						5.0,
+						30.0,
+						55.0,
+						80.0,
+						105.0,
+						130.0,
+						155.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinigunAttackSpeedDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinigunAttackSpeedStacks",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RocketTAD",
+					"mValues": [
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RocketASPDPenalty",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RocketDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mDataValue": "RocketTAD",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.8999999761581421,
+				0.8999999761581421,
+				0.8999999761581421,
+				0.8999999761581421,
+				0.8999999761581421,
+				0.8999999761581421,
+				0.8999999761581421
+			],
+			"mana": [
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0,
+				20.0
+			]
+		}
+	},
+	"Characters/Jinx/Spells/JinxQAbility/JinxQAttack": {
+		"mScriptName": "JinxQAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxQAbility/JinxQAttack2": {
+		"mScriptName": "JinxQAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxQAbility/JinxQCritAttack": {
+		"mScriptName": "JinxQCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxQAbility/JinxQIcon": {
+		"mScriptName": "JinxQIcon",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxQAbility/JinxQIconManager": {
+		"mScriptName": "JinxQIconManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxRAbility/JinxR": {
+		"mScriptName": "JinxR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						15.0,
+						32.5,
+						47.5,
+						62.5,
+						77.5,
+						92.5,
+						107.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDamage",
+					"mValues": [
+						175.0,
+						325.0,
+						475.0,
+						625.0,
+						775.0,
+						925.0,
+						1075.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentDamage",
+					"mValues": [
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEDamageMult",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterExecuteMax",
+					"mValues": [
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageFloor": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.16500000655651093,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DamageMax": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MaxDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.649999976158142,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.6000000238418579,
+			"cooldownTime": [
+				85.0,
+				85.0,
+				65.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Jinx/Spells/JinxRunCycleManager": {
+		"mScriptName": "JinxRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxWAbility/JinxW": {
+		"mScriptName": "JinxW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "JinxLowEndWCastTime",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "JinxWASpeedCastTimeScalarPerHundrethSecond",
+					"mValues": [
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Damage",
+					"mValues": [
+						-40.0,
+						10.0,
+						60.0,
+						110.0,
+						160.0,
+						210.0,
+						260.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						1.600000023841858,
+						1.600000023841858,
+						1.600000023841858,
+						1.600000023841858,
+						1.600000023841858,
+						1.600000023841858,
+						1.600000023841858
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0
+			],
+			"mana": [
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Jinx/Spells/JinxWAbility/JinxWMissile": {
+		"mScriptName": "JinxWMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.6000000238418579,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jinx/Spells/JinxWAbility/JinxWSight": {
+		"mScriptName": "JinxWSight",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

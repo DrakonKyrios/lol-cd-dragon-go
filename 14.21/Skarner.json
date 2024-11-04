@@ -1,0 +1,1018 @@
+{
+	"Characters/Skarner/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerBasicAttack": {
+		"mScriptName": "SkarnerBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerBasicAttack2": {
+		"mScriptName": "SkarnerBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerCritAttack": {
+		"mScriptName": "SkarnerCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerEAbility/SkarnerE": {
+		"mScriptName": "SkarnerE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ChargeDuration",
+					"mValues": [
+						2.75,
+						2.75,
+						2.75,
+						2.75,
+						2.75,
+						2.75,
+						2.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InitialSpeed",
+					"mValues": [
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Acceleration",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaximumSpeed",
+					"mValues": [
+						950.0,
+						950.0,
+						950.0,
+						950.0,
+						950.0,
+						950.0,
+						950.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrabHitboxRadius",
+					"mValues": [
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrabHitboxOffset",
+					"mValues": [
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WallRevealRadius",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WallWarningRadius",
+					"mValues": [
+						1750.0,
+						1750.0,
+						1750.0,
+						1750.0,
+						1750.0,
+						1750.0,
+						1750.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrabbedMoveSpeedBonus",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinGrabbedSpeed",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DistancePostGrab",
+					"mValues": [
+						675.0,
+						675.0,
+						675.0,
+						675.0,
+						675.0,
+						675.0,
+						675.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PinBaseDamage",
+					"mValues": [
+						0.0,
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PinDamageRatio",
+					"mValues": [
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VictimOffsetIncrease",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RefundPercent",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumQRenew",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InitialHitboxRadius",
+					"mValues": [
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InitialHitboxOffset",
+					"mValues": [
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondHitboxDelay",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondHitboxRadius",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondHitboxOffset",
+					"mValues": [
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FinalHitboxDelay",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PinDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "PinBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mDataValue": "PinDamageRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				20.0,
+				20.0,
+				19.0,
+				18.0,
+				17.0,
+				16.0,
+				16.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerPassiveAbility/SkarnerPassive": {
+		"mScriptName": "SkarnerPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StacksToTriggerPassive",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TickFrequency",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PercentHealthDamage": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mStartValue": 5.0,
+							"mEndValue": 9.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"DamageMonsterCap": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 100.0,
+							"mEndValue": 300.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerQAbility/SkarnerQ": {
+		"mScriptName": "SkarnerQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RockHoldDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackRadius",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						10.0,
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxHPPercent",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterDamageCap",
+					"mValues": [
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0,
+						350.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackRange",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeed",
+					"mValues": [
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusHealthRatio",
+					"mValues": [
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TurretDamageMod",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"AbilityDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mStatFormula": 2,
+							"mDataValue": "BonusHealthRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				11.5,
+				10.0,
+				8.5,
+				7.0,
+				7.0
+			],
+			"mana": [
+				45.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0
+			]
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerRAbility/SkarnerR": {
+		"mScriptName": "SkarnerR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BackwardOffset",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HitboxStartHalfWidth",
+					"mValues": [
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HitboxEndHalfWidth",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						50.0,
+						150.0,
+						250.0,
+						350.0,
+						450.0,
+						550.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HoldDistance",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpeedBoostAmount",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpeedBoostDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DropDistance",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.6499999761581421,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				105.0,
+				90.0,
+				90.0,
+				90.0,
+				90.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerTurretAttack": {
+		"mScriptName": "SkarnerTurretAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Skarner/Spells/SkarnerWAbility/SkarnerW": {
+		"mScriptName": "SkarnerW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						50.0,
+						70.0,
+						90.0,
+						110.0,
+						130.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageAPRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InitialShieldRatio",
+					"mValues": [
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowEffect",
+					"mValues": [
+						-0.20000000298023224,
+						-0.20000000298023224,
+						-0.20000000298023224,
+						-0.20000000298023224,
+						-0.20000000298023224,
+						-0.20000000298023224,
+						-0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"InitialShield": {
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mDataValue": "InitialShieldRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "DamageAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				80.0
+			]
+		}
+	}
+}

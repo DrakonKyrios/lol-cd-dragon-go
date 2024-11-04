@@ -1,0 +1,1128 @@
+{
+	"Characters/Taliyah/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahBasicAttack": {
+		"mScriptName": "TaliyahBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahCritAttack": {
+		"mScriptName": "TaliyahCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahE": {
+		"mScriptName": "TaliyahE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						15.0,
+						60.0,
+						105.0,
+						150.0,
+						195.0,
+						240.0,
+						285.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDetonationDamage",
+					"mValues": [
+						5.0,
+						25.0,
+						45.0,
+						65.0,
+						85.0,
+						105.0,
+						125.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterModPercent",
+					"mValues": [
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75,
+						1.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxStunDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MineDamageFalloff",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DelayBetweenRows",
+					"mValues": [
+						0.17000000178813934,
+						0.17000000178813934,
+						0.17000000178813934,
+						0.17000000178813934,
+						0.17000000178813934,
+						0.17000000178813934,
+						0.17000000178813934
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ScatterDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DetonationDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDetonationDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDetonationDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 2.5,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "DetonationDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				90.0,
+				95.0,
+				100.0,
+				105.0,
+				110.0,
+				110.0
+			]
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahEMine": {
+		"mScriptName": "TaliyahEMine",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahEMineDamage": {
+		"mScriptName": "TaliyahEMineDamage",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahEMineDamageMarker": {
+		"mScriptName": "TaliyahEMineDamageMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahEMineMoveSpeedCeiling": {
+		"mScriptName": "TaliyahEMineMoveSpeedCeiling",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahEMineSlow": {
+		"mScriptName": "TaliyahEMineSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahEMineStun": {
+		"mScriptName": "TaliyahEMineStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahESoundBlowupMis": {
+		"mScriptName": "TaliyahESoundBlowupMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahEAbility/TaliyahESoundMis": {
+		"mScriptName": "TaliyahESoundMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahInCombat": {
+		"mScriptName": "TaliyahInCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahOutOfCombat": {
+		"mScriptName": "TaliyahOutOfCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahPassiveAbility/TaliyahPSpeedBuff": {
+		"mScriptName": "TaliyahPSpeedBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahPassiveAbility/TaliyahPStackingUp": {
+		"mScriptName": "TaliyahPStackingUp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahPassiveAbility/TaliyahPassive": {
+		"mScriptName": "TaliyahPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FallOffTime",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalMS": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.10000000149011612,
+							"mBreakpoints": [
+								{
+									"mLevel": 9,
+									"mAdditionalBonusAtThisLevel": 0.05000000074505806,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 12,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 15,
+									"mAdditionalBonusAtThisLevel": 0.15000000596046448,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 27,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 30,
+									"mAdditionalBonusAtThisLevel": 0.30000001192092896,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQ": {
+		"mScriptName": "TaliyahQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "WorkedGroundCDR",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumWorkedGroundCD",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BigRockDamageMult",
+					"mValues": [
+						0.0,
+						1.899999976158142,
+						1.899999976158142,
+						1.899999976158142,
+						1.899999976158142,
+						1.899999976158142,
+						1.899999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						37.5,
+						56.0,
+						74.5,
+						93.0,
+						111.5,
+						130.0,
+						148.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionExecuteThreshold",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExtraMissileReducedDamagePercent",
+					"mValues": [
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterBonusFlatDamage",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterStunDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoERadius",
+					"mValues": [
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoERadiusBig",
+					"mValues": [
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RockDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mPrecision": -1,
+					"__type": "GameCalculation"
+				},
+				"BigRockDamage": {
+					"mMultiplier": {
+						"mDataValue": "BigRockDamageMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "RockDamage",
+					"__type": "GameCalculationModified"
+				},
+				"MaxDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 2.5999999046325684,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "RockDamage",
+					"__type": "GameCalculationModified"
+				},
+				"TotalBonusFlatMonsterDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MonsterBonusFlatDamage",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{c363b92e}": {
+					"mMultiplier": {
+						"mDataValue": "BigRockDamageMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalBonusFlatMonsterDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0,
+				2.0
+			],
+			"mana": [
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQFloatyMissile": {
+		"mScriptName": "TaliyahQFloatyMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQMis": {
+		"mScriptName": "TaliyahQMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQMisBig": {
+		"mScriptName": "TaliyahQMisBig",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQReturnMis": {
+		"mScriptName": "TaliyahQReturnMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahQAbility/TaliyahQSlow": {
+		"mScriptName": "TaliyahQSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahR": {
+		"mScriptName": "TaliyahR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DamageLockoutTime",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxJumpRange",
+					"mValues": [
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinJumpRange",
+					"mValues": [
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxJumpRangeOverWalls",
+					"mValues": [
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				180.0,
+				180.0,
+				150.0,
+				120.0,
+				0.0,
+				0.0,
+				140.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRBlowUp": {
+		"mScriptName": "TaliyahRBlowUp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRBlowUpSoundMis": {
+		"mScriptName": "TaliyahRBlowUpSoundMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				160.0,
+				140.0,
+				120.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRCastRoot": {
+		"mScriptName": "TaliyahRCastRoot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRCurve": {
+		"mScriptName": "TaliyahRCurve",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRKnockAside": {
+		"mScriptName": "TaliyahRKnockAside",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRMis": {
+		"mScriptName": "TaliyahRMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				160.0,
+				140.0,
+				120.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRNoClick": {
+		"mScriptName": "TaliyahRNoClick",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				160.0,
+				140.0,
+				120.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRPassiveCDManager": {
+		"mScriptName": "TaliyahRPassiveCDManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRPreMis": {
+		"mScriptName": "TaliyahRPreMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				160.0,
+				140.0,
+				120.0,
+				100.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRSuperPassive": {
+		"mScriptName": "TaliyahRSuperPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahRAbility/TaliyahRTerrainProto": {
+		"mScriptName": "TaliyahRTerrainProto",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				110.0,
+				100.0,
+				90.0,
+				80.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahWVCAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahWVCAbility/TaliyahW": {
+		"mScriptName": "TaliyahW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				10.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0
+			]
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahWVCAbility/TaliyahWCastTime": {
+		"mScriptName": "TaliyahWCastTime",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahWVCAbility/TaliyahWKnockUp": {
+		"mScriptName": "TaliyahWKnockUp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahWVCAbility/TaliyahWMoveBuff": {
+		"mScriptName": "TaliyahWMoveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahWVCAbility/TaliyahWNoClick": {
+		"mScriptName": "TaliyahWNoClick",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Taliyah/Spells/TaliyahWVCAbility/TaliyahWVC": {
+		"mScriptName": "TaliyahWVC",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				12.5,
+				11.0,
+				9.5,
+				8.0,
+				8.0
+			],
+			"mana": [
+				40.0,
+				30.0,
+				20.0,
+				10.0,
+				0.0,
+				0.0
+			]
+		}
+	}
+}

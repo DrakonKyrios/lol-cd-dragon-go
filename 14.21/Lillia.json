@@ -1,0 +1,1548 @@
+{
+	"Characters/Lillia/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaBasicAttack1": {
+		"mScriptName": "LilliaBasicAttack1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaBasicAttack2": {
+		"mScriptName": "LilliaBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaBasicAttack3": {
+		"mScriptName": "LilliaBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaCritAttack": {
+		"mScriptName": "LilliaCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaEAbility/LilliaE": {
+		"mScriptName": "LilliaE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DecayFactor",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BounceRange",
+					"mValues": [
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ImpactDamage",
+					"mValues": [
+						35.0,
+						60.0,
+						85.0,
+						110.0,
+						135.0,
+						160.0,
+						185.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ImpactRangeCheck",
+					"mValues": [
+						115.0,
+						115.0,
+						115.0,
+						115.0,
+						115.0,
+						115.0,
+						115.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HitboxWidth",
+					"mValues": [
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HitboxLength",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AnimCutoffRange",
+					"mValues": [
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ImpactDamageTotal": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "ImpactDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Lillia/Spells/LilliaEAbility/LilliaERollingMissile": {
+		"mScriptName": "LilliaERollingMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaEAbility/LilliaERollingMissileShort": {
+		"mScriptName": "LilliaERollingMissileShort",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaEAbility/LilliaESpellPassive": {
+		"mScriptName": "LilliaESpellPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DodgeDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSAmount",
+					"mValues": [
+						0.20000000298023224,
+						0.30000001192092896,
+						0.4000000059604645,
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				24.0,
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0
+			],
+			"mana": [
+				25.0,
+				25.0,
+				25.0,
+				25.0,
+				25.0,
+				25.0
+			]
+		}
+	},
+	"Characters/Lillia/Spells/LilliaPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaPAbility/LilliaP": {
+		"mScriptName": "LilliaP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Duration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DotDamagePercent",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DotTicks",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterHealingPercent",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChampionHealingPercent",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LargeMonsterHealMod",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SmallMonsterHealMod",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MultiHealMod",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DotPercentTotal": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "DotDamagePercent",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.012500000186264515,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": -1,
+					"__type": "GameCalculation"
+				},
+				"MonsterDamageCap": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mNumber": 65.0,
+							"__type": "NumberCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{b5d0316f}": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 6.5,
+							"mEndValue": 9.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.02500000037252903,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{395ffd44}": {
+					"mMultiplier": {
+						"mDataValue": "SmallMonsterHealMod",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "{b5d0316f}",
+					"__type": "GameCalculationModified"
+				},
+				"ChampionHeal": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 1.0,
+							"mEndValue": 15.0,
+							"mScaleByStatProgressionMultiplier": true,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.05000000074505806,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ChampionHealTT": {
+					"mMultiplier": {
+						"mDataValue": "DotTicks",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "ChampionHeal",
+					"__type": "GameCalculationModified"
+				},
+				"MonsterHealTT": {
+					"mMultiplier": {
+						"mDataValue": "DotTicks",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "{b5d0316f}",
+					"__type": "GameCalculationModified"
+				},
+				"{7969ffc2}": {
+					"mMultiplier": {
+						"mPart1": {
+							"mDataValue": "DotTicks",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						"mPart2": {
+							"mDataValue": "SmallMonsterHealMod",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						"__type": "ProductOfSubPartsCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "{b5d0316f}",
+					"__type": "GameCalculationModified"
+				},
+				"DotPercentTooltip": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "DotPercentTotal",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaPAbility/LilliaPDoT": {
+		"mScriptName": "LilliaPDoT",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MonsterHealingMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DotDamageFlat",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MultipleHealMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LowHealthMod",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LowHealthThreshold",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DotDamagePercent",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseHealPercentConversion",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DotTicks",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeedSlow",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedSlow",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{77823978}": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.05000000074505806,
+							"mEndValue": 0.10999999940395355,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"HealPerSecond": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 7.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{44c2f9d7}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DotDamageFlat",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.05000000074505806,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{8abdf228}": {
+					"mMultiplier": {
+						"mDataValue": "LowHealthMod",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 10.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DotPercentTotal": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DotDamagePercent",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"MonsterDamageCap": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 40.0,
+							"mEndValue": 100.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{18849f10}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseHealPercentConversion",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.0024999999441206455,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaQAbility/LilliaPranceStack": {
+		"mScriptName": "LilliaPranceStack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				24.0,
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0
+			],
+			"mana": [
+				25.0,
+				25.0,
+				25.0,
+				25.0,
+				25.0,
+				25.0
+			]
+		}
+	},
+	"Characters/Lillia/Spells/LilliaQAbility/LilliaQ": {
+		"mScriptName": "LilliaQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CAST_VARS",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumRadius",
+					"mValues": [
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaximumRadius",
+					"mValues": [
+						485.0,
+						485.0,
+						485.0,
+						485.0,
+						485.0,
+						485.0,
+						485.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatDamageBase",
+					"mValues": [
+						25.0,
+						35.0,
+						45.0,
+						55.0,
+						65.0,
+						75.0,
+						85.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FlatDamageTrue",
+					"mValues": [
+						25.0,
+						35.0,
+						45.0,
+						55.0,
+						65.0,
+						75.0,
+						85.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionDamageMod",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PRANCE_VARS",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PranceDuration",
+					"mValues": [
+						6.5,
+						6.5,
+						6.5,
+						6.5,
+						6.5,
+						6.5,
+						6.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PranceMaxStacks",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PranceFalloffTime",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PranceBonusPerStack",
+					"mValues": [
+						0.019999999552965164,
+						0.029999999329447746,
+						0.03999999910593033,
+						0.05000000074505806,
+						0.05999999865889549,
+						0.07000000029802322,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "FlatDamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PranceSpeed": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "PranceBonusPerStack",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.0003000000142492354,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"BonusTrueDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "FlatDamageTrue",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				4.0,
+				6.0,
+				5.5,
+				5.0,
+				4.5,
+				4.0,
+				4.0
+			],
+			"mana": [
+				65.0,
+				65.0,
+				65.0,
+				65.0,
+				65.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Lillia/Spells/LilliaQAbility/LilliaQSpellPassive": {
+		"mScriptName": "LilliaQSpellPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DodgeDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MSAmount",
+					"mValues": [
+						0.20000000298023224,
+						0.30000001192092896,
+						0.4000000059604645,
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				24.0,
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0
+			],
+			"mana": [
+				25.0,
+				25.0,
+				25.0,
+				25.0,
+				25.0,
+				25.0
+			]
+		}
+	},
+	"Characters/Lillia/Spells/LilliaRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaRAbility/LilliaR": {
+		"mScriptName": "LilliaR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DrowsyDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SleepDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ImpactDamage",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BreakDamageBase",
+					"mValues": [
+						50.0,
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InitialSlow",
+					"mValues": [
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowIncrement",
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BreakDamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.4000000059604645,
+			"cooldownTime": [
+				150.0,
+				150.0,
+				130.0,
+				110.0,
+				110.0,
+				110.0,
+				110.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Lillia/Spells/LilliaRAbility/LilliaRExpungeMissile": {
+		"mScriptName": "LilliaRExpungeMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaRAbility/LilliaRExpungeMissileTwo": {
+		"mScriptName": "LilliaRExpungeMissileTwo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaRAbility/LilliaRSleep": {
+		"mScriptName": "LilliaRSleep",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaRAbility/LilliaRSpellPassive": {
+		"mScriptName": "LilliaRSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Lillia/Spells/LilliaWAbility/LilliaW": {
+		"mScriptName": "LilliaW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FlatDamageBase",
+					"mValues": [
+						60.0,
+						80.0,
+						100.0,
+						120.0,
+						140.0,
+						160.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaximumDistance",
+					"mValues": [
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxSpeed",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumDistance",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LandingOffset",
+					"mValues": [
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaximumCastTime",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumCastTime",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumRadius",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SweetSpotRadius",
+					"mValues": [
+						65.0,
+						65.0,
+						65.0,
+						65.0,
+						65.0,
+						65.0,
+						65.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SweetSpotBonus",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AnimRangeCutoff",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionDamageMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"FlatDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "FlatDamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.3499999940395355,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"FlatDamageSweetSpot": {
+					"mMultiplier": {
+						"mDataValue": "SweetSpotBonus",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "FlatDamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.3499999940395355,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				18.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	}
+}

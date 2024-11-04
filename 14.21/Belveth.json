@@ -1,0 +1,1337 @@
+{
+	"Characters/Belveth/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethBasicAttack": {
+		"mScriptName": "BelvethBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethBasicAttack2": {
+		"mScriptName": "BelvethBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethCritAttack": {
+		"mScriptName": "BelvethCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethCritAttack2": {
+		"mScriptName": "BelvethCritAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethEAbility/BelvethE": {
+		"mScriptName": "BelvethE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TotalDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeedMult",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamagePerHit",
+					"mValues": [
+						5.0,
+						6.0,
+						7.0,
+						8.0,
+						9.0,
+						10.0,
+						11.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitRatio",
+					"mValues": [
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NumberOfStrikes",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterMod",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissingHealthMult",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DRPercent",
+					"mValues": [
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusLifeSteal",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalStrikes": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "NumberOfStrikes",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mPart1": {
+								"mDataValue": "NumberOfStrikes",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"mStat": 3,
+								"mStatFormula": 2,
+								"mCoefficient": 0.5,
+								"__type": "StatByCoefficientCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DamagePerStrike": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DamagePerHit",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.07999999821186066,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalLifesteal": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BonusLifesteal",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 15,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"MaxDamagePerStrikeTooltip": {
+					"mMultiplier": {
+						"mNumber": 4.0,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "DamagePerStrike",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				20.0,
+				20.0,
+				19.0,
+				18.0,
+				17.0,
+				16.0,
+				16.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethEAbility/BelvethEMissile": {
+		"mScriptName": "BelvethEMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassive": {
+		"mScriptName": "BelvethPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MonsterStacks",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChampionStacks",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ARAMBonusStacks",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TakedownDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SheenDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaronBuffDuration",
+					"mValues": [
+						180.0,
+						180.0,
+						180.0,
+						180.0,
+						180.0,
+						180.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SheenNumberOfAttacks",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackADRatio",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitRatio",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"AttackSpeedPerStack": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.2800000011920929,
+							"mInitialBonusPerLevel": 0.04500000178813934,
+							"mBreakpoints": [
+								{
+									"mLevel": 18,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mPrecision": 2,
+					"__type": "GameCalculation"
+				},
+				"SheenSpeedPerStack": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.20000000298023224,
+							"mEndValue": 0.4000000059604645,
+							"mScaleByStatProgressionMultiplier": true,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalAttackSpeedFromStacks": {
+					"mMultiplier": {
+						"mBuffName": "{7f3c01cf}",
+						"mCoefficient": 1.0,
+						"__type": "BuffCounterByCoefficientCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"StaticTooltipCalculationDisplay": 5,
+					"mModifiedGameCalculation": "AttackSpeedPerStack",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile1": {
+		"mScriptName": "BelvethPassiveMissile1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile2": {
+		"mScriptName": "BelvethPassiveMissile2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile3": {
+		"mScriptName": "BelvethPassiveMissile3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveMissile4": {
+		"mScriptName": "BelvethPassiveMissile4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethPassiveAbility/BelvethPassiveStacks": {
+		"mScriptName": "BelvethPassiveStacks",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethQAbility/BelvethQ": {
+		"mScriptName": "BelvethQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PerSideCooldown",
+					"mValues": [
+						16.0,
+						16.0,
+						15.0,
+						14.0,
+						13.0,
+						12.0,
+						11.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PerSideCDAttackSpeedMultiplier",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDashSpeed",
+					"mValues": [
+						750.0,
+						800.0,
+						850.0,
+						900.0,
+						950.0,
+						1000.0,
+						1050.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashDistance",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDistanceOverWalls",
+					"mValues": [
+						625.0,
+						625.0,
+						625.0,
+						625.0,
+						625.0,
+						625.0,
+						625.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RiftDashSpeed",
+					"mValues": [
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDReduction",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeed",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NumberOfAttacks",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpeedDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeedDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseHealthSteal",
+					"mValues": [
+						0.0,
+						0.009999999776482582,
+						0.019999999552965164,
+						0.029999999329447746,
+						0.03999999910593033,
+						0.05000000074505806,
+						0.05999999865889549
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Damage",
+					"mValues": [
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterMod",
+					"mValues": [
+						35.0,
+						45.0,
+						55.0,
+						65.0,
+						75.0,
+						85.0,
+						95.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinonMod",
+					"mValues": [
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929,
+						0.8999999761581421,
+						1.0,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BaseDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{290ee56e}": {
+					"mFormulaParts": [
+						{
+							"mStat": 3,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethQAbility/BelvethQDummySpellCast": {
+		"mScriptName": "BelvethQDummySpellCast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethRAbility/BelvethR": {
+		"mScriptName": "BelvethR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PassiveStacksOnDevour",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OnHitDamage",
+					"mValues": [
+						4.0,
+						6.0,
+						8.0,
+						10.0,
+						12.0,
+						14.0,
+						16.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CorpseDuration",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0,
+						350.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissingHealthDamage",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoERange",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxExecuteVsMonsters",
+					"mValues": [
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SteroidDuration",
+					"mValues": [
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VoidDuration",
+					"mValues": [
+						180.0,
+						180.0,
+						180.0,
+						180.0,
+						180.0,
+						180.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionRadius",
+					"mValues": [
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusAARange",
+					"mValues": [
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RPassiveStackDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OOCMS",
+					"mValues": [
+						-25.0,
+						10.0,
+						45.0,
+						80.0,
+						115.0,
+						150.0,
+						185.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseMaxHealth",
+					"mValues": [
+						50.0,
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalASMod",
+					"mValues": [
+						0.05000000074505806,
+						0.10000000149011612,
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxEpicMonsterStacks",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VoidlingHPScale",
+					"mValues": [
+						-0.05000000074505806,
+						0.20000000298023224,
+						0.44999998807907104,
+						0.699999988079071,
+						0.949999988079071,
+						1.2000000476837158,
+						1.4500000476837158
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VoidlingADScale",
+					"mValues": [
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MeleeVoidlingSkinScaleMod",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VoidlingMovementSpeedMod",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"FinalOnHitDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "OnHitDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.11999999731779099,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxHealthOnDevour": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseMaxHealth",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.2000000476837158,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.8999999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalExplosionDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxMonsterOnHitTooltip": {
+					"mMultiplier": {
+						"mPart1": {
+							"mDataValue": "MaxEpicMonsterStacks",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						"mPart2": {
+							"mNumber": 0.5,
+							"__type": "NumberCalculationPart"
+						},
+						"__type": "ProductOfSubPartsCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "FinalOnHitDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 1.0,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethRAbility/BelvethRListener": {
+		"mScriptName": "BelvethRListener",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethRAbility/BelvethRPassive": {
+		"mScriptName": "BelvethRPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Belveth/Spells/BelvethWAbility/BelvethW": {
+		"mScriptName": "BelvethW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Duration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						70.0,
+						110.0,
+						150.0,
+						190.0,
+						230.0,
+						270.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.0,
+						1.25,
+						1.5,
+						1.75,
+						2.0,
+						2.25,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStatFormula": 2,
+							"mCoefficient": 1.25,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				8.0
+			],
+			"mana": null
+		}
+	}
+}

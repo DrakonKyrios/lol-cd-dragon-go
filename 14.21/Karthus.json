@@ -1,0 +1,820 @@
+{
+	"Characters/Karthus/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusBasicAttack": {
+		"mScriptName": "KarthusBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusBasicAttack2": {
+		"mScriptName": "KarthusBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusCritAttack": {
+		"mScriptName": "KarthusCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusCritAttack2": {
+		"mScriptName": "KarthusCritAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDeathDefiedAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDeathDefiedAbility/Death_Defied": {
+		"mScriptName": "Death_Defied",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDeathDefiedAbility/Death_Defied_Buff": {
+		"mScriptName": "Death_Defied_Buff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDeathDefiedAbility/KarthusDeathDefied": {
+		"mScriptName": "KarthusDeathDefied",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PassiveDuration",
+					"mValues": [
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDeathDefiedAbility/KarthusDeathDefiedBuff": {
+		"mScriptName": "KarthusDeathDefiedBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDefileAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDefileAbility/KarthusDefile": {
+		"mScriptName": "KarthusDefile",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DamagePerSecond",
+					"mValues": [
+						10.0,
+						30.0,
+						50.0,
+						70.0,
+						90.0,
+						110.0,
+						130.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatioPerSecond",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ManaRestoreOnKill",
+					"mValues": [
+						0.0,
+						10.0,
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDPS": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DamagePerSecond",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatioPerSecond",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{57456bbc}": {
+					"mMultiplier": {
+						"mNumber": 0.25,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDPS",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"mana": [
+				30.0,
+				42.0,
+				54.0,
+				66.0,
+				78.0,
+				90.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDefileAbility/KarthusDefile2": {
+		"mScriptName": "KarthusDefile2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"mana": [
+				30.0,
+				42.0,
+				54.0,
+				66.0,
+				78.0,
+				90.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDefileAbility/KarthusDefilePassive": {
+		"mScriptName": "KarthusDefilePassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusDefileAbility/KarthusDefileSoundDummy2": {
+		"mScriptName": "KarthusDefileSoundDummy2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5,
+				0.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusFallenOneAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusFallenOneAbility/KarthusFallenOne": {
+		"mScriptName": "KarthusFallenOne",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						50.0,
+						200.0,
+						350.0,
+						500.0,
+						650.0,
+						800.0,
+						950.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				200.0,
+				200.0,
+				180.0,
+				160.0,
+				180.0,
+				180.0,
+				200.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusFallenOneAbility/KarthusFallenOne2": {
+		"mScriptName": "KarthusFallenOne2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				220.0,
+				200.0,
+				180.0,
+				160.0,
+				180.0,
+				180.0,
+				180.0
+			],
+			"mana": [
+				150.0,
+				175.0,
+				200.0,
+				0.0,
+				0.0,
+				25.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusFallenOneAbility/KarthusFallenOneExtra": {
+		"mScriptName": "KarthusFallenOneExtra",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				210.0,
+				180.0,
+				150.0,
+				120.0,
+				180.0,
+				180.0,
+				180.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusFallenOneAbility/KarthusFallenOneExtra2": {
+		"mScriptName": "KarthusFallenOneExtra2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				210.0,
+				180.0,
+				150.0,
+				120.0,
+				180.0,
+				180.0,
+				180.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusFallenOneAbility/KarthusLayWaste": {
+		"mScriptName": "KarthusLayWaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": [
+				20.0,
+				26.0,
+				32.0,
+				38.0,
+				44.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability/KarthusLayWaste2": {
+		"mScriptName": "KarthusLayWaste2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": [
+				20.0,
+				26.0,
+				32.0,
+				38.0,
+				44.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability/KarthusLayWasteA1": {
+		"mScriptName": "KarthusLayWasteA1",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MonsterMod",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						21.0,
+						40.0,
+						59.0,
+						78.0,
+						97.0,
+						116.0,
+						135.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"QSingleTargetDamage": {
+					"mMultiplier": {
+						"mNumber": 2.0,
+						"__type": "NumberCalculationPart"
+					},
+					"tooltipOnly": true,
+					"mModifiedGameCalculation": "QDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				20.0,
+				25.0,
+				30.0,
+				35.0,
+				40.0,
+				45.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability/KarthusLayWasteA2": {
+		"mScriptName": "KarthusLayWasteA2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": [
+				20.0,
+				26.0,
+				32.0,
+				38.0,
+				44.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability/KarthusLayWasteA3": {
+		"mScriptName": "KarthusLayWasteA3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": [
+				20.0,
+				26.0,
+				32.0,
+				38.0,
+				44.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability/KarthusLayWasteDeadA1": {
+		"mScriptName": "KarthusLayWasteDeadA1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": [
+				20.0,
+				26.0,
+				32.0,
+				38.0,
+				44.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability/KarthusLayWasteDeadA2": {
+		"mScriptName": "KarthusLayWasteDeadA2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": [
+				20.0,
+				26.0,
+				32.0,
+				38.0,
+				44.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability/KarthusLayWasteDeadA3": {
+		"mScriptName": "KarthusLayWasteDeadA3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": [
+				20.0,
+				26.0,
+				32.0,
+				38.0,
+				44.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusLayWasteA1Ability/KarthusLayWasteExtra": {
+		"mScriptName": "KarthusLayWasteExtra",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusWallOfPainAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusWallOfPainAbility/KarthusWallOfPain": {
+		"mScriptName": "KarthusWallOfPain",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusWallOfPainAbility/KarthusWallOfPain2": {
+		"mScriptName": "KarthusWallOfPain2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0,
+				15.0
+			],
+			"mana": [
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0,
+				70.0
+			]
+		}
+	},
+	"Characters/Karthus/Spells/KarthusWallOfPainAbility/KarthusWallOfPainExtra2": {
+		"mScriptName": "KarthusWallOfPainExtra2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusWallOfPainAbility/KarthusWallofPainExtra": {
+		"mScriptName": "KarthusWallofPainExtra",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0,
+				22.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusWallOfPainAbility/Wall_of_Pain": {
+		"mScriptName": "Wall_of_Pain",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Karthus/Spells/KarthusWallOfPainAbility/Wall_of_Pain_Slow": {
+		"mScriptName": "Wall_of_Pain_Slow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,847 @@
+{
+	"Characters/XinZhao/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XenZhaoThrust": {
+		"mScriptName": "XenZhaoThrust",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XenZhaoThrust2": {
+		"mScriptName": "XenZhaoThrust2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XenZhaoThrust3": {
+		"mScriptName": "XenZhaoThrust3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoBasicAttack": {
+		"mScriptName": "XinZhaoBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoBasicAttack2": {
+		"mScriptName": "XinZhaoBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoCritAttack": {
+		"mScriptName": "XinZhaoCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoEAbility/XinZhaoE": {
+		"mScriptName": "XinZhaoE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseSlowAmount",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ChargeDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				11.0,
+				11.0,
+				11.0,
+				11.0,
+				11.0,
+				11.0,
+				11.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoEBattleCry": {
+		"mScriptName": "XinZhaoEBattleCry",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoIntimidate": {
+		"mScriptName": "XinZhaoIntimidate",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoPAbility/XinZhaoP": {
+		"mScriptName": "XinZhaoP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mLevel1Value": 0.15000000596046448,
+								"mBreakpoints": [
+									{
+										"mLevel": 6,
+										"mAdditionalBonusAtThisLevel": 0.15000000596046448,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 11,
+										"mAdditionalBonusAtThisLevel": 0.15000000596046448,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 16,
+										"mAdditionalBonusAtThisLevel": 0.15000000596046448,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 21,
+										"mAdditionalBonusAtThisLevel": 0.15000000596046448,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 26,
+										"mAdditionalBonusAtThisLevel": 0.15000000596046448,
+										"__type": "Breakpoint"
+									}
+								],
+								"__type": "ByCharLevelBreakpointsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalHealing": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mSubpart": {
+								"mLevel1Value": 0.029999999329447746,
+								"mBreakpoints": [
+									{
+										"mLevel": 6,
+										"mAdditionalBonusAtThisLevel": 0.004999999888241291,
+										"__type": "Breakpoint"
+									},
+									{
+										"mLevel": 11,
+										"mAdditionalBonusAtThisLevel": 0.004999999888241291,
+										"__type": "Breakpoint"
+									}
+								],
+								"__type": "ByCharLevelBreakpointsCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoPTracker": {
+		"mScriptName": "XinZhaoPTracker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				12.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoPassiveCritAttack": {
+		"mScriptName": "XinZhaoPassiveCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoQAbility/XinZhaoQ": {
+		"mScriptName": "XinZhaoQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"BonusDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				5.0
+			],
+			"mana": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			]
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoQKnockup": {
+		"mScriptName": "XinZhaoQKnockup",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoQThrust1": {
+		"mScriptName": "XinZhaoQThrust1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoQThrust2": {
+		"mScriptName": "XinZhaoQThrust2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoQThrust3": {
+		"mScriptName": "XinZhaoQThrust3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoRAbility/XinZhaoR": {
+		"mScriptName": "XinZhaoR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-25.0,
+						75.0,
+						175.0,
+						275.0,
+						375.0,
+						475.0,
+						575.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentCurrentHealthDamage",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissileDefenseBaseDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MissileDefenseRadius",
+					"mValues": [
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MarkDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 1.100000023841858,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				110.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoRKnockback": {
+		"mScriptName": "XinZhaoRKnockback",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoRLastTargetTracker": {
+		"mScriptName": "XinZhaoRLastTargetTracker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoRRangedImmunity": {
+		"mScriptName": "XinZhaoRRangedImmunity",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoRunCycleManager": {
+		"mScriptName": "XinZhaoRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/XinZhao/Spells/XinZhaoWAbility/XinZhaoW": {
+		"mScriptName": "XinZhaoW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SlashBaseDamage",
+					"mValues": [
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ThrustBaseDamage",
+					"mValues": [
+						15.0,
+						50.0,
+						85.0,
+						120.0,
+						155.0,
+						190.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritChanceAmp",
+					"mValues": [
+						0.3330000042915344,
+						0.3330000042915344,
+						0.3330000042915344,
+						0.3330000042915344,
+						0.3330000042915344,
+						0.3330000042915344,
+						0.3330000042915344
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MarkDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"SlashDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "SlashBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ThrustDamage": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mNumber": 1.0,
+								"__type": "NumberCalculationPart"
+							},
+							{
+								"mStat": 7,
+								"mDataValue": "CritChanceAmp",
+								"__type": "StatByNamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "ThrustBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.8999999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6499999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MinionMod": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"StaticTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 50.0,
+							"mInitialBonusPerLevel": 3.3329999446868896,
+							"mBreakpoints": [
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 3.3399999141693115,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.6000000238418579,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0
+			],
+			"mana": [
+				60.0,
+				55.0,
+				50.0,
+				45.0,
+				40.0,
+				40.0
+			]
+		}
+	}
+}

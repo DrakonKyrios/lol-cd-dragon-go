@@ -1,0 +1,1118 @@
+{
+	"Characters/Ornn/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnBasicAttack": {
+		"mScriptName": "OrnnBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3666999936103821,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnBasicAttack2": {
+		"mScriptName": "OrnnBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3666999936103821,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnBasicAttack3": {
+		"mScriptName": "OrnnBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3666999936103821,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnCritAttack": {
+		"mScriptName": "OrnnCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnEAbility/OrnnE": {
+		"mScriptName": "OrnnE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						35.0,
+						80.0,
+						125.0,
+						170.0,
+						215.0,
+						260.0,
+						305.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupDuration",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashRange",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShockwaveRadius",
+					"mValues": [
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0,
+						360.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashWallCheating",
+					"mValues": [
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0,
+						150.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashRadius",
+					"mValues": [
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ArmorRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MRRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 1,
+							"mStatFormula": 2,
+							"mDataValue": "ArmorRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 5,
+							"mStatFormula": 2,
+							"mDataValue": "MRRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				13.5,
+				13.0,
+				12.5,
+				12.0,
+				12.0
+			],
+			"mana": [
+				35.0,
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Ornn/Spells/OrnnPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnPAbility/OrnnP": {
+		"mScriptName": "OrnnP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MasterworkLevel",
+					"mValues": [
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseStatAmp",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AdditionalMythicStatAmp",
+					"mValues": [
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033,
+						0.03999999910593033
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GameModeInteger",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradeTotalGoldValue",
+					"mValues": [
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradeADEff",
+					"mValues": [
+						35.0,
+						35.0,
+						35.0,
+						35.0,
+						35.0,
+						35.0,
+						35.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradeAPEff",
+					"mValues": [
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradeHPEff",
+					"mValues": [
+						2.6600000858306885,
+						2.6600000858306885,
+						2.6600000858306885,
+						2.6600000858306885,
+						2.6600000858306885,
+						2.6600000858306885,
+						2.6600000858306885
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradeAREff",
+					"mValues": [
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradeMREff",
+					"mValues": [
+						18.0,
+						18.0,
+						18.0,
+						18.0,
+						18.0,
+						18.0,
+						18.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradeAHEff",
+					"mValues": [
+						31.25,
+						31.25,
+						31.25,
+						31.25,
+						31.25,
+						31.25,
+						31.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UpgradeASEff",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnPAbility/OrnnPAllyItemGive": {
+		"mScriptName": "OrnnPAllyItemGive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MasterworkLevel",
+					"mValues": [
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0,
+						13.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnPAbility/OrnnPAllyItemReady": {
+		"mScriptName": "OrnnPAllyItemReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				150.0,
+				150.0,
+				115.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Ornn/Spells/OrnnPAbility/OrnnPGrantItem": {
+		"mScriptName": "OrnnPGrantItem",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnPAbility/OrnnPItemCurrency": {
+		"mScriptName": "OrnnPItemCurrency",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				150.0,
+				150.0,
+				115.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Ornn/Spells/OrnnQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnQAbility/OrnnQ": {
+		"mScriptName": "OrnnQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.100000023841858,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.30000001192092896,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				8.5,
+				8.0,
+				7.5,
+				7.0,
+				6.5
+			],
+			"mana": [
+				45.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0,
+				45.0
+			]
+		}
+	},
+	"Characters/Ornn/Spells/OrnnRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnRAbility/OrnnR": {
+		"mScriptName": "OrnnR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RCastRange",
+					"mValues": [
+						2500.0,
+						2500.0,
+						2500.0,
+						2500.0,
+						2500.0,
+						2500.0,
+						2500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						75.0,
+						125.0,
+						175.0,
+						225.0,
+						275.0,
+						325.0,
+						375.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMissileMaxSpeed",
+					"mValues": [
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMissileAccelerationBase",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RSlowPercentBasePreMath",
+					"mValues": [
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RSlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BrittleDurationTOOLTIPONLY",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RStunDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RStunReduction",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "RRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MinStun": {
+					"mExpandedTooltipCalculationDisplay": 5,
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mDataValue": "RStunDuration",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"mDataValue": "RStunReduction",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				140.0,
+				140.0,
+				120.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Ornn/Spells/OrnnRAbility/OrnnRCharge": {
+		"mScriptName": "OrnnRCharge",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnRAbility/OrnnRWave": {
+		"mScriptName": "OrnnRWave",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				160.0,
+				160.0,
+				140.0,
+				120.0,
+				11.0,
+				10.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnRAbility/OrnnRWave2": {
+		"mScriptName": "OrnnRWave2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				160.0,
+				160.0,
+				140.0,
+				120.0,
+				11.0,
+				10.0,
+				9.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Ornn/Spells/OrnnWAbility/OrnnVulnerableDebuff": {
+		"mScriptName": "OrnnVulnerableDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				150.0,
+				150.0,
+				115.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Ornn/Spells/OrnnWAbility/OrnnW": {
+		"mScriptName": "OrnnW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MinimumDamagePerTick",
+					"mValues": [
+						6.0,
+						16.0,
+						26.0,
+						36.0,
+						46.0,
+						56.0,
+						66.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NumberOfTicks",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamageTooltip",
+					"mValues": [
+						50.0,
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BreathDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RectangleWidth",
+					"mValues": [
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RectangleLength",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MovementSpeedReduction",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FinalTickRectangleLength",
+					"mValues": [
+						560.0,
+						560.0,
+						560.0,
+						560.0,
+						560.0,
+						560.0,
+						560.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentHPPerTick",
+					"mValues": [
+						0.02199999988079071,
+						0.024000000208616257,
+						0.026000000536441803,
+						0.02800000086426735,
+						0.029999999329447746,
+						0.03200000151991844,
+						0.03400000184774399
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxPercentHPPerTickTooltip",
+					"mValues": [
+						11.0,
+						12.0,
+						13.0,
+						14.0,
+						15.0,
+						16.0,
+						17.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterDamagePerTickCap",
+					"mValues": [
+						26.0,
+						31.0,
+						36.0,
+						41.0,
+						46.0,
+						51.0,
+						56.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BrittleDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BrittlePercentMaxHPCalc": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 0.10000000149011612,
+							"mEndValue": 0.18000000715255737,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				},
+				"TotalMinimumDamage": {
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mDataValue": "MinimumDamagePerTick",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"mPart2": {
+								"mDataValue": "NumberOfTicks",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalMonsterDamageCap": {
+					"mMultiplier": {
+						"mDataValue": "NumberOfTicks",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mDataValue": "MonsterDamagePerTickCap",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.5,
+				12.0,
+				11.5,
+				11.0,
+				10.5,
+				10.0,
+				9.5
+			],
+			"mana": [
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0
+			]
+		}
+	}
+}

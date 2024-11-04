@@ -1,0 +1,1861 @@
+{
+	"Characters/Yasuo/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoAnimationManager": {
+		"mScriptName": "YasuoAnimationManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoBasicAttack": {
+		"mScriptName": "YasuoBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoBasicAttack2": {
+		"mScriptName": "YasuoBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoBasicAttack3": {
+		"mScriptName": "YasuoBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoBasicAttack4": {
+		"mScriptName": "YasuoBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoBasicAttack5": {
+		"mScriptName": "YasuoBasicAttack5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoBasicAttack6": {
+		"mScriptName": "YasuoBasicAttack6",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoCritAttack": {
+		"mScriptName": "YasuoCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoCritAttack2": {
+		"mScriptName": "YasuoCritAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoCritAttack3": {
+		"mScriptName": "YasuoCritAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoCritAttack4": {
+		"mScriptName": "YasuoCritAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoCritAttack5": {
+		"mScriptName": "YasuoCritAttack5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoCritMod": {
+		"mScriptName": "YasuoCritMod",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoDash": {
+		"mScriptName": "YasuoDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoDashGhosted": {
+		"mScriptName": "YasuoDashGhosted",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoDashScalar": {
+		"mScriptName": "YasuoDashScalar",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoDashWrapper": {
+		"mScriptName": "YasuoDashWrapper",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoDashWrapperChaos": {
+		"mScriptName": "YasuoDashWrapperChaos",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoDummySpell": {
+		"mScriptName": "YasuoDummySpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoEAbility/YasuoE": {
+		"mScriptName": "YasuoE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxStacks",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StackDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						55.0,
+						70.0,
+						85.0,
+						100.0,
+						115.0,
+						130.0,
+						145.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusDamagePerStack": {
+					"mMultiplier": {
+						"mNumber": 0.25,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.5,
+				0.5,
+				0.4000000059604645,
+				0.30000001192092896,
+				0.20000000298023224,
+				0.10000000149011612,
+				0.10000000149011612
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoEDash": {
+		"mScriptName": "YasuoEDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoEQCombo": {
+		"mScriptName": "YasuoEQCombo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.23440000414848328,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoEQComboAnimLock": {
+		"mScriptName": "YasuoEQComboAnimLock",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoEQComboSoundHit": {
+		"mScriptName": "YasuoEQComboSoundHit",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoIsInCombat": {
+		"mScriptName": "YasuoIsInCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoNotInCombat": {
+		"mScriptName": "YasuoNotInCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoPassiveAbility/YasuoPassive": {
+		"mScriptName": "YasuoPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "YasuoCritToAD",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritChanceMultiplier",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentCritDamageReduction",
+					"mValues": [
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612,
+						-0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CherryShieldAmp",
+					"mValues": [
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ShieldValue": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 125.0,
+							"mEndValue": 600.0,
+							"mScaleByStatProgressionMultiplier": true,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{74ce5438}": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 55.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": -5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": -5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 19,
+									"mAdditionalBonusAtThisLevel": -5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 25,
+									"mAdditionalBonusAtThisLevel": -5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"CurrentCritDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 8,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoPassiveCounter": {
+		"mScriptName": "YasuoPassiveCounter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoPassiveMSCharge": {
+		"mScriptName": "YasuoPassiveMSCharge",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoPassiveMSShieldOn": {
+		"mScriptName": "YasuoPassiveMSShieldOn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": [
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0
+			]
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoPassiveMovementShield": {
+		"mScriptName": "YasuoPassiveMovementShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoPassiveShield": {
+		"mScriptName": "YasuoPassiveShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ": {
+		"mScriptName": "YasuoQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1": {
+		"mScriptName": "YasuoQ1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ1Wrapper": {
+		"mScriptName": "YasuoQ1Wrapper",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-5.0,
+						20.0,
+						45.0,
+						70.0,
+						95.0,
+						120.0,
+						145.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StabRange",
+					"mValues": [
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TornadoRange",
+					"mValues": [
+						1100.0,
+						1100.0,
+						1100.0,
+						1100.0,
+						1100.0,
+						1100.0,
+						1100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Cooldown",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StabWidth",
+					"mValues": [
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpinWidth",
+					"mValues": [
+						260.0,
+						260.0,
+						260.0,
+						260.0,
+						260.0,
+						260.0,
+						260.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GatheringStormDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockUpDurationTOOLTIPONLY",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0499999523162842,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamageCrit": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mStat": 8,
+								"mCoefficient": 1.0499999523162842,
+								"__type": "StatByCoefficientCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2": {
+		"mScriptName": "YasuoQ2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2W": {
+		"mScriptName": "YasuoQ2W",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				4.5,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ2Wrapper": {
+		"mScriptName": "YasuoQ2Wrapper",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3": {
+		"mScriptName": "YasuoQ3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3Mis": {
+		"mScriptName": "YasuoQ3Mis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisMinion": {
+		"mScriptName": "YasuoQ3MisMinion",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3MisW": {
+		"mScriptName": "YasuoQ3MisW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3W": {
+		"mScriptName": "YasuoQ3W",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				4.5,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQ3Wrapper": {
+		"mScriptName": "YasuoQ3Wrapper",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQ1WrapperAbility/YasuoQW": {
+		"mScriptName": "YasuoQW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				4.5,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQDamage": {
+		"mScriptName": "YasuoQDamage",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQE1": {
+		"mScriptName": "YasuoQE1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQE2": {
+		"mScriptName": "YasuoQE2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQE3": {
+		"mScriptName": "YasuoQE3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQProtect": {
+		"mScriptName": "YasuoQProtect",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoQSound": {
+		"mScriptName": "YasuoQSound",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRAbility/YasuoR": {
+		"mScriptName": "YasuoR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						50.0,
+						200.0,
+						350.0,
+						500.0,
+						650.0,
+						800.0,
+						950.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RPercentArmorPen",
+					"mValues": [
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RBuffDuration",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RKnockupDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RRadius",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RCastSearchRadius",
+					"mValues": [
+						1100.0,
+						1100.0,
+						1100.0,
+						1100.0,
+						1100.0,
+						1100.0,
+						1100.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				105.0,
+				70.0,
+				50.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRArmorPen": {
+		"mScriptName": "YasuoRArmorPen",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRAvailableTest": {
+		"mScriptName": "YasuoRAvailableTest",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRDummySpell": {
+		"mScriptName": "YasuoRDummySpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRIsAvailable": {
+		"mScriptName": "YasuoRIsAvailable",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRKnockUpCombo": {
+		"mScriptName": "YasuoRKnockUpCombo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRKnockUpComboTar": {
+		"mScriptName": "YasuoRKnockUpComboTar",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRKnockUpComboVFX": {
+		"mScriptName": "YasuoRKnockUpComboVFX",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRKnockUpComboW": {
+		"mScriptName": "YasuoRKnockUpComboW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRLeashParticle": {
+		"mScriptName": "YasuoRLeashParticle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRSound0": {
+		"mScriptName": "YasuoRSound0",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRSound1": {
+		"mScriptName": "YasuoRSound1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRSound2": {
+		"mScriptName": "YasuoRSound2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRSound3": {
+		"mScriptName": "YasuoRSound3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRSound4": {
+		"mScriptName": "YasuoRSound4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRSpellPassive": {
+		"mScriptName": "YasuoRSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRStun": {
+		"mScriptName": "YasuoRStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoRVFXClone": {
+		"mScriptName": "YasuoRVFXClone",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoR_TeleportVFX_Mis": {
+		"mScriptName": "YasuoR_TeleportVFX_Mis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoSkin54Manager": {
+		"mScriptName": "YasuoSkin54Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWAbility/YasuoW": {
+		"mScriptName": "YasuoW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "WallLife",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Width",
+					"mValues": [
+						250.0,
+						320.0,
+						390.0,
+						460.0,
+						530.0,
+						600.0,
+						670.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TravelRange",
+					"mValues": [
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BubbleRadius",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Thickness",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.013000000268220901,
+			"cooldownTime": [
+				27.0,
+				25.0,
+				23.0,
+				21.0,
+				19.0,
+				17.0,
+				15.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWChildMis": {
+		"mScriptName": "YasuoWChildMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWMovingWall": {
+		"mScriptName": "YasuoWMovingWall",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "WallLife",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.012500000186264515,
+			"cooldownTime": [
+				28.0,
+				26.0,
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				18.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWMovingWallEnemy": {
+		"mScriptName": "YasuoWMovingWallEnemy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.012500000186264515,
+			"cooldownTime": [
+				29.0,
+				26.0,
+				23.0,
+				20.0,
+				17.0,
+				13.0,
+				13.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWMovingWallMis": {
+		"mScriptName": "YasuoWMovingWallMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWMovingWallMisL": {
+		"mScriptName": "YasuoWMovingWallMisL",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWMovingWallMisOld": {
+		"mScriptName": "YasuoWMovingWallMisOld",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWMovingWallMisR": {
+		"mScriptName": "YasuoWMovingWallMisR",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWMovingWallMisVis": {
+		"mScriptName": "YasuoWMovingWallMisVis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWMovingWallTrigger": {
+		"mScriptName": "YasuoWMovingWallTrigger",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWTrueCast": {
+		"mScriptName": "YasuoWTrueCast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoW_VisualMis": {
+		"mScriptName": "YasuoW_VisualMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWindWallBuff": {
+		"mScriptName": "YasuoWindWallBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Yasuo/Spells/YasuoWindWallTimerMis1": {
+		"mScriptName": "YasuoWindWallTimerMis1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

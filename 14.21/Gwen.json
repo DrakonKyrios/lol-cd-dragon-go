@@ -1,0 +1,1205 @@
+{
+	"Characters/Gwen/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenBasicAttack": {
+		"mScriptName": "GwenBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenBasicAttack2": {
+		"mScriptName": "GwenBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenBasicAttack3": {
+		"mScriptName": "GwenBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenBasicAttack_RResetCannotCancel": {
+		"mScriptName": "GwenBasicAttack_RResetCannotCancel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenCritAttack": {
+		"mScriptName": "GwenCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenEAbility/GwenE": {
+		"mScriptName": "GwenE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DashRange",
+					"mValues": [
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WallCheatDistance",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseAttackSpeed",
+					"mValues": [
+						5.0,
+						20.0,
+						35.0,
+						50.0,
+						65.0,
+						80.0,
+						95.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDRefund",
+					"mValues": [
+						0.15000000596046448,
+						0.25,
+						0.3499999940395355,
+						0.44999998807907104,
+						0.550000011920929,
+						0.6499999761581421,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusAttackRange",
+					"mValues": [
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BonusAttackSpeed": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"StaticTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseAttackSpeed",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"OnHitDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				13.0,
+				13.0,
+				12.5,
+				12.0,
+				11.5,
+				11.0,
+				11.0
+			],
+			"mana": [
+				35.0,
+				35.0,
+				35.0,
+				35.0,
+				35.0,
+				35.0
+			]
+		}
+	},
+	"Characters/Gwen/Spells/GwenEAbility/GwenEAttackBuff": {
+		"mScriptName": "GwenEAttackBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenEAbility/GwenEEmpoweredAttack": {
+		"mScriptName": "GwenEEmpoweredAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenEAbility/GwenEEmpoweredAttack_RResetCannotCancel": {
+		"mScriptName": "GwenEEmpoweredAttack_RResetCannotCancel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenPAbility/GwenP": {
+		"mScriptName": "GwenP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ExecuteThreshold",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"HealingPercent": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"StaticTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mNumber": 0.5,
+							"__type": "NumberCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"{540bce84}": {
+					"mFormulaParts": [
+						{
+							"mNumber": 1.0,
+							"__type": "NumberCalculationPart"
+						},
+						{
+							"mCoefficient": 0.006000000052154064,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 2,
+					"__type": "GameCalculation"
+				},
+				"HealCap": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 10.0,
+							"mEndValue": 25.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mCoefficient": 0.06499999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PercentHealth1000Cuts": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "{540bce84}",
+					"__type": "GameCalculationModified"
+				},
+				"MonsterDamageCap": {
+					"mFormulaParts": [
+						{
+							"mNumber": 10.0,
+							"__type": "NumberCalculationPart"
+						},
+						{
+							"mCoefficient": 0.15000000596046448,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PassiveMaxQTooltip": {
+					"mMultiplier": {
+						"mNumber": 0.05999999865889549,
+						"__type": "NumberCalculationPart"
+					},
+					"mExpandedTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "{540bce84}",
+					"__type": "GameCalculationModified"
+				},
+				"PassiveMaxRTooltip": {
+					"mMultiplier": {
+						"mNumber": 0.09000000357627869,
+						"__type": "NumberCalculationPart"
+					},
+					"mExpandedTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "{540bce84}",
+					"__type": "GameCalculationModified"
+				},
+				"{4197830d}": {
+					"mMultiplier": {
+						"mNumber": 0.029999999329447746,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "{540bce84}",
+					"__type": "GameCalculationModified"
+				},
+				"{4097817a}": {
+					"mMultiplier": {
+						"mNumber": 0.05000000074505806,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "{540bce84}",
+					"__type": "GameCalculationModified"
+				},
+				"{5bade13c}": {
+					"mFormulaParts": [
+						{
+							"mBuffName": "{9d0c98ec}",
+							"mCoefficient": 1.0,
+							"__type": "BuffCounterByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ExecuteDamage": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 8.0,
+							"mEndValue": 30.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenQAbility/GwenQ": {
+		"mScriptName": "GwenQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "InitialArcLength",
+					"mValues": [
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0,
+						475.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SwipeDamageBase",
+					"mValues": [
+						35.0,
+						60.0,
+						85.0,
+						110.0,
+						135.0,
+						160.0,
+						185.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MiniDamageRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MiniSwipeBaseDamage",
+					"mValues": [
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrueDamageConversion",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExecuteBonus",
+					"mValues": [
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionMod",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExecuteThreshold",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"FinalSwipeDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SwipeDamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MiniSwipeDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "MiniSwipeBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.05000000074505806,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mExpandedTooltipCalculationDisplay": 6,
+					"StaticTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mSubparts": [
+										{
+											"mDataValue": "SwipeDamageBase",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										{
+											"mDataValue": "APRatio",
+											"__type": "StatByNamedDataValueCalculationPart"
+										}
+									],
+									"__type": "SumOfSubPartsCalculationPart"
+								},
+								{
+									"mPart1": {
+										"mSubparts": [
+											{
+												"mDataValue": "SwipeDamageBase",
+												"__type": "NamedDataValueCalculationPart"
+											},
+											{
+												"mDataValue": "APRatio",
+												"__type": "StatByNamedDataValueCalculationPart"
+											}
+										],
+										"__type": "SumOfSubPartsCalculationPart"
+									},
+									"mPart2": {
+										"mPart1": {
+											"mDataValue": "MiniDamageRatio",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										"mPart2": {
+											"mNumber": 5.0,
+											"__type": "NumberCalculationPart"
+										},
+										"__type": "ProductOfSubPartsCalculationPart"
+									},
+									"__type": "ProductOfSubPartsCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				6.5,
+				6.5,
+				5.75,
+				5.0,
+				4.25,
+				3.5,
+				3.5
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Gwen/Spells/GwenQAbility/GwenQStacker": {
+		"mScriptName": "GwenQStacker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenRAbility/GwenR": {
+		"mScriptName": "GwenR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DebuffDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						5.0,
+						35.0,
+						65.0,
+						95.0,
+						125.0,
+						155.0,
+						185.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InitialSlow",
+					"mValues": [
+						-0.30000001192092896,
+						-0.4000000059604645,
+						-0.5,
+						-0.6000000238418579,
+						-0.699999988079071,
+						-0.800000011920929,
+						-0.8999999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SubsequentSlow",
+					"mValues": [
+						-0.10000000149011612,
+						-0.15000000596046448,
+						-0.20000000298023224,
+						-0.25,
+						-0.30000001192092896,
+						-0.3499999940395355,
+						-0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LockoutTime",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamage": {
+					"mMultiplier": {
+						"mNumber": 9.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"TotalDamage3": {
+					"mMultiplier": {
+						"mNumber": 3.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"TotalDamage5": {
+					"mMultiplier": {
+						"mNumber": 5.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				10.0,
+				120.0,
+				100.0,
+				80.0,
+				8.5,
+				8.0,
+				7.5
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Gwen/Spells/GwenRAbility/GwenRDebuff": {
+		"mScriptName": "GwenRDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenRAbility/GwenRMis": {
+		"mScriptName": "GwenRMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenRAbility/GwenRMis3_VisualOnly": {
+		"mScriptName": "GwenRMis3_VisualOnly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenRAbility/GwenRMis_VisualOnly": {
+		"mScriptName": "GwenRMis_VisualOnly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenRAbility/GwenRRecast": {
+		"mScriptName": "GwenRRecast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				0.10000000149011612,
+				0.10000000149011612,
+				0.10000000149011612,
+				0.10000000149011612,
+				0.10000000149011612,
+				0.10000000149011612,
+				0.10000000149011612
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenWAbility/GwenW": {
+		"mScriptName": "GwenW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ZONE_VARS",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ZoneDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ZoneRadius",
+					"mValues": [
+						370.0,
+						370.0,
+						370.0,
+						370.0,
+						370.0,
+						370.0,
+						370.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ZonePullSpeed",
+					"mValues": [
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PullOffset",
+					"mValues": [
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ZoneWallOffset",
+					"mValues": [
+						-100.0,
+						-100.0,
+						-100.0,
+						-100.0,
+						-100.0,
+						-100.0,
+						-100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NewDashCooldown",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RecastDelay",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseResists",
+					"mValues": [
+						20.0,
+						22.0,
+						24.0,
+						26.0,
+						28.0,
+						30.0,
+						32.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashTargetForgiveness",
+					"mValues": [
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalResists": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseResists",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.07000000029802322,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				21.0,
+				20.0,
+				19.0,
+				18.0,
+				18.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Gwen/Spells/GwenWAbility/GwenWRecast": {
+		"mScriptName": "GwenWRecast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				33.0,
+				30.0,
+				27.0,
+				24.0,
+				21.0,
+				18.0,
+				8.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenWAbility/GwenW_GwenInsideW": {
+		"mScriptName": "GwenW_GwenInsideW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Gwen/Spells/GwenZ_GeneralFunctions": {
+		"mScriptName": "GwenZ_GeneralFunctions",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

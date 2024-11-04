@@ -1,0 +1,773 @@
+{
+	"Characters/Renekton/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenekthonTyrantForm": {
+		"mScriptName": "RenekthonTyrantForm",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonBasicAttack": {
+		"mScriptName": "RenektonBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonBasicAttack2": {
+		"mScriptName": "RenektonBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonCleaveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonCleaveAbility/RenekthonCleaveReady": {
+		"mScriptName": "RenekthonCleaveReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonCleaveAbility/RenektonCleave": {
+		"mScriptName": "RenektonCleave",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ChampHeal",
+					"mValues": [
+						4.0,
+						12.0,
+						20.0,
+						28.0,
+						36.0,
+						44.0,
+						52.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EmpChampHeal",
+					"mValues": [
+						12.0,
+						36.0,
+						60.0,
+						84.0,
+						108.0,
+						132.0,
+						156.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseADRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EmpoweredADRatio",
+					"mValues": [
+						1.399999976158142,
+						1.399999976158142,
+						1.399999976158142,
+						1.399999976158142,
+						1.399999976158142,
+						1.399999976158142,
+						1.399999976158142
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BasicDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BaseADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpDamage": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 6,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "EmpoweredADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"NonChampHealing": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 2,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.019999999552965164,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ChampHealing": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ChampHeal",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.17000000178813934,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpNonChampHealing": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 7,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.05999999865889549,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpChampHealing": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "EmpChampHeal",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.5099999904632568,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonCritAttack": {
+		"mScriptName": "RenektonCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonPreExecuteAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecute": {
+		"mScriptName": "RenektonExecute",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecuteAttack": {
+		"mScriptName": "RenektonExecuteAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonExecuteReady": {
+		"mScriptName": "RenektonExecuteReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonPreExecuteAbility/RenektonPreExecute": {
+		"mScriptName": "RenektonPreExecute",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "GrievousAmount",
+					"mValues": [
+						-0.6000000238418579,
+						-0.6000000238418579,
+						-0.6000000238418579,
+						-0.6000000238418579,
+						-0.6000000238418579,
+						-0.6000000238418579,
+						-0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GrievousDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseFlatDamage",
+					"mValues": [
+						-20.0,
+						10.0,
+						40.0,
+						70.0,
+						100.0,
+						130.0,
+						160.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EmpFlatDamage",
+					"mValues": [
+						-30.0,
+						15.0,
+						60.0,
+						105.0,
+						150.0,
+						195.0,
+						240.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BasicTotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseFlatDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpTotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "EmpFlatDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 2.25,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				16.0,
+				14.0,
+				12.0,
+				10.0,
+				8.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonPredatorAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonPredatorAbility/RenektonPredator": {
+		"mScriptName": "RenektonPredator",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FuryPerAttack",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FuryIncreasePercent",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LowHealthPercentThreshold",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InCombatDuration",
+					"mValues": [
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FuryCost",
+					"mValues": [
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonReignOfTheTyrantAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonReignOfTheTyrantAbility/RenektonReignOfTheTyrant": {
+		"mScriptName": "RenektonReignOfTheTyrant",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "HealthGain",
+					"mValues": [
+						100.0,
+						300.0,
+						500.0,
+						700.0,
+						900.0,
+						1100.0,
+						1300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AuraDamagePerSecond",
+					"mValues": [
+						0.0,
+						60.0,
+						120.0,
+						180.0,
+						240.0,
+						300.0,
+						360.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FuryPerSecond",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FuryOnCast",
+					"mValues": [
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TickRate",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamagePerSecond": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "AuraDamagePerSecond",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonSkin26_Manager": {
+		"mScriptName": "RenektonSkin26_Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonSliceAndDiceAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenekthonSliceAndDiceDelay": {
+		"mScriptName": "RenekthonSliceAndDiceDelay",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonDice": {
+		"mScriptName": "RenektonDice",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				18.0,
+				18.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				18.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDice": {
+		"mScriptName": "RenektonSliceAndDice",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"BasicDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.8999999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 3,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 1.350000023841858,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				14.5,
+				13.0,
+				11.5,
+				10.0,
+				10.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonSliceAndDiceAbility/RenektonSliceAndDiceShred": {
+		"mScriptName": "RenektonSliceAndDiceShred",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Renekton/Spells/RenektonSuperExecute": {
+		"mScriptName": "RenektonSuperExecute",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	}
+}

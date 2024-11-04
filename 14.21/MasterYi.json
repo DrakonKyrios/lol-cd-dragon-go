@@ -1,0 +1,1074 @@
+{
+	"Characters/MasterYi/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrike": {
+		"mScriptName": "AlphaStrike",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SubsequentHitMultiplier",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusMonsterDamage",
+					"mValues": [
+						40.0,
+						65.0,
+						90.0,
+						115.0,
+						140.0,
+						165.0,
+						190.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackDamageRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusCritDamageRatio",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseBasicAttackCDR",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AlphaStrikeBounces",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseOnHitMultiplier",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "AttackDamageRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SubesquentDamage": {
+					"mMultiplier": {
+						"mDataValue": "SubsequentHitMultiplier",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mDataValue": "BaseDamage",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								{
+									"mStat": 2,
+									"mDataValue": "AttackDamageRatio",
+									"__type": "StatByNamedDataValueCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"CritBonus": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mDataValue": "BonusCritDamageRatio",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							{
+								"mStat": 8,
+								"mStatFormula": 2,
+								"mDataValue": "BonusCritDamageRatio",
+								"__type": "StatByNamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"{b0f66055}": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mDataValue": "BonusCritDamageRatio",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							{
+								"mStat": 8,
+								"mStatFormula": 2,
+								"mDataValue": "BonusCritDamageRatio",
+								"__type": "StatByNamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "SubesquentDamage",
+					"__type": "GameCalculationModified"
+				},
+				"BasicAttackCDR": {
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"__type": "CooldownMultiplierCalculationPart"
+							},
+							"mPart2": {
+								"mDataValue": "BaseBasicAttackCDR",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SingleTotalDamage": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mNumber": 1.0,
+								"__type": "NumberCalculationPart"
+							},
+							{
+								"mPart1": {
+									"mDataValue": "SubsequentHitMultiplier",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								"mPart2": {
+									"mSubparts": [
+										{
+											"mNumber": -1.0,
+											"__type": "NumberCalculationPart"
+										},
+										{
+											"mDataValue": "AlphaStrikeBounces",
+											"__type": "NamedDataValueCalculationPart"
+										}
+									],
+									"__type": "SumOfSubPartsCalculationPart"
+								},
+								"__type": "ProductOfSubPartsCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"SingleCritTotalDamage": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mNumber": 1.0,
+								"__type": "NumberCalculationPart"
+							},
+							{
+								"mDataValue": "BonusCritDamageRatio",
+								"__type": "NamedDataValueCalculationPart"
+							},
+							{
+								"mStat": 8,
+								"mStatFormula": 2,
+								"mDataValue": "BonusCritDamageRatio",
+								"__type": "StatByNamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mPart1": {
+								"mSubparts": [
+									{
+										"mDataValue": "BaseDamage",
+										"__type": "NamedDataValueCalculationPart"
+									},
+									{
+										"mStat": 2,
+										"mDataValue": "AttackDamageRatio",
+										"__type": "StatByNamedDataValueCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"mPart2": {
+								"mSubparts": [
+									{
+										"mNumber": 1.0,
+										"__type": "NumberCalculationPart"
+									},
+									{
+										"mPart1": {
+											"mDataValue": "SubsequentHitMultiplier",
+											"__type": "NamedDataValueCalculationPart"
+										},
+										"mPart2": {
+											"mSubparts": [
+												{
+													"mNumber": -1.0,
+													"__type": "NumberCalculationPart"
+												},
+												{
+													"mDataValue": "AlphaStrikeBounces",
+													"__type": "NamedDataValueCalculationPart"
+												}
+											],
+											"__type": "SumOfSubPartsCalculationPart"
+										},
+										"__type": "ProductOfSubPartsCalculationPart"
+									}
+								],
+								"__type": "SumOfSubPartsCalculationPart"
+							},
+							"__type": "ProductOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				20.5,
+				20.0,
+				19.5,
+				19.0,
+				18.5,
+				18.0,
+				17.5
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeBounce": {
+		"mScriptName": "AlphaStrikeBounce",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				19.5,
+				18.0,
+				16.5,
+				15.0,
+				13.5,
+				12.0,
+				12.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeCDR": {
+		"mScriptName": "AlphaStrikeCDR",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeMissile": {
+		"mScriptName": "AlphaStrikeMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeMissileReturn": {
+		"mScriptName": "AlphaStrikeMissileReturn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility/AlphaStrikeTeleport": {
+		"mScriptName": "AlphaStrikeTeleport",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				210.0,
+				210.0,
+				210.0,
+				210.0,
+				210.0,
+				210.0,
+				210.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility/Alpha_Strike": {
+		"mScriptName": "Alpha_Strike",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/AlphaStrikeAbility/Alpha_Striking": {
+		"mScriptName": "Alpha_Striking",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/HighlanderAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/HighlanderAbility/Highlander": {
+		"mScriptName": "Highlander",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RDuration",
+					"mValues": [
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RASBonus",
+					"mValues": [
+						15.0,
+						25.0,
+						35.0,
+						45.0,
+						55.0,
+						65.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMSBonus",
+					"mValues": [
+						25.0,
+						35.0,
+						45.0,
+						55.0,
+						65.0,
+						75.0,
+						85.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RKillAssistExtension",
+					"mValues": [
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RCooldownRefund",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				85.0,
+				85.0,
+				85.0,
+				85.0,
+				85.0,
+				85.0,
+				85.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				0.0
+			]
+		}
+	},
+	"Characters/MasterYi/Spells/HighlanderAbility/HighlanderSpellPassive": {
+		"mScriptName": "HighlanderSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/Immortal_MasterYi_Trail_FX": {
+		"mScriptName": "Immortal_MasterYi_Trail_FX",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiBasicAttack": {
+		"mScriptName": "MasterYiBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiBasicAttack2": {
+		"mScriptName": "MasterYiBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiCritAttack": {
+		"mScriptName": "MasterYiCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrike": {
+		"mScriptName": "DoubleStrike",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrikeReady": {
+		"mScriptName": "DoubleStrikeReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiPassiveAbility/DoubleStrikeStacks": {
+		"mScriptName": "DoubleStrikeStacks",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiDoubleStrike": {
+		"mScriptName": "MasterYiDoubleStrike",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiPassiveAbility/MasterYiPassive": {
+		"mScriptName": "MasterYiPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StackDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackCount",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiRunCycleManager": {
+		"mScriptName": "MasterYiRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MasterYiSkin89Manager": {
+		"mScriptName": "MasterYiSkin89Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MeditateAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/MeditateAbility/Meditate": {
+		"mScriptName": "Meditate",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseHeal",
+					"mValues": [
+						40.0,
+						120.0,
+						200.0,
+						280.0,
+						360.0,
+						440.0,
+						520.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxMissingHealthPercent",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TickFrequency",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageReduction",
+					"mValues": [
+						0.42500001192092896,
+						0.44999998807907104,
+						0.4749999940395355,
+						0.5,
+						0.5249999761581421,
+						0.550000011920929,
+						0.574999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageReductionTowerMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseManaCost",
+					"mValues": [
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentManaCostPerSecond",
+					"mValues": [
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549,
+						0.05999999865889549
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InitialExtraDR",
+					"mValues": [
+						0.2750000059604645,
+						0.25,
+						0.22499999403953552,
+						0.20000000298023224,
+						0.17499999701976776,
+						0.15000000596046448,
+						0.125
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InitialExtraDRDuration",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DRLinger",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalHeal": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseHeal",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"InitialDR": {
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mDataValue": "DamageReduction",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								{
+									"mDataValue": "InitialExtraDR",
+									"__type": "NamedDataValueCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/MasterYi/Spells/WujuStyleAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/WujuStyleAbility/WujuStyle": {
+		"mScriptName": "WujuStyle",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LegacySwordVFXDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/MasterYi/Spells/WujuStyleAbility/WujuStyleSuperCharged": {
+		"mScriptName": "WujuStyleSuperCharged",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

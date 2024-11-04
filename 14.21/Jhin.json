@@ -1,0 +1,1160 @@
+{
+	"Characters/Jhin/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinBasicAttack": {
+		"mScriptName": "JhinBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinBasicAttack2": {
+		"mScriptName": "JhinBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinBasicAttack3": {
+		"mScriptName": "JhinBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinCritAttack": {
+		"mScriptName": "JhinCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinEAbility/JhinE": {
+		"mScriptName": "JhinE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "AmmoRechargeRateBaseTooltip",
+					"mValues": [
+						26.5,
+						24.0,
+						21.5,
+						19.0,
+						16.5,
+						14.0,
+						11.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrapSlowAmount",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ReducedDamagePercent",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-40.0,
+						20.0,
+						80.0,
+						140.0,
+						200.0,
+						260.0,
+						320.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrapDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrapAoERadius",
+					"mValues": [
+						260.0,
+						260.0,
+						260.0,
+						260.0,
+						260.0,
+						260.0,
+						260.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrapTriggerRadius",
+					"mValues": [
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0,
+						160.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrapDetonationTime",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrapRevealDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TrapArmTime",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.2000000476837158,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"AmmoRechargeRateTooltip": {
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mDataValue": "AmmoRechargeRateBaseTooltip",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								{
+									"mPart1": {
+										"mStat": 9,
+										"mCoefficient": 1.0,
+										"__type": "StatByCoefficientCalculationPart"
+									},
+									"mPart2": {
+										"mDataValue": "AmmoRechargeRateBaseTooltip",
+										"__type": "NamedDataValueCalculationPart"
+									},
+									"__type": "ProductOfSubPartsCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0
+			],
+			"mana": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			]
+		}
+	},
+	"Characters/Jhin/Spells/JhinEAbility/JhinEPassive": {
+		"mScriptName": "JhinEPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinEAbility/JhinESpottedApplicator": {
+		"mScriptName": "JhinESpottedApplicator",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinEAbility/JhinESpottedDebuff": {
+		"mScriptName": "JhinESpottedDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinEAbility/JhinETrap": {
+		"mScriptName": "JhinETrap",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinEAbility/JhinETrapSlow": {
+		"mScriptName": "JhinETrapSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinPassiveAbility/JhinPassive": {
+		"mScriptName": "JhinPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MaxAmmo",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ReloadTime",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HasteDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OutOfCombatTimeBeforeReload",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FourthShotDamageMult",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritReductionPercent",
+					"mValues": [
+						0.14000000059604645,
+						0.14000000059604645,
+						0.14000000059604645,
+						0.14000000059604645,
+						0.14000000059604645,
+						0.14000000059604645,
+						0.14000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseAttackSpeed",
+					"mValues": [
+						0.625,
+						0.625,
+						0.625,
+						0.625,
+						0.625,
+						0.625,
+						0.625
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentAttackSpeedPerLevel",
+					"mValues": [
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritMoveSpeedPercentASRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"FourthShotExecutePercent": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.15000000596046448,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.05000000074505806,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 0.05000000074505806,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"TotalADPercent": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.03999999910593033,
+							"mInitialBonusPerLevel": 0.009999999776482582,
+							"mBreakpoints": [
+								{
+									"mLevel": 10,
+									"mBonusPerLevelAtAndAfter": 0.019999999552965164,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 12,
+									"mBonusPerLevelAtAndAfter": 0.03999999910593033,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 7,
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 3,
+							"mStatFormula": 2,
+							"mCoefficient": 0.25,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"CritMoveSpeedPercent": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mNumber": 0.14000000059604645,
+							"__type": "NumberCalculationPart"
+						},
+						{
+							"mStat": 3,
+							"mStatFormula": 2,
+							"mDataValue": "CritMoveSpeedPercentASRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinPassiveAbility/JhinPassiveAttack": {
+		"mScriptName": "JhinPassiveAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinPassiveAbility/JhinPassiveAttackBuff": {
+		"mScriptName": "JhinPassiveAttackBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinPassiveAbility/JhinPassiveHaste": {
+		"mScriptName": "JhinPassiveHaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinPassiveAbility/JhinPassiveInCombat": {
+		"mScriptName": "JhinPassiveInCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinPassiveAbility/JhinPassiveReload": {
+		"mScriptName": "JhinPassiveReload",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.5,
+				4.5,
+				4.5,
+				4.5,
+				4.5,
+				4.5,
+				4.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinProjectMask": {
+		"mScriptName": "JhinProjectMask",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinQAbility/JhinQ": {
+		"mScriptName": "JhinQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						19.0,
+						44.0,
+						69.0,
+						94.0,
+						119.0,
+						144.0,
+						169.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						0.36500000953674316,
+						0.4399999976158142,
+						0.5149999856948853,
+						0.5899999737739563,
+						0.6650000214576721,
+						0.7400000095367432,
+						0.8149999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentAmpOnKill",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NumberOfBounces",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BounceRange",
+					"mValues": [
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0,
+						450.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TooltipMaxTargetsHit": {
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mNumber": 1.0,
+									"__type": "NumberCalculationPart"
+								},
+								{
+									"mNumber": 3.0,
+									"__type": "NumberCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				5.0
+			],
+			"mana": [
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Jhin/Spells/JhinQAbility/JhinQMisBounce": {
+		"mScriptName": "JhinQMisBounce",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinRAbility/JhinR": {
+		"mScriptName": "JhinR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Damage",
+					"mValues": [
+						0.0,
+						64.0,
+						128.0,
+						192.0,
+						256.0,
+						320.0,
+						384.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FourthShotMultiplier",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentMissingAmp",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MInimumDelayBetweenShots",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageCalc": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "Damage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxIncreaseCalc": {
+					"mMultiplier": {
+						"mSubparts": [
+							{
+								"mNumber": 1.0,
+								"__type": "NumberCalculationPart"
+							},
+							{
+								"mDataValue": "PercentMissingAmp",
+								"__type": "NamedDataValueCalculationPart"
+							}
+						],
+						"__type": "SumOfSubPartsCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "DamageCalc",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 1.0,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				105.0,
+				90.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Jhin/Spells/JhinRAbility/JhinRHaste": {
+		"mScriptName": "JhinRHaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinRAbility/JhinRShot": {
+		"mScriptName": "JhinRShot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinRAbility/JhinRShotMis": {
+		"mScriptName": "JhinRShotMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinRAbility/JhinRShotMis4": {
+		"mScriptName": "JhinRShotMis4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinRAbility/JhinRSight": {
+		"mScriptName": "JhinRSight",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinRAbility/JhinRSlow": {
+		"mScriptName": "JhinRSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Jhin/Spells/JhinWAbility/JhinW": {
+		"mScriptName": "JhinW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						60.0,
+						95.0,
+						130.0,
+						165.0,
+						200.0,
+						235.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RootDuration",
+					"mValues": [
+						1.0,
+						1.25,
+						1.5,
+						1.75,
+						2.0,
+						2.25,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionMod",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpottingDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.75,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	}
+}

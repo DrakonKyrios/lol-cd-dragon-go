@@ -1,0 +1,760 @@
+{
+	"Characters/Chogath/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/CarnivoreAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/CarnivoreAbility/Carnivore": {
+		"mScriptName": "Carnivore",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"ChogathCarnivoreHeal": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 18.0,
+							"mInitialBonusPerLevel": 2.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ChogathCarnivoreMana": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 4.71999979019165,
+							"mInitialBonusPerLevel": 0.2800000011920929,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/ChogathBasicAttack": {
+		"mScriptName": "ChogathBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/ChogathBasicAttack2": {
+		"mScriptName": "ChogathBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/ChogathCritAttack": {
+		"mScriptName": "ChogathCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/ChogathEAttack": {
+		"mScriptName": "ChogathEAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/Chogath_Skin07_Blackhole": {
+		"mScriptName": "Chogath_Skin07_Blackhole",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/FeastAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/FeastAbility/ChogathFeastVFXMissile": {
+		"mScriptName": "ChogathFeastVFXMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/FeastAbility/Feast": {
+		"mScriptName": "Feast",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RBaseMonsterDamage",
+					"mValues": [
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						125.0,
+						300.0,
+						475.0,
+						650.0,
+						825.0,
+						1000.0,
+						1175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RHealthPerStack",
+					"mValues": [
+						40.0,
+						80.0,
+						120.0,
+						160.0,
+						200.0,
+						240.0,
+						280.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RMinionMaxStacks",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RStoneplateRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CastRangePerStack",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxBonusCastRange",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackRangePerStack",
+					"mValues": [
+						3.200000047683716,
+						4.699999809265137,
+						6.199999809265137,
+						7.699999809265137,
+						9.199999809265137,
+						10.699999809265137,
+						12.199999809265137
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxBonusAttackRange",
+					"mValues": [
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RMonsterDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseMonsterDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mStatFormula": 2,
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mStatFormula": 2,
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusAttackRange": {
+					"mFormulaParts": [
+						{
+							"mBuffName": "{8682fc00}",
+							"mDataValue": "AttackRangePerStack",
+							"__type": "BuffCounterByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{9f798bd0}": {
+					"mFormulaParts": [
+						{
+							"mBuffName": "{8682fc00}",
+							"mDataValue": "CastRangePerStack",
+							"__type": "BuffCounterByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				70.0,
+				80.0,
+				70.0,
+				60.0,
+				10.0,
+				10.0,
+				70.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				60.0,
+				60.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Chogath/Spells/FeastAbility/Feast_Internal": {
+		"mScriptName": "Feast_Internal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/FeralScreamAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/FeralScreamAbility/FeralScream": {
+		"mScriptName": "FeralScream",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				11.0,
+				11.0,
+				10.5,
+				10.0,
+				9.5,
+				9.0,
+				9.0
+			],
+			"mana": [
+				70.0,
+				75.0,
+				80.0,
+				85.0,
+				90.0,
+				95.0
+			]
+		}
+	},
+	"Characters/Chogath/Spells/RuptureAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/RuptureAbility/Rupture": {
+		"mScriptName": "Rupture",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						15.0,
+						80.0,
+						145.0,
+						210.0,
+						275.0,
+						340.0,
+						405.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmountPercentage",
+					"mValues": [
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikes": {
+		"mScriptName": "VorpalSpikes",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PercentHealthDamageTooltip",
+					"mValues": [
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentHealthDamageInteger",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FeastStackMultiplier",
+					"mValues": [
+						0.004999999888241291,
+						0.004999999888241291,
+						0.004999999888241291,
+						0.004999999888241291,
+						0.004999999888241291,
+						0.004999999888241291,
+						0.004999999888241291
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						20.0,
+						40.0,
+						60.0,
+						80.0,
+						100.0,
+						120.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmountPercentage",
+					"mValues": [
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0,
+						50.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BaseDamageTotalTooltip": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.30000001192092896,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxHealthPercentCalc": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "PercentHealthDamageTooltip",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mBuffName": "{8682fc00}",
+							"mDataValue": "FeastStackMultiplier",
+							"__type": "BuffCounterByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				4.0
+			],
+			"mana": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			]
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikesDebuff": {
+		"mScriptName": "VorpalSpikesDebuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikesMissle": {
+		"mScriptName": "VorpalSpikesMissle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikesMissle2": {
+		"mScriptName": "VorpalSpikesMissle2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikesMissle3": {
+		"mScriptName": "VorpalSpikesMissle3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikesMissle4": {
+		"mScriptName": "VorpalSpikesMissle4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikesMissle5": {
+		"mScriptName": "VorpalSpikesMissle5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikesMissle6": {
+		"mScriptName": "VorpalSpikesMissle6",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Chogath/Spells/VorpalSpikesAbility/VorpalSpikesMissle7": {
+		"mScriptName": "VorpalSpikesMissle7",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	}
+}

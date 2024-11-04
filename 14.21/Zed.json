@@ -1,0 +1,1116 @@
+{
+	"Characters/Zed/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedBasicAttack": {
+		"mScriptName": "ZedBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedBasicAttack2": {
+		"mScriptName": "ZedBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedCritAttack": {
+		"mScriptName": "ZedCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedEAbility/ZedE": {
+		"mScriptName": "ZedE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						65.0,
+						90.0,
+						115.0,
+						140.0,
+						165.0,
+						190.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedMod",
+					"mValues": [
+						-0.15000000596046448,
+						-0.20000000298023224,
+						-0.25,
+						-0.30000001192092896,
+						-0.3499999940395355,
+						-0.4000000059604645,
+						-0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedModBonus",
+					"mValues": [
+						-0.22499999403953552,
+						-0.30000001192092896,
+						-0.375,
+						-0.44999998807907104,
+						-0.5249999761581421,
+						-0.6000000238418579,
+						-0.675000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShadowHitCDR",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ZedRadius",
+					"mValues": [
+						315.0,
+						315.0,
+						315.0,
+						315.0,
+						315.0,
+						315.0,
+						315.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShadowRadius",
+					"mValues": [
+						290.0,
+						290.0,
+						290.0,
+						290.0,
+						290.0,
+						290.0,
+						290.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				5.0,
+				5.0,
+				4.5,
+				4.0,
+				3.5,
+				3.0,
+				3.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Zed/Spells/ZedEAbility/ZedPBAOE": {
+		"mScriptName": "ZedPBAOE",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedEAbility/ZedPBAOEDummy": {
+		"mScriptName": "ZedPBAOEDummy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Zed/Spells/ZedPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedPassiveAbility/ZedMarker": {
+		"mScriptName": "ZedMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedPassiveAbility/ZedPassive": {
+		"mScriptName": "ZedPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CurrentHealthThreshold",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PerUnitCD",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterDamageCap",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterDamageMod",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShenZedQuestKillCount",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShenZedQuestBonus",
+					"mValues": [
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{6a1a62e9}": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.05999999865889549,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": 0.019999999552965164,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 17,
+									"mAdditionalBonusAtThisLevel": 0.019999999552965164,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 25,
+									"mAdditionalBonusAtThisLevel": 0.019999999552965164,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"{ad3d785f}": {
+					"mFormulaParts": [
+						{
+							"mSpellCalculationKey": "{6a1a62e9}",
+							"__type": "{f3cbe7b2}"
+						},
+						{
+							"mDataValue": "ShenZedQuestBonus",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"MaxHPDamage": {
+					"mDefaultGameCalculation": "{6a1a62e9}",
+					"mConditionalGameCalculation": "{ad3d785f}",
+					"mConditionalCalculationRequirements": {
+						"mBuffName": "{ecbd8e2e}",
+						"__type": "HasBuffCastRequirement"
+					},
+					"__type": "GameCalculationConditional"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedPassiveAbility/ZedPassiveCD": {
+		"mScriptName": "ZedPassiveCD",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedQAbility/ZedQ": {
+		"mScriptName": "ZedQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						80.0,
+						120.0,
+						160.0,
+						200.0,
+						240.0,
+						280.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusADRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PassThroughDamage": {
+					"mMultiplier": {
+						"mNumber": 0.6000000238418579,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				75.0,
+				70.0,
+				65.0,
+				60.0,
+				55.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Zed/Spells/ZedQAbility/ZedQMissile": {
+		"mScriptName": "ZedQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedQAbility/ZedShurikenMisOne": {
+		"mScriptName": "ZedShurikenMisOne",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedQAbility/ZedShurikenMisThree": {
+		"mScriptName": "ZedShurikenMisThree",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedQAbility/ZedShurikenMisTwo": {
+		"mScriptName": "ZedShurikenMisTwo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedR": {
+		"mScriptName": "ZedR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RDamageAmp",
+					"mValues": [
+						0.10000000149011612,
+						0.25,
+						0.4000000059604645,
+						0.550000011920929,
+						0.699999988079071,
+						0.8500000238418579,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RReactivateCD",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RShadowDurationDisplayed",
+					"mValues": [
+						7.5,
+						7.5,
+						7.5,
+						7.5,
+						7.5,
+						7.5,
+						7.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RDeathMarkDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RCanSwapBuffDuration",
+					"mValues": [
+						7.5,
+						7.5,
+						7.5,
+						7.5,
+						7.5,
+						7.5,
+						7.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RGhostedDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RBaseDamage",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RVisionDuration",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{43a019eb}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RShadowDurationDisplayed",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mNumber": 0.5,
+							"__type": "NumberCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RCalculatedDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				110.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedR2": {
+		"mScriptName": "ZedR2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.2418999969959259,
+			"cooldownTime": [
+				140.0,
+				120.0,
+				100.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedRADBuff": {
+		"mScriptName": "ZedRADBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedRDashEffectShadow": {
+		"mScriptName": "ZedRDashEffectShadow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedRDeathMark": {
+		"mScriptName": "ZedRDeathMark",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedRHandler": {
+		"mScriptName": "ZedRHandler",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.2418999969959259,
+			"cooldownTime": [
+				23.5,
+				22.0,
+				20.5,
+				19.0,
+				17.5,
+				16.0,
+				16.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedRMissile": {
+		"mScriptName": "ZedRMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedRPassiveBuff": {
+		"mScriptName": "ZedRPassiveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedUlt": {
+		"mScriptName": "ZedUlt",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				120.0,
+				100.0,
+				80.0,
+				10.0,
+				10.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedUltDash": {
+		"mScriptName": "ZedUltDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedUltDashCloneMaker": {
+		"mScriptName": "ZedUltDashCloneMaker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedUltExecute": {
+		"mScriptName": "ZedUltExecute",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedUltMissile": {
+		"mScriptName": "ZedUltMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedRAbility/ZedUltWDelay": {
+		"mScriptName": "ZedUltWDelay",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedShadowBasicAttack": {
+		"mScriptName": "ZedShadowBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedWAbility/ZedShadowDash": {
+		"mScriptName": "ZedShadowDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				19.0,
+				18.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				40.0,
+				35.0,
+				30.0,
+				25.0,
+				20.0,
+				15.0
+			]
+		}
+	},
+	"Characters/Zed/Spells/ZedWAbility/ZedShadowDashMissile": {
+		"mScriptName": "ZedShadowDashMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedWAbility/ZedW": {
+		"mScriptName": "ZedW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RecastRange",
+					"mValues": [
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0,
+						2000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MimickRange",
+					"mValues": [
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0,
+						25000.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				20.0,
+				20.0,
+				19.0,
+				18.0,
+				17.0,
+				16.0,
+				16.0
+			],
+			"mana": [
+				40.0,
+				35.0,
+				30.0,
+				25.0,
+				20.0,
+				15.0
+			]
+		}
+	},
+	"Characters/Zed/Spells/ZedWAbility/ZedW2": {
+		"mScriptName": "ZedW2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.2418999969959259,
+			"cooldownTime": [
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedWAbility/ZedWHandler": {
+		"mScriptName": "ZedWHandler",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.2418999969959259,
+			"cooldownTime": [
+				23.5,
+				22.0,
+				20.5,
+				19.0,
+				17.5,
+				16.0,
+				16.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedWAbility/ZedWHandlerBuffName": {
+		"mScriptName": "ZedWHandlerBuffName",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zed/Spells/ZedWAbility/ZedWMissile": {
+		"mScriptName": "ZedWMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

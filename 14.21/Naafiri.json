@@ -1,0 +1,1568 @@
+{
+	"Characters/Naafiri/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriBasicAttack": {
+		"mScriptName": "NaafiriBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriBasicAttack2": {
+		"mScriptName": "NaafiriBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriBasicAttackWHit": {
+		"mScriptName": "NaafiriBasicAttackWHit",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriBasicAttackWMiss": {
+		"mScriptName": "NaafiriBasicAttackWMiss",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriCritAttack": {
+		"mScriptName": "NaafiriCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriEAbility/NaafiriE": {
+		"mScriptName": "NaafiriE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamageFirstSlash",
+					"mValues": [
+						20.0,
+						35.0,
+						50.0,
+						65.0,
+						80.0,
+						95.0,
+						110.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatioFirstSlash",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamageSecondHit",
+					"mValues": [
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0,
+						210.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatioSecondHit",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RadiusSecondSlash",
+					"mValues": [
+						230.0,
+						230.0,
+						230.0,
+						230.0,
+						230.0,
+						230.0,
+						230.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashDistance",
+					"mValues": [
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0,
+						350.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						900.0,
+						900.0,
+						900.0,
+						900.0,
+						900.0,
+						900.0,
+						900.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDashCheatDistance",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageFirstSlash": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageFirstSlash",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRatioFirstSlash",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamageSecondSlash": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageSecondHit",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRatioSecondHit",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.5,
+				9.0,
+				8.5,
+				8.0,
+				8.0
+			],
+			"mana": [
+				35.0,
+				35.0,
+				35.0,
+				35.0,
+				35.0,
+				35.0
+			]
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriEmoteActive": {
+		"mScriptName": "NaafiriEmoteActive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriPAbility/NaafiriP": {
+		"mScriptName": "NaafiriP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CooldownReduceOnKill",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CooldownReduceOnAbilityHit",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateBaseAS",
+					"mValues": [
+						0.6880000233650208,
+						0.6880000233650208,
+						0.6880000233650208,
+						0.6880000233650208,
+						0.6880000233650208,
+						0.6880000233650208,
+						0.6880000233650208
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateBaseMS",
+					"mValues": [
+						340.0,
+						340.0,
+						340.0,
+						340.0,
+						340.0,
+						340.0,
+						340.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateModifierTooltipOnly",
+					"mValues": [
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LeapSpeed",
+					"mValues": [
+						1250.0,
+						1250.0,
+						1250.0,
+						1250.0,
+						1250.0,
+						1250.0,
+						1250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LeapMin",
+					"mValues": [
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0,
+						75.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LeapMax",
+					"mValues": [
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0,
+						1200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateTowerModifier",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateTauntDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateLastHitHelpCD",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateCSHelpRadiusMax",
+					"mValues": [
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0,
+						800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateCSHelpRadiusMin",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateFrenzyDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateFrenzyMaxCounters",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateFrenzyDamageMult",
+					"mValues": [
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842,
+						1.2999999523162842
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ProcDamageModifier",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealthRegenDelay",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealthRegenPercent",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NonChampDamageModifier",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MeleeAttackDamageModifier",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateBonusADRatio",
+					"mValues": [
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806,
+						0.05000000074505806
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PackmateSpawnCooldown": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 30.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": -5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 9,
+									"mAdditionalBonusAtThisLevel": -5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 12,
+									"mAdditionalBonusAtThisLevel": -5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 15,
+									"mAdditionalBonusAtThisLevel": -5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PackmateCap": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 2.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 9,
+									"mAdditionalBonusAtThisLevel": 1.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PackmateTotalDamage": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 12.0,
+							"mEndValue": 32.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "PackmateBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MinionExecuteThreshold": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 25.0,
+							"mInitialBonusPerLevel": 3.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 12,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"FrenzyDamageTooltipOnly": {
+					"mMultiplier": {
+						"mDataValue": "PackmateFrenzyDamageMult",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "PackmateTotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"AOEDamageModifier": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.7599999904632568,
+							"mInitialBonusPerLevel": -0.019999999552965164,
+							"mBreakpoints": [
+								{
+									"mLevel": 15,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriPAbility/NaafiriPackmateRecalling": {
+		"mScriptName": "NaafiriPackmateRecalling",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriPAbility/NaafiriPackmateTaunt": {
+		"mScriptName": "NaafiriPackmateTaunt",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriQAbility/NaafiriQ": {
+		"mScriptName": "NaafiriQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamageFirstCast",
+					"mValues": [
+						25.0,
+						35.0,
+						45.0,
+						55.0,
+						65.0,
+						75.0,
+						85.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamageSecondCast",
+					"mValues": [
+						15.0,
+						30.0,
+						45.0,
+						60.0,
+						75.0,
+						90.0,
+						105.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedBaseDamage",
+					"mValues": [
+						0.0,
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedInterval",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RecastWindow",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RecastLockout",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseHealSecondCast",
+					"mValues": [
+						30.0,
+						45.0,
+						60.0,
+						75.0,
+						90.0,
+						105.0,
+						120.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExecuteMultiplier",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinionMod",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FirstCastBonusADRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondCastBonusADRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BleedBonusADRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealBonusADRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondCastMaxADRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageFirstCast": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageFirstCast",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "FirstCastBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalMinDamageSecondCast": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageSecondCast",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "SecondCastBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalHealSecondCast": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseHealSecondCast",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "HealBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalBleedDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BleedBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BleedBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MinionExecuteThreshold": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 30.0,
+							"mInitialBonusPerLevel": 4.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 12,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalMaxDamageSecondCast": {
+					"mMultiplier": {
+						"mDataValue": "ExecuteMultiplier",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageSecondCast",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "SecondCastMaxADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				8.5,
+				8.0,
+				7.5,
+				7.0,
+				7.0
+			],
+			"mana": [
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriQAbility/NaafiriQRecast": {
+		"mScriptName": "NaafiriQRecast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				11.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriRAbility/NaafiriR": {
+		"mScriptName": "NaafiriR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PackmatesToAdd",
+					"mValues": [
+						1.0,
+						2.0,
+						3.0,
+						4.0,
+						5.0,
+						6.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Duration",
+					"mValues": [
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0,
+						15.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldBase",
+					"mValues": [
+						-75.0,
+						125.0,
+						325.0,
+						525.0,
+						725.0,
+						925.0,
+						1125.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VisionRadius",
+					"mValues": [
+						2100.0,
+						2100.0,
+						2100.0,
+						2100.0,
+						2100.0,
+						2100.0,
+						2100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VisionDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VisionPulseDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedAmount",
+					"mValues": [
+						0.2750000059604645,
+						0.3499999940395355,
+						0.42500001192092896,
+						0.5,
+						0.574999988079071,
+						0.6499999761581421,
+						0.7250000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateModifierTooltipOnly",
+					"mValues": [
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066,
+						0.07999999821186066
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "WRangeIncrease",
+					"mValues": [
+						0.0,
+						80.0,
+						160.0,
+						240.0,
+						320.0,
+						400.0,
+						480.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateHealthMult",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateSpawnRateIncrease",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NaafiriWRangeForWTooltip",
+					"mValues": [
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0,
+						90.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NaafiriADPercentBoost",
+					"mValues": [
+						0.0,
+						0.07999999821186066,
+						0.1599999964237213,
+						0.23999999463558197,
+						0.3199999928474426,
+						0.4000000059604645,
+						0.47999998927116394
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NaafiriADFlatBoost",
+					"mValues": [
+						-5.0,
+						5.0,
+						15.0,
+						25.0,
+						35.0,
+						45.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedOOCBonus",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MoveSpeedOOCTootlip",
+					"mValues": [
+						0.550000011920929,
+						0.699999988079071,
+						0.8500000238418579,
+						1.0,
+						1.149999976158142,
+						1.2999999523162842,
+						1.4500000476837158
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldBonusADRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ShieldTotal": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ShieldBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusAD": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "NaafiriADFlatBoost",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "NaafiriADPercentBoost",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.75,
+			"cooldownTime": [
+				100.0,
+				120.0,
+				110.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriRAbility/NaafiriRPassive": {
+		"mScriptName": "NaafiriRPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Naafiri/Spells/NaafiriWAbility/NaafiriW": {
+		"mScriptName": "NaafiriW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-10.0,
+						30.0,
+						70.0,
+						110.0,
+						150.0,
+						190.0,
+						230.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1800.0,
+						1800.0,
+						1800.0,
+						1800.0,
+						1800.0,
+						1800.0,
+						1800.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432,
+						-0.9900000095367432
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PackmateModifier",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FailCastCDRefund",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CastRange",
+					"mValues": [
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0,
+						700.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShredDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PackmateDamage": {
+					"mMultiplier": {
+						"mDataValue": "PackmateModifier",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				},
+				"ArmorShred": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 6.0,
+							"mInitialBonusPerLevel": 2.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				14.0
+			],
+			"mana": [
+				70.0,
+				60.0,
+				50.0,
+				40.0,
+				30.0,
+				20.0
+			]
+		}
+	}
+}

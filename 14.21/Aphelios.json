@@ -1,0 +1,710 @@
+{
+	"Characters/Aphelios/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosAttackMisMini2": {
+		"mScriptName": "ApheliosAttackMisMini2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCalibrumAttack": {
+		"mScriptName": "ApheliosCalibrumAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCalibrumAttackMis": {
+		"mScriptName": "ApheliosCalibrumAttackMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCalibrumAttackMisChain": {
+		"mScriptName": "ApheliosCalibrumAttackMisChain",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCalibrumAttackMisMini": {
+		"mScriptName": "ApheliosCalibrumAttackMisMini",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCalibrumAttackMisMini2": {
+		"mScriptName": "ApheliosCalibrumAttackMisMini2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCalibrumAttackOverride": {
+		"mScriptName": "ApheliosCalibrumAttackOverride",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.30000001192092896,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCalibrumLineAttack": {
+		"mScriptName": "ApheliosCalibrumLineAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCrescendumAttack": {
+		"mScriptName": "ApheliosCrescendumAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCrescendumAttackMiniLauncher": {
+		"mScriptName": "ApheliosCrescendumAttackMiniLauncher",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCrescendumAttackMisIn": {
+		"mScriptName": "ApheliosCrescendumAttackMisIn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCrescendumAttackMisInMini": {
+		"mScriptName": "ApheliosCrescendumAttackMisInMini",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCrescendumAttackMisOut": {
+		"mScriptName": "ApheliosCrescendumAttackMisOut",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCrescendumAttackMisOutMini": {
+		"mScriptName": "ApheliosCrescendumAttackMisOutMini",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCrescendumLineAttack": {
+		"mScriptName": "ApheliosCrescendumLineAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosCrescendumOrbitManager": {
+		"mScriptName": "ApheliosCrescendumOrbitManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosE_ClientTooltipWrapper": {
+		"mScriptName": "ApheliosE_ClientTooltipWrapper",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosGravitumAttack": {
+		"mScriptName": "ApheliosGravitumAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosGravitumLineAttack": {
+		"mScriptName": "ApheliosGravitumLineAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosInfernumAttack": {
+		"mScriptName": "ApheliosInfernumAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosInfernumLineAttack": {
+		"mScriptName": "ApheliosInfernumLineAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosQ_ClientTooltipWrapper": {
+		"mScriptName": "ApheliosQ_ClientTooltipWrapper",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0,
+				9.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosRAbility/ApheliosR": {
+		"mScriptName": "ApheliosR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						75.0,
+						125.0,
+						175.0,
+						225.0,
+						275.0,
+						325.0,
+						375.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SeverumRHealBonus",
+					"mValues": [
+						150.0,
+						250.0,
+						350.0,
+						450.0,
+						550.0,
+						650.0,
+						750.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CalibrumRMarkBonusDamage",
+					"mValues": [
+						20.0,
+						50.0,
+						80.0,
+						110.0,
+						140.0,
+						170.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CrescendumRBonusMinis",
+					"mValues": [
+						0.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "InfernumRBonusDamageBase",
+					"mValues": [
+						0.0,
+						50.0,
+						100.0,
+						150.0,
+						200.0,
+						250.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GravitumRBonusSlowBase",
+					"mValues": [
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432,
+						0.9900000095367432
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritDamageMod",
+					"mValues": [
+						-0.550000011920929,
+						-0.550000011920929,
+						-0.550000011920929,
+						-0.550000011920929,
+						-0.550000011920929,
+						-0.550000011920929,
+						-0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "GravitumRRootDuration",
+					"mValues": [
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858,
+						1.350000023841858
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"MaxDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"InfernumRBonusDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "InfernumRBonusDamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.25,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"GravitumRBonusSlow": {
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mDataValue": "GravitumRBonusSlowBase",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"CritDamageModTooltip": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mDataValue": "CritDamageMod",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 8,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				},
+				"InfernumRPenalty": {
+					"mExpandedTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mNumber": 0.8999999761581421,
+							"__type": "NumberCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				110.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosSeverumAttack": {
+		"mScriptName": "ApheliosSeverumAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosSeverumAttackMis": {
+		"mScriptName": "ApheliosSeverumAttackMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosSeverumLineAttack": {
+		"mScriptName": "ApheliosSeverumLineAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.10000000149011612,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Aphelios/Spells/ApheliosWAbility/ApheliosW": {
+		"mScriptName": "ApheliosW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Test",
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.800000011920929,
+				0.800000011920929,
+				0.800000011920929,
+				0.800000011920929,
+				0.800000011920929,
+				0.800000011920929,
+				0.800000011920929
+			],
+			"mana": null
+		}
+	}
+}

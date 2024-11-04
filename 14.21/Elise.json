@@ -1,0 +1,1201 @@
+{
+	"Characters/Elise/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseCocoon": {
+		"mScriptName": "BuffEliseCocoon",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseESlow": {
+		"mScriptName": "BuffEliseESlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseRappel": {
+		"mScriptName": "BuffEliseRappel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseRappelBites": {
+		"mScriptName": "BuffEliseRappelBites",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseSkitter": {
+		"mScriptName": "BuffEliseSkitter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseSpider": {
+		"mScriptName": "BuffEliseSpider",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseSpiderForm": {
+		"mScriptName": "BuffEliseSpiderForm",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseSpiderShred": {
+		"mScriptName": "BuffEliseSpiderShred",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseVenomousBite": {
+		"mScriptName": "BuffEliseVenomousBite",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/BuffEliseWebOfPain": {
+		"mScriptName": "BuffEliseWebOfPain",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseBasicAttack": {
+		"mScriptName": "EliseBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseBasicAttack2": {
+		"mScriptName": "EliseBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseBasicAttack3": {
+		"mScriptName": "EliseBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseCritAttack": {
+		"mScriptName": "EliseCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseHumanEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseHumanEAbility/EliseHumanE": {
+		"mScriptName": "EliseHumanE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						1.399999976158142,
+						1.600000023841858,
+						1.7999999523162842,
+						2.0,
+						2.200000047683716,
+						2.4000000953674316,
+						2.5999999046325684
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VisionRadius",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				11.5,
+				11.0,
+				10.5,
+				10.0,
+				10.0
+			],
+			"mana": [
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0,
+				50.0
+			]
+		}
+	},
+	"Characters/Elise/Spells/EliseHumanQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseHumanQAbility/EliseHumanQ": {
+		"mScriptName": "EliseHumanQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						5.0,
+						40.0,
+						75.0,
+						110.0,
+						145.0,
+						180.0,
+						215.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterCapDamage",
+					"mValues": [
+						50.0,
+						75.0,
+						100.0,
+						125.0,
+						150.0,
+						175.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TargetHPDamage",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"HumanPercentHealth": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "TargetHPDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": [
+				80.0,
+				85.0,
+				90.0,
+				95.0,
+				100.0,
+				105.0
+			]
+		}
+	},
+	"Characters/Elise/Spells/EliseHumanWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseHumanWAbility/EliseHumanW": {
+		"mScriptName": "EliseHumanW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						15.0,
+						60.0,
+						105.0,
+						150.0,
+						195.0,
+						240.0,
+						285.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071,
+						0.949999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TimeToExplode",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExplosionSize",
+					"mValues": [
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0,
+						275.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0,
+				110.0
+			]
+		}
+	},
+	"Characters/Elise/Spells/ElisePassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/ElisePassiveAbility/ElisePassive": {
+		"mScriptName": "ElisePassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SpiderlingBaseHP",
+					"mValues": [
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpiderlingMagicDamage",
+					"mValues": [
+						2.0,
+						8.0,
+						14.0,
+						20.0,
+						26.0,
+						32.0,
+						38.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpiderlingAPRatio",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpiderlingAoEReduction",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{38943004}": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 5.0,
+							"mInitialBonusPerLevel": 10.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 8,
+									"mBonusPerLevelAtAndAfter": 15.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mBonusPerLevelAtAndAfter": 20.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 14,
+									"mBonusPerLevelAtAndAfter": 25.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 17,
+									"mBonusPerLevelAtAndAfter": 30.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseRAbility/EliseR": {
+		"mScriptName": "EliseR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PassiveBonusDamage",
+					"mValues": [
+						2.0,
+						12.0,
+						22.0,
+						32.0,
+						42.0,
+						52.0,
+						62.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveHealing",
+					"mValues": [
+						4.0,
+						6.0,
+						8.0,
+						10.0,
+						12.0,
+						14.0,
+						16.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveMSOnHit",
+					"mValues": [
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612,
+						0.10000000149011612
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpiderlingsStored",
+					"mValues": [
+						1.0,
+						2.0,
+						3.0,
+						4.0,
+						5.0,
+						6.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpiderlingBaseDamage",
+					"mValues": [
+						2.0,
+						8.0,
+						14.0,
+						20.0,
+						26.0,
+						32.0,
+						38.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpiderlingAPRatio",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SpiderlingBonusResist",
+					"mValues": [
+						-20.0,
+						0.0,
+						20.0,
+						40.0,
+						60.0,
+						80.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PassiveTotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "PassiveBonusDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PassiveTotalHealing": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "PassiveHealing",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.07999999821186066,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SpiderlingTotalDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "SpiderlingBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "SpiderlingAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseRAbility/EliseRDummy": {
+		"mScriptName": "EliseRDummy",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseRAbility/EliseRSpider": {
+		"mScriptName": "EliseRSpider",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0,
+				3.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderEAbility/EliseSpiderE": {
+		"mScriptName": "EliseSpiderE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PBonusIncrease",
+					"mValues": [
+						0.25,
+						0.4000000059604645,
+						0.550000011920929,
+						0.699999988079071,
+						0.8500000238418579,
+						1.0,
+						1.149999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				23.0,
+				22.0,
+				21.0,
+				20.0,
+				19.0,
+				18.0,
+				17.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderEAbility/EliseSpiderEBuff": {
+		"mScriptName": "EliseSpiderEBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				210.0,
+				180.0,
+				150.0,
+				120.0,
+				45.0,
+				30.0,
+				30.0
+			],
+			"mana": [
+				150.0,
+				250.0,
+				350.0,
+				0.0,
+				0.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderEAbility/EliseSpiderEDescent": {
+		"mScriptName": "EliseSpiderEDescent",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderEAbility/EliseSpiderEInitial": {
+		"mScriptName": "EliseSpiderEInitial",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PBonusIncrease",
+					"mValues": [
+						0.25,
+						0.4000000059604645,
+						0.550000011920929,
+						0.699999988079071,
+						0.8500000238418579,
+						1.0,
+						1.149999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				21.0,
+				20.0,
+				19.0,
+				18.0,
+				17.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderQAbility/EliseSpiderQ": {
+		"mScriptName": "EliseSpiderQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0,
+						210.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterCapDamage",
+					"mValues": [
+						50.0,
+						75.0,
+						100.0,
+						125.0,
+						150.0,
+						175.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TargetMissingHPDamage",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1150.0,
+						1150.0,
+						1150.0,
+						1150.0,
+						1150.0,
+						1150.0,
+						1150.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"MissingHPDamage": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "TargetMissingHPDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderQAbility/EliseSpiderQCast": {
+		"mScriptName": "EliseSpiderQCast",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0,
+						210.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MonsterCapDamage",
+					"mValues": [
+						50.0,
+						75.0,
+						100.0,
+						125.0,
+						150.0,
+						175.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746,
+						0.029999999329447746
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TargetMissingHPDamage",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1150.0,
+						1150.0,
+						1150.0,
+						1150.0,
+						1150.0,
+						1150.0,
+						1150.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"MissingHPDamage": {
+					"mMultiplier": {
+						"mNumber": 0.009999999776482582,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "TargetMissingHPDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0,
+				6.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderQAbility/EliseSpiderQSlow": {
+		"mScriptName": "EliseSpiderQSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Elise/Spells/EliseSpiderWAbility/EliseSpiderW": {
+		"mScriptName": "EliseSpiderW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PassiveAttackSpeed",
+					"mValues": [
+						0.0,
+						0.05000000074505806,
+						0.10000000149011612,
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ActiveAttackSpeed",
+					"mValues": [
+						0.5,
+						0.6000000238418579,
+						0.699999988079071,
+						0.800000011920929,
+						0.8999999761581421,
+						1.0,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,1458 @@
+{
+	"Characters/Samira/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraBasicAttack": {
+		"mScriptName": "SamiraBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraBasicAttack2": {
+		"mScriptName": "SamiraBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraBasicAttackMelee": {
+		"mScriptName": "SamiraBasicAttackMelee",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraBasicAttackMelee2": {
+		"mScriptName": "SamiraBasicAttackMelee2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraCritAttack": {
+		"mScriptName": "SamiraCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraCritAttackMelee": {
+		"mScriptName": "SamiraCritAttackMelee",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraEAbility/SamiraE": {
+		"mScriptName": "SamiraE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusAttackSpeed",
+					"mValues": [
+						0.15000000596046448,
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0,
+						1600.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashTotalDistance",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DashDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				20.0,
+				18.0,
+				16.0,
+				14.0,
+				12.0,
+				10.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Samira/Spells/SamiraEBuff": {
+		"mScriptName": "SamiraEBuff",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusAttackSpeed",
+					"mValues": [
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeed",
+					"mValues": [
+						2050.0,
+						2050.0,
+						2050.0,
+						2050.0,
+						2050.0,
+						2050.0,
+						2050.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashTotalDistance",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DashDamage": {
+					"mSimpleTooltipCalculationDisplay": 5,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				15.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Samira/Spells/SamiraPJuggle": {
+		"mScriptName": "SamiraPJuggle",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Duration",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NumShots",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RecastLockout",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RangeCheck",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentDamageAmpToMinions",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamagePerBullet": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 0.17000000178813934,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mMultiplier": {
+						"mDataValue": "NumShots",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "DamagePerBullet",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraPMissile": {
+		"mScriptName": "SamiraPMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraPMissileOffhand": {
+		"mScriptName": "SamiraPMissileOffhand",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraPSwordJuggle": {
+		"mScriptName": "SamiraPSwordJuggle",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "Duration",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "NumShots",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RecastLockout",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RangeCheck",
+					"mValues": [
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0,
+						650.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentDamageAmpToMinions",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamagePerBullet": {
+					"mFormulaParts": [
+						{
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.20000000298023224,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamage": {
+					"mMultiplier": {
+						"mDataValue": "NumShots",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "DamagePerBullet",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraPassiveAbility/SamiraPassive": {
+		"mScriptName": "SamiraPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SwordRange",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VisualBonusRange",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DurationTOOLTIP",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QueenMaxDashRange": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 650.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 4,
+									"mAdditionalBonusAtThisLevel": 75.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 8,
+									"mAdditionalBonusAtThisLevel": 75.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 12,
+									"mAdditionalBonusAtThisLevel": 75.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 75.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusMeleeDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 2.0,
+							"mInitialBonusPerLevel": 1.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mSubpart": {
+								"mStartValue": 0.03500000014901161,
+								"mEndValue": 0.10499999672174454,
+								"__type": "ByCharLevelInterpolationCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpoweredMeleeDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 2.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "BonusMeleeDamage",
+					"__type": "GameCalculationModified"
+				},
+				"MSBonusNew": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.019999999552965164,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.004999999888241291,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 0.004999999888241291,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 0.004999999888241291,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"mPrecision": 1,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraPassiveAttack": {
+		"mScriptName": "SamiraPassiveAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraPassiveBuff": {
+		"mScriptName": "SamiraPassiveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraPassiveCombo": {
+		"mScriptName": "SamiraPassiveCombo",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "SwordRange",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QueenMaxDashRange": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 800.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 4,
+									"mAdditionalBonusAtThisLevel": 50.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 8,
+									"mAdditionalBonusAtThisLevel": 50.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 12,
+									"mAdditionalBonusAtThisLevel": 50.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 50.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusMeleeDamage": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mCoefficient": 0.10000000149011612,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mLevel1Value": 2.0,
+							"mInitialBonusPerLevel": 1.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraQAbility/SamiraQ": {
+		"mScriptName": "SamiraQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-5.0,
+						0.0,
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "QMissileBaseDamage",
+					"mValues": [
+						-10.0,
+						15.0,
+						40.0,
+						65.0,
+						90.0,
+						115.0,
+						140.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CheatingThreshold",
+					"mValues": [
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0,
+						20.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CritBonusDamage",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LifestealMod",
+					"mValues": [
+						0.6660000085830688,
+						0.6660000085830688,
+						0.6660000085830688,
+						0.6660000085830688,
+						0.6660000085830688,
+						0.6660000085830688,
+						0.6660000085830688
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "QADRatio",
+					"mValues": [
+						0.875,
+						0.949999988079071,
+						1.024999976158142,
+						1.100000023841858,
+						1.1749999523162842,
+						1.25,
+						1.3250000476837158
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "QADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				6.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0,
+				2.0,
+				2.0
+			],
+			"mana": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			]
+		}
+	},
+	"Characters/Samira/Spells/SamiraQAbility/SamiraQBufferedSword": {
+		"mScriptName": "SamiraQBufferedSword",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0,
+						210.0,
+						240.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageCalc": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.05000000074505806,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				19.0,
+				16.0,
+				13.0,
+				10.0,
+				7.0
+			],
+			"mana": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			]
+		}
+	},
+	"Characters/Samira/Spells/SamiraQAbility/SamiraQGun": {
+		"mScriptName": "SamiraQGun",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-5.0,
+						5.0,
+						15.0,
+						25.0,
+						35.0,
+						45.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDRefund",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDRefundUrf",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeed",
+					"mValues": [
+						0.30000001192092896,
+						0.44999998807907104,
+						0.6000000238418579,
+						0.75,
+						0.8999999761581421,
+						1.0499999523162842,
+						1.2000000476837158
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.15000000596046448,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraQAbility/SamiraQSword": {
+		"mScriptName": "SamiraQSword",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						60.0,
+						90.0,
+						120.0,
+						150.0,
+						180.0,
+						210.0,
+						240.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageCalc": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				22.0,
+				22.0,
+				19.0,
+				16.0,
+				13.0,
+				10.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraRAbility/SamiraR": {
+		"mScriptName": "SamiraR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-5.0,
+						5.0,
+						15.0,
+						25.0,
+						35.0,
+						45.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseMSBonus",
+					"mValues": [
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164,
+						0.019999999552965164
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LifestealMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0,
+				5.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraRAbility/SamiraRMissile": {
+		"mScriptName": "SamiraRMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraSkin30Manager": {
+		"mScriptName": "SamiraSkin30Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraSkin30RHits": {
+		"mScriptName": "SamiraSkin30RHits",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraTauntMissile": {
+		"mScriptName": "SamiraTauntMissile",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-5.0,
+						5.0,
+						15.0,
+						25.0,
+						35.0,
+						45.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDRefund",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CDRefundUrf",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeed",
+					"mValues": [
+						0.30000001192092896,
+						0.44999998807907104,
+						0.6000000238418579,
+						0.75,
+						0.8999999761581421,
+						1.0499999523162842,
+						1.2000000476837158
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.15000000596046448,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 2.869999885559082,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0,
+				3.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Samira/Spells/SamiraWAbility/SamiraW": {
+		"mScriptName": "SamiraW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						5.0,
+						20.0,
+						35.0,
+						50.0,
+						65.0,
+						80.0,
+						95.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlashDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				30.0,
+				30.0,
+				28.0,
+				26.0,
+				24.0,
+				22.0,
+				20.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	}
+}

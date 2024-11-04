@@ -1,0 +1,1559 @@
+{
+	"Characters/Akali/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliBasicAttack": {
+		"mScriptName": "AkaliBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliBasicAttack2": {
+		"mScriptName": "AkaliBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliBasicAttack3": {
+		"mScriptName": "AkaliBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliBasicAttackPassive": {
+		"mScriptName": "AkaliBasicAttackPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliBasicAttackPassiveMelee": {
+		"mScriptName": "AkaliBasicAttackPassiveMelee",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliBasicAttackPassiveMeleeMinion": {
+		"mScriptName": "AkaliBasicAttackPassiveMeleeMinion",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliBasicAttackPassiveMinion": {
+		"mScriptName": "AkaliBasicAttackPassiveMinion",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliCritAttack": {
+		"mScriptName": "AkaliCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliEAbility/AkaliE": {
+		"mScriptName": "AkaliE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						70.0,
+						140.0,
+						210.0,
+						280.0,
+						350.0,
+						420.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SelfKnockbackRange",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "E1PercentageOfTotal",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalADRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalAPRatio",
+					"mValues": [
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "E2PercentageOfTotal",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"E1Damage": {
+					"mMultiplier": {
+						"mDataValue": "E1PercentageOfTotal",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "TotalADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "TotalAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"E2DamageCalc": {
+					"mMultiplier": {
+						"mDataValue": "E2PercentageOfTotal",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "TotalADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "TotalAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				14.5,
+				13.0,
+				11.5,
+				10.0,
+				8.5
+			],
+			"mana": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			]
+		}
+	},
+	"Characters/Akali/Spells/AkaliEAbility/AkaliEMis": {
+		"mScriptName": "AkaliEMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliEAbility/AkaliEb": {
+		"mScriptName": "AkaliEb",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.125,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliPAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliPAbility/AkaliP": {
+		"mScriptName": "AkaliP",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PassiveAPRatio",
+					"mValues": [
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929,
+						0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PassiveBADRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"EnergyRestore": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mBreakpoints": [
+								{
+									"mLevel": 8,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"Damage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 35.0,
+							"mInitialBonusPerLevel": 3.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 8,
+									"mBonusPerLevelAtAndAfter": 9.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 14,
+									"mBonusPerLevelAtAndAfter": 15.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "PassiveBADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "PassiveAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PassiveSpeedBonus": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.30000001192092896,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliPAbility/AkaliPVFXMis": {
+		"mScriptName": "AkaliPVFXMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliPAbility/AkaliPVFXMis1": {
+		"mScriptName": "AkaliPVFXMis1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliPAbility/AkaliPVFXMis2": {
+		"mScriptName": "AkaliPVFXMis2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliPAbility/AkaliPVFXMisEnemy1": {
+		"mScriptName": "AkaliPVFXMisEnemy1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliPAbility/AkaliPWeapon": {
+		"mScriptName": "AkaliPWeapon",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"EnergyRestore": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 10.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 8,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 39.0,
+							"mInitialBonusPerLevel": 3.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 9,
+									"mBonusPerLevelAtAndAfter": 9.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 14,
+									"mBonusPerLevelAtAndAfter": 15.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PassiveSpeedBonus": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.4000000059604645,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliPAbility/AkaliPZoneGround": {
+		"mScriptName": "AkaliPZoneGround",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"EnergyRestore": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 10.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 8,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 39.0,
+							"mInitialBonusPerLevel": 3.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 9,
+									"mBonusPerLevelAtAndAfter": 9.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 14,
+									"mBonusPerLevelAtAndAfter": 15.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PassiveSpeedBonus": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.4000000059604645,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQ": {
+		"mScriptName": "AkaliQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamageNamed",
+					"mValues": [
+						20.0,
+						45.0,
+						70.0,
+						95.0,
+						120.0,
+						145.0,
+						170.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "tAD Ratio",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercentage",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BonusDamageToMinions",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579,
+						0.6000000238418579
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Damage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamageNamed",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "tAD Ratio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MinionDamage": {
+					"mMultiplier": {
+						"mDataValue": "BonusDamageToMinions",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mOverrideSpellLevel": 5,
+					"mModifiedGameCalculation": "Damage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				1.5,
+				1.5,
+				1.5,
+				1.5,
+				1.5,
+				1.5,
+				1.5
+			],
+			"mana": [
+				110.0,
+				100.0,
+				90.0,
+				80.0,
+				70.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQMis": {
+		"mScriptName": "AkaliQMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQMis0": {
+		"mScriptName": "AkaliQMis0",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQMis1": {
+		"mScriptName": "AkaliQMis1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQMis2": {
+		"mScriptName": "AkaliQMis2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQMis3": {
+		"mScriptName": "AkaliQMis3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQMis4": {
+		"mScriptName": "AkaliQMis4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQMis5": {
+		"mScriptName": "AkaliQMis5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQMisParent": {
+		"mScriptName": "AkaliQMisParent",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliQAbility/AkaliQSpellPassive": {
+		"mScriptName": "AkaliQSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"EnergyRestore": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 10.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 8,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"Damage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 39.0,
+							"mInitialBonusPerLevel": 3.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 9,
+									"mBonusPerLevelAtAndAfter": 9.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 14,
+									"mBonusPerLevelAtAndAfter": 15.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mCoefficient": 0.5,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"PassiveSpeedBonus": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.4000000059604645,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 0.10000000149011612,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliRAbility/AkaliR": {
+		"mScriptName": "AkaliR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						110.0,
+						220.0,
+						330.0,
+						440.0,
+						550.0,
+						660.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "R2BaseDamage",
+					"mValues": [
+						0.0,
+						70.0,
+						140.0,
+						210.0,
+						280.0,
+						350.0,
+						420.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "R1ADRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "R1APRatio",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "R2APRatio",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxExecuteThreshold",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CooldownBetweenCasts",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashDistance",
+					"mValues": [
+						715.0,
+						715.0,
+						715.0,
+						715.0,
+						715.0,
+						715.0,
+						715.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"Cast1Damage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "R1ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "R1APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"Cast2DamageMin": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mDataValue": "R2BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "R2APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"Cast2DamageMax": {
+					"mMultiplier": {
+						"mNumber": 3.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mModifiedGameCalculation": "Cast2DamageMin",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				90.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliRAbility/AkaliRb": {
+		"mScriptName": "AkaliRb",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliSkin61Manager": {
+		"mScriptName": "AkaliSkin61Manager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility/AkaliW": {
+		"mScriptName": "AkaliW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MovementSpeed",
+					"mValues": [
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0,
+						50.0,
+						55.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EnergyRestore",
+					"mValues": [
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDuration",
+					"mValues": [
+						4.5,
+						5.0,
+						5.5,
+						6.0,
+						6.5,
+						7.0,
+						7.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxDuration",
+					"mValues": [
+						6.5,
+						7.0,
+						7.5,
+						8.0,
+						8.5,
+						9.0,
+						9.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CloudRadius",
+					"mValues": [
+						140.0,
+						140.0,
+						140.0,
+						140.0,
+						140.0,
+						140.0,
+						140.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MovementSpeedDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CherryBonusHaste",
+					"mValues": [
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				20.0,
+				20.0,
+				19.0,
+				18.0,
+				17.0,
+				16.0,
+				16.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility/AkaliWHaste": {
+		"mScriptName": "AkaliWHaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility/AkaliWMisVis": {
+		"mScriptName": "AkaliWMisVis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility/AkaliWSmokeMissile": {
+		"mScriptName": "AkaliWSmokeMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility/AkaliWSmokeMissileRiver": {
+		"mScriptName": "AkaliWSmokeMissileRiver",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility/AkaliWSmokeParent": {
+		"mScriptName": "AkaliWSmokeParent",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility/AkaliWSmokeParentRiver": {
+		"mScriptName": "AkaliWSmokeParentRiver",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Akali/Spells/AkaliWAbility/AkaliWStealthTracker": {
+		"mScriptName": "AkaliWStealthTracker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,1362 @@
+{
+	"Characters/Zoe/CAC/Zoe_Skin01": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeAltRunManager": {
+		"mScriptName": "ZoeAltRunManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttack": {
+		"mScriptName": "ZoeBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 1.0,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttack2": {
+		"mScriptName": "ZoeBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 1.0,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttack3": {
+		"mScriptName": "ZoeBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 1.0,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttackPassive": {
+		"mScriptName": "ZoeBasicAttackPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttackSpecial": {
+		"mScriptName": "ZoeBasicAttackSpecial",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttackSpecial1": {
+		"mScriptName": "ZoeBasicAttackSpecial1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttackSpecial2": {
+		"mScriptName": "ZoeBasicAttackSpecial2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttackSpecial3": {
+		"mScriptName": "ZoeBasicAttackSpecial3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeBasicAttackSpecial4": {
+		"mScriptName": "ZoeBasicAttackSpecial4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeCritAttack": {
+		"mScriptName": "ZoeCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeDummySpell": {
+		"mScriptName": "ZoeDummySpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeE": {
+		"mScriptName": "ZoeE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PercentPen",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BreakDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 6,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.30000001192092896,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEDistanceSolver": {
+		"mScriptName": "ZoeEDistanceSolver",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEDistanceSolver2": {
+		"mScriptName": "ZoeEDistanceSolver2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEDistanceSolver3": {
+		"mScriptName": "ZoeEDistanceSolver3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEDistanceSolver4": {
+		"mScriptName": "ZoeEDistanceSolver4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEMis": {
+		"mScriptName": "ZoeEMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.30000001192092896,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEMis2": {
+		"mScriptName": "ZoeEMis2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.30000001192092896,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEMisAudio": {
+		"mScriptName": "ZoeEMisAudio",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeESleepCountdown": {
+		"mScriptName": "ZoeESleepCountdown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeESleepCountdownSlow": {
+		"mScriptName": "ZoeESleepCountdownSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeESleepStun": {
+		"mScriptName": "ZoeESleepStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEb": {
+		"mScriptName": "ZoeEb",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.5,
+				15.0,
+				14.5,
+				14.0,
+				13.5
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEb2": {
+		"mScriptName": "ZoeEb2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.5,
+				15.0,
+				14.5,
+				14.0,
+				13.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEb3": {
+		"mScriptName": "ZoeEb3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.5,
+				15.0,
+				14.5,
+				14.0,
+				13.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEb4": {
+		"mScriptName": "ZoeEb4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.5,
+				15.0,
+				14.5,
+				14.0,
+				13.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEb5": {
+		"mScriptName": "ZoeEb5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.5,
+				15.0,
+				14.5,
+				14.0,
+				13.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEc": {
+		"mScriptName": "ZoeEc",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeEv8": {
+		"mScriptName": "ZoeEv8",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				16.0,
+				16.0,
+				15.5,
+				15.0,
+				14.5,
+				14.0,
+				13.5
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Zoe/Spells/ZoeEAbility/ZoeWPassive": {
+		"mScriptName": "ZoeWPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeHighDamageVO": {
+		"mScriptName": "ZoeHighDamageVO",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoePassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoePassiveAbility/ZoePYoYoAttack2": {
+		"mScriptName": "ZoePYoYoAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoePassiveAbility/ZoePassive": {
+		"mScriptName": "ZoePassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PassiveDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 16.0,
+							"mInitialBonusPerLevel": 4.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mBonusPerLevelAtAndAfter": 6.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 12,
+									"mBonusPerLevelAtAndAfter": 8.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 15,
+									"mBonusPerLevelAtAndAfter": 10.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoePassiveAbility/ZoePassiveSheenBuff": {
+		"mScriptName": "ZoePassiveSheenBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoePassiveAbility/ZoePassiveYoYoAttack": {
+		"mScriptName": "ZoePassiveYoYoAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQ": {
+		"mScriptName": "ZoeQ",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mLevel1Value": 7.0,
+							"mInitialBonusPerLevel": 1.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 3,
+									"mBonusPerLevelAtAndAfter": 2.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 12,
+									"mBonusPerLevelAtAndAfter": 3.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mBonusPerLevelAtAndAfter": 4.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MaxDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 2.5,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamageTooltip",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.5,
+				8.5,
+				8.0,
+				7.5,
+				7.0,
+				6.5,
+				6.0
+			],
+			"mana": [
+				40.0,
+				45.0,
+				50.0,
+				55.0,
+				60.0,
+				65.0
+			]
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQInterstitial": {
+		"mScriptName": "ZoeQInterstitial",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQMis2": {
+		"mScriptName": "ZoeQMis2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQMis2SleepCombo": {
+		"mScriptName": "ZoeQMis2SleepCombo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQMis2Warning": {
+		"mScriptName": "ZoeQMis2Warning",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQMis2Warning2": {
+		"mScriptName": "ZoeQMis2Warning2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQMis2WarningSleepCombo": {
+		"mScriptName": "ZoeQMis2WarningSleepCombo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQMissile": {
+		"mScriptName": "ZoeQMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeQAbility/ZoeQRecast": {
+		"mScriptName": "ZoeQRecast",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeRAbility/ZoeR": {
+		"mScriptName": "ZoeR",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				11.0,
+				11.0,
+				8.0,
+				5.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0,
+				40.0
+			]
+		}
+	},
+	"Characters/Zoe/Spells/ZoeRAbility/ZoeRVFXTrail": {
+		"mScriptName": "ZoeRVFXTrail",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeRAbility/ZoeRv7Atk": {
+		"mScriptName": "ZoeRv7Atk",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW": {
+		"mScriptName": "ZoeW",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": {
+				"MissileDamageTooltip": {
+					"mMultiplier": {
+						"mNumber": 0.3330000042915344,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 8,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25,
+				0.25
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeWPassiveMissile": {
+		"mScriptName": "ZoeWPassiveMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				9.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeWPassiveMissileTwo": {
+		"mScriptName": "ZoeWPassiveMissileTwo",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				10.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeWVisualMis4": {
+		"mScriptName": "ZoeWVisualMis4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeWVisualMissile": {
+		"mScriptName": "ZoeWVisualMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_S5_SummonerSmiteDuel": {
+		"mScriptName": "ZoeW_S5_SummonerSmiteDuel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_S5_SummonerSmitePlayerGanker": {
+		"mScriptName": "ZoeW_S5_SummonerSmitePlayerGanker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerBarrier": {
+		"mScriptName": "ZoeW_SummonerBarrier",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerBoost": {
+		"mScriptName": "ZoeW_SummonerBoost",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerDot": {
+		"mScriptName": "ZoeW_SummonerDot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerExhaust": {
+		"mScriptName": "ZoeW_SummonerExhaust",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerFlash": {
+		"mScriptName": "ZoeW_SummonerFlash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerHaste": {
+		"mScriptName": "ZoeW_SummonerHaste",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerHeal": {
+		"mScriptName": "ZoeW_SummonerHeal",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				90.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerSmite": {
+		"mScriptName": "ZoeW_SummonerSmite",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Zoe/Spells/ZoeWAbility/ZoeW_SummonerTeleport": {
+		"mScriptName": "ZoeW_SummonerTeleport",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				90.0,
+				75.0,
+				60.0,
+				45.0,
+				30.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,923 @@
+{
+	"Characters/Nautilus/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusAnchorDragAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusAnchorDragAbility/NautilusAnchorDrag": {
+		"mScriptName": "NautilusAnchorDrag",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						70.0,
+						115.0,
+						160.0,
+						205.0,
+						250.0,
+						295.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TerrainCDR",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TerrainMana",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QDamageCalc": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.8999999761581421,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				14.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusAnchorDragAbility/NautilusAnchorDragMissile": {
+		"mScriptName": "NautilusAnchorDragMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusAnchorDragAbility/NautilusAnchorDragRoot": {
+		"mScriptName": "NautilusAnchorDragRoot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusAnchorDragAbility/NautilusMinorKnockAway": {
+		"mScriptName": "NautilusMinorKnockAway",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusBackswingAttack": {
+		"mScriptName": "NautilusBackswingAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusBasicAttack": {
+		"mScriptName": "NautilusBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusBasicAttack2": {
+		"mScriptName": "NautilusBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusCritAttack": {
+		"mScriptName": "NautilusCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusGrandLineAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusGrandLineAbility/NautilusGrandLine": {
+		"mScriptName": "NautilusGrandLine",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PrimaryDamage",
+					"mValues": [
+						25.0,
+						150.0,
+						275.0,
+						400.0,
+						525.0,
+						650.0,
+						775.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondaryDamage",
+					"mValues": [
+						75.0,
+						125.0,
+						175.0,
+						225.0,
+						275.0,
+						325.0,
+						375.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						0.5,
+						1.0,
+						1.5,
+						2.0,
+						2.5,
+						3.0,
+						3.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"PrimaryTargetDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "PrimaryDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.800000011920929,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SecondaryTargetDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SecondaryDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.46000000834465027,
+			"cooldownTime": [
+				120.0,
+				120.0,
+				100.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusGrandLineAbility/NautilusGrandLineStart": {
+		"mScriptName": "NautilusGrandLineStart",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.4000000059604645,
+			"cooldownTime": [
+				140.0,
+				120.0,
+				100.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusGrandLineAbility/NautilusGrandLineTarget": {
+		"mScriptName": "NautilusGrandLineTarget",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusGrandLineAbility/NautilusKnockUp": {
+		"mScriptName": "NautilusKnockUp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusGrandLineAbility/NautilusMinorKnockUp": {
+		"mScriptName": "NautilusMinorKnockUp",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusPassiveAbility/NautilusPassive": {
+		"mScriptName": "NautilusPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "PerTargetCD",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BonusDamage": {
+					"mFormulaParts": [
+						{
+							"mValues": [
+								8.0,
+								14.0,
+								20.0,
+								26.0,
+								32.0,
+								38.0,
+								44.0,
+								50.0,
+								56.0,
+								62.0,
+								68.0,
+								74.0,
+								80.0,
+								86.0,
+								92.0,
+								98.0,
+								104.0,
+								110.0,
+								116.0,
+								122.0,
+								128.0,
+								134.0,
+								140.0,
+								146.0,
+								152.0,
+								158.0,
+								164.0,
+								170.0,
+								176.0,
+								182.0,
+								188.0
+							],
+							"__type": "ByCharLevelFormulaCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalDamageTooltip": {
+					"tooltipOnly": true,
+					"mFormulaParts": [
+						{
+							"mValues": [
+								8.0,
+								14.0,
+								20.0,
+								26.0,
+								32.0,
+								38.0,
+								44.0,
+								50.0,
+								56.0,
+								62.0,
+								68.0,
+								74.0,
+								80.0,
+								86.0,
+								92.0,
+								98.0,
+								104.0,
+								110.0,
+								116.0,
+								122.0,
+								128.0,
+								134.0,
+								140.0,
+								146.0,
+								152.0,
+								158.0,
+								164.0,
+								170.0,
+								176.0,
+								182.0,
+								188.0
+							],
+							"__type": "ByCharLevelFormulaCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RootDuration": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 0.75,
+							"mBreakpoints": [
+								{
+									"mLevel": 6,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 21,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 26,
+									"mAdditionalBonusAtThisLevel": 0.25,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"mPrecision": 2,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusPassiveAbility/NautilusPassiveCheck": {
+		"mScriptName": "NautilusPassiveCheck",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusPassiveAbility/NautilusPassiveRoot": {
+		"mScriptName": "NautilusPassiveRoot",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusPiercingGazeAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusPiercingGazeAbility/NautilusPiercingGaze": {
+		"mScriptName": "NautilusPiercingGaze",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ShieldBase",
+					"mValues": [
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0,
+						90.0,
+						100.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldHealthRatio",
+					"mValues": [
+						0.07000000029802322,
+						0.07999999821186066,
+						0.09000000357627869,
+						0.10000000149011612,
+						0.10999999940395355,
+						0.11999999731779099,
+						0.12999999523162842
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ShieldDuration",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DotDamageBase",
+					"mValues": [
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0,
+						70.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DotDamageAPRatio",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DotDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DotDamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "DotDamageAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ShieldCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "ShieldBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 11,
+							"mDataValue": "ShieldHealthRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": [
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0,
+				60.0
+			]
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusPiercingGazeAbility/NautilusPiercingGazeShield": {
+		"mScriptName": "NautilusPiercingGazeShield",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusPiercingGazeAbility/NautilusWDoT": {
+		"mScriptName": "NautilusWDoT",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				28.0,
+				26.0,
+				24.0,
+				22.0,
+				20.0,
+				18.0,
+				18.0
+			],
+			"mana": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			]
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusRavageStrikeAttack": {
+		"mScriptName": "NautilusRavageStrikeAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusRunCycleManager": {
+		"mScriptName": "NautilusRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusSplashZoneAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusSplashZoneAbility/NautilusSplashZone": {
+		"mScriptName": "NautilusSplashZone",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DamageBase",
+					"mValues": [
+						20.0,
+						55.0,
+						90.0,
+						125.0,
+						160.0,
+						195.0,
+						230.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MultiHitReduction",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageMonsterMod",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageAPRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExtraWavePenalty",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"DamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DamageBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "DamageAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				7.5,
+				7.0,
+				6.5,
+				6.0,
+				5.5,
+				5.0,
+				5.0
+			],
+			"mana": [
+				50.0,
+				60.0,
+				70.0,
+				80.0,
+				90.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusSplashZoneAbility/NautilusSplashZoneSlow": {
+		"mScriptName": "NautilusSplashZoneSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusSplashZoneAbility/NautilusSplashZoneSplash": {
+		"mScriptName": "NautilusSplashZoneSplash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Nautilus/Spells/NautilusWideswingAttack": {
+		"mScriptName": "NautilusWideswingAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	}
+}

@@ -1,0 +1,630 @@
+{
+	"Characters/Strawberry_Leona/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Spells/Strawberry_LeonaShieldOfDaybreakAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Spells/Strawberry_LeonaShieldOfDaybreakAbility/Strawberry_LeonaShieldOfDaybreakAuto": {
+		"mScriptName": "Strawberry_LeonaShieldOfDaybreakAuto",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						40.0,
+						40.0,
+						75.0,
+						110.0,
+						145.0,
+						180.0,
+						180.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PushDistance",
+					"mValues": [
+						250.0,
+						275.0,
+						300.0,
+						325.0,
+						350.0,
+						375.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CastRange",
+					"mValues": [
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StrikeRadius",
+					"mValues": [
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0,
+						550.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Cooldown",
+					"mValues": [
+						2.25,
+						2.200000047683716,
+						2.1500000953674316,
+						2.0999999046325684,
+						2.049999952316284,
+						2.0,
+						1.9500000476837158
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EvoStrikeRadius",
+					"mValues": [
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxLevel",
+					"mValues": [
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0,
+						6.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SunlightDamage",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"QDamage": {
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mDataValue": "BaseDamage",
+									"__type": "NamedDataValueCalculationPart"
+								},
+								{
+									"mStat": 1,
+									"mCoefficient": 3.0,
+									"__type": "StatByCoefficientCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{f763abd2}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SunlightDamage",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				3.0,
+				2.75,
+				2.5,
+				2.25,
+				2.0,
+				1.75,
+				1.5
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Spells/Strawberry_LeonaSolarBarrierAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Spells/Strawberry_LeonaSolarBarrierAbility/Strawberry_LeonaSolarBarrier": {
+		"mScriptName": "Strawberry_LeonaSolarBarrier",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "DetonationRadius",
+					"mValues": [
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0,
+						400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SecondaryShieldDuration",
+					"mValues": [
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5,
+						1.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEBaseRadius",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TickRate",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalShield": {
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mCoefficient": 0.25,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"DetonationDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 175.0,
+							"mInitialBonusPerLevel": 15.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ThornsDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 80.0,
+							"mInitialBonusPerLevel": 8.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusArmor": {
+					"mFormulaParts": [
+						{
+							"mStat": 1,
+							"mCoefficient": 1.0,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{983866f4}": {
+					"mFormulaParts": [
+						{
+							"UseNewStats": true,
+							"statType": 5,
+							"mDataValue": "AoEBaseRadius",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				17.0,
+				17.0,
+				17.0,
+				17.0,
+				17.0,
+				17.0,
+				17.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Spells/Strawberry_LeonaSolarFlareAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Spells/Strawberry_LeonaSolarFlareAbility/Strawberry_LeonaSolarFlare": {
+		"mScriptName": "Strawberry_LeonaSolarFlare",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "ExplosionAPRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowPercent",
+					"mValues": [
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0,
+						80.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CCDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Size",
+					"mValues": [
+						400.0,
+						500.0,
+						600.0,
+						700.0,
+						800.0,
+						900.0,
+						1000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BurnPatchDuration",
+					"mValues": [
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0,
+						12.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"ExplosionCalculatedDamage": {
+					"mSimpleTooltipCalculationDisplay": 6,
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 200.0,
+							"mInitialBonusPerLevel": 20.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BurnPatchDamage": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 80.0,
+							"mInitialBonusPerLevel": 8.0,
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Spells/Strawberry_LeonaSunlightPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Strawberry_Leona/Spells/Strawberry_LeonaSunlightPassiveAbility/Strawberry_LeonaSunlightPassive": {
+		"mScriptName": "Strawberry_LeonaSunlightPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MarkDuration",
+					"mValues": [
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0,
+						7.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "StunDuration",
+					"mValues": [
+						1.0,
+						1.5,
+						2.0,
+						2.5,
+						3.0,
+						3.5,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DetonationDamage",
+					"mValues": [
+						20.0,
+						50.0,
+						80.0,
+						110.0,
+						140.0,
+						170.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentAP",
+					"mValues": [
+						5.0,
+						15.0,
+						25.0,
+						35.0,
+						45.0,
+						55.0,
+						65.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "EvolvedAoERadius",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PowerIncreasePerArmor",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEIncreasePerArmor",
+					"mValues": [
+						0.0003000000142492354,
+						0.0003000000142492354,
+						0.0003000000142492354,
+						0.0003000000142492354,
+						0.0003000000142492354,
+						0.0003000000142492354,
+						0.0003000000142492354
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEIncreasePerHealth",
+					"mValues": [
+						1.9999999494757503e-5,
+						1.9999999494757503e-5,
+						1.9999999494757503e-5,
+						1.9999999494757503e-5,
+						1.9999999494757503e-5,
+						1.9999999494757503e-5,
+						1.9999999494757503e-5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoEIncreasePerHealthRegen",
+					"mValues": [
+						0.000750000006519258,
+						0.000750000006519258,
+						0.000750000006519258,
+						0.000750000006519258,
+						0.000750000006519258,
+						0.000750000006519258,
+						0.000750000006519258
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"{a3723378}": {
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mDataValue": "PercentAP",
+									"__type": "StatByNamedDataValueCalculationPart"
+								},
+								{
+									"mDataValue": "DetonationDamage",
+									"__type": "NamedDataValueCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{de428871}": {
+					"mFormulaParts": [
+						{
+							"mSubparts": [
+								{
+									"mStat": 1,
+									"mStatFormula": 2,
+									"mDataValue": "AoEIncreasePerArmor",
+									"__type": "StatByNamedDataValueCalculationPart"
+								},
+								{
+									"mStat": 29,
+									"mDataValue": "AoEIncreasePerHealthRegen",
+									"__type": "StatByNamedDataValueCalculationPart"
+								},
+								{
+									"mStat": 11,
+									"mStatFormula": 2,
+									"mDataValue": "AoEIncreasePerHealth",
+									"__type": "StatByNamedDataValueCalculationPart"
+								}
+							],
+							"__type": "SumOfSubPartsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

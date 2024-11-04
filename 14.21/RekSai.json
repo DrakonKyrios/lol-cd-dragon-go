@@ -1,0 +1,1465 @@
+{
+	"Characters/RekSai/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiBasicAttack": {
+		"mScriptName": "RekSaiBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiBasicAttack2": {
+		"mScriptName": "RekSaiBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiBasicAttack3": {
+		"mScriptName": "RekSaiBasicAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiBasicAttack4": {
+		"mScriptName": "RekSaiBasicAttack4",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiBasicAttack5": {
+		"mScriptName": "RekSaiBasicAttack5",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiBasicAttack6": {
+		"mScriptName": "RekSaiBasicAttack6",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiCritAttack": {
+		"mScriptName": "RekSaiCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiEAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiEAbility/RekSaiE": {
+		"mScriptName": "RekSaiE",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FuryMultiplier",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FuryMaxHealthDamage",
+					"mValues": [
+						0.06499999761581421,
+						0.07999999821186066,
+						0.0949999988079071,
+						0.10999999940395355,
+						0.125,
+						0.14000000059604645,
+						0.1550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "_____BURROWED_DATA_____",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashDistance",
+					"mValues": [
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MinimumRange",
+					"mValues": [
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0,
+						850.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeedBase",
+					"mValues": [
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0,
+						500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashSpeedMod",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaximumTunnels",
+					"mValues": [
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0,
+						8.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TunnelDurationMinutes",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TunnelReuseCooldown",
+					"mValues": [
+						7.0,
+						6.0,
+						5.0,
+						4.0,
+						3.0,
+						2.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DashCooldown",
+					"mValues": [
+						19.0,
+						18.0,
+						17.0,
+						16.0,
+						15.0,
+						14.0,
+						13.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TunnelTimeRatio",
+					"mValues": [
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421,
+						0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"BaseDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"EmpoweredDamageTooltip": {
+					"mMultiplier": {
+						"mDataValue": "FuryMultiplier",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "BaseDamageTooltip",
+					"__type": "GameCalculationModified"
+				},
+				"DashSpeed": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "DashSpeedBase",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 6,
+							"mDataValue": "DashSpeedMod",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{009db1c8}": {
+					"mMultiplier": {
+						"mNumber": 60.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mFormulaParts": [
+						{
+							"mDataValue": "TunnelDurationMinutes",
+							"__type": "NamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{438d87f9}": {
+					"mMultiplier": {
+						"mDataValue": "TunnelTimeRatio",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "DashSpeed",
+					"__type": "GameCalculationModified"
+				},
+				"MonsterDamageCap": {
+					"mFormulaParts": [
+						{
+							"mStartValue": 75.0,
+							"mEndValue": 400.0,
+							"__type": "ByCharLevelInterpolationCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiEAbility/RekSaiECooldown": {
+		"mScriptName": "RekSaiECooldown",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiEAbility/RekSaiEReady": {
+		"mScriptName": "RekSaiEReady",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiEAbility/RekSaiESpellPassive": {
+		"mScriptName": "RekSaiESpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0,
+				12.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiEBurrowedAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiEBurrowedAbility/RekSaiEBurrowed": {
+		"mScriptName": "RekSaiEBurrowed",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				18.0,
+				18.0,
+				17.0,
+				16.0,
+				15.0,
+				14.0,
+				14.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiInCombat": {
+		"mScriptName": "RekSaiInCombat",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiJetSkiManager": {
+		"mScriptName": "RekSaiJetSkiManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiKnockupImmune": {
+		"mScriptName": "RekSaiKnockupImmune",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiPassiveAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPRegen": {
+		"mScriptName": "RekSaiPRegen",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiPassiveAbility/RekSaiPassive": {
+		"mScriptName": "RekSaiPassive",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FuryFromAttacks",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FuryFromAbilities",
+					"mValues": [
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0,
+						25.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FuryMinionMod",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "HealDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PauseDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"HealAmount": {
+					"mFormulaParts": [
+						{
+							"mStat": 11,
+							"mSubpart": {
+								"mStartValue": 0.10000000149011612,
+								"mEndValue": 0.20000000298023224,
+								"__type": "ByCharLevelInterpolationCalculationPart"
+							},
+							"__type": "StatBySubPartCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQAbility/RekSaiQ": {
+		"mScriptName": "RekSaiQ",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UnburrowedBaseDamage",
+					"mValues": [
+						0.0,
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "UnburrowedADRatio",
+					"mValues": [
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5,
+						0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BuffDuration",
+					"mValues": [
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0,
+						3.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AoERange",
+					"mValues": [
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0,
+						300.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AttackSpeed",
+					"mValues": [
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355,
+						0.3499999940395355
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "____BURROWED_DATA____",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BurrowedBaseDamage",
+					"mValues": [
+						20.0,
+						50.0,
+						80.0,
+						110.0,
+						140.0,
+						170.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BurrowedBonusADRatio",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BurrowedAPRatio",
+					"mValues": [
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071,
+						0.699999988079071
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BurrowedCooldown",
+					"mValues": [
+						12.5,
+						12.0,
+						11.5,
+						11.0,
+						10.5,
+						10.0,
+						9.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BurrowedAoE",
+					"mValues": [
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0,
+						200.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BurrowedDebuffDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mStat": 2,
+							"mDataValue": "UnburrowedADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BurrowDamageTooltip": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BurrowedBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "BurrowedBonusADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "BurrowedAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				3.5,
+				3.0,
+				2.5,
+				2.0,
+				2.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack": {
+		"mScriptName": "RekSaiQAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack2": {
+		"mScriptName": "RekSaiQAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQAbility/RekSaiQAttack3": {
+		"mScriptName": "RekSaiQAttack3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQAbility/RekSaiQSpellPassive": {
+		"mScriptName": "RekSaiQSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQBurrowedAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowed": {
+		"mScriptName": "RekSaiQBurrowed",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "FuryGeneration",
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.125,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowedMis": {
+		"mScriptName": "RekSaiQBurrowedMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiQBurrowedAbility/RekSaiQBurrowedSlow": {
+		"mScriptName": "RekSaiQBurrowedSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiRAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiRAbility/RekSaiR": {
+		"mScriptName": "RekSaiR",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "TravelDistancePercent",
+					"mValues": [
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645,
+						0.4000000059604645
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ExtraDistance",
+					"mValues": [
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0,
+						125.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LeapMovementSpeed",
+					"mValues": [
+						1400.0,
+						1400.0,
+						1400.0,
+						1400.0,
+						1400.0,
+						1400.0,
+						1400.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VODistance",
+					"mValues": [
+						4000.0,
+						4000.0,
+						4000.0,
+						4000.0,
+						4000.0,
+						4000.0,
+						4000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageCheckRadius",
+					"mValues": [
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0,
+						1000.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PreyMarkDuration",
+					"mValues": [
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0,
+						5.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "RBaseDamage",
+					"mValues": [
+						0.0,
+						150.0,
+						300.0,
+						450.0,
+						600.0,
+						750.0,
+						900.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PercentMissingHealthDamage",
+					"mValues": [
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0,
+						50.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "CastBuffDuration",
+					"mValues": [
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858,
+						1.100000023841858
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"RBaseDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mStatFormula": 2,
+							"mDataValue": "ADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				100.0,
+				100.0,
+				90.0,
+				80.0,
+				80.0,
+				80.0,
+				80.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiRunCycleManager": {
+		"mScriptName": "RekSaiRunCycleManager",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiWAbility/RekSaiW": {
+		"mScriptName": "RekSaiW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						5.0,
+						30.0,
+						55.0,
+						80.0,
+						105.0,
+						130.0,
+						155.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ADRatio",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupDuration",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupImmunity",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ChampKnockbackRange",
+					"mValues": [
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0,
+						250.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "OtherKnockbackRange",
+					"mValues": [
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0,
+						175.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockbackDuration",
+					"mValues": [
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896,
+						0.30000001192092896
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "Slow",
+					"mValues": [
+						-0.25,
+						-0.30000001192092896,
+						-0.3499999940395355,
+						-0.4000000059604645,
+						-0.44999998807907104,
+						-0.5,
+						-0.550000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25,
+						1.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "VisionRadiusMod",
+					"mValues": [
+						-0.6499999761581421,
+						-0.6499999761581421,
+						-0.6499999761581421,
+						-0.6499999761581421,
+						-0.6499999761581421,
+						-0.6499999761581421,
+						-0.6499999761581421
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "KnockupRange",
+					"mValues": [
+						220.0,
+						220.0,
+						220.0,
+						220.0,
+						220.0,
+						220.0,
+						220.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "LockoutTime",
+					"mValues": [
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448,
+						0.15000000596046448
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "___TREMOR_SENSE___",
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SearchRange",
+					"mValues": [
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0,
+						1500.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TremorTickTime",
+					"mValues": [
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DistanceCheck",
+					"mValues": [
+						85.0,
+						85.0,
+						85.0,
+						85.0,
+						85.0,
+						85.0,
+						85.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BurrowedMoveSpeed",
+					"mValues": [
+						0.0,
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"UnburrowDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"BonusMoveSpeed": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 5.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 7,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 13,
+									"mAdditionalBonusAtThisLevel": 5.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiWAbility/RekSaiWAttack": {
+		"mScriptName": "RekSaiWAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiWAbility/RekSaiWSpellPassive": {
+		"mScriptName": "RekSaiWSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiWAbility/RekSaiWUnburrowLockout": {
+		"mScriptName": "RekSaiWUnburrowLockout",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.26669999957084656,
+			"cooldownTime": [
+				12.0,
+				11.0,
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				7.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiWBurrowedAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/RekSai/Spells/RekSaiWBurrowedAbility/RekSaiWBurrowed": {
+		"mScriptName": "RekSaiWBurrowed",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	}
+}

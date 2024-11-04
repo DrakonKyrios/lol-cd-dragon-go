@@ -11,10 +11,14 @@ import (
 	"time"
 )
 
-func main() {
-	names := championlist.GetChampions()
+var version_directory string
 
-	out, err := os.Create("champions/_champions.json")
+func main() {
+	version_directory = "14.21"
+
+	names := championlist.GetChampions()
+	os.Mkdir(version_directory, 0777)
+	out, err := os.Create(fmt.Sprintf("%v/_champions.json", version_directory))
 	if err != nil {
 		panic(err)
 	}
@@ -23,8 +27,8 @@ func main() {
 	championFull := make(map[string]json.RawMessage)	
 	for _, n := range names {		
 		formattedName := strings.ToLower((n.Name))
-		fileName := fmt.Sprintf("https://raw.communitydragon.org/14.21/game/data/characters/%v/%v.bin.json", formattedName, formattedName)
-		data := downloadFile(formattedName, fmt.Sprintf("champions/%v.json", n.Name), fileName)
+		fileName := fmt.Sprintf("https://raw.communitydragon.org/%v/game/data/characters/%v/%v.bin.json", version_directory, formattedName, formattedName)
+		data := downloadFile(formattedName, fmt.Sprintf("%v/%v.json", version_directory, n.Name),  fileName)
 		
 	
 		championFull[formattedName] = data

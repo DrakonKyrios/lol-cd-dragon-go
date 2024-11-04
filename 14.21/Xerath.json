@@ -1,0 +1,677 @@
+{
+	"Characters/Xerath/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathArcaneBarrage2Ability": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathArcaneBarrage2Ability/XerathArcaneBarrage2": {
+		"mScriptName": "XerathArcaneBarrage2",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						25.0,
+						60.0,
+						95.0,
+						130.0,
+						165.0,
+						200.0,
+						235.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SweetSpotMultiplier",
+					"mValues": [
+						1.6670000553131104,
+						1.6670000553131104,
+						1.6670000553131104,
+						1.6670000553131104,
+						1.6670000553131104,
+						1.6670000553131104,
+						1.6670000553131104
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25,
+						0.25
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SweetSpotSlowAmount",
+					"mValues": [
+						0.550000011920929,
+						0.6000000238418579,
+						0.6499999761581421,
+						0.699999988079071,
+						0.75,
+						0.800000011920929,
+						0.8500000238418579
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MultiplicativeSlowDecayRate",
+					"mValues": [
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929,
+						0.800000011920929
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "DamageDelay",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.6000000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"SweetSpotTotalDamage": {
+					"mMultiplier": {
+						"mDataValue": "SweetSpotMultiplier",
+						"__type": "NamedDataValueCalculationPart"
+					},
+					"mModifiedGameCalculation": "TotalDamage",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				15.0,
+				14.0,
+				13.0,
+				12.0,
+				11.0,
+				10.0,
+				9.0
+			],
+			"mana": [
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0,
+				120.0
+			]
+		}
+	},
+	"Characters/Xerath/Spells/XerathArcanopulse2": {
+		"mScriptName": "XerathArcanopulse2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathArcanopulseChargeUpAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathArcanopulseChargeUpAbility/XerathArcanopulseChargeUp": {
+		"mScriptName": "XerathArcanopulseChargeUp",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						30.0,
+						70.0,
+						110.0,
+						150.0,
+						190.0,
+						230.0,
+						270.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TooltipTotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.8500000238418579,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.004999999888241291,
+			"cooldownTime": [
+				10.0,
+				9.0,
+				8.0,
+				7.0,
+				6.0,
+				5.0,
+				5.0
+			],
+			"mana": [
+				80.0,
+				90.0,
+				100.0,
+				110.0,
+				120.0,
+				120.0
+			]
+		}
+	},
+	"Characters/Xerath/Spells/XerathAscended2Ability": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathAscended2Ability/XerathAscended2": {
+		"mScriptName": "XerathAscended2",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "CooldownKillRefund",
+					"mValues": [
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5,
+						2.5
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"MinionManaRestoreTT": {
+					"mFormulaParts": [
+						{
+							"mLevel1Value": 30.0,
+							"mInitialBonusPerLevel": 3.0,
+							"mBreakpoints": [
+								{
+									"mLevel": 4,
+									"mBonusPerLevelAtAndAfter": 6.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 7,
+									"mBonusPerLevelAtAndAfter": 9.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 11,
+									"mBonusPerLevelAtAndAfter": 12.0,
+									"__type": "Breakpoint"
+								},
+								{
+									"mLevel": 16,
+									"mBonusPerLevelAtAndAfter": 15.0,
+									"__type": "Breakpoint"
+								}
+							],
+							"__type": "ByCharLevelBreakpointsCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"ChampionManaRestoreTT": {
+					"mMultiplier": {
+						"mNumber": 2.0,
+						"__type": "NumberCalculationPart"
+					},
+					"mModifiedGameCalculation": "MinionManaRestoreTT",
+					"__type": "GameCalculationModified"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathAscended2OnHit": {
+		"mScriptName": "XerathAscended2OnHit",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathBasicAttack": {
+		"mScriptName": "XerathBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathBasicAttack2": {
+		"mScriptName": "XerathBasicAttack2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathCritAttack": {
+		"mScriptName": "XerathCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathLocusOfPower2Ability": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusOfPower2": {
+		"mScriptName": "XerathLocusOfPower2",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "RampBaseDamage",
+					"mValues": [
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0,
+						40.0,
+						45.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						130.0,
+						180.0,
+						230.0,
+						280.0,
+						330.0,
+						380.0,
+						430.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TooltipTotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.4000000059604645,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"RampDamageCalc": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "RampBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.05000000074505806,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				130.0,
+				130.0,
+				115.0,
+				100.0,
+				130.0,
+				130.0,
+				130.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathLocusPulse": {
+		"mScriptName": "XerathLocusPulse",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.009999999776482582,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathLocusOfPower2Ability/XerathRMissileWrapper": {
+		"mScriptName": "XerathRMissileWrapper",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.6000000238418579,
+				0.6000000238418579,
+				0.6000000238418579,
+				0.6000000238418579,
+				0.6000000238418579,
+				0.6000000238418579,
+				0.6000000238418579
+			],
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathLocusOfPower2Toggle": {
+		"mScriptName": "XerathLocusOfPower2Toggle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				10.0,
+				60.0,
+				40.0,
+				30.0,
+				0.0,
+				0.0,
+				10.0
+			],
+			"mana": [
+				30.0,
+				40.0,
+				50.0,
+				0.0,
+				0.0,
+				10.0
+			]
+		}
+	},
+	"Characters/Xerath/Spells/XerathMageChains": {
+		"mScriptName": "XerathMageChains",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathMageSpearAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathMageSpearAbility/XerathMageSpear": {
+		"mScriptName": "XerathMageSpear",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MinStunDuration",
+					"mValues": [
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75,
+						0.75
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxStunDuration",
+					"mValues": [
+						2.25,
+						2.25,
+						2.25,
+						2.25,
+						2.25,
+						2.25,
+						2.25
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TooltipTotalDamage": {
+					"mFormulaParts": [
+						{
+							"mEffectIndex": 1,
+							"__type": "EffectValueCalculationPart"
+						},
+						{
+							"mCoefficient": 0.44999998807907104,
+							"__type": "StatByCoefficientCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				13.5,
+				13.0,
+				12.5,
+				12.0,
+				11.5,
+				11.0,
+				11.0
+			],
+			"mana": [
+				60.0,
+				65.0,
+				70.0,
+				75.0,
+				80.0,
+				85.0
+			]
+		}
+	},
+	"Characters/Xerath/Spells/XerathQSoundBuff": {
+		"mScriptName": "XerathQSoundBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathQVFX": {
+		"mScriptName": "XerathQVFX",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathRMSBuff": {
+		"mScriptName": "XerathRMSBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathRShots": {
+		"mScriptName": "XerathRShots",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Xerath/Spells/XerathWSlow": {
+		"mScriptName": "XerathWSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}

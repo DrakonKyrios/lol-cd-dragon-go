@@ -1,0 +1,1437 @@
+{
+	"Characters/Kalista/CharacterRecords/Root": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Skins/Meta": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/0000": {
+		"mScriptName": "0000",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/ItemHurricaneKalistaAttack": {
+		"mScriptName": "ItemHurricaneKalistaAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaAllyMarker": {
+		"mScriptName": "KalistaAllyMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaBackSpearOneVFXBuff": {
+		"mScriptName": "KalistaBackSpearOneVFXBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaBackSpearThreeVFXBuff": {
+		"mScriptName": "KalistaBackSpearThreeVFXBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaBackSpearTwoVFXBuff": {
+		"mScriptName": "KalistaBackSpearTwoVFXBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaBasicAttack": {
+		"mScriptName": "KalistaBasicAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaBasicAttackNone": {
+		"mScriptName": "KalistaBasicAttackNone",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaBasicAttackNoneMiss": {
+		"mScriptName": "KalistaBasicAttackNoneMiss",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaBasicAttackPow": {
+		"mScriptName": "KalistaBasicAttackPow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaBasicAttackSlow": {
+		"mScriptName": "KalistaBasicAttackSlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0,
+				4.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaCoopStrikeAlly": {
+		"mScriptName": "KalistaCoopStrikeAlly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaCoopStrikeMarkAlly": {
+		"mScriptName": "KalistaCoopStrikeMarkAlly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaCoopStrikeMarkSelf": {
+		"mScriptName": "KalistaCoopStrikeMarkSelf",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaCoopStrikeProc": {
+		"mScriptName": "KalistaCoopStrikeProc",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaCoopStrikeProtect": {
+		"mScriptName": "KalistaCoopStrikeProtect",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaCoopStrikeSelf": {
+		"mScriptName": "KalistaCoopStrikeSelf",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaCritAttack": {
+		"mScriptName": "KalistaCritAttack",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaDummySpell": {
+		"mScriptName": "KalistaDummySpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaExpungeWrapperAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaExpungeWrapperAbility/KalistaESlow": {
+		"mScriptName": "KalistaESlow",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaExpungeWrapperAbility/KalistaExpunge": {
+		"mScriptName": "KalistaExpunge",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaExpungeWrapperAbility/KalistaExpungeMarker": {
+		"mScriptName": "KalistaExpungeMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaExpungeWrapperAbility/KalistaExpungeParticle": {
+		"mScriptName": "KalistaExpungeParticle",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaExpungeWrapperAbility/KalistaExpungeWrapper": {
+		"mScriptName": "KalistaExpungeWrapper",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "EpicMonsterDamageMod",
+					"mValues": [
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						0.0,
+						10.0,
+						20.0,
+						30.0,
+						40.0,
+						50.0,
+						60.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxSpears",
+					"mValues": [
+						254.0,
+						254.0,
+						254.0,
+						254.0,
+						254.0,
+						254.0,
+						254.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AdditionalBaseDamage",
+					"mValues": [
+						4.0,
+						8.0,
+						12.0,
+						16.0,
+						20.0,
+						24.0,
+						28.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "ManaRefund",
+					"mValues": [
+						5.0,
+						10.0,
+						15.0,
+						20.0,
+						25.0,
+						30.0,
+						35.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAmount",
+					"mValues": [
+						0.019999999552965164,
+						0.10000000149011612,
+						0.18000000715255737,
+						0.25999999046325684,
+						0.3400000035762787,
+						0.41999998688697815,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowDuration",
+					"mValues": [
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0,
+						2.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AdditionalADRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.25,
+						0.30000001192092896,
+						0.3499999940395355,
+						0.4000000059604645,
+						0.44999998807907104,
+						0.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "FakedCooldown",
+					"mValues": [
+						10.5,
+						10.0,
+						9.5,
+						9.0,
+						8.5,
+						8.0,
+						7.5
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "APRatio",
+					"mValues": [
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224,
+						0.20000000298023224
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "SlowAPRatio",
+					"mValues": [
+						0.0005000000237487257,
+						0.0005000000237487257,
+						0.0005000000237487257,
+						0.0005000000237487257,
+						0.0005000000237487257,
+						0.0005000000237487257,
+						0.0005000000237487257
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"NormalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mCoefficient": 0.699999988079071,
+							"__type": "StatByCoefficientCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"AdditionalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "AdditionalBaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "AdditionalADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"MagicDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"{1beefb16}": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "APRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				},
+				"TotalSlowAmount": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "SlowAmount",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mDataValue": "SlowAPRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"mDisplayAsPercent": true,
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			]
+		}
+	},
+	"Characters/Kalista/Spells/KalistaExpungeWrapperAbility/KalistaRSpellPassive": {
+		"mScriptName": "KalistaRSpellPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaMysticShotAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaMysticShotAbility/KalistaMysticShot": {
+		"mScriptName": "KalistaMysticShot",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "BaseDamage",
+					"mValues": [
+						-45.0,
+						20.0,
+						85.0,
+						150.0,
+						215.0,
+						280.0,
+						345.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "TotalADRatio",
+					"mValues": [
+						1.0499999523162842,
+						1.0499999523162842,
+						1.0499999523162842,
+						1.0499999523162842,
+						1.0499999523162842,
+						1.0499999523162842,
+						1.0499999523162842
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": {
+				"TotalDamage": {
+					"mFormulaParts": [
+						{
+							"mDataValue": "BaseDamage",
+							"__type": "NamedDataValueCalculationPart"
+						},
+						{
+							"mStat": 2,
+							"mDataValue": "TotalADRatio",
+							"__type": "StatByNamedDataValueCalculationPart"
+						}
+					],
+					"__type": "GameCalculation"
+				}
+			},
+			"mCastTime": null,
+			"cooldownTime": [
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0,
+				8.0
+			],
+			"mana": [
+				50.0,
+				55.0,
+				60.0,
+				65.0,
+				70.0,
+				75.0
+			]
+		}
+	},
+	"Characters/Kalista/Spells/KalistaMysticShotAbility/KalistaMysticShotMis": {
+		"mScriptName": "KalistaMysticShotMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaMysticShotAbility/KalistaMysticShotMisTrue": {
+		"mScriptName": "KalistaMysticShotMisTrue",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.3499999940395355,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaMysticShotAbility/KalistaMysticShotMissile": {
+		"mScriptName": "KalistaMysticShotMissile",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveAllyBuff": {
+		"mScriptName": "KalistaPassiveAllyBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaAltarOut": {
+		"mScriptName": "KalistaAltarOut",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPAltarBuff": {
+		"mScriptName": "KalistaPAltarBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPAltarChannel": {
+		"mScriptName": "KalistaPAltarChannel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0,
+				2.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPBondingRootAlly": {
+		"mScriptName": "KalistaPBondingRootAlly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPChannel": {
+		"mScriptName": "KalistaPChannel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPInvocation": {
+		"mScriptName": "KalistaPInvocation",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 3.5,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPassiveBuff": {
+		"mScriptName": "KalistaPassiveBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPassiveChannel": {
+		"mScriptName": "KalistaPassiveChannel",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPassiveCoopStrike": {
+		"mScriptName": "KalistaPassiveCoopStrike",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPassiveDashSpell": {
+		"mScriptName": "KalistaPassiveDashSpell",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPassiveDashSpellActual": {
+		"mScriptName": "KalistaPassiveDashSpellActual",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPassiveDashTargeter": {
+		"mScriptName": "KalistaPassiveDashTargeter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaPassiveBuffAbility/KalistaPassiveOn": {
+		"mScriptName": "KalistaPassiveOn",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRAestheticMis": {
+		"mScriptName": "KalistaRAestheticMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRAllyDashCantCast0": {
+		"mScriptName": "KalistaRAllyDashCantCast0",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRAllyDashCantCast1": {
+		"mScriptName": "KalistaRAllyDashCantCast1",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRAllyDashCantCast2": {
+		"mScriptName": "KalistaRAllyDashCantCast2",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRAllyDashCantCast3": {
+		"mScriptName": "KalistaRAllyDashCantCast3",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRAllyLineUpdater": {
+		"mScriptName": "KalistaRAllyLineUpdater",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRInvuln": {
+		"mScriptName": "KalistaRInvuln",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRxAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRxAbility/KalistaRAlly": {
+		"mScriptName": "KalistaRAlly",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRxAbility/KalistaRAllyDash": {
+		"mScriptName": "KalistaRAllyDash",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRxAbility/KalistaRAllyStun": {
+		"mScriptName": "KalistaRAllyStun",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRxAbility/KalistaRAllyStunBuffer": {
+		"mScriptName": "KalistaRAllyStunBuffer",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRxAbility/KalistaRAllyStunMarker": {
+		"mScriptName": "KalistaRAllyStunMarker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0,
+				75.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRxAbility/KalistaRMis": {
+		"mScriptName": "KalistaRMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaRxAbility/KalistaRx": {
+		"mScriptName": "KalistaRx",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				160.0,
+				160.0,
+				140.0,
+				120.0,
+				100.0,
+				80.0,
+				60.0
+			],
+			"mana": [
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Characters/Kalista/Spells/KalistaSpearHoldVFXBuff": {
+		"mScriptName": "KalistaSpearHoldVFXBuff",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWAbility": {
+		"mScriptName": "",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWAbility/KalistaW": {
+		"mScriptName": "KalistaW",
+		"mSpell": {
+			"mDataValues": [
+				{
+					"mName": "MarkDuration",
+					"mValues": [
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0,
+						4.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaximumMonsterDamage",
+					"mValues": [
+						75.0,
+						100.0,
+						125.0,
+						150.0,
+						175.0,
+						200.0,
+						225.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "MaxHealthDamage",
+					"mValues": [
+						0.12999999523162842,
+						0.14000000059604645,
+						0.15000000596046448,
+						0.1599999964237213,
+						0.17000000178813934,
+						0.18000000715255737,
+						0.1899999976158142
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "PerTargetCooldown",
+					"mValues": [
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0,
+						10.0
+					],
+					"__type": "SpellDataValue"
+				},
+				{
+					"mName": "AmmoRechargeTooltip",
+					"mValues": [
+						100.0,
+						90.0,
+						80.0,
+						70.0,
+						60.0,
+						50.0,
+						40.0
+					],
+					"__type": "SpellDataValue"
+				}
+			],
+			"mSpellCalculations": null,
+			"mCastTime": 0.5,
+			"cooldownTime": [
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0,
+				30.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWAbility/KalistaWAllyPassive": {
+		"mScriptName": "KalistaWAllyPassive",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWRunToMe": {
+		"mScriptName": "KalistaWRunToMe",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWSeen": {
+		"mScriptName": "KalistaWSeen",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWSight": {
+		"mScriptName": "KalistaWSight",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWSpawnCounter": {
+		"mScriptName": "KalistaWSpawnCounter",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWSpawnInWorld": {
+		"mScriptName": "KalistaWSpawnInWorld",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWSpawnMinion": {
+		"mScriptName": "KalistaWSpawnMinion",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWSpawnReturnToMe": {
+		"mScriptName": "KalistaWSpawnReturnToMe",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWSpawnTempMis": {
+		"mScriptName": "KalistaWSpawnTempMis",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": 0.25099998712539673,
+			"cooldownTime": [
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0
+			],
+			"mana": null
+		}
+	},
+	"Characters/Kalista/Spells/KalistaWTeleportTracker": {
+		"mScriptName": "KalistaWTeleportTracker",
+		"mSpell": {
+			"mDataValues": null,
+			"mSpellCalculations": null,
+			"mCastTime": null,
+			"cooldownTime": null,
+			"mana": null
+		}
+	}
+}
