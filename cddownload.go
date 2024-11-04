@@ -14,10 +14,26 @@ import (
 func main() {
 	names := championlist.GetChampions()
 
+	out, err := os.Create("champions.json")
+	if err != nil {
+		panic(err)
+	}
+
+	defer out.Close()
+
 	for _, n := range names {
 		formattedName := strings.ToLower((n.Name))
 		fileName := fmt.Sprintf("https://raw.communitydragon.org/14.21/game/data/characters/%v/%v.bin.json", formattedName, formattedName)
-		downloadFile(formattedName, fmt.Sprintf("champions/%v.json", formattedName), fileName)
+		data := downloadFile(formattedName, fmt.Sprintf("champions/%v.json", formattedName), fileName)
+
+		keyValue := make(map[string]json.RawMessage)
+
+		s, _ := json.MarshalIndent(keyValue, "", "/t")
+
+		o, _ := out.Write(s)
+		_ = o
+
+		fmt.Println("This is my first program in Go")
 
 		time.Sleep(4 * time.Second)
 	}
@@ -36,7 +52,7 @@ type Spell struct {
 	Mana              json.RawMessage `json:"mana"`
 }
 
-func downloadFile(championName string, ouputFileName string, filePath string) (err error) {
+func downloadFile(championName string, outputFileName string, filePath string) (data json.RawMessage) {
 
 	resp, err := http.Get(filePath)
 	defer resp.Body.Close()
@@ -55,7 +71,7 @@ func downloadFile(championName string, ouputFileName string, filePath string) (e
 		}
 	}
 
-	out, err := os.Create(ouputFileName)
+	out, err := os.Create(outputFileName)
 	if err != nil {
 		panic(err)
 	}
@@ -67,7 +83,5 @@ func downloadFile(championName string, ouputFileName string, filePath string) (e
 	o, err := out.Write(as_json)
 	_ = o
 
-	fmt.Println("This is my first program in Go")
-
-	return nil
+	return as_json
 }
